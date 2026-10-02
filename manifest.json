@@ -1,13 +1,14 @@
 {
   "manifest_version": 3,
   "name": "Charlie MJ Tool Archive",
-  "version": "3.1.0",
-  "description": "A colorful local-first Chrome extension for organizing tools, websites, AI services, developer resources, learning links and personal bookmarks.",
+  "version": "4.0.0",
+  "description": "A smart local-first Chrome tool archive with GitHub sync, duplicate protection, smart categories, backups, health checks and rich exports.",
   "permissions": [
-    "storage",
+    "alarms",
     "bookmarks",
-    "tabs",
-    "contextMenus"
+    "contextMenus",
+    "storage",
+    "tabs"
   ],
   "action": {
     "default_title": "Open Charlie MJ Tool Archive",
@@ -35,5 +36,10 @@
       },
       "description": "Open Charlie MJ Tool Archive"
     }
-  }
+  },
+  "host_permissions": [
+    "https://raw.githubusercontent.com/*",
+    "http://*/*",
+    "https://*/*"
+  ]
 }

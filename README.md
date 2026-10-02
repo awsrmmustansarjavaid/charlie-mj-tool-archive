@@ -1,194 +1,153 @@
-# Charlie MJ Tool Archive
+# ✨ Charlie MJ Tool Archive
 
-A colorful, local-first Chrome Extension (Manifest V3) for organizing tools, websites, AI services, developer resources, learning links, media tools, dictionaries, jobs, personal projects and bookmarks.
+A modern **Manifest V3 Chrome extension** for organizing a large personal collection of websites, tools, learning resources, AI services, developer utilities and bookmarks.
 
 <p align="center">
   <img src="./assets/85d6b421-b702-43ab-aebc-1713e4747ca7.png" alt="Charlie MJ Tool Archive" width="600">
 </p>
 
-## Final Release
+## 🚀 v4.0.0 — Smart Library
 
-**Version:** 3.0.0
+The extension is local-first, but its default library can also stay synchronized with the public GitHub repository.
 
-**Default library:** 290 unique tools
+### Core features
 
-The bundled library combines the Charlie MJ collections supplied during development. The release also includes the key websites represented in the final UI concept: Udemy, GitHub, ChatGPT, Stack Overflow and YouTube.
+- 🔎 Fast search across names, URLs, categories, descriptions, notes and tags
+- 🧠 Advanced search filters such as `category:Instagram`, `tag:download`, `favorite:true`, `type:Website`, `used:recent`
+- 🗂️ Smart category autocomplete with tool counts
+- 🏷️ Smart tag suggestions
+- ⚠️ Duplicate URL detection while adding or editing
+- 🔎 Similar-tool warnings before adding a new website
+- 🧹 Duplicate cleanup and Library Health diagnostics
+- 🗃️ Category Manager with rename, merge and delete/reassign
+- ☑️ Bulk selection and actions
+- ⭐ Favorites and Recently Used
+- 📊 Usage count and last-used tracking
+- ↗️ Open visible tools or selected tools
+- ✎ Full details and edit/update view
+- 🖱️ Chrome context-menu save action
 
----
+### ☁️ GitHub → Extension automatic sync
 
-## Main Features
+The extension reads:
 
-- Neon glassmorphism Charlie MJ interface
-- Colorful CM extension logo and 16/32/48/128px icons
-- Full-page dashboard with responsive layout
-- 290 bundled default tools
-- Category sidebar with counts
-- Search across names, URLs, categories, descriptions, notes and tags
-- Favorites
-- Recently used
-- Recently added sorting
-- Type filtering
-- Open any tool in a new Chrome tab
-- Open all visible tools
-- Details button with complete tool information
-- Three-dot action menu
-- Edit / Update tool
-- Add to / remove from Favorites
-- Delete tool
-- Add new tool
-- Duplicate URL protection
-- Import Chrome bookmarks HTML
-- Import JSON
-- Export JSON backup
-- Export CSV
-- Restore Default Library without replacing personal edits
-- Light / Dark / System theme
-- Comfortable / Compact grid
-- Local-first `chrome.storage.local` storage
-- Chrome context menu: **Save to Charlie MJ Tool Archive**
-- Keyboard shortcut: **Ctrl + Shift + L** to open the archive
-- **Ctrl + K** to focus search
-- Automatic default-library migration on extension update
-- Favicon with fallback initials
-- Responsive mobile layout
+`data/default-tools.json`
 
----
+from:
 
-## Install Locally
+`https://github.com/awsrmmustansarjavaid/charlie-mj-tool-archive`
 
-1. Extract the ZIP.
-2. Open `chrome://extensions` in Chrome.
-3. Enable **Developer mode**.
-4. Click **Load unpacked**.
-5. Select the `charlie-mj-tool-archive` folder.
-6. Click the Charlie MJ extension icon.
+It synchronizes automatically and also provides **Sync from GitHub Now** in Settings.
 
----
+Sync is intentionally non-destructive:
 
-## Updating
+- New GitHub tools are added automatically.
+- Existing local favorites are preserved.
+- Personal notes are preserved.
+- Usage history is preserved.
+- Local descriptions/categories are not blindly overwritten.
+- Missing local descriptions/tags can be enriched from GitHub data.
+- Duplicate URLs are merged instead of being added twice.
 
-The extension merges missing bundled tools into the existing local library. It does not intentionally replace your personal edits, favorites, notes or usage history.
+The background service worker also schedules periodic synchronization while Chrome is active.
 
-Use **Settings → Restore Default Library** whenever you want to add any bundled entries that are missing from your current library.
+### 💾 Backup & export
 
----
+- JSON backup
+- JSON restore
+- CSV export
+- Self-contained detailed HTML export
+- Restore bundled defaults
+- Import JSON with preview
+- Import Chrome bookmark HTML with preview
 
-## Project Structure
+### 🩺 Library Health
+
+The Health panel checks for:
+
+- duplicate URL groups
+- missing descriptions
+- missing categories
+- invalid URLs
+- never-used tools
+- total tools and categories
+
+### 🌐 Website Health Checker
+
+A manual link checker can test saved websites and display working, warning or failed/blocked results. Some websites intentionally block automated requests, so a warning does not necessarily mean that the website is unavailable in a normal browser.
+
+## 📁 Project structure
 
 ```text
 charlie-mj-tool-archive/
-├── manifest.json
-├── README.md
-├── LICENSE
-├── .gitignore
 ├── data/
 │   └── default-tools.json
 ├── docs/
 │   └── DATA-FORMAT.md
 ├── icons/
-│   ├── logo.svg
 │   ├── icon16.png
 │   ├── icon32.png
 │   ├── icon48.png
-│   └── icon128.png
-└── src/
-    ├── background.js
-    ├── dashboard.html
-    ├── dashboard.js
-    └── styles.css
-```
-
-
----
-
-## Privacy / Data
-
-The core library is stored locally in Chrome extension storage. No backend or account is required for the core extension.
-
-Export a JSON backup before moving to another Chrome profile or browser.
-
----
-
-## Where Are New Tools / Bookmarks Stored?
-
-When I add a new website, tool, bookmark, or resource to **Charlie MJ Tool Archive**, it is stored in the extension's **tool data/configuration file**.
-
-For example, if your extension uses `default-tools.json`, the new entry should be added there:
-
-```text
-Charlie-MJ-Tool-Archive/
+│   ├── icon128.png
+│   └── logo.svg
+├── src/
+│   ├── background.js
+│   ├── dashboard.html
+│   ├── dashboard.js
+│   └── styles.css
 ├── manifest.json
-├── default-tools.json   ← Tools/bookmarks are stored here
-├── popup.html
-├── popup.js
-├── styles.css
-├── assets/
-└── ...
+├── LICENSE
+└── README.md
 ```
 
-### GitHub Update Workflow
+## 🧩 Data architecture
 
-Because `default-tools.json` is part of the project, any new tool I add should also be reflected in GitHub.
+`default-tools.json` is the **bundled/GitHub seed snapshot**. The live library is stored in Chrome's local extension storage.
 
 ```text
-Add New Website / Tool
-        ↓
-Update default-tools.json
-        ↓
-Test the extension
-        ↓
-Commit changes
-        ↓
-Push to GitHub
-        ↓
-GitHub contains the latest tool list
+GitHub default-tools.json
+          ↓
+Bundled default-tools.json
+          ↓
+Chrome local storage
+          ↓
+LIVE TOOL LIBRARY
 ```
 
-### Important: Default Tools vs. User-Added Tools
+This prevents a packaged extension from treating its own read-only source files as a writable database.
 
-If your extension currently stores newly added tools **only in Chrome's local storage (`chrome.storage.local`)**, those tools will **not automatically appear in GitHub**.
+## 🔄 Recommended workflow
 
-In that case:
+1. Add or edit tools in the extension.
+2. Use JSON/HTML backup when needed.
+3. Update `data/default-tools.json` in GitHub when you want to publish new default tools.
+4. Open the extension again or use **Settings → Sync from GitHub Now**.
+5. New GitHub records are merged into the local library automatically.
 
-* `default-tools.json` → version-controlled default tool collection
-* `chrome.storage.local` → user's personal/local additions
-* GitHub → only contains files that you commit and push
+## 🛠️ Install locally
 
-So, if you want **every new tool you add to become part of the official GitHub version**, your project should have a clear workflow where the new tool is added to `default-tools.json` and then committed to GitHub.
+1. Download or clone this repository.
+2. Open Chrome and go to `chrome://extensions/`.
+3. Enable **Developer mode**.
+4. Choose **Load unpacked**.
+5. Select the project folder containing `manifest.json`.
+6. Open **Charlie MJ Tool Archive**.
 
-### Recommended Structure for Charlie MJ Tool Archive
+After source changes, use **Reload** on the extension card.
 
-I recommend treating `default-tools.json` as your **master tool catalog**:
+## 🔐 Permissions
 
-```text
-default-tools.json
-        ↓
-Official list of tools/bookmarks
-        ↓
-GitHub repository
-        ↓
-New extension installation
-```
+The extension uses:
 
-This makes it easy to keep your **Chrome Extension and GitHub repository synchronized**.
+- `storage` — local library/settings data
+- `bookmarks` — Chrome bookmark integration
+- `tabs` — opening saved tools
+- `contextMenus` — right-click save action
+- `alarms` — periodic GitHub synchronization
+- GitHub and web host permissions — GitHub library synchronization and the manual website-health checker
 
----
+The extension does not need a GitHub login for this public repository because it only reads the public `default-tools.json` file.
 
-## License
+## 📦 Version
 
-MIT License. See `LICENSE`.
-
----
-
-## Importing JSON
-
-1. Open the extension dashboard.
-2. Click **Settings**.
-3. Choose **Import JSON**.
-4. Select a JSON file containing either a plain array of tools or an object with a `tools` array.
-5. The extension merges tools by normalized URL and keeps existing bookmarks.
-
-A ready-to-import file is included with this release as `charlie-mj-new-bookmarks-import.json` outside the extension package.
-
----
->>>>>>> 39c6e33 (Release Charlie MJ Tool Archive 3.0.0)
+**4.0.0 — Smart Library + GitHub Sync**

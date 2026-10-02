@@ -1,7 +1,7 @@
 {
-  "version": 2,
+  "version": 4,
   "app": "Charlie MJ Tool Archive",
-  "exportedAt": "2026-10-02T07:28:46.735Z",
+  "exportedAt": "2026-10-02T10:27:44Z",
   "tools": [
     {
       "addedAt": 0,
@@ -18,7 +18,8 @@
         "windows"
       ],
       "type": "Utility",
-      "url": "https://www.hirensbootcd.org/"
+      "url": "https://www.hirensbootcd.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -34,7 +35,8 @@
         "recovery"
       ],
       "type": "Utility",
-      "url": "https://www.hirensbootcd.org/hbcd-v152/"
+      "url": "https://www.hirensbootcd.org/hbcd-v152/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -50,7 +52,8 @@
         "recovery"
       ],
       "type": "Utility",
-      "url": "https://www.hiren.info/pages/bootcd"
+      "url": "https://www.hiren.info/pages/bootcd",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -66,7 +69,8 @@
         "documents"
       ],
       "type": "Utility",
-      "url": "https://scribd.vdownloaders.com/"
+      "url": "https://scribd.vdownloaders.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -83,7 +87,8 @@
         "converter"
       ],
       "type": "Utility",
-      "url": "https://www.freeconvert.com/epub-to-pdf"
+      "url": "https://www.freeconvert.com/epub-to-pdf",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -99,7 +104,8 @@
         "editor"
       ],
       "type": "Website",
-      "url": "https://pandao.github.io/editor.md/en.html"
+      "url": "https://pandao.github.io/editor.md/en.html",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -115,7 +121,8 @@
         "app builder"
       ],
       "type": "AI",
-      "url": "https://www.createanything.com/dashboard/team/71d0628f-6405-4dec-a31f-f3f5c1cb7f08"
+      "url": "https://www.createanything.com/dashboard/team/71d0628f-6405-4dec-a31f-f3f5c1cb7f08",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -131,7 +138,8 @@
         "preview"
       ],
       "type": "Website",
-      "url": "https://markdownlivepreview.com/"
+      "url": "https://markdownlivepreview.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -148,7 +156,8 @@
         "networking"
       ],
       "type": "Learning",
-      "url": "https://www.computernetworkingnotes.com/ccna-study-guide/download-packet-tracer-for-windows-and-linux.html"
+      "url": "https://www.computernetworkingnotes.com/ccna-study-guide/download-packet-tracer-for-windows-and-linux.html",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -164,7 +173,8 @@
         "chat"
       ],
       "type": "AI",
-      "url": "https://huggingface.co/chat/"
+      "url": "https://huggingface.co/chat/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -181,7 +191,8 @@
         "hugging face"
       ],
       "type": "AI",
-      "url": "https://huggingface.co/welcome"
+      "url": "https://huggingface.co/welcome",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -198,7 +209,8 @@
         "python"
       ],
       "type": "AI",
-      "url": "https://www.perplexity.ai/search/i-am-cloud-engineer-and-want-t-SaR_8kedQK2bevDho2XT2Q"
+      "url": "https://www.perplexity.ai/search/i-am-cloud-engineer-and-want-t-SaR_8kedQK2bevDho2XT2Q",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -214,7 +226,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.mindluster.com/?search_for=Turkish+"
+      "url": "https://www.mindluster.com/?search_for=Turkish+",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -227,27 +240,12 @@
       "notes": "",
       "tags": [
         "design",
-        "ai"
+        "ai",
+        "agents"
       ],
       "type": "AI",
-      "url": "https://www.designarena.ai/"
-    },
-    {
-      "addedAt": 0,
-      "category": "AI Design & Creative",
-      "description": "AI Design & Creative resource: Design Arena - Agents.",
-      "favorite": false,
-      "id": "cmj-0015",
-      "lastUsed": 0,
-      "name": "Design Arena - Agents",
-      "notes": "",
-      "tags": [
-        "design",
-        "agents",
-        "ai"
-      ],
-      "type": "AI",
-      "url": "https://www.designarena.ai/?arena=agents&harness=standard"
+      "url": "https://www.designarena.ai/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -264,7 +262,8 @@
         "ai"
       ],
       "type": "AI",
-      "url": "https://magichour.ai/"
+      "url": "https://magichour.ai/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -281,7 +280,8 @@
         "ai"
       ],
       "type": "AI",
-      "url": "https://magichour.ai/create"
+      "url": "https://magichour.ai/create",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -297,7 +297,8 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://www.psdly.org/"
+      "url": "https://www.psdly.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -314,7 +315,8 @@
         "avatar"
       ],
       "type": "AI",
-      "url": "https://app.heygen.com/home"
+      "url": "https://app.heygen.com/home",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -330,7 +332,8 @@
         "prompts"
       ],
       "type": "AI",
-      "url": "https://snackprompt.com/"
+      "url": "https://snackprompt.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -346,7 +349,8 @@
         "video"
       ],
       "type": "Website",
-      "url": "https://twoseven.xyz/"
+      "url": "https://twoseven.xyz/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -363,7 +367,8 @@
         "iso8583"
       ],
       "type": "Developer",
-      "url": "https://neapay.com/"
+      "url": "https://neapay.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -379,7 +384,8 @@
         "sms"
       ],
       "type": "Utility",
-      "url": "https://onlinesim.io/"
+      "url": "https://onlinesim.io/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -395,7 +401,8 @@
         "connectivity"
       ],
       "type": "Utility",
-      "url": "https://www.wifimap.io/"
+      "url": "https://www.wifimap.io/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -411,7 +418,8 @@
         "playground"
       ],
       "type": "Developer",
-      "url": "https://livecodes.io/?template=blank"
+      "url": "https://livecodes.io/?template=blank",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -428,7 +436,8 @@
         "text"
       ],
       "type": "Developer",
-      "url": "https://www.textcompare.org/python/"
+      "url": "https://www.textcompare.org/python/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -445,7 +454,8 @@
         "github"
       ],
       "type": "GitHub",
-      "url": "https://github.com/realcoloride/YoutubeDL"
+      "url": "https://github.com/realcoloride/YoutubeDL",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -462,7 +472,8 @@
         "userscript"
       ],
       "type": "GitHub",
-      "url": "https://github.com/anirudhkhanna/YouTube-Video-Downloader-Userscript/blob/master/Download%20YouTube%20Videos%20as%20MP4.user.js"
+      "url": "https://github.com/anirudhkhanna/YouTube-Video-Downloader-Userscript/blob/master/Download%20YouTube%20Videos%20as%20MP4.user.js",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -480,7 +491,8 @@
         "epub"
       ],
       "type": "Utility",
-      "url": "https://www.markdown.free/"
+      "url": "https://www.markdown.free/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -496,7 +508,8 @@
         "converter"
       ],
       "type": "Website",
-      "url": "https://www.craftmarkdown.com/"
+      "url": "https://www.craftmarkdown.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -512,7 +525,8 @@
         "copy"
       ],
       "type": "Utility",
-      "url": "https://getemoji.com/"
+      "url": "https://getemoji.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -528,7 +542,8 @@
         "articles"
       ],
       "type": "Website",
-      "url": "https://freedium-mirror.cfd/"
+      "url": "https://freedium-mirror.cfd/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -545,7 +560,8 @@
         "web"
       ],
       "type": "Developer",
-      "url": "https://vscode.dev/"
+      "url": "https://vscode.dev/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -562,7 +578,8 @@
         "terminal"
       ],
       "type": "Developer",
-      "url": "https://sandbox.onecompiler.com/bash/44p68b65v"
+      "url": "https://sandbox.onecompiler.com/bash/44p68b65v",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -579,7 +596,8 @@
         "ai"
       ],
       "type": "Learning",
-      "url": "https://ksug.ai/"
+      "url": "https://ksug.ai/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -595,7 +613,8 @@
         "formatter"
       ],
       "type": "Utility",
-      "url": "https://typegrow.com/tools/linkedin-text-formatter"
+      "url": "https://typegrow.com/tools/linkedin-text-formatter",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -611,7 +630,8 @@
         "subtitles"
       ],
       "type": "Utility",
-      "url": "https://www.downloadyoutubesubtitles.com/"
+      "url": "https://www.downloadyoutubesubtitles.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -628,7 +648,8 @@
         "search"
       ],
       "type": "Project",
-      "url": "https://awsrmmustansarjavaid.github.io/medium-article-search-engine/"
+      "url": "https://awsrmmustansarjavaid.github.io/medium-article-search-engine/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -645,7 +666,8 @@
         "github"
       ],
       "type": "GitHub",
-      "url": "https://github.com/webadderallorg/recordly"
+      "url": "https://github.com/webadderallorg/recordly",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -661,7 +683,8 @@
         "demo"
       ],
       "type": "Website",
-      "url": "https://recordly.dev/"
+      "url": "https://recordly.dev/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -678,7 +701,8 @@
         "formatter"
       ],
       "type": "Utility",
-      "url": "https://authoredup.com/tools/linkedin-text-formatter"
+      "url": "https://authoredup.com/tools/linkedin-text-formatter",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -694,7 +718,8 @@
         "subtitles"
       ],
       "type": "Utility",
-      "url": "https://www.noteey.com/youtube-subtitle-downloader"
+      "url": "https://www.noteey.com/youtube-subtitle-downloader",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -710,7 +735,8 @@
         "thumbnail"
       ],
       "type": "Utility",
-      "url": "https://www.youtubethumbnaildownloader.com/"
+      "url": "https://www.youtubethumbnaildownloader.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -727,7 +753,8 @@
         "toolkit"
       ],
       "type": "Project",
-      "url": "https://awsrmmustansarjavaid.github.io/charlie-mj-youtube-toolkit/"
+      "url": "https://awsrmmustansarjavaid.github.io/charlie-mj-youtube-toolkit/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -743,7 +770,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://downloadlynet.ir/"
+      "url": "https://downloadlynet.ir/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -754,9 +782,12 @@
       "lastUsed": 0,
       "name": "Torrends",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "torrends"
+      ],
       "type": "Website",
-      "url": "https://torrends.to/"
+      "url": "https://torrends.to/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -767,9 +798,14 @@
       "lastUsed": 0,
       "name": "The Pirate Bay Mirror",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "the",
+        "pirate",
+        "bay"
+      ],
       "type": "Website",
-      "url": "https://thepiratebay10.info/"
+      "url": "https://thepiratebay10.info/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -780,9 +816,12 @@
       "lastUsed": 0,
       "name": "1337x",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "1337x"
+      ],
       "type": "Website",
-      "url": "https://1337x.to/home/"
+      "url": "https://1337x.to/home/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -793,9 +832,12 @@
       "lastUsed": 0,
       "name": "EZTV",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "eztv"
+      ],
       "type": "Website",
-      "url": "https://eztvx.to/home"
+      "url": "https://eztvx.to/home",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -806,9 +848,12 @@
       "lastUsed": 0,
       "name": "LimeTorrents",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "limetorrents"
+      ],
       "type": "Website",
-      "url": "https://limetorrents.so/"
+      "url": "https://limetorrents.so/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -819,9 +864,13 @@
       "lastUsed": 0,
       "name": "EXT Torrents",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "ext",
+        "torrents"
+      ],
       "type": "Website",
-      "url": "https://ext.to/"
+      "url": "https://ext.to/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -832,9 +881,13 @@
       "lastUsed": 0,
       "name": "1337x Search",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "1337x",
+        "search"
+      ],
       "type": "Website",
-      "url": "https://1337x.to/search/copywriting/1/"
+      "url": "https://1337x.to/search/copywriting/1/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -850,7 +903,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.upwork.com/"
+      "url": "https://www.upwork.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -866,7 +920,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://wellfound.com/"
+      "url": "https://wellfound.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -882,7 +937,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://whoishiring.io/"
+      "url": "https://whoishiring.io/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -898,7 +954,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.remotely.jobs/"
+      "url": "https://www.remotely.jobs/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -914,7 +971,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.flexjobs.com/"
+      "url": "https://www.flexjobs.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -930,7 +988,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://remotive.com/"
+      "url": "https://remotive.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -946,7 +1005,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://pangian.com/remote/"
+      "url": "https://pangian.com/remote/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -962,7 +1022,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://weworkremotely.com/"
+      "url": "https://weworkremotely.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -978,7 +1039,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.workingnomads.com/jobs"
+      "url": "https://www.workingnomads.com/jobs",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -994,7 +1056,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://remoteok.com/"
+      "url": "https://remoteok.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1010,7 +1073,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://justremote.co/"
+      "url": "https://justremote.co/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1026,7 +1090,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://workchest.com/"
+      "url": "https://workchest.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1042,7 +1107,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://remote.co/"
+      "url": "https://remote.co/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1058,7 +1124,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://4dayweek.io/"
+      "url": "https://4dayweek.io/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1074,7 +1141,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://jobspresso.co/"
+      "url": "https://jobspresso.co/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1090,7 +1158,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.angellist.com/"
+      "url": "https://www.angellist.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1106,7 +1175,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.virtualvocations.com/"
+      "url": "https://www.virtualvocations.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1122,7 +1192,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://stackoverflow.com/questions"
+      "url": "https://stackoverflow.com/questions",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1138,7 +1209,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.toptal.com/"
+      "url": "https://www.toptal.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1154,7 +1226,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.skipthedrive.com/"
+      "url": "https://www.skipthedrive.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1170,7 +1243,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://nodesk.co/"
+      "url": "https://nodesk.co/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1186,7 +1260,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://remotehabits.com/"
+      "url": "https://remotehabits.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1202,7 +1277,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://remote4me.com/"
+      "url": "https://remote4me.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1218,7 +1294,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.flexjobs.com/homevariant/t1"
+      "url": "https://www.flexjobs.com/homevariant/t1",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1234,7 +1311,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.simplyhired.com/"
+      "url": "https://www.simplyhired.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1250,7 +1328,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.freelancer.com/"
+      "url": "https://www.freelancer.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1266,7 +1345,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://remoteintech.company/"
+      "url": "https://remoteintech.company/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1282,7 +1362,8 @@
         "career"
       ],
       "type": "Website",
-      "url": "https://www.elevatepay.co/"
+      "url": "https://www.elevatepay.co/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1300,7 +1381,8 @@
         "terraform"
       ],
       "type": "Learning",
-      "url": "https://roadmap.sh/"
+      "url": "https://roadmap.sh/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1311,9 +1393,12 @@
       "lastUsed": 0,
       "name": "FreeCourseSite",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "freecoursesite"
+      ],
       "type": "Learning",
-      "url": "https://freecoursesites.com/"
+      "url": "https://freecoursesites.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1329,7 +1414,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.certcommunity.org/forum/"
+      "url": "https://www.certcommunity.org/forum/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1340,22 +1426,12 @@
       "lastUsed": 0,
       "name": "HacksNation",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "hacksnation"
+      ],
       "type": "Website",
-      "url": "https://hacksnation.com/"
-    },
-    {
-      "addedAt": 0,
-      "category": "HacksNation - A Place Where Everyone Can Learn",
-      "description": "HacksNation - A Place Where Everyone Can Learn resource: HacksNation.",
-      "favorite": false,
-      "id": "cmj-0085",
-      "lastUsed": 0,
-      "name": "HacksNation",
-      "notes": "Imported from user bookmark collection.",
-      "tags": [],
-      "type": "Website",
-      "url": "https://hacksnation.com/?q=devops"
+      "url": "https://hacksnation.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1371,7 +1447,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.netacad.com"
+      "url": "https://www.netacad.com",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1387,7 +1464,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.bugcrowd.com/"
+      "url": "https://www.bugcrowd.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1403,7 +1481,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.nist.gov/itl/applied-cybersecurity/nice/resources/online-learning-content"
+      "url": "https://www.nist.gov/itl/applied-cybersecurity/nice/resources/online-learning-content",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1419,7 +1498,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.codewars.com/dashboard"
+      "url": "https://www.codewars.com/dashboard",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1435,7 +1515,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://killercoda.com/"
+      "url": "https://killercoda.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1453,7 +1534,8 @@
         "cloud"
       ],
       "type": "Learning",
-      "url": "https://aws.amazon.com/education/awseducate/"
+      "url": "https://aws.amazon.com/education/awseducate/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1471,7 +1553,8 @@
         "cloud"
       ],
       "type": "Learning",
-      "url": "https://www.awseducate.com/student/s/content"
+      "url": "https://www.awseducate.com/student/s/content",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1489,7 +1572,8 @@
         "cloud"
       ],
       "type": "Learning",
-      "url": "https://skillbuilder.aws/learning-plan"
+      "url": "https://skillbuilder.aws/learning-plan",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1507,7 +1591,8 @@
         "cloud"
       ],
       "type": "Learning",
-      "url": "https://aws.amazon.com/console/"
+      "url": "https://aws.amazon.com/console/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1518,9 +1603,12 @@
       "lastUsed": 0,
       "name": "Learn",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "learn"
+      ],
       "type": "Website",
-      "url": "https://learn.cantrill.io/courses/enrolled/2022818"
+      "url": "https://learn.cantrill.io/courses/enrolled/2022818",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1538,7 +1626,8 @@
         "cloud"
       ],
       "type": "Learning",
-      "url": "https://skillbuilder.aws/login"
+      "url": "https://skillbuilder.aws/login",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1554,7 +1643,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://docs.aws.amazon.com/glossary/latest/reference/glos-chap.html"
+      "url": "https://docs.aws.amazon.com/glossary/latest/reference/glos-chap.html",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1570,7 +1660,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://devnetsandbox.cisco.com/"
+      "url": "https://devnetsandbox.cisco.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1586,7 +1677,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://learn-anything.xyz/"
+      "url": "https://learn-anything.xyz/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1602,7 +1694,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://labex.io/linuxjourney"
+      "url": "https://labex.io/linuxjourney",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1622,7 +1715,8 @@
         "terraform"
       ],
       "type": "Learning",
-      "url": "https://docs.docker.com/"
+      "url": "https://docs.docker.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1642,7 +1736,8 @@
         "terraform"
       ],
       "type": "Learning",
-      "url": "https://www.jenkins.io/doc/"
+      "url": "https://www.jenkins.io/doc/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1662,7 +1757,8 @@
         "terraform"
       ],
       "type": "Learning",
-      "url": "https://kubernetes.io/docs/home/"
+      "url": "https://kubernetes.io/docs/home/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1682,7 +1778,8 @@
         "terraform"
       ],
       "type": "Learning",
-      "url": "https://developer.hashicorp.com/terraform/docs"
+      "url": "https://developer.hashicorp.com/terraform/docs",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1698,7 +1795,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.tech5ense.com/"
+      "url": "https://www.tech5ense.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1714,7 +1812,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.w3schools.com"
+      "url": "https://www.w3schools.com",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1730,7 +1829,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.learnshell.org/"
+      "url": "https://www.learnshell.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1746,7 +1846,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.codecademy.com/learn/bash-scripting"
+      "url": "https://www.codecademy.com/learn/bash-scripting",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1762,7 +1863,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://8gwifi.org/tutorials/bash/"
+      "url": "https://8gwifi.org/tutorials/bash/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1778,7 +1880,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://linuxcommand.org/"
+      "url": "https://linuxcommand.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1794,7 +1897,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://explainshell.com/"
+      "url": "https://explainshell.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1805,9 +1909,12 @@
       "lastUsed": 0,
       "name": "Learn",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "learn"
+      ],
       "type": "Website",
-      "url": "https://learn.kodekloud.com/user/onboarding/form"
+      "url": "https://learn.kodekloud.com/user/onboarding/form",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1825,7 +1932,8 @@
         "terraform"
       ],
       "type": "Website",
-      "url": "https://roadmap.sh/devops"
+      "url": "https://roadmap.sh/devops",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1841,7 +1949,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://labex.io/labs/linux-your-first-linux-lab-270253?course=quick-start-with-linux"
+      "url": "https://labex.io/labs/linux-your-first-linux-lab-270253?course=quick-start-with-linux",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1852,9 +1961,12 @@
       "lastUsed": 0,
       "name": "App",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "app"
+      ],
       "type": "Website",
-      "url": "https://app.pulumi.com"
+      "url": "https://app.pulumi.com",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1870,7 +1982,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.pulumi.com/docs/?_gl=1%2Agoz15h%2A_gcl_au%2ANTU0MjI1MTEzLjE3NjYyMzUxODguNjk4MjE1MDE5LjE3NzMxNDc0ODkuMTc3MzE0NzQ4OA..%2A_ga%2AMTIwNzI0Mjc3Ny4xNzY2MjM1MTg4%2A_ga_FQHG5CVY2D%2AczE3NzMxNDc0NTQkbzIkZzEkdDE3NzMxNDc1NjIkajE1JGwwJGgw"
+      "url": "https://www.pulumi.com/docs/?_gl=1%2Agoz15h%2A_gcl_au%2ANTU0MjI1MTEzLjE3NjYyMzUxODguNjk4MjE1MDE5LjE3NzMxNDc0ODkuMTc3MzE0NzQ4OA..%2A_ga%2AMTIwNzI0Mjc3Ny4xNzY2MjM1MTg4%2A_ga_FQHG5CVY2D%2AczE3NzMxNDc0NTQkbzIkZzEkdDE3NzMxNDc1NjIkajE1JGwwJGgw",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1881,9 +1994,13 @@
       "lastUsed": 0,
       "name": "GitHub Docs",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "github",
+        "docs"
+      ],
       "type": "GitHub",
-      "url": "https://docs.github.com/en"
+      "url": "https://docs.github.com/en",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1899,7 +2016,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.linux.org/forums/"
+      "url": "https://www.linux.org/forums/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1915,7 +2033,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://whimsical.com/devops-7E37RVStMQycbbJYjfM77P"
+      "url": "https://whimsical.com/devops-7E37RVStMQycbbJYjfM77P",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1926,9 +2045,12 @@
       "lastUsed": 0,
       "name": "E",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "e"
+      ],
       "type": "Website",
-      "url": "https://e.huawei.com/en/talent/portal/"
+      "url": "https://e.huawei.com/en/talent/portal/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1939,9 +2061,12 @@
       "lastUsed": 0,
       "name": "GraphicsFamily",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "graphicsfamily"
+      ],
       "type": "Website",
-      "url": "https://graphicsfamily.com/"
+      "url": "https://graphicsfamily.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1952,9 +2077,13 @@
       "lastUsed": 0,
       "name": "Plain English",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "plain",
+        "english"
+      ],
       "type": "Website",
-      "url": "https://plainenglish.io/"
+      "url": "https://plainenglish.io/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1970,7 +2099,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.medicalnewstoday.com/"
+      "url": "https://www.medicalnewstoday.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -1986,7 +2116,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.healthline.com/"
+      "url": "https://www.healthline.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2002,7 +2133,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.verywellhealth.com/"
+      "url": "https://www.verywellhealth.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2018,7 +2150,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.healthshots.com/"
+      "url": "https://www.healthshots.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2034,7 +2167,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://artofhealthyliving.com/"
+      "url": "https://artofhealthyliving.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2045,9 +2179,12 @@
       "lastUsed": 0,
       "name": "My",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "my"
+      ],
       "type": "Website",
-      "url": "https://my.clevelandclinic.org/"
+      "url": "https://my.clevelandclinic.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2063,7 +2200,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.webmd.com/"
+      "url": "https://www.webmd.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2079,7 +2217,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://zoe.com/"
+      "url": "https://zoe.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2095,7 +2234,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.health.com/"
+      "url": "https://www.health.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2111,7 +2251,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.womenshealthmag.com/"
+      "url": "https://www.womenshealthmag.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2127,7 +2268,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.everydayhealth.com/"
+      "url": "https://www.everydayhealth.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2143,7 +2285,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.muscleandfitness.com/"
+      "url": "https://www.muscleandfitness.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2159,7 +2302,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.physio-pedia.com/home/"
+      "url": "https://www.physio-pedia.com/home/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2175,7 +2319,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://athleanx.com/"
+      "url": "https://athleanx.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2191,7 +2336,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://8fit.com/"
+      "url": "https://8fit.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2207,7 +2353,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.anytimefitness.com/"
+      "url": "https://www.anytimefitness.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2223,7 +2370,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.puregym.com/"
+      "url": "https://www.puregym.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2239,7 +2387,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://greatist.com/"
+      "url": "https://greatist.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2255,7 +2404,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://muscleandstrength.com/"
+      "url": "https://muscleandstrength.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2271,7 +2421,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.strongrfastr.com/"
+      "url": "https://www.strongrfastr.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2287,7 +2438,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.jefit.com/"
+      "url": "https://www.jefit.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2303,7 +2455,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://fitnessprogramer.com/workout-plan/6-month-bodybuilding-program/"
+      "url": "https://fitnessprogramer.com/workout-plan/6-month-bodybuilding-program/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2319,7 +2472,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://thefitness.wiki/"
+      "url": "https://thefitness.wiki/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2335,7 +2489,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://exrx.net/"
+      "url": "https://exrx.net/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2351,7 +2506,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://musclewiki.com/"
+      "url": "https://musclewiki.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2367,7 +2523,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://darebee.com/"
+      "url": "https://darebee.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2383,7 +2540,8 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.strengthlog.com/"
+      "url": "https://www.strengthlog.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2394,9 +2552,13 @@
       "lastUsed": 0,
       "name": "Project Gutenberg",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "project",
+        "gutenberg"
+      ],
       "type": "Website",
-      "url": "https://www.gutenberg.org/"
+      "url": "https://www.gutenberg.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2407,9 +2569,12 @@
       "lastUsed": 0,
       "name": "Perplexity",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "perplexity"
+      ],
       "type": "AI",
-      "url": "https://www.perplexity.ai/"
+      "url": "https://www.perplexity.ai/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2425,7 +2590,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://ssstik.io/"
+      "url": "https://ssstik.io/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2441,7 +2607,8 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://islamqa.org/"
+      "url": "https://islamqa.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2457,7 +2624,8 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://islamqa.info/en?utm_source=chatgpt.com"
+      "url": "https://islamqa.info/en?utm_source=chatgpt.com",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2473,7 +2641,8 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://www.karimia.com/"
+      "url": "https://www.karimia.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2489,7 +2658,8 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://al-islam.org/ask"
+      "url": "https://al-islam.org/ask",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2505,7 +2675,8 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://www.islamicity.org/"
+      "url": "https://www.islamicity.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2521,7 +2692,8 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://www.askthesheikh.com/"
+      "url": "https://www.askthesheikh.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2537,7 +2709,8 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://islamanswers.co.uk/answers/"
+      "url": "https://islamanswers.co.uk/answers/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2553,7 +2726,8 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://aboutislam.net/"
+      "url": "https://aboutislam.net/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2569,7 +2743,8 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://seekersguidance.org/"
+      "url": "https://seekersguidance.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2585,7 +2760,8 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://www.justaskislam.com/?utm_source=chatgpt.com"
+      "url": "https://www.justaskislam.com/?utm_source=chatgpt.com",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2596,9 +2772,13 @@
       "lastUsed": 0,
       "name": "Tailor Nova",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "tailor",
+        "nova"
+      ],
       "type": "Website",
-      "url": "https://tailornova.com/"
+      "url": "https://tailornova.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2609,9 +2789,13 @@
       "lastUsed": 0,
       "name": "Nastix Design",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "nastix",
+        "design"
+      ],
       "type": "Website",
-      "url": "https://nastix-design.com/"
+      "url": "https://nastix-design.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2622,9 +2806,12 @@
       "lastUsed": 0,
       "name": "Parents",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "parents"
+      ],
       "type": "Website",
-      "url": "https://www.parents.com/https://www.education.com/"
+      "url": "https://www.parents.com/https://www.education.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2640,7 +2827,8 @@
         "language"
       ],
       "type": "Utility",
-      "url": "https://www.dizilah.com/"
+      "url": "https://www.dizilah.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2656,7 +2844,8 @@
         "language"
       ],
       "type": "Utility",
-      "url": "https://www.kanald.com.tr/"
+      "url": "https://www.kanald.com.tr/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2672,7 +2861,8 @@
         "language"
       ],
       "type": "Utility",
-      "url": "https://www.trtizle.com/"
+      "url": "https://www.trtizle.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2688,7 +2878,8 @@
         "language"
       ],
       "type": "Utility",
-      "url": "https://puhutv.com/"
+      "url": "https://puhutv.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2704,7 +2895,8 @@
         "language"
       ],
       "type": "Utility",
-      "url": "https://www.turkishseries.online/"
+      "url": "https://www.turkishseries.online/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2720,7 +2912,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.antoloji.com/"
+      "url": "https://www.antoloji.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2736,7 +2929,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.edebiyatdefteri.com/"
+      "url": "https://www.edebiyatdefteri.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2752,7 +2946,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.turkishclass.com/turkish/poetry/poems.php"
+      "url": "https://www.turkishclass.com/turkish/poetry/poems.php",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2763,9 +2958,12 @@
       "lastUsed": 0,
       "name": "U",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "u"
+      ],
       "type": "Website",
-      "url": "https://u.osu.edu/nelcpoetryproject/turkish-poems/"
+      "url": "https://u.osu.edu/nelcpoetryproject/turkish-poems/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2776,9 +2974,13 @@
       "lastUsed": 0,
       "name": "Learn Turkish",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "learn",
+        "turkish"
+      ],
       "type": "Website",
-      "url": "https://learnturkish.com/doys/Login?varsayilanDil=en-US"
+      "url": "https://learnturkish.com/doys/Login?varsayilanDil=en-US",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2789,9 +2991,12 @@
       "lastUsed": 0,
       "name": "Brainscape",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "brainscape"
+      ],
       "type": "Website",
-      "url": "https://www.brainscape.com/subjects/turkish"
+      "url": "https://www.brainscape.com/subjects/turkish",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2802,9 +3007,12 @@
       "lastUsed": 0,
       "name": "Brainscape",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "brainscape"
+      ],
       "type": "Website",
-      "url": "https://www.brainscape.com/flashcards/turkish-1-1720545/packs/4251954"
+      "url": "https://www.brainscape.com/flashcards/turkish-1-1720545/packs/4251954",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2815,9 +3023,14 @@
       "lastUsed": 0,
       "name": "Yabancılar İçin Türkçe",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "yabanc",
+        "lar",
+        "in"
+      ],
       "type": "Website",
-      "url": "https://yabancilaricinturkce.com/category/dilbilgisi/"
+      "url": "https://yabancilaricinturkce.com/category/dilbilgisi/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2828,9 +3041,13 @@
       "lastUsed": 0,
       "name": "English ILM",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "english",
+        "ilm"
+      ],
       "type": "Website",
-      "url": "https://englishilm.com/category/english-vocabulary/picture-vocabulary/"
+      "url": "https://englishilm.com/category/english-vocabulary/picture-vocabulary/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2841,9 +3058,12 @@
       "lastUsed": 0,
       "name": "EngVid",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "engvid"
+      ],
       "type": "Website",
-      "url": "https://www.engvid.com/"
+      "url": "https://www.engvid.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2854,9 +3074,14 @@
       "lastUsed": 0,
       "name": "British Council LearnEnglish Kids",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "british",
+        "council",
+        "learnenglish"
+      ],
       "type": "Website",
-      "url": "https://learnenglishkids.britishcouncil.org/"
+      "url": "https://learnenglishkids.britishcouncil.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2867,9 +3092,13 @@
       "lastUsed": 0,
       "name": "Cambridge English",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "cambridge",
+        "english"
+      ],
       "type": "Website",
-      "url": "https://www.cambridgeenglish.org/learning-english"
+      "url": "https://www.cambridgeenglish.org/learning-english",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2880,9 +3109,14 @@
       "lastUsed": 0,
       "name": "News in Levels",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "news",
+        "in",
+        "levels"
+      ],
       "type": "Website",
-      "url": "https://www.newsinlevels.com/"
+      "url": "https://www.newsinlevels.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2893,9 +3127,12 @@
       "lastUsed": 0,
       "name": "TalkEnglish",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "talkenglish"
+      ],
       "type": "Website",
-      "url": "https://www.talkenglish.com/lessonindex.aspx"
+      "url": "https://www.talkenglish.com/lessonindex.aspx",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2906,9 +3143,14 @@
       "lastUsed": 0,
       "name": "British Council LearnEnglish",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "british",
+        "council",
+        "learnenglish"
+      ],
       "type": "Website",
-      "url": "https://learnenglish.britishcouncil.org/"
+      "url": "https://learnenglish.britishcouncil.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2919,9 +3161,12 @@
       "lastUsed": 0,
       "name": "Tatoeba",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "tatoeba"
+      ],
       "type": "Website",
-      "url": "https://tatoeba.org/en"
+      "url": "https://tatoeba.org/en",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2932,9 +3177,12 @@
       "lastUsed": 0,
       "name": "Merriam-Webster",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "merriam-webster"
+      ],
       "type": "Website",
-      "url": "https://www.merriam-webster.com/"
+      "url": "https://www.merriam-webster.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2945,9 +3193,13 @@
       "lastUsed": 0,
       "name": "Dictionary.com",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "dictionary",
+        "com"
+      ],
       "type": "Website",
-      "url": "https://www.dictionary.com/"
+      "url": "https://www.dictionary.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2964,7 +3216,8 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://sozluk.gov.tr/"
+      "url": "https://sozluk.gov.tr/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2981,7 +3234,8 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://tureng.com/"
+      "url": "https://tureng.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -2998,7 +3252,8 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://www.seslisozluk.net/"
+      "url": "https://www.seslisozluk.net/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3015,7 +3270,8 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://www.nisanyansozluk.com/"
+      "url": "https://www.nisanyansozluk.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3032,7 +3288,8 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://www.wordreference.com/tren/"
+      "url": "https://www.wordreference.com/tren/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3049,7 +3306,8 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://glosbe.com/tr/en"
+      "url": "https://glosbe.com/tr/en",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3066,7 +3324,8 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://www.wiktionary.org/"
+      "url": "https://www.wiktionary.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3082,7 +3341,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://dictionary.cambridge.org/"
+      "url": "https://dictionary.cambridge.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3098,7 +3358,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.oxfordlearnersdictionaries.com/"
+      "url": "https://www.oxfordlearnersdictionaries.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3114,7 +3375,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.collinsdictionary.com/"
+      "url": "https://www.collinsdictionary.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3130,7 +3392,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.wordreference.com/"
+      "url": "https://www.wordreference.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3146,7 +3409,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.britannica.com/dictionary"
+      "url": "https://www.britannica.com/dictionary",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3162,7 +3426,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://rekhtadictionary.com/"
+      "url": "https://rekhtadictionary.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3178,7 +3443,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.urdupoint.com/dictionary/"
+      "url": "https://www.urdupoint.com/dictionary/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3194,7 +3460,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.urduenglishdictionary.org/"
+      "url": "https://www.urduenglishdictionary.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3210,7 +3477,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/"
+      "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3226,7 +3494,8 @@
         "language"
       ],
       "type": "Website",
-      "url": "https://www.glossary.com/"
+      "url": "https://www.glossary.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3242,7 +3511,8 @@
         "language"
       ],
       "type": "Website",
-      "url": "https://glosbe.com/"
+      "url": "https://glosbe.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3258,7 +3528,8 @@
         "language"
       ],
       "type": "Website",
-      "url": "https://www.reverso.net/"
+      "url": "https://www.reverso.net/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3274,7 +3545,8 @@
         "language"
       ],
       "type": "Website",
-      "url": "https://www.babla.com/"
+      "url": "https://www.babla.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3290,7 +3562,8 @@
         "language"
       ],
       "type": "Website",
-      "url": "https://www.linguee.com/"
+      "url": "https://www.linguee.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3306,7 +3579,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://sozluk.gov.tr/ — Official Turkish Language Association dictionaries."
+      "url": "https://sozluk.gov.tr/ — Official Turkish Language Association dictionaries.",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3322,7 +3596,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://tureng.com/ — Turkish–English and English–Turkish dictionary."
+      "url": "https://tureng.com/ — Turkish–English and English–Turkish dictionary.",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3338,7 +3613,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.seslisozluk.net/ — Turkish–English dictionary with pronunciation and usage information."
+      "url": "https://www.seslisozluk.net/ — Turkish–English dictionary with pronunciation and usage information.",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3354,7 +3630,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://glosbe.com/tr/en — Turkish–English translations, definitions, examples, and pronunciation."
+      "url": "https://glosbe.com/tr/en — Turkish–English translations, definitions, examples, and pronunciation.",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3370,7 +3647,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/ — English–Urdu dictionary with definitions, translations, and example sentences."
+      "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/ — English–Urdu dictionary with definitions, translations, and example sentences.",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3381,9 +3659,12 @@
       "lastUsed": 0,
       "name": "Daraz",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "daraz"
+      ],
       "type": "Website",
-      "url": "https://www.daraz.pk/"
+      "url": "https://www.daraz.pk/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3399,7 +3680,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://www.clipconverter.cc/"
+      "url": "http://www.clipconverter.cc/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3415,7 +3697,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://9soundclouddownloader.com/"
+      "url": "http://9soundclouddownloader.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3431,7 +3714,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "http://www.learnenglish.de/englishtestspage.html"
+      "url": "http://www.learnenglish.de/englishtestspage.html",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3447,7 +3731,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://psl-t20.com/live/"
+      "url": "https://psl-t20.com/live/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3463,7 +3748,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://scdownloader.net/playlist-downloader"
+      "url": "http://scdownloader.net/playlist-downloader",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3474,9 +3760,12 @@
       "lastUsed": 0,
       "name": "Emlakjet",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "emlakjet"
+      ],
       "type": "Website",
-      "url": "https://www.emlakjet.com/"
+      "url": "https://www.emlakjet.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3492,7 +3781,8 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://yabangee.com/"
+      "url": "https://yabangee.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3503,9 +3793,12 @@
       "lastUsed": 0,
       "name": "Trendyol",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "trendyol"
+      ],
       "type": "Website",
-      "url": "https://www.trendyol.com/"
+      "url": "https://www.trendyol.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3521,7 +3814,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.osym.gov.tr/"
+      "url": "https://www.osym.gov.tr/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3537,7 +3831,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://esube.iskur.gov.tr/"
+      "url": "https://esube.iskur.gov.tr/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3548,9 +3843,12 @@
       "lastUsed": 0,
       "name": "Hepsiburada",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "hepsiburada"
+      ],
       "type": "Website",
-      "url": "https://www.hepsiburada.com/"
+      "url": "https://www.hepsiburada.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3561,9 +3859,12 @@
       "lastUsed": 0,
       "name": "Morhipo",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "morhipo"
+      ],
       "type": "Website",
-      "url": "https://www.morhipo.com/"
+      "url": "https://www.morhipo.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3579,7 +3880,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.kariyer.net/"
+      "url": "https://www.kariyer.net/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3595,7 +3897,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.yenibiris.com/"
+      "url": "https://www.yenibiris.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3611,7 +3914,8 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.eleman.net/"
+      "url": "https://www.eleman.net/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3622,9 +3926,14 @@
       "lastUsed": 0,
       "name": "Virtual University of Pakistan",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "virtual",
+        "university",
+        "of"
+      ],
       "type": "Learning",
-      "url": "https://www.vu.edu.pk/pages/VUGradingScheme"
+      "url": "https://www.vu.edu.pk/pages/VUGradingScheme",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3635,9 +3944,12 @@
       "lastUsed": 0,
       "name": "LinkedIn",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "linkedin"
+      ],
       "type": "Website",
-      "url": "https://www.linkedin.com/article/new/"
+      "url": "https://www.linkedin.com/article/new/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3653,7 +3965,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://fmhy.net/"
+      "url": "https://fmhy.net/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3664,9 +3977,12 @@
       "lastUsed": 0,
       "name": "BeingGuru",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "beingguru"
+      ],
       "type": "Website",
-      "url": "https://www.beingguru.com/"
+      "url": "https://www.beingguru.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 1790925855471,
@@ -3677,9 +3993,12 @@
       "lastUsed": 0,
       "name": "Docs",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "docs"
+      ],
       "type": "Website",
-      "url": "https://docs.aviatrix.com/documentation/latest/getting-started/platform-overview/aviatrix-glossary.html"
+      "url": "https://docs.aviatrix.com/documentation/latest/getting-started/platform-overview/aviatrix-glossary.html",
+      "lastModified": 1790925855471
     },
     {
       "addedAt": 1790925844679,
@@ -3690,9 +4009,13 @@
       "lastUsed": 0,
       "name": "Cisco Blogs",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "cisco",
+        "blogs"
+      ],
       "type": "Website",
-      "url": "https://blogs.cisco.com/tag/security-operations-center"
+      "url": "https://blogs.cisco.com/tag/security-operations-center",
+      "lastModified": 1790925844679
     },
     {
       "addedAt": 1790925899319,
@@ -3703,9 +4026,13 @@
       "lastUsed": 1790925875084,
       "name": "Turtles AI",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "turtles",
+        "ai"
+      ],
       "type": "Website",
-      "url": "https://www.turtlesai.com/en/pages/news/002-1/index.html"
+      "url": "https://www.turtlesai.com/en/pages/news/002-1/index.html",
+      "lastModified": 1790925899319
     },
     {
       "addedAt": 0,
@@ -3721,7 +4048,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://skills.github.com/"
+      "url": "https://skills.github.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3737,7 +4065,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://dev.to/hosana/github-foundations-certification-is-free-1mlk?utm_source=chatgpt.com"
+      "url": "https://dev.to/hosana/github-foundations-certification-is-free-1mlk?utm_source=chatgpt.com",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3753,7 +4082,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://learning.lpi.org/en/learning-materials/010-160/"
+      "url": "https://learning.lpi.org/en/learning-materials/010-160/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3769,7 +4099,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://mylearn.oracle.com/ou/search/?filters=Type-certification"
+      "url": "https://mylearn.oracle.com/ou/search/?filters=Type-certification",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3785,7 +4116,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.cisconetsolutions.com/ospfv2-multi-area-configuration-lab/"
+      "url": "https://www.cisconetsolutions.com/ospfv2-multi-area-configuration-lab/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3801,7 +4133,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://awsfundamentals.com/blog/amazon-vpc-introduction-part-1"
+      "url": "https://awsfundamentals.com/blog/amazon-vpc-introduction-part-1",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3812,9 +4145,12 @@
       "lastUsed": 0,
       "name": "Reddit",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "reddit"
+      ],
       "type": "Website",
-      "url": "https://www.reddit.com/"
+      "url": "https://www.reddit.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3830,7 +4166,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://www.youtube-mp3.org/"
+      "url": "http://www.youtube-mp3.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3846,7 +4183,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://www.flvto.biz/progress/mp3/yt_qsleJQPgqZM/"
+      "url": "http://www.flvto.biz/progress/mp3/yt_qsleJQPgqZM/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3862,7 +4200,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://mp3fiber.com/"
+      "url": "http://mp3fiber.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3878,7 +4217,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://www.listentoyoutube.com/"
+      "url": "http://www.listentoyoutube.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3894,7 +4234,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://www.video2mp3.net/"
+      "url": "http://www.video2mp3.net/",
+      "lastModified": 0
     },
     {
       "addedAt": 1790921729252,
@@ -3911,7 +4252,8 @@
         "instagram"
       ],
       "type": "Utility",
-      "url": "https://www.pixwox.com/"
+      "url": "https://www.pixwox.com/",
+      "lastModified": 1790921729252
     },
     {
       "addedAt": 1790921770404,
@@ -3928,7 +4270,8 @@
         "instagram"
       ],
       "type": "Utility",
-      "url": "https://toolzu.com/downloader/instagram/profile/"
+      "url": "https://toolzu.com/downloader/instagram/profile/",
+      "lastModified": 1790921770404
     },
     {
       "addedAt": 0,
@@ -3939,9 +4282,13 @@
       "lastUsed": 0,
       "name": "Send Anywhere",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "send",
+        "anywhere"
+      ],
       "type": "Utility",
-      "url": "https://send-anywhere.com/"
+      "url": "https://send-anywhere.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3957,7 +4304,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://addoncrop.com/en-3/?uid=36441187"
+      "url": "https://addoncrop.com/en-3/?uid=36441187",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3973,7 +4321,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://www.media.io/youtube-to-mp3-cutter.html"
+      "url": "https://www.media.io/youtube-to-mp3-cutter.html",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3984,9 +4333,14 @@
       "lastUsed": 0,
       "name": "The Library PK",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "the",
+        "library",
+        "pk"
+      ],
       "type": "Utility",
-      "url": "https://www.thelibrarypk.com/"
+      "url": "https://www.thelibrarypk.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -3997,9 +4351,12 @@
       "lastUsed": 0,
       "name": "123APPS",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "123apps"
+      ],
       "type": "Utility",
-      "url": "https://123apps.com/"
+      "url": "https://123apps.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4010,9 +4367,12 @@
       "lastUsed": 0,
       "name": "Clideo",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "clideo"
+      ],
       "type": "Utility",
-      "url": "https://clideo.com/cut-audio"
+      "url": "https://clideo.com/cut-audio",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4023,9 +4383,13 @@
       "lastUsed": 0,
       "name": "Audio Trimmer",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "audio",
+        "trimmer"
+      ],
       "type": "Utility",
-      "url": "https://audiotrimmer.com/"
+      "url": "https://audiotrimmer.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 1790921742124,
@@ -4042,7 +4406,8 @@
         "instagram"
       ],
       "type": "Utility",
-      "url": "https://www.save-insta.com/profile-downloader/"
+      "url": "https://www.save-insta.com/profile-downloader/",
+      "lastModified": 1790921742124
     },
     {
       "addedAt": 1790921684628,
@@ -4059,7 +4424,8 @@
         "instagram"
       ],
       "type": "Utility",
-      "url": "https://anonyig.com/en1/iganony/"
+      "url": "https://anonyig.com/en1/iganony/",
+      "lastModified": 1790921684628
     },
     {
       "addedAt": 1790921758340,
@@ -4076,7 +4442,8 @@
         "instagram"
       ],
       "type": "Utility",
-      "url": "https://www.storysaver.net/en"
+      "url": "https://www.storysaver.net/en",
+      "lastModified": 1790921758340
     },
     {
       "addedAt": 1790921712548,
@@ -4093,7 +4460,8 @@
         "instagram"
       ],
       "type": "Utility",
-      "url": "https://insnoop.com/"
+      "url": "https://insnoop.com/",
+      "lastModified": 1790921712548
     },
     {
       "addedAt": 0,
@@ -4109,7 +4477,8 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://www.islamicity.org/channels/islamic-movies/"
+      "url": "https://www.islamicity.org/channels/islamic-movies/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4120,9 +4489,12 @@
       "lastUsed": 0,
       "name": "Unsplash",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "unsplash"
+      ],
       "type": "Website",
-      "url": "https://unsplash.com/"
+      "url": "https://unsplash.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4133,9 +4505,12 @@
       "lastUsed": 0,
       "name": "Weekrise",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "weekrise"
+      ],
       "type": "Website",
-      "url": "https://weekrise.com/"
+      "url": "https://weekrise.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 1790926039271,
@@ -4146,9 +4521,12 @@
       "lastUsed": 0,
       "name": "FileHippo",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "filehippo"
+      ],
       "type": "Utility",
-      "url": "https://filehippo.com/"
+      "url": "https://filehippo.com/",
+      "lastModified": 1790926039271
     },
     {
       "addedAt": 1790926048431,
@@ -4159,9 +4537,14 @@
       "lastUsed": 0,
       "name": "IGET INTO PC",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "iget",
+        "into",
+        "pc"
+      ],
       "type": "Utility",
-      "url": "https://igetintopc.com/software-categories/"
+      "url": "https://igetintopc.com/software-categories/",
+      "lastModified": 1790926048431
     },
     {
       "addedAt": 0,
@@ -4172,9 +4555,12 @@
       "lastUsed": 0,
       "name": "iLovePDF",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "ilovepdf"
+      ],
       "type": "Utility",
-      "url": "https://www.ilovepdf.com/"
+      "url": "https://www.ilovepdf.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4190,7 +4576,8 @@
         "resources"
       ],
       "type": "Website",
-      "url": "http://islamforearth.blogspot.com/p/islamic-quotes-and-sayings.html"
+      "url": "http://islamforearth.blogspot.com/p/islamic-quotes-and-sayings.html",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4201,9 +4588,12 @@
       "lastUsed": 0,
       "name": "Freecoursesites",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "freecoursesites"
+      ],
       "type": "Website",
-      "url": "https://freecoursesites.org/"
+      "url": "https://freecoursesites.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4214,9 +4604,12 @@
       "lastUsed": 0,
       "name": "CSS-Tricks",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "css-tricks"
+      ],
       "type": "Developer",
-      "url": "https://css-tricks.com/"
+      "url": "https://css-tricks.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4227,9 +4620,12 @@
       "lastUsed": 0,
       "name": "Responsively",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "responsively"
+      ],
       "type": "Developer",
-      "url": "https://responsively.app/download"
+      "url": "https://responsively.app/download",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4240,9 +4636,13 @@
       "lastUsed": 0,
       "name": "Charles Proxy",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "charles",
+        "proxy"
+      ],
       "type": "Developer",
-      "url": "https://www.charlesproxy.com/"
+      "url": "https://www.charlesproxy.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 1790925829399,
@@ -4253,9 +4653,14 @@
       "lastUsed": 0,
       "name": "YEE Türkçe",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "yee",
+        "t",
+        "rk"
+      ],
       "type": "Website",
-      "url": "https://turkce.yee.org.tr/en/"
+      "url": "https://turkce.yee.org.tr/en/",
+      "lastModified": 1790925829399
     },
     {
       "addedAt": 0,
@@ -4271,7 +4676,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://ytmp3.cc/uu118cc/"
+      "url": "https://ytmp3.cc/uu118cc/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4282,9 +4688,12 @@
       "lastUsed": 0,
       "name": "Zamzar",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "zamzar"
+      ],
       "type": "Utility",
-      "url": "https://www.zamzar.com/uploadComplete.php?convertFile=epub&to=pdf&email=false&tcs=Z84"
+      "url": "https://www.zamzar.com/uploadComplete.php?convertFile=epub&to=pdf&email=false&tcs=Z84",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4295,9 +4704,12 @@
       "lastUsed": 0,
       "name": "Pomotroid",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "pomotroid"
+      ],
       "type": "Website",
-      "url": "https://splode.github.io/pomotroid/"
+      "url": "https://splode.github.io/pomotroid/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4308,9 +4720,12 @@
       "lastUsed": 0,
       "name": "Pomotodo",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "pomotodo"
+      ],
       "type": "Website",
-      "url": "https://pomotodo.com/?utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier&utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier"
+      "url": "https://pomotodo.com/?utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier&utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4321,9 +4736,12 @@
       "lastUsed": 0,
       "name": "Nuelink",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "nuelink"
+      ],
       "type": "Website",
-      "url": "https://nuelink.com/tools/facebook-text-formatter"
+      "url": "https://nuelink.com/tools/facebook-text-formatter",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4334,9 +4752,12 @@
       "lastUsed": 0,
       "name": "CodeBeautify",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "codebeautify"
+      ],
       "type": "Utility",
-      "url": "https://codebeautify.org/remove-empty-lines"
+      "url": "https://codebeautify.org/remove-empty-lines",
+      "lastModified": 0
     },
     {
       "addedAt": 1790925770527,
@@ -4347,9 +4768,12 @@
       "lastUsed": 0,
       "name": "FreeCourseWeb",
       "notes": "Imported from user bookmark collection.",
-      "tags": [],
+      "tags": [
+        "freecourseweb"
+      ],
       "type": "Website",
-      "url": "https://freecourseweb.com/tutorialsv4/"
+      "url": "https://freecourseweb.com/tutorialsv4/",
+      "lastModified": 1790925770527
     },
     {
       "addedAt": 0,
@@ -4366,7 +4790,8 @@
         "skills"
       ],
       "type": "Learning",
-      "url": "https://www.udemy.com/"
+      "url": "https://www.udemy.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4384,7 +4809,8 @@
         "development"
       ],
       "type": "GitHub",
-      "url": "https://github.com/"
+      "url": "https://github.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4401,7 +4827,8 @@
         "assistant"
       ],
       "type": "AI",
-      "url": "https://chatgpt.com/"
+      "url": "https://chatgpt.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4418,7 +4845,8 @@
         "community"
       ],
       "type": "Developer",
-      "url": "https://stackoverflow.com/"
+      "url": "https://stackoverflow.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4435,7 +4863,8 @@
         "media"
       ],
       "type": "Website",
-      "url": "https://www.youtube.com/"
+      "url": "https://www.youtube.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4452,7 +4881,8 @@
         "delivery"
       ],
       "type": "Utility",
-      "url": "https://www.parcelabc.com/"
+      "url": "https://www.parcelabc.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4469,7 +4899,8 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://www.downloadtwittervideo.com/m/#TaskResults"
+      "url": "https://www.downloadtwittervideo.com/m/#TaskResults",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4486,7 +4917,8 @@
         "social-media"
       ],
       "type": "Utility",
-      "url": "https://aloinstagram.com/copy-instagram-caption/#"
+      "url": "https://aloinstagram.com/copy-instagram-caption/#",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4503,7 +4935,8 @@
         "reading"
       ],
       "type": "Reading",
-      "url": "https://z-lib.org/"
+      "url": "https://z-lib.org/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4520,7 +4953,8 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://pastedownload.com/3/"
+      "url": "https://pastedownload.com/3/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4537,7 +4971,8 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://getsnackvideo.com/"
+      "url": "https://getsnackvideo.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4554,7 +4989,8 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://youtube4kdownloader.com/en10/download-spotify-mp3.html"
+      "url": "https://youtube4kdownloader.com/en10/download-spotify-mp3.html",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4571,7 +5007,8 @@
         "viewer"
       ],
       "type": "Utility",
-      "url": "https://www.picnob.com/profile/"
+      "url": "https://www.picnob.com/profile/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4588,7 +5025,8 @@
         "viewer"
       ],
       "type": "Utility",
-      "url": "https://indown.io/insta-dp-viewer"
+      "url": "https://indown.io/insta-dp-viewer",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4605,7 +5043,8 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://instasupersave.com/en/instagram-stories/"
+      "url": "https://instasupersave.com/en/instagram-stories/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4622,7 +5061,8 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://www.storysaver.net/"
+      "url": "https://www.storysaver.net/",
+      "lastModified": 0
     },
     {
       "addedAt": 1790925701319,
@@ -4639,7 +5079,8 @@
         "career"
       ],
       "type": "",
-      "url": "https://europass.europa.eu/en/create-europass-cv"
+      "url": "https://europass.europa.eu/en/create-europass-cv",
+      "lastModified": 1790925701319
     },
     {
       "addedAt": 0,
@@ -4656,7 +5097,8 @@
         "social-media"
       ],
       "type": "Utility",
-      "url": "https://sssinstagram.com/en1"
+      "url": "https://sssinstagram.com/en1",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4673,7 +5115,8 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://indown.io/photo"
+      "url": "https://indown.io/photo",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4690,7 +5133,8 @@
         "viewer"
       ],
       "type": "Utility",
-      "url": "https://inflact.com/instagram-viewer/stories/"
+      "url": "https://inflact.com/instagram-viewer/stories/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4707,7 +5151,8 @@
         "viewer"
       ],
       "type": "Utility",
-      "url": "https://storiesig.info/en/"
+      "url": "https://storiesig.info/en/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4724,7 +5169,8 @@
         "viewer"
       ],
       "type": "Utility",
-      "url": "https://insta-stories-viewer.com/nuriyeeyupoglu/"
+      "url": "https://insta-stories-viewer.com/nuriyeeyupoglu/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4741,7 +5187,8 @@
         "social-media"
       ],
       "type": "Utility",
-      "url": "https://instaspeeder.com/copy-instagram-caption/#google_vignette"
+      "url": "https://instaspeeder.com/copy-instagram-caption/#google_vignette",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4758,7 +5205,8 @@
         "resources"
       ],
       "type": "Utility",
-      "url": "https://downloadly.net/"
+      "url": "https://downloadly.net/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4775,7 +5223,8 @@
         "conversion"
       ],
       "type": "Utility",
-      "url": "https://file-converter.org/download.html"
+      "url": "https://file-converter.org/download.html",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4792,7 +5241,8 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://tutsnode.com/"
+      "url": "https://tutsnode.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4809,7 +5259,8 @@
         "how-it-works"
       ],
       "type": "Learning",
-      "url": "https://science.howstuffworks.com/"
+      "url": "https://science.howstuffworks.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4826,7 +5277,8 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://downscribd.com/"
+      "url": "https://downscribd.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4843,7 +5295,8 @@
         "converter"
       ],
       "type": "Utility",
-      "url": "https://docdownloader.com/"
+      "url": "https://docdownloader.com/",
+      "lastModified": 0
     },
     {
       "addedAt": 0,
@@ -4860,7 +5313,8 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://youtubemultidownloader.net/"
+      "url": "https://youtubemultidownloader.net/",
+      "lastModified": 0
     },
     {
       "addedAt": 1790920529381,
@@ -4871,14 +5325,19 @@
       "lastUsed": 0,
       "name": "Convert ZIP to CRX",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "convert",
+        "zip",
+        "to"
+      ],
       "type": "Website",
-      "url": "https://www.ezyzip.com/convert-zip-to-crx.html"
+      "url": "https://www.ezyzip.com/convert-zip-to-crx.html",
+      "lastModified": 1790920529381
     },
     {
       "addedAt": 1790923672654,
       "category": "PC Games",
-      "description": "",
+      "description": "PC games resource page focused on finding and browsing PC game downloads.",
       "favorite": false,
       "id": "958c8b56-db64-4ebf-8435-3b76a6ee4fb5",
       "lastUsed": 0,
@@ -4888,241 +5347,298 @@
         "PC games"
       ],
       "type": "Website",
-      "url": "https://downloadfury.com/category/pc-games/"
+      "url": "https://downloadfury.com/category/pc-games/",
+      "lastModified": 1790923672654
     },
     {
       "addedAt": 1790923758077,
       "category": "Software Download",
-      "description": "",
+      "description": "Software Download resource for Filecr, saved for quick access in the Charlie MJ Tool Archive.",
       "favorite": false,
       "id": "a2996217-b818-4cb3-a0e0-26a3fd689b9d",
       "lastUsed": 0,
       "name": "Filecr",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "filecr"
+      ],
       "type": "Website",
-      "url": "https://filecr.com/"
+      "url": "https://filecr.com/",
+      "lastModified": 1790923758077
     },
     {
       "addedAt": 1790923836270,
       "category": "PC Games",
-      "description": "",
+      "description": "PC Games resource for Hisgames, saved for quick access in the Charlie MJ Tool Archive.",
       "favorite": false,
       "id": "0ff64f1f-651b-4a0d-8e64-cef684fa0816",
       "lastUsed": 0,
       "name": "Hisgames",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "hisgames"
+      ],
       "type": "Website",
-      "url": "https://hisgames.org/"
+      "url": "https://hisgames.org/",
+      "lastModified": 1790923836270
     },
     {
       "addedAt": 1790923878078,
       "category": "PC Games",
-      "description": "",
+      "description": "PC Games resource for Gamingbeasts, saved for quick access in the Charlie MJ Tool Archive.",
       "favorite": false,
       "id": "b958dcf6-f2af-4efb-9027-834848e1d955",
       "lastUsed": 0,
       "name": "Gamingbeasts",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "gamingbeasts"
+      ],
       "type": "Website",
-      "url": "https://gamingbeasts.com/"
+      "url": "https://gamingbeasts.com/",
+      "lastModified": 1790923878078
     },
     {
       "addedAt": 1790924009230,
       "category": "PC Games",
-      "description": "",
+      "description": "PC Games resource for Steamunlocked, saved for quick access in the Charlie MJ Tool Archive.",
       "favorite": false,
       "id": "02a23b13-a556-4d76-bcb9-37ca2244aeb5",
       "lastUsed": 0,
       "name": "Steamunlocked",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "steamunlocked"
+      ],
       "type": "Website",
-      "url": "https://steamunlocked.net/"
+      "url": "https://steamunlocked.net/",
+      "lastModified": 1790924009230
     },
     {
       "addedAt": 1790924042574,
       "category": "PC Games",
-      "description": "",
+      "description": "PC gaming resource for discovering PC game titles and related downloads.",
       "favorite": false,
       "id": "31423022-ab23-415e-b599-0fe9d6f95eed",
       "lastUsed": 0,
       "name": "ipcgames",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "ipcgames"
+      ],
       "type": "Website",
-      "url": "https://ipcgames.com/"
+      "url": "https://ipcgames.com/",
+      "lastModified": 1790924042574
     },
     {
       "addedAt": 1790924063814,
       "category": "PC Games",
-      "description": "",
+      "description": "PC gaming resource for discovering game titles and downloadable content.",
       "favorite": false,
       "id": "f0fe54e7-93c6-4bac-b011-281909122c80",
       "lastUsed": 0,
       "name": "oceanoffgames",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "oceanoffgames"
+      ],
       "type": "Website",
-      "url": "https://oceanoffgames.com/"
+      "url": "https://oceanoffgames.com/",
+      "lastModified": 1790924063814
     },
     {
       "addedAt": 1790924205950,
       "category": "Design Blog",
-      "description": "",
+      "description": "Design and creative-industry publication covering design news, trends and professional insights.",
       "favorite": false,
       "id": "52cc17c8-49dc-4489-9e25-2d547df48afa",
       "lastUsed": 0,
       "name": "designweek",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "designweek"
+      ],
       "type": "Website",
-      "url": "https://www.designweek.co.uk/"
+      "url": "https://www.designweek.co.uk/",
+      "lastModified": 1790924205950
     },
     {
       "addedAt": 1790924280230,
       "category": "Design Blog",
-      "description": "",
+      "description": "Community discussion forum for graphic design topics, questions and creative resources.",
       "favorite": false,
       "id": "dde44d4b-56fd-4c36-b758-ac9f312b4772",
       "lastUsed": 0,
       "name": "graphicdesignforum",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "graphicdesignforum"
+      ],
       "type": "Website",
-      "url": "https://www.graphicdesignforum.com/"
+      "url": "https://www.graphicdesignforum.com/",
+      "lastModified": 1790924280230
     },
     {
       "addedAt": 1790924343942,
       "category": "Psychology Blogs",
-      "description": "",
+      "description": "Psychology resource with practical articles and worksheets for personal development and wellbeing topics.",
       "favorite": false,
       "id": "bc834c1e-553b-45f1-9575-81039b2639fe",
       "lastUsed": 0,
       "name": "positivepsychology",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "positivepsychology"
+      ],
       "type": "Website",
-      "url": "https://positivepsychology.com/inner-critic-worksheets/"
+      "url": "https://positivepsychology.com/inner-critic-worksheets/",
+      "lastModified": 1790924343942
     },
     {
       "addedAt": 1790924380078,
       "category": "Developer Tools",
-      "description": "",
+      "description": "Headline analysis tool for reviewing and improving titles used in content and marketing.",
       "favorite": false,
       "id": "fdd5e6c0-9238-43a4-a7b0-830b8580bbb2",
       "lastUsed": 0,
       "name": "headline-analyzer",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "headline-analyzer"
+      ],
       "type": "Website",
-      "url": "https://coschedule.com/headline-analyzer"
+      "url": "https://coschedule.com/headline-analyzer",
+      "lastModified": 1790924380078
     },
     {
       "addedAt": 1790924420150,
       "category": "Developer Tools",
-      "description": "",
+      "description": "Online text utility for converting titles and headings into title case.",
       "favorite": false,
       "id": "d10fd013-7baf-419e-87da-e9a216a41440",
       "lastUsed": 0,
       "name": "titlecaseconverter.",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "titlecaseconverter"
+      ],
       "type": "Website",
-      "url": "https://titlecaseconverter.com/"
+      "url": "https://titlecaseconverter.com/",
+      "lastModified": 1790924420150
     },
     {
       "addedAt": 1790924558062,
       "category": "Developer Tools",
-      "description": "",
+      "description": "Online text utility for changing capitalization and letter case.",
       "favorite": false,
       "id": "3a129a1c-efd6-46fe-b5b4-e7adf82b801d",
       "lastUsed": 0,
       "name": "convertcase",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "convertcase"
+      ],
       "type": "Website",
-      "url": "https://convertcase.net/"
+      "url": "https://convertcase.net/",
+      "lastModified": 1790924558062
     },
     {
       "addedAt": 1790924584510,
       "category": "Developer Tools",
-      "description": "",
+      "description": "Title formatting utility for creating and checking capitalization in headings.",
       "favorite": false,
       "id": "6a508426-655d-4e3c-93b9-c52035247004",
       "lastUsed": 0,
       "name": "capitalizemytitle",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "capitalizemytitle"
+      ],
       "type": "Website",
-      "url": "https://capitalizemytitle.com/"
+      "url": "https://capitalizemytitle.com/",
+      "lastModified": 1790924584510
     },
     {
       "addedAt": 1790924614590,
       "category": "Developer Tools",
-      "description": "",
+      "description": "Content analysis resource for reviewing readability, SEO and content quality signals.",
       "favorite": false,
       "id": "57334ef0-829d-46ee-b062-8a0eab32a67a",
       "lastUsed": 0,
       "name": "content-analysis",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "content-analysis"
+      ],
       "type": "Website",
-      "url": "https://yoast.com/research/real-time-content-analysis/"
+      "url": "https://yoast.com/research/real-time-content-analysis/",
+      "lastModified": 1790924614590
     },
     {
       "addedAt": 1790924692007,
       "category": "Magazines",
-      "description": "",
+      "description": "Online magazine resource for browsing magazine titles and publication-related content.",
       "favorite": false,
       "id": "866ca3f4-115a-459d-88cb-3c5d0a01ba7d",
       "lastUsed": 0,
       "name": "worldmags",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "worldmags"
+      ],
       "type": "Website",
-      "url": "https://worldmags.net/"
+      "url": "https://worldmags.net/",
+      "lastModified": 1790924692007
     },
     {
       "addedAt": 1790924715494,
       "category": "Network Tools",
-      "description": "",
+      "description": "Network testing utility for measuring internet connection speed and performance.",
       "favorite": false,
       "id": "bf4ea42b-f9ad-4bf0-ae2c-87aa6fac852e",
       "lastUsed": 0,
       "name": "speedtest",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "speedtest"
+      ],
       "type": "Website",
-      "url": "https://www.speedtest.net/"
+      "url": "https://www.speedtest.net/",
+      "lastModified": 1790924715494
     },
     {
       "addedAt": 1790924745870,
       "category": "Network Tools",
-      "description": "",
+      "description": "Simple internet speed testing service for checking download and connection performance.",
       "favorite": false,
       "id": "53698db3-0dd0-42bc-928e-142d83fbb532",
       "lastUsed": 0,
       "name": "Fast Speed Tester",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "fast",
+        "speed",
+        "tester"
+      ],
       "type": "Website",
-      "url": "https://fast.com/"
+      "url": "https://fast.com/",
+      "lastModified": 1790924745870
     },
     {
       "addedAt": 1790924774814,
       "category": "Online Utilities",
-      "description": "",
+      "description": "Web printing utility designed to simplify pages before printing or saving them.",
       "favorite": false,
       "id": "f2fe3fa5-8a08-4eb8-827d-31c818a11bd3",
       "lastUsed": 0,
       "name": "printwhatyoulike",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "printwhatyoulike"
+      ],
       "type": "Website",
-      "url": "https://www.printwhatyoulike.com/"
+      "url": "https://www.printwhatyoulike.com/",
+      "lastModified": 1790924774814
     }
   ]
 }

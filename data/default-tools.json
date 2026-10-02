@@ -1,0 +1,3989 @@
+[
+  {
+    "name": "Hiren's BootCD PE",
+    "url": "https://www.hirensbootcd.org/",
+    "category": "System & Recovery",
+    "type": "Utility",
+    "tags": [
+      "boot",
+      "recovery",
+      "windows"
+    ],
+    "description": "System & Recovery resource: Hiren's BootCD PE.",
+    "notes": "",
+    "id": "cmj-0001"
+  },
+  {
+    "name": "Hiren's BootCD 15.2 | Hiren's BootCD PE",
+    "url": "https://www.hirensbootcd.org/hbcd-v152/",
+    "category": "System & Recovery",
+    "type": "Utility",
+    "tags": [
+      "boot",
+      "recovery"
+    ],
+    "description": "System & Recovery resource: Hiren's BootCD 15.2 | Hiren's BootCD PE.",
+    "notes": "",
+    "id": "cmj-0002"
+  },
+  {
+    "name": "Hiren's BootCD 15.2 - All in one Bootable CD",
+    "url": "https://www.hiren.info/pages/bootcd",
+    "category": "System & Recovery",
+    "type": "Utility",
+    "tags": [
+      "boot",
+      "recovery"
+    ],
+    "description": "System & Recovery resource: Hiren's BootCD 15.2 - All in one Bootable CD.",
+    "notes": "",
+    "id": "cmj-0003"
+  },
+  {
+    "name": "Scribd.VDownloaders.com - Scribd.com downloader",
+    "url": "https://scribd.vdownloaders.com/",
+    "category": "Download & Conversion",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "documents"
+    ],
+    "description": "Download & Conversion resource: Scribd.VDownloaders.com - Scribd.com downloader.",
+    "notes": "",
+    "id": "cmj-0004"
+  },
+  {
+    "name": "EPUB to PDF Converter - FreeConvert.com",
+    "url": "https://www.freeconvert.com/epub-to-pdf",
+    "category": "Download & Conversion",
+    "type": "Utility",
+    "tags": [
+      "epub",
+      "pdf",
+      "converter"
+    ],
+    "description": "Download & Conversion resource: EPUB to PDF Converter - FreeConvert.com.",
+    "notes": "",
+    "id": "cmj-0005"
+  },
+  {
+    "name": "Editor.md",
+    "url": "https://pandao.github.io/editor.md/en.html",
+    "category": "Markdown & Writing",
+    "type": "Website",
+    "tags": [
+      "markdown",
+      "editor"
+    ],
+    "description": "Markdown & Writing resource: Editor.md.",
+    "notes": "",
+    "id": "cmj-0006"
+  },
+  {
+    "name": "Anything - AI app builder",
+    "url": "https://www.createanything.com/dashboard/team/71d0628f-6405-4dec-a31f-f3f5c1cb7f08",
+    "category": "AI App Builders",
+    "type": "AI",
+    "tags": [
+      "ai",
+      "app builder"
+    ],
+    "description": "AI App Builders resource: Anything - AI app builder.",
+    "notes": "",
+    "id": "cmj-0007"
+  },
+  {
+    "name": "Markdown Live Preview",
+    "url": "https://markdownlivepreview.com/",
+    "category": "Markdown & Writing",
+    "type": "Website",
+    "tags": [
+      "markdown",
+      "preview"
+    ],
+    "description": "Markdown & Writing resource: Markdown Live Preview.",
+    "notes": "",
+    "id": "cmj-0008"
+  },
+  {
+    "name": "Packet Tracer Downloads",
+    "url": "https://www.computernetworkingnotes.com/ccna-study-guide/download-packet-tracer-for-windows-and-linux.html",
+    "category": "Networking & Learning",
+    "type": "Learning",
+    "tags": [
+      "packet tracer",
+      "ccna",
+      "networking"
+    ],
+    "description": "Networking & Learning resource: Packet Tracer Downloads.",
+    "notes": "",
+    "id": "cmj-0009"
+  },
+  {
+    "name": "HuggingChat",
+    "url": "https://huggingface.co/chat/",
+    "category": "AI Chat & Research",
+    "type": "AI",
+    "tags": [
+      "ai",
+      "chat"
+    ],
+    "description": "AI Chat & Research resource: HuggingChat.",
+    "notes": "",
+    "id": "cmj-0010"
+  },
+  {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/welcome",
+    "category": "AI Chat & Research",
+    "type": "AI",
+    "tags": [
+      "ai",
+      "models",
+      "hugging face"
+    ],
+    "description": "AI Chat & Research resource: Hugging Face.",
+    "notes": "",
+    "id": "cmj-0011"
+  },
+  {
+    "name": "Perplexity Python Learning Search",
+    "url": "https://www.perplexity.ai/search/i-am-cloud-engineer-and-want-t-SaR_8kedQK2bevDho2XT2Q",
+    "category": "AI Chat & Research",
+    "type": "AI",
+    "tags": [
+      "ai",
+      "research",
+      "python"
+    ],
+    "description": "AI Chat & Research resource: Perplexity Python Learning Search.",
+    "notes": "",
+    "id": "cmj-0012"
+  },
+  {
+    "name": "Mind Luster - Turkish Search",
+    "url": "https://www.mindluster.com/?search_for=Turkish+",
+    "category": "Language Learning",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Language Learning resource: Mind Luster - Turkish Search.",
+    "notes": "",
+    "id": "cmj-0013"
+  },
+  {
+    "name": "Design Arena",
+    "url": "https://www.designarena.ai/",
+    "category": "AI Design & Creative",
+    "type": "AI",
+    "tags": [
+      "design",
+      "ai"
+    ],
+    "description": "AI Design & Creative resource: Design Arena.",
+    "notes": "",
+    "id": "cmj-0014"
+  },
+  {
+    "name": "Design Arena - Agents",
+    "url": "https://www.designarena.ai/?arena=agents&harness=standard",
+    "category": "AI Design & Creative",
+    "type": "AI",
+    "tags": [
+      "design",
+      "agents",
+      "ai"
+    ],
+    "description": "AI Design & Creative resource: Design Arena - Agents.",
+    "notes": "",
+    "id": "cmj-0015"
+  },
+  {
+    "name": "Magic Hour",
+    "url": "https://magichour.ai/",
+    "category": "AI Design & Creative",
+    "type": "AI",
+    "tags": [
+      "video",
+      "image",
+      "ai"
+    ],
+    "description": "AI Design & Creative resource: Magic Hour.",
+    "notes": "",
+    "id": "cmj-0016"
+  },
+  {
+    "name": "Magic Hour - New Project",
+    "url": "https://magichour.ai/create",
+    "category": "AI Design & Creative",
+    "type": "AI",
+    "tags": [
+      "video",
+      "image",
+      "ai"
+    ],
+    "description": "AI Design & Creative resource: Magic Hour - New Project.",
+    "notes": "",
+    "id": "cmj-0017"
+  },
+  {
+    "name": "Psdly",
+    "url": "https://www.psdly.org/",
+    "category": "Design Resources",
+    "type": "Website",
+    "tags": [
+      "design",
+      "resources"
+    ],
+    "description": "Design Resources resource: Psdly.",
+    "notes": "",
+    "id": "cmj-0018"
+  },
+  {
+    "name": "HeyGen",
+    "url": "https://app.heygen.com/home",
+    "category": "AI Video & Avatar",
+    "type": "AI",
+    "tags": [
+      "ai",
+      "video",
+      "avatar"
+    ],
+    "description": "AI Video & Avatar resource: HeyGen.",
+    "notes": "",
+    "id": "cmj-0019"
+  },
+  {
+    "name": "Snack Prompt",
+    "url": "https://snackprompt.com/",
+    "category": "AI Prompt & Community",
+    "type": "AI",
+    "tags": [
+      "ai",
+      "prompts"
+    ],
+    "description": "AI Prompt & Community resource: Snack Prompt.",
+    "notes": "",
+    "id": "cmj-0020"
+  },
+  {
+    "name": "twoseven",
+    "url": "https://twoseven.xyz/",
+    "category": "Video & Collaboration",
+    "type": "Website",
+    "tags": [
+      "watch together",
+      "video"
+    ],
+    "description": "Video & Collaboration resource: twoseven.",
+    "notes": "",
+    "id": "cmj-0021"
+  },
+  {
+    "name": "NepaPay",
+    "url": "https://neapay.com/",
+    "category": "Payments & APIs",
+    "type": "Developer",
+    "tags": [
+      "payments",
+      "api",
+      "iso8583"
+    ],
+    "description": "Payments & APIs resource: NepaPay.",
+    "notes": "",
+    "id": "cmj-0022"
+  },
+  {
+    "name": "OnlineSIM",
+    "url": "https://onlinesim.io/",
+    "category": "Internet & Connectivity",
+    "type": "Utility",
+    "tags": [
+      "virtual sim",
+      "sms"
+    ],
+    "description": "Internet & Connectivity resource: OnlineSIM.",
+    "notes": "",
+    "id": "cmj-0023"
+  },
+  {
+    "name": "WiFi Map",
+    "url": "https://www.wifimap.io/",
+    "category": "Internet & Connectivity",
+    "type": "Utility",
+    "tags": [
+      "wifi",
+      "connectivity"
+    ],
+    "description": "Internet & Connectivity resource: WiFi Map.",
+    "notes": "",
+    "id": "cmj-0024"
+  },
+  {
+    "name": "LiveCodes",
+    "url": "https://livecodes.io/?template=blank",
+    "category": "Developer Tools",
+    "type": "Developer",
+    "tags": [
+      "code",
+      "playground"
+    ],
+    "description": "Developer Tools resource: LiveCodes.",
+    "notes": "",
+    "id": "cmj-0025"
+  },
+  {
+    "name": "TextCompare Python",
+    "url": "https://www.textcompare.org/python/",
+    "category": "Developer Tools",
+    "type": "Developer",
+    "tags": [
+      "python",
+      "compare",
+      "text"
+    ],
+    "description": "Developer Tools resource: TextCompare Python.",
+    "notes": "",
+    "id": "cmj-0026"
+  },
+  {
+    "name": "YoutubeDL - GitHub",
+    "url": "https://github.com/realcoloride/YoutubeDL",
+    "category": "YouTube Tools",
+    "type": "GitHub",
+    "tags": [
+      "youtube",
+      "download",
+      "github"
+    ],
+    "description": "YouTube Tools resource: YoutubeDL - GitHub.",
+    "notes": "",
+    "id": "cmj-0027"
+  },
+  {
+    "name": "YouTube Videos as MP4 Userscript",
+    "url": "https://github.com/anirudhkhanna/YouTube-Video-Downloader-Userscript/blob/master/Download%20YouTube%20Videos%20as%20MP4.user.js",
+    "category": "YouTube Tools",
+    "type": "GitHub",
+    "tags": [
+      "youtube",
+      "mp4",
+      "userscript"
+    ],
+    "description": "YouTube Tools resource: YouTube Videos as MP4 Userscript.",
+    "notes": "",
+    "id": "cmj-0028"
+  },
+  {
+    "name": "Markdown Free",
+    "url": "https://www.markdown.free/",
+    "category": "Markdown & Writing",
+    "type": "Utility",
+    "tags": [
+      "markdown",
+      "pdf",
+      "docx",
+      "epub"
+    ],
+    "description": "Markdown & Writing resource: Markdown Free.",
+    "notes": "",
+    "id": "cmj-0029"
+  },
+  {
+    "name": "CraftMarkdown",
+    "url": "https://www.craftmarkdown.com/",
+    "category": "Markdown & Writing",
+    "type": "Website",
+    "tags": [
+      "markdown",
+      "converter"
+    ],
+    "description": "Markdown & Writing resource: CraftMarkdown.",
+    "notes": "",
+    "id": "cmj-0030"
+  },
+  {
+    "name": "GetEmoji",
+    "url": "https://getemoji.com/",
+    "category": "Writing & Content",
+    "type": "Utility",
+    "tags": [
+      "emoji",
+      "copy"
+    ],
+    "description": "Writing & Content resource: GetEmoji.",
+    "notes": "",
+    "id": "cmj-0031"
+  },
+  {
+    "name": "Freedium",
+    "url": "https://freedium-mirror.cfd/",
+    "category": "Reading & Research",
+    "type": "Website",
+    "tags": [
+      "medium",
+      "articles"
+    ],
+    "description": "Reading & Research resource: Freedium.",
+    "notes": "",
+    "id": "cmj-0032"
+  },
+  {
+    "name": "VS Code Web",
+    "url": "https://vscode.dev/",
+    "category": "Developer Tools",
+    "type": "Developer",
+    "tags": [
+      "vscode",
+      "editor",
+      "web"
+    ],
+    "description": "Developer Tools resource: VS Code Web.",
+    "notes": "",
+    "id": "cmj-0033"
+  },
+  {
+    "name": "OneCompiler Bash",
+    "url": "https://sandbox.onecompiler.com/bash/44p68b65v",
+    "category": "Developer Tools",
+    "type": "Developer",
+    "tags": [
+      "bash",
+      "compiler",
+      "terminal"
+    ],
+    "description": "Developer Tools resource: OneCompiler Bash.",
+    "notes": "",
+    "id": "cmj-0034"
+  },
+  {
+    "name": "KSUG.AI",
+    "url": "https://ksug.ai/",
+    "category": "Cloud Native & Kubernetes",
+    "type": "Learning",
+    "tags": [
+      "kubernetes",
+      "cloud native",
+      "ai"
+    ],
+    "description": "Cloud Native & Kubernetes resource: KSUG.AI.",
+    "notes": "",
+    "id": "cmj-0035"
+  },
+  {
+    "name": "LinkedIn Text Formatter - Typegrow",
+    "url": "https://typegrow.com/tools/linkedin-text-formatter",
+    "category": "LinkedIn & Content",
+    "type": "Utility",
+    "tags": [
+      "linkedin",
+      "formatter"
+    ],
+    "description": "LinkedIn & Content resource: LinkedIn Text Formatter - Typegrow.",
+    "notes": "",
+    "id": "cmj-0036"
+  },
+  {
+    "name": "YouTube Subtitle Downloader",
+    "url": "https://www.downloadyoutubesubtitles.com/",
+    "category": "YouTube Tools",
+    "type": "Utility",
+    "tags": [
+      "youtube",
+      "subtitles"
+    ],
+    "description": "YouTube Tools resource: YouTube Subtitle Downloader.",
+    "notes": "",
+    "id": "cmj-0037"
+  },
+  {
+    "name": "Charlie MJ Medium Profile Article Search Engine",
+    "url": "https://awsrmmustansarjavaid.github.io/medium-article-search-engine/",
+    "category": "Charlie MJ Projects",
+    "type": "Project",
+    "tags": [
+      "charlie mj",
+      "medium",
+      "search"
+    ],
+    "description": "Charlie MJ Projects resource: Charlie MJ Medium Profile Article Search Engine.",
+    "notes": "",
+    "id": "cmj-0038"
+  },
+  {
+    "name": "Recordly - GitHub",
+    "url": "https://github.com/webadderallorg/recordly",
+    "category": "Screen Recording & Demos",
+    "type": "GitHub",
+    "tags": [
+      "screen recording",
+      "demo",
+      "github"
+    ],
+    "description": "Screen Recording & Demos resource: Recordly - GitHub.",
+    "notes": "",
+    "id": "cmj-0039"
+  },
+  {
+    "name": "Recordly",
+    "url": "https://recordly.dev/",
+    "category": "Screen Recording & Demos",
+    "type": "Website",
+    "tags": [
+      "screen recording",
+      "demo"
+    ],
+    "description": "Screen Recording & Demos resource: Recordly.",
+    "notes": "",
+    "id": "cmj-0040"
+  },
+  {
+    "name": "LinkedIn Text & Content Formatter - AuthoredUp",
+    "url": "https://authoredup.com/tools/linkedin-text-formatter",
+    "category": "LinkedIn & Content",
+    "type": "Utility",
+    "tags": [
+      "linkedin",
+      "content",
+      "formatter"
+    ],
+    "description": "LinkedIn & Content resource: LinkedIn Text & Content Formatter - AuthoredUp.",
+    "notes": "",
+    "id": "cmj-0041"
+  },
+  {
+    "name": "YouTube Subtitle Downloader - Noteey",
+    "url": "https://www.noteey.com/youtube-subtitle-downloader",
+    "category": "YouTube Tools",
+    "type": "Utility",
+    "tags": [
+      "youtube",
+      "subtitles"
+    ],
+    "description": "YouTube Tools resource: YouTube Subtitle Downloader - Noteey.",
+    "notes": "",
+    "id": "cmj-0042"
+  },
+  {
+    "name": "YouTube Thumbnail Downloader",
+    "url": "https://www.youtubethumbnaildownloader.com/",
+    "category": "YouTube Tools",
+    "type": "Utility",
+    "tags": [
+      "youtube",
+      "thumbnail"
+    ],
+    "description": "YouTube Tools resource: YouTube Thumbnail Downloader.",
+    "notes": "",
+    "id": "cmj-0043"
+  },
+  {
+    "name": "Charlie MJ YouTube Toolkit",
+    "url": "https://awsrmmustansarjavaid.github.io/charlie-mj-youtube-toolkit/",
+    "category": "Charlie MJ Projects",
+    "type": "Project",
+    "tags": [
+      "charlie mj",
+      "youtube",
+      "toolkit"
+    ],
+    "description": "Charlie MJ Projects resource: Charlie MJ YouTube Toolkit.",
+    "notes": "",
+    "id": "cmj-0044"
+  },
+  {
+    "name": "Downloadly",
+    "url": "https://downloadlynet.ir/",
+    "category": "Downloading Sites",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Downloading Sites resource: Downloadly.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0045"
+  },
+  {
+    "name": "Torrends",
+    "url": "https://torrends.to/",
+    "category": "Torrent Sites",
+    "type": "Website",
+    "tags": [],
+    "description": "Torrent Sites resource: Torrends.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0046"
+  },
+  {
+    "name": "The Pirate Bay Mirror",
+    "url": "https://thepiratebay10.info/",
+    "category": "Torrent Sites",
+    "type": "Website",
+    "tags": [],
+    "description": "Torrent Sites resource: The Pirate Bay Mirror.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0047"
+  },
+  {
+    "name": "1337x",
+    "url": "https://1337x.to/home/",
+    "category": "Torrent Sites",
+    "type": "Website",
+    "tags": [],
+    "description": "Torrent Sites resource: 1337x.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0048"
+  },
+  {
+    "name": "EZTV",
+    "url": "https://eztvx.to/home",
+    "category": "Torrent Sites",
+    "type": "Website",
+    "tags": [],
+    "description": "Torrent Sites resource: EZTV.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0049"
+  },
+  {
+    "name": "LimeTorrents",
+    "url": "https://limetorrents.so/",
+    "category": "Torrent Sites",
+    "type": "Website",
+    "tags": [],
+    "description": "Torrent Sites resource: LimeTorrents.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0050"
+  },
+  {
+    "name": "EXT Torrents",
+    "url": "https://ext.to/",
+    "category": "Torrent Sites",
+    "type": "Website",
+    "tags": [],
+    "description": "Torrent Sites resource: EXT Torrents.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0051"
+  },
+  {
+    "name": "1337x Search",
+    "url": "https://1337x.to/search/copywriting/1/",
+    "category": "Torrent Sites",
+    "type": "Website",
+    "tags": [],
+    "description": "Torrent Sites resource: 1337x Search.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0052"
+  },
+  {
+    "name": "Upwork",
+    "url": "https://www.upwork.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Upwork.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0053"
+  },
+  {
+    "name": "Wellfound",
+    "url": "https://wellfound.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Wellfound.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0054"
+  },
+  {
+    "name": "Who Is Hiring",
+    "url": "https://whoishiring.io/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Who Is Hiring.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0055"
+  },
+  {
+    "name": "Remotely Jobs",
+    "url": "https://www.remotely.jobs/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Remotely Jobs.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0056"
+  },
+  {
+    "name": "FlexJobs",
+    "url": "https://www.flexjobs.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: FlexJobs.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0057"
+  },
+  {
+    "name": "Remotive",
+    "url": "https://remotive.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Remotive.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0058"
+  },
+  {
+    "name": "Pangian",
+    "url": "https://pangian.com/remote/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Pangian.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0059"
+  },
+  {
+    "name": "We Work Remotely",
+    "url": "https://weworkremotely.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: We Work Remotely.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0060"
+  },
+  {
+    "name": "Working Nomads",
+    "url": "https://www.workingnomads.com/jobs",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Working Nomads.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0061"
+  },
+  {
+    "name": "Remote OK",
+    "url": "https://remoteok.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Remote OK.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0062"
+  },
+  {
+    "name": "JustRemote",
+    "url": "https://justremote.co/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: JustRemote.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0063"
+  },
+  {
+    "name": "WorkChest",
+    "url": "https://workchest.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: WorkChest.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0064"
+  },
+  {
+    "name": "Remote.co",
+    "url": "https://remote.co/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Remote.co.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0065"
+  },
+  {
+    "name": "4 Day Week",
+    "url": "https://4dayweek.io/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: 4 Day Week.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0066"
+  },
+  {
+    "name": "Jobspresso",
+    "url": "https://jobspresso.co/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Jobspresso.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0067"
+  },
+  {
+    "name": "AngelList / Wellfound",
+    "url": "https://www.angellist.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: AngelList / Wellfound.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0068"
+  },
+  {
+    "name": "Virtual Vocations",
+    "url": "https://www.virtualvocations.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Virtual Vocations.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0069"
+  },
+  {
+    "name": "Stack Overflow Questions",
+    "url": "https://stackoverflow.com/questions",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Stack Overflow Questions.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0070"
+  },
+  {
+    "name": "Toptal",
+    "url": "https://www.toptal.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Toptal.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0071"
+  },
+  {
+    "name": "SkipTheDrive",
+    "url": "https://www.skipthedrive.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: SkipTheDrive.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0072"
+  },
+  {
+    "name": "NoDesk",
+    "url": "https://nodesk.co/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: NoDesk.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0073"
+  },
+  {
+    "name": "Remote Habits",
+    "url": "https://remotehabits.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Remote Habits.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0074"
+  },
+  {
+    "name": "Remote4Me",
+    "url": "https://remote4me.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Remote4Me.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0075"
+  },
+  {
+    "name": "FlexJobs",
+    "url": "https://www.flexjobs.com/homevariant/t1",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: FlexJobs.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0076"
+  },
+  {
+    "name": "SimplyHired",
+    "url": "https://www.simplyhired.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: SimplyHired.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0077"
+  },
+  {
+    "name": "Freelancer",
+    "url": "https://www.freelancer.com/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Freelancer.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0078"
+  },
+  {
+    "name": "Remote In Tech",
+    "url": "https://remoteintech.company/",
+    "category": "Freelancing & Jobs",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Jobs resource: Remote In Tech.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0079"
+  },
+  {
+    "name": "Elevate Pay",
+    "url": "https://www.elevatepay.co/",
+    "category": "Freelancing & Payments",
+    "type": "Website",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Freelancing & Payments resource: Elevate Pay.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0080"
+  },
+  {
+    "name": "roadmap.sh",
+    "url": "https://roadmap.sh/",
+    "category": "Roadmaps & Career",
+    "type": "Learning",
+    "tags": [
+      "docker",
+      "jenkins",
+      "kubernetes",
+      "terraform"
+    ],
+    "description": "Roadmaps & Career resource: roadmap.sh.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0081"
+  },
+  {
+    "name": "FreeCourseSite",
+    "url": "https://freecoursesites.com/",
+    "category": "Courses & Learning",
+    "type": "Learning",
+    "tags": [],
+    "description": "Courses & Learning resource: FreeCourseSite.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0082"
+  },
+  {
+    "name": "CertCommunity",
+    "url": "https://www.certcommunity.org/forum/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: CertCommunity.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0083"
+  },
+  {
+    "name": "HacksNation",
+    "url": "https://hacksnation.com/",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: HacksNation.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0084"
+  },
+  {
+    "name": "HacksNation",
+    "url": "https://hacksnation.com/?q=devops",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: HacksNation.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0085"
+  },
+  {
+    "name": "Cisco Networking Academy",
+    "url": "https://www.netacad.com",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Cisco Networking Academy.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0086"
+  },
+  {
+    "name": "Bugcrowd",
+    "url": "https://www.bugcrowd.com/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Bugcrowd.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0087"
+  },
+  {
+    "name": "NIST NICE",
+    "url": "https://www.nist.gov/itl/applied-cybersecurity/nice/resources/online-learning-content",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: NIST NICE.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0088"
+  },
+  {
+    "name": "Codewars",
+    "url": "https://www.codewars.com/dashboard",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Codewars.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0089"
+  },
+  {
+    "name": "Killercoda",
+    "url": "https://killercoda.com/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Killercoda.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0090"
+  },
+  {
+    "name": "AWS",
+    "url": "https://aws.amazon.com/education/awseducate/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning",
+      "aws",
+      "cloud"
+    ],
+    "description": "DevOps & Learning resource: AWS.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0091"
+  },
+  {
+    "name": "AWS Educate",
+    "url": "https://www.awseducate.com/student/s/content",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning",
+      "aws",
+      "cloud"
+    ],
+    "description": "DevOps & Learning resource: AWS Educate.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0092"
+  },
+  {
+    "name": "AWS Skill Builder",
+    "url": "https://skillbuilder.aws/learning-plan",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning",
+      "aws",
+      "cloud"
+    ],
+    "description": "DevOps & Learning resource: AWS Skill Builder.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0093"
+  },
+  {
+    "name": "AWS",
+    "url": "https://aws.amazon.com/console/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning",
+      "aws",
+      "cloud"
+    ],
+    "description": "DevOps & Learning resource: AWS.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0094"
+  },
+  {
+    "name": "Learn",
+    "url": "https://learn.cantrill.io/courses/enrolled/2022818",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: Learn.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0095"
+  },
+  {
+    "name": "AWS Skill Builder",
+    "url": "https://skillbuilder.aws/login",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning",
+      "aws",
+      "cloud"
+    ],
+    "description": "DevOps & Learning resource: AWS Skill Builder.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0096"
+  },
+  {
+    "name": "AWS Documentation",
+    "url": "https://docs.aws.amazon.com/glossary/latest/reference/glos-chap.html",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: AWS Documentation.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0097"
+  },
+  {
+    "name": "Cisco DevNet Sandbox",
+    "url": "https://devnetsandbox.cisco.com/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Cisco DevNet Sandbox.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0098"
+  },
+  {
+    "name": "Learn Anything",
+    "url": "https://learn-anything.xyz/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Learn Anything.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0099"
+  },
+  {
+    "name": "LabEx",
+    "url": "https://labex.io/linuxjourney",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: LabEx.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0100"
+  },
+  {
+    "name": "Docker Documentation",
+    "url": "https://docs.docker.com/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning",
+      "docker",
+      "jenkins",
+      "kubernetes",
+      "terraform"
+    ],
+    "description": "DevOps & Learning resource: Docker Documentation.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0101"
+  },
+  {
+    "name": "Jenkins Documentation",
+    "url": "https://www.jenkins.io/doc/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning",
+      "docker",
+      "jenkins",
+      "kubernetes",
+      "terraform"
+    ],
+    "description": "DevOps & Learning resource: Jenkins Documentation.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0102"
+  },
+  {
+    "name": "Kubernetes Documentation Docs",
+    "url": "https://kubernetes.io/docs/home/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning",
+      "docker",
+      "jenkins",
+      "kubernetes",
+      "terraform"
+    ],
+    "description": "DevOps & Learning resource: Kubernetes Documentation Docs.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0103"
+  },
+  {
+    "name": "HashiCorp Developer Docs",
+    "url": "https://developer.hashicorp.com/terraform/docs",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning",
+      "docker",
+      "jenkins",
+      "kubernetes",
+      "terraform"
+    ],
+    "description": "DevOps & Learning resource: HashiCorp Developer Docs.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0104"
+  },
+  {
+    "name": "Tech5ense",
+    "url": "https://www.tech5ense.com/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Tech5ense.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0105"
+  },
+  {
+    "name": "W3Schools",
+    "url": "https://www.w3schools.com",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: W3Schools.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0106"
+  },
+  {
+    "name": "Learn Shell",
+    "url": "https://www.learnshell.org/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Learn Shell.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0107"
+  },
+  {
+    "name": "Codecademy",
+    "url": "https://www.codecademy.com/learn/bash-scripting",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Codecademy.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0108"
+  },
+  {
+    "name": "8gwifi",
+    "url": "https://8gwifi.org/tutorials/bash/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: 8gwifi.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0109"
+  },
+  {
+    "name": "Linux Command",
+    "url": "https://linuxcommand.org/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Linux Command.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0110"
+  },
+  {
+    "name": "explainshell",
+    "url": "https://explainshell.com/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: explainshell.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0111"
+  },
+  {
+    "name": "Learn",
+    "url": "https://learn.kodekloud.com/user/onboarding/form",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: Learn.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0112"
+  },
+  {
+    "name": "roadmap.sh",
+    "url": "https://roadmap.sh/devops",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [
+      "docker",
+      "jenkins",
+      "kubernetes",
+      "terraform"
+    ],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: roadmap.sh.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0113"
+  },
+  {
+    "name": "LabEx",
+    "url": "https://labex.io/labs/linux-your-first-linux-lab-270253?course=quick-start-with-linux",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: LabEx.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0114"
+  },
+  {
+    "name": "App",
+    "url": "https://app.pulumi.com",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: App.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0115"
+  },
+  {
+    "name": "Pulumi Docs",
+    "url": "https://www.pulumi.com/docs/?_gl=1%2Agoz15h%2A_gcl_au%2ANTU0MjI1MTEzLjE3NjYyMzUxODguNjk4MjE1MDE5LjE3NzMxNDc0ODkuMTc3MzE0NzQ4OA..%2A_ga%2AMTIwNzI0Mjc3Ny4xNzY2MjM1MTg4%2A_ga_FQHG5CVY2D%2AczE3NzMxNDc0NTQkbzIkZzEkdDE3NzMxNDc1NjIkajE1JGwwJGgw",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Pulumi Docs.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0116"
+  },
+  {
+    "name": "GitHub Docs",
+    "url": "https://docs.github.com/en",
+    "category": "GitHub & Developer Learning",
+    "type": "GitHub",
+    "tags": [],
+    "description": "GitHub & Developer Learning resource: GitHub Docs.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0117"
+  },
+  {
+    "name": "Linux.org",
+    "url": "https://www.linux.org/forums/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Linux.org.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0118"
+  },
+  {
+    "name": "Whimsical",
+    "url": "https://whimsical.com/devops-7E37RVStMQycbbJYjfM77P",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Whimsical.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0119"
+  },
+  {
+    "name": "E",
+    "url": "https://e.huawei.com/en/talent/portal/",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: E.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0120"
+  },
+  {
+    "name": "GraphicsFamily",
+    "url": "https://graphicsfamily.com/",
+    "category": "Design & Assets",
+    "type": "Website",
+    "tags": [],
+    "description": "Design & Assets resource: GraphicsFamily.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0121"
+  },
+  {
+    "name": "Plain English",
+    "url": "https://plainenglish.io/",
+    "category": "Writing & Articles",
+    "type": "Website",
+    "tags": [],
+    "description": "Writing & Articles resource: Plain English.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0122"
+  },
+  {
+    "name": "Medical News Today",
+    "url": "https://www.medicalnewstoday.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Medical News Today.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0123"
+  },
+  {
+    "name": "Healthline",
+    "url": "https://www.healthline.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Healthline.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0124"
+  },
+  {
+    "name": "Verywell Health",
+    "url": "https://www.verywellhealth.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Verywell Health.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0125"
+  },
+  {
+    "name": "HealthShots",
+    "url": "https://www.healthshots.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: HealthShots.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0126"
+  },
+  {
+    "name": "Art of Healthy Living",
+    "url": "https://artofhealthyliving.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Art of Healthy Living.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0127"
+  },
+  {
+    "name": "My",
+    "url": "https://my.clevelandclinic.org/",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: My.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0128"
+  },
+  {
+    "name": "WebMD",
+    "url": "https://www.webmd.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: WebMD.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0129"
+  },
+  {
+    "name": "ZOE",
+    "url": "https://zoe.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: ZOE.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0130"
+  },
+  {
+    "name": "Health.com",
+    "url": "https://www.health.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Health.com.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0131"
+  },
+  {
+    "name": "Women's Health",
+    "url": "https://www.womenshealthmag.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Women's Health.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0132"
+  },
+  {
+    "name": "Everyday Health",
+    "url": "https://www.everydayhealth.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Everyday Health.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0133"
+  },
+  {
+    "name": "Muscle & Fitness",
+    "url": "https://www.muscleandfitness.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Muscle & Fitness.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0134"
+  },
+  {
+    "name": "Physiopedia",
+    "url": "https://www.physio-pedia.com/home/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Physiopedia.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0135"
+  },
+  {
+    "name": "ATHLEAN-X",
+    "url": "https://athleanx.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: ATHLEAN-X.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0136"
+  },
+  {
+    "name": "8fit",
+    "url": "https://8fit.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: 8fit.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0137"
+  },
+  {
+    "name": "Anytime Fitness",
+    "url": "https://www.anytimefitness.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Anytime Fitness.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0138"
+  },
+  {
+    "name": "PureGym",
+    "url": "https://www.puregym.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: PureGym.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0139"
+  },
+  {
+    "name": "Greatist",
+    "url": "https://greatist.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Greatist.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0140"
+  },
+  {
+    "name": "Muscle & Strength",
+    "url": "https://muscleandstrength.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Muscle & Strength.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0141"
+  },
+  {
+    "name": "Strongr Fastr",
+    "url": "https://www.strongrfastr.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Strongr Fastr.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0142"
+  },
+  {
+    "name": "JEFIT",
+    "url": "https://www.jefit.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: JEFIT.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0143"
+  },
+  {
+    "name": "FitnessProgramer",
+    "url": "https://fitnessprogramer.com/workout-plan/6-month-bodybuilding-program/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: FitnessProgramer.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0144"
+  },
+  {
+    "name": "The Fitness Wiki",
+    "url": "https://thefitness.wiki/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: The Fitness Wiki.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0145"
+  },
+  {
+    "name": "ExRx",
+    "url": "https://exrx.net/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: ExRx.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0146"
+  },
+  {
+    "name": "MuscleWiki",
+    "url": "https://musclewiki.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: MuscleWiki.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0147"
+  },
+  {
+    "name": "Darebee",
+    "url": "https://darebee.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: Darebee.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0148"
+  },
+  {
+    "name": "StrengthLog",
+    "url": "https://www.strengthlog.com/",
+    "category": "Health & Fitness",
+    "type": "Learning",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "description": "Health & Fitness resource: StrengthLog.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0149"
+  },
+  {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/",
+    "category": "Books & Reading",
+    "type": "Website",
+    "tags": [],
+    "description": "Books & Reading resource: Project Gutenberg.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0150"
+  },
+  {
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai/",
+    "category": "AI Research",
+    "type": "AI",
+    "tags": [],
+    "description": "AI Research resource: Perplexity.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0151"
+  },
+  {
+    "name": "SSSTik",
+    "url": "https://ssstik.io/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: SSSTik.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0152"
+  },
+  {
+    "name": "IslamQA.org",
+    "url": "https://islamqa.org/",
+    "category": "Islamic Resources",
+    "type": "Website",
+    "tags": [
+      "islam",
+      "resources"
+    ],
+    "description": "Islamic Resources resource: IslamQA.org.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0153"
+  },
+  {
+    "name": "IslamQA.info",
+    "url": "https://islamqa.info/en?utm_source=chatgpt.com",
+    "category": "Islamic Resources",
+    "type": "Website",
+    "tags": [
+      "islam",
+      "resources"
+    ],
+    "description": "Islamic Resources resource: IslamQA.info.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0154"
+  },
+  {
+    "name": "Karimia",
+    "url": "https://www.karimia.com/",
+    "category": "Islamic Resources",
+    "type": "Website",
+    "tags": [
+      "islam",
+      "resources"
+    ],
+    "description": "Islamic Resources resource: Karimia.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0155"
+  },
+  {
+    "name": "Al-Islam.org",
+    "url": "https://al-islam.org/ask",
+    "category": "Islamic Resources",
+    "type": "Website",
+    "tags": [
+      "islam",
+      "resources"
+    ],
+    "description": "Islamic Resources resource: Al-Islam.org.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0156"
+  },
+  {
+    "name": "Islamicity",
+    "url": "https://www.islamicity.org/",
+    "category": "Islamic Resources",
+    "type": "Website",
+    "tags": [
+      "islam",
+      "resources"
+    ],
+    "description": "Islamic Resources resource: Islamicity.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0157"
+  },
+  {
+    "name": "Ask the Sheikh",
+    "url": "https://www.askthesheikh.com/",
+    "category": "Islamic Resources",
+    "type": "Website",
+    "tags": [
+      "islam",
+      "resources"
+    ],
+    "description": "Islamic Resources resource: Ask the Sheikh.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0158"
+  },
+  {
+    "name": "Islam Answers",
+    "url": "https://islamanswers.co.uk/answers/",
+    "category": "Islamic Resources",
+    "type": "Website",
+    "tags": [
+      "islam",
+      "resources"
+    ],
+    "description": "Islamic Resources resource: Islam Answers.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0159"
+  },
+  {
+    "name": "About Islam",
+    "url": "https://aboutislam.net/",
+    "category": "Islamic Resources",
+    "type": "Website",
+    "tags": [
+      "islam",
+      "resources"
+    ],
+    "description": "Islamic Resources resource: About Islam.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0160"
+  },
+  {
+    "name": "SeekersGuidance",
+    "url": "https://seekersguidance.org/",
+    "category": "Islamic Resources",
+    "type": "Website",
+    "tags": [
+      "islam",
+      "resources"
+    ],
+    "description": "Islamic Resources resource: SeekersGuidance.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0161"
+  },
+  {
+    "name": "Just Ask Islam",
+    "url": "https://www.justaskislam.com/?utm_source=chatgpt.com",
+    "category": "Islamic Resources",
+    "type": "Website",
+    "tags": [
+      "islam",
+      "resources"
+    ],
+    "description": "Islamic Resources resource: Just Ask Islam.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0162"
+  },
+  {
+    "name": "Tailor Nova",
+    "url": "https://tailornova.com/",
+    "category": "Design & Assets",
+    "type": "Website",
+    "tags": [],
+    "description": "Design & Assets resource: Tailor Nova.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0163"
+  },
+  {
+    "name": "Nastix Design",
+    "url": "https://nastix-design.com/",
+    "category": "Design & Assets",
+    "type": "Website",
+    "tags": [],
+    "description": "Design & Assets resource: Nastix Design.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0164"
+  },
+  {
+    "name": "Parents",
+    "url": "https://www.parents.com/https://www.education.com/",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: Parents.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0165"
+  },
+  {
+    "name": "Dizilah",
+    "url": "https://www.dizilah.com/",
+    "category": "Turkish TV & Media",
+    "type": "Utility",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish TV & Media resource: Dizilah.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0166"
+  },
+  {
+    "name": "Kanal D",
+    "url": "https://www.kanald.com.tr/",
+    "category": "Turkish TV & Media",
+    "type": "Utility",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish TV & Media resource: Kanal D.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0167"
+  },
+  {
+    "name": "TRT İzle",
+    "url": "https://www.trtizle.com/",
+    "category": "Turkish TV & Media",
+    "type": "Utility",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish TV & Media resource: TRT İzle.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0168"
+  },
+  {
+    "name": "puhutv",
+    "url": "https://puhutv.com/",
+    "category": "Turkish TV & Media",
+    "type": "Utility",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish TV & Media resource: puhutv.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0169"
+  },
+  {
+    "name": "Turkish Series",
+    "url": "https://www.turkishseries.online/",
+    "category": "Turkish TV & Media",
+    "type": "Utility",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish TV & Media resource: Turkish Series.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0170"
+  },
+  {
+    "name": "Antoloji",
+    "url": "https://www.antoloji.com/",
+    "category": "Turkish Literature",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish Literature resource: Antoloji.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0171"
+  },
+  {
+    "name": "Edebiyat Defteri",
+    "url": "https://www.edebiyatdefteri.com/",
+    "category": "Turkish Literature",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish Literature resource: Edebiyat Defteri.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0172"
+  },
+  {
+    "name": "TurkishClass",
+    "url": "https://www.turkishclass.com/turkish/poetry/poems.php",
+    "category": "Turkish Literature",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish Literature resource: TurkishClass.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0173"
+  },
+  {
+    "name": "U",
+    "url": "https://u.osu.edu/nelcpoetryproject/turkish-poems/",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: U.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0174"
+  },
+  {
+    "name": "Learn Turkish",
+    "url": "https://learnturkish.com/doys/Login?varsayilanDil=en-US",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: Learn Turkish.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0175"
+  },
+  {
+    "name": "Brainscape",
+    "url": "https://www.brainscape.com/subjects/turkish",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: Brainscape.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0176"
+  },
+  {
+    "name": "Brainscape",
+    "url": "https://www.brainscape.com/flashcards/turkish-1-1720545/packs/4251954",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: Brainscape.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0177"
+  },
+  {
+    "name": "Yabancılar İçin Türkçe",
+    "url": "https://yabancilaricinturkce.com/category/dilbilgisi/",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: Yabancılar İçin Türkçe.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0178"
+  },
+  {
+    "name": "English ILM",
+    "url": "https://englishilm.com/category/english-vocabulary/picture-vocabulary/",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: English ILM.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0179"
+  },
+  {
+    "name": "EngVid",
+    "url": "https://www.engvid.com/",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: EngVid.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0180"
+  },
+  {
+    "name": "British Council LearnEnglish Kids",
+    "url": "https://learnenglishkids.britishcouncil.org/",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: British Council LearnEnglish Kids.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0181"
+  },
+  {
+    "name": "Cambridge English",
+    "url": "https://www.cambridgeenglish.org/learning-english",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: Cambridge English.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0182"
+  },
+  {
+    "name": "News in Levels",
+    "url": "https://www.newsinlevels.com/",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: News in Levels.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0183"
+  },
+  {
+    "name": "TalkEnglish",
+    "url": "https://www.talkenglish.com/lessonindex.aspx",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: TalkEnglish.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0184"
+  },
+  {
+    "name": "British Council LearnEnglish",
+    "url": "https://learnenglish.britishcouncil.org/",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: British Council LearnEnglish.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0185"
+  },
+  {
+    "name": "Tatoeba",
+    "url": "https://tatoeba.org/en",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: Tatoeba.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0186"
+  },
+  {
+    "name": "Merriam-Webster",
+    "url": "https://www.merriam-webster.com/",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: Merriam-Webster.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0187"
+  },
+  {
+    "name": "Dictionary.com",
+    "url": "https://www.dictionary.com/",
+    "category": "HacksNation - A Place Where Everyone Can Learn",
+    "type": "Website",
+    "tags": [],
+    "description": "HacksNation - A Place Where Everyone Can Learn resource: Dictionary.com.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0188"
+  },
+  {
+    "name": "TDK Sözlük",
+    "url": "https://sozluk.gov.tr/",
+    "category": "Turkish Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language",
+      "dictionary"
+    ],
+    "description": "Turkish Dictionaries resource: TDK Sözlük.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0189"
+  },
+  {
+    "name": "Tureng",
+    "url": "https://tureng.com/",
+    "category": "Turkish Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language",
+      "dictionary"
+    ],
+    "description": "Turkish Dictionaries resource: Tureng.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0190"
+  },
+  {
+    "name": "Sesli Sözlük",
+    "url": "https://www.seslisozluk.net/",
+    "category": "Turkish Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language",
+      "dictionary"
+    ],
+    "description": "Turkish Dictionaries resource: Sesli Sözlük.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0191"
+  },
+  {
+    "name": "Nişanyan Sözlük",
+    "url": "https://www.nisanyansozluk.com/",
+    "category": "Turkish Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language",
+      "dictionary"
+    ],
+    "description": "Turkish Dictionaries resource: Nişanyan Sözlük.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0192"
+  },
+  {
+    "name": "WordReference",
+    "url": "https://www.wordreference.com/tren/",
+    "category": "Turkish Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language",
+      "dictionary"
+    ],
+    "description": "Turkish Dictionaries resource: WordReference.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0193"
+  },
+  {
+    "name": "Glosbe",
+    "url": "https://glosbe.com/tr/en",
+    "category": "Turkish Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language",
+      "dictionary"
+    ],
+    "description": "Turkish Dictionaries resource: Glosbe.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0194"
+  },
+  {
+    "name": "Wiktionary",
+    "url": "https://www.wiktionary.org/",
+    "category": "Turkish Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language",
+      "dictionary"
+    ],
+    "description": "Turkish Dictionaries resource: Wiktionary.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0195"
+  },
+  {
+    "name": "Cambridge Dictionary",
+    "url": "https://dictionary.cambridge.org/",
+    "category": "English Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "English Dictionaries resource: Cambridge Dictionary.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0196"
+  },
+  {
+    "name": "Oxford Learner's Dictionaries",
+    "url": "https://www.oxfordlearnersdictionaries.com/",
+    "category": "English Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "English Dictionaries resource: Oxford Learner's Dictionaries.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0197"
+  },
+  {
+    "name": "Collins Dictionary",
+    "url": "https://www.collinsdictionary.com/",
+    "category": "English Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "English Dictionaries resource: Collins Dictionary.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0198"
+  },
+  {
+    "name": "WordReference",
+    "url": "https://www.wordreference.com/",
+    "category": "English Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "English Dictionaries resource: WordReference.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0199"
+  },
+  {
+    "name": "Britannica Dictionary",
+    "url": "https://www.britannica.com/dictionary",
+    "category": "English Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "English Dictionaries resource: Britannica Dictionary.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0200"
+  },
+  {
+    "name": "Rekhta Dictionary",
+    "url": "https://rekhtadictionary.com/",
+    "category": "Urdu Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "Urdu Dictionaries resource: Rekhta Dictionary.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0201"
+  },
+  {
+    "name": "UrduPoint Dictionary",
+    "url": "https://www.urdupoint.com/dictionary/",
+    "category": "Urdu Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "Urdu Dictionaries resource: UrduPoint Dictionary.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0202"
+  },
+  {
+    "name": "Urdu English Dictionary",
+    "url": "https://www.urduenglishdictionary.org/",
+    "category": "Urdu Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "Urdu Dictionaries resource: Urdu English Dictionary.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0203"
+  },
+  {
+    "name": "Cambridge Dictionary",
+    "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/",
+    "category": "Urdu Dictionaries",
+    "type": "Learning",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "Urdu Dictionaries resource: Cambridge Dictionary.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0204"
+  },
+  {
+    "name": "Glossary",
+    "url": "https://www.glossary.com/",
+    "category": "Multilingual / Translation",
+    "type": "Website",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "Multilingual / Translation resource: Glossary.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0205"
+  },
+  {
+    "name": "Glosbe",
+    "url": "https://glosbe.com/",
+    "category": "Multilingual / Translation",
+    "type": "Website",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "Multilingual / Translation resource: Glosbe.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0206"
+  },
+  {
+    "name": "Reverso",
+    "url": "https://www.reverso.net/",
+    "category": "Multilingual / Translation",
+    "type": "Website",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "Multilingual / Translation resource: Reverso.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0207"
+  },
+  {
+    "name": "Babla",
+    "url": "https://www.babla.com/",
+    "category": "Multilingual / Translation",
+    "type": "Website",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "Multilingual / Translation resource: Babla.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0208"
+  },
+  {
+    "name": "Linguee",
+    "url": "https://www.linguee.com/",
+    "category": "Multilingual / Translation",
+    "type": "Website",
+    "tags": [
+      "dictionary",
+      "language"
+    ],
+    "description": "Multilingual / Translation resource: Linguee.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0209"
+  },
+  {
+    "name": "TDK Sözlük",
+    "url": "https://sozluk.gov.tr/ — Official Turkish Language Association dictionaries.",
+    "category": "Turkish Learning",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish Learning resource: TDK Sözlük.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0210"
+  },
+  {
+    "name": "Tureng",
+    "url": "https://tureng.com/ — Turkish–English and English–Turkish dictionary.",
+    "category": "Turkish Learning",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish Learning resource: Tureng.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0211"
+  },
+  {
+    "name": "Sesli Sözlük",
+    "url": "https://www.seslisozluk.net/ — Turkish–English dictionary with pronunciation and usage information.",
+    "category": "Turkish Learning",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish Learning resource: Sesli Sözlük.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0212"
+  },
+  {
+    "name": "Glosbe",
+    "url": "https://glosbe.com/tr/en — Turkish–English translations, definitions, examples, and pronunciation.",
+    "category": "Turkish Learning",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish Learning resource: Glosbe.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0213"
+  },
+  {
+    "name": "Cambridge Dictionary",
+    "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/ — English–Urdu dictionary with definitions, translations, and example sentences.",
+    "category": "Turkish Learning",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish Learning resource: Cambridge Dictionary.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0214"
+  },
+  {
+    "name": "Daraz",
+    "url": "https://www.daraz.pk/",
+    "category": "Shopping",
+    "type": "Website",
+    "tags": [],
+    "description": "Shopping resource: Daraz.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0215"
+  },
+  {
+    "name": "ClipConverter",
+    "url": "http://www.clipconverter.cc/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: ClipConverter.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0216"
+  },
+  {
+    "name": "9SoundCloudDownloader",
+    "url": "http://9soundclouddownloader.com/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: 9SoundCloudDownloader.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0217"
+  },
+  {
+    "name": "LearnEnglish.de",
+    "url": "http://www.learnenglish.de/englishtestspage.html",
+    "category": "Turkish Learning",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish Learning resource: LearnEnglish.de.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0218"
+  },
+  {
+    "name": "PSL T20",
+    "url": "https://psl-t20.com/live/",
+    "category": "Turkish Learning",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish Learning resource: PSL T20.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0219"
+  },
+  {
+    "name": "SoundCloud Downloader",
+    "url": "http://scdownloader.net/playlist-downloader",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: SoundCloud Downloader.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0220"
+  },
+  {
+    "name": "Emlakjet",
+    "url": "https://www.emlakjet.com/",
+    "category": "Real Estate",
+    "type": "Website",
+    "tags": [],
+    "description": "Real Estate resource: Emlakjet.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0221"
+  },
+  {
+    "name": "Yabangee",
+    "url": "https://yabangee.com/",
+    "category": "Turkish Learning",
+    "type": "Learning",
+    "tags": [
+      "turkish",
+      "language"
+    ],
+    "description": "Turkish Learning resource: Yabangee.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0222"
+  },
+  {
+    "name": "Trendyol",
+    "url": "https://www.trendyol.com/",
+    "category": "Shopping",
+    "type": "Website",
+    "tags": [],
+    "description": "Shopping resource: Trendyol.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0223"
+  },
+  {
+    "name": "ÖSYM",
+    "url": "https://www.osym.gov.tr/",
+    "category": "Turkey Jobs & Exams",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Turkey Jobs & Exams resource: ÖSYM.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0224"
+  },
+  {
+    "name": "İŞKUR e-Şube",
+    "url": "https://esube.iskur.gov.tr/",
+    "category": "Turkey Jobs & Exams",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Turkey Jobs & Exams resource: İŞKUR e-Şube.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0225"
+  },
+  {
+    "name": "Hepsiburada",
+    "url": "https://www.hepsiburada.com/",
+    "category": "Shopping",
+    "type": "Website",
+    "tags": [],
+    "description": "Shopping resource: Hepsiburada.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0226"
+  },
+  {
+    "name": "Morhipo",
+    "url": "https://www.morhipo.com/",
+    "category": "Shopping",
+    "type": "Website",
+    "tags": [],
+    "description": "Shopping resource: Morhipo.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0227"
+  },
+  {
+    "name": "Kariyer.net",
+    "url": "https://www.kariyer.net/",
+    "category": "Turkey Jobs & Exams",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Turkey Jobs & Exams resource: Kariyer.net.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0228"
+  },
+  {
+    "name": "Yenibiriş",
+    "url": "https://www.yenibiris.com/",
+    "category": "Turkey Jobs & Exams",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Turkey Jobs & Exams resource: Yenibiriş.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0229"
+  },
+  {
+    "name": "Eleman.net",
+    "url": "https://www.eleman.net/",
+    "category": "Turkey Jobs & Exams",
+    "type": "Learning",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "description": "Turkey Jobs & Exams resource: Eleman.net.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0230"
+  },
+  {
+    "name": "Virtual University of Pakistan",
+    "url": "https://www.vu.edu.pk/pages/VUGradingScheme",
+    "category": "Education",
+    "type": "Learning",
+    "tags": [],
+    "description": "Education resource: Virtual University of Pakistan.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0231"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/article/new/",
+    "category": "LinkedIn & Content",
+    "type": "Website",
+    "tags": [],
+    "description": "LinkedIn & Content resource: LinkedIn.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0232"
+  },
+  {
+    "name": "FMHY",
+    "url": "https://fmhy.net/",
+    "category": "Download & Resources",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Resources resource: FMHY.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0233"
+  },
+  {
+    "name": "BeingGuru",
+    "url": "https://www.beingguru.com/",
+    "category": "Writing & Articles",
+    "type": "Website",
+    "tags": [],
+    "description": "Writing & Articles resource: BeingGuru.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0234"
+  },
+  {
+    "name": "Docs",
+    "url": "https://docs.aviatrix.com/documentation/latest/getting-started/platform-overview/aviatrix-glossary.html",
+    "category": "Imported Bookmarks",
+    "type": "Website",
+    "tags": [],
+    "description": "Imported Bookmarks resource: Docs.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0235"
+  },
+  {
+    "name": "Cisco Blogs",
+    "url": "https://blogs.cisco.com/tag/security-operations-center",
+    "category": "Imported Bookmarks",
+    "type": "Website",
+    "tags": [],
+    "description": "Imported Bookmarks resource: Cisco Blogs.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0236"
+  },
+  {
+    "name": "Turtles AI",
+    "url": "https://www.turtlesai.com/en/pages/news/002-1/index.html",
+    "category": "Imported Bookmarks",
+    "type": "Website",
+    "tags": [],
+    "description": "Imported Bookmarks resource: Turtles AI.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0237"
+  },
+  {
+    "name": "GitHub Skills",
+    "url": "https://skills.github.com/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: GitHub Skills.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0238"
+  },
+  {
+    "name": "DEV Community",
+    "url": "https://dev.to/hosana/github-foundations-certification-is-free-1mlk?utm_source=chatgpt.com",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: DEV Community.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0239"
+  },
+  {
+    "name": "Linux Professional Institute Learning",
+    "url": "https://learning.lpi.org/en/learning-materials/010-160/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Linux Professional Institute Learning.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0240"
+  },
+  {
+    "name": "Oracle MyLearn Search",
+    "url": "https://mylearn.oracle.com/ou/search/?filters=Type-certification",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Oracle MyLearn Search.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0241"
+  },
+  {
+    "name": "Cisco NetSolutions",
+    "url": "https://www.cisconetsolutions.com/ospfv2-multi-area-configuration-lab/",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: Cisco NetSolutions.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0242"
+  },
+  {
+    "name": "AWS Fundamentals",
+    "url": "https://awsfundamentals.com/blog/amazon-vpc-introduction-part-1",
+    "category": "DevOps & Learning",
+    "type": "Learning",
+    "tags": [
+      "devops",
+      "learning"
+    ],
+    "description": "DevOps & Learning resource: AWS Fundamentals.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0243"
+  },
+  {
+    "name": "Reddit",
+    "url": "https://www.reddit.com/",
+    "category": "Communities",
+    "type": "Website",
+    "tags": [],
+    "description": "Communities resource: Reddit.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0244"
+  },
+  {
+    "name": "LangAcademy",
+    "url": "http://langacademy.net/vb/",
+    "category": "Imported Bookmarks",
+    "type": "Website",
+    "tags": [],
+    "description": "Imported Bookmarks resource: LangAcademy.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0245"
+  },
+  {
+    "name": "YouTube-MP3",
+    "url": "http://www.youtube-mp3.org/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: YouTube-MP3.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0246"
+  },
+  {
+    "name": "FLVTO",
+    "url": "http://www.flvto.biz/progress/mp3/yt_qsleJQPgqZM/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: FLVTO.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0247"
+  },
+  {
+    "name": "MP3Fiber",
+    "url": "http://mp3fiber.com/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: MP3Fiber.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0248"
+  },
+  {
+    "name": "ListenToYouTube",
+    "url": "http://www.listentoyoutube.com/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: ListenToYouTube.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0249"
+  },
+  {
+    "name": "Video2MP3",
+    "url": "http://www.video2mp3.net/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: Video2MP3.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0250"
+  },
+  {
+    "name": "FreeTutsDownload",
+    "url": "https://freetutsdownload.net/",
+    "category": "Imported Bookmarks",
+    "type": "Website",
+    "tags": [],
+    "description": "Imported Bookmarks resource: FreeTutsDownload.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0251"
+  },
+  {
+    "name": "Pixwox",
+    "url": "https://www.pixwox.com/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: Pixwox.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0252"
+  },
+  {
+    "name": "Toolzu",
+    "url": "https://toolzu.com/downloader/instagram/profile/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: Toolzu.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0253"
+  },
+  {
+    "name": "Send Anywhere",
+    "url": "https://send-anywhere.com/",
+    "category": "Files & Software",
+    "type": "Utility",
+    "tags": [],
+    "description": "Files & Software resource: Send Anywhere.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0254"
+  },
+  {
+    "name": "Addoncrop",
+    "url": "https://addoncrop.com/en-3/?uid=36441187",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: Addoncrop.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0255"
+  },
+  {
+    "name": "Media.io",
+    "url": "https://www.media.io/youtube-to-mp3-cutter.html",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: Media.io.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0256"
+  },
+  {
+    "name": "The Library PK",
+    "url": "https://www.thelibrarypk.com/",
+    "category": "Files & Software",
+    "type": "Utility",
+    "tags": [],
+    "description": "Files & Software resource: The Library PK.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0257"
+  },
+  {
+    "name": "123APPS",
+    "url": "https://123apps.com/",
+    "category": "Online Utilities",
+    "type": "Utility",
+    "tags": [],
+    "description": "Online Utilities resource: 123APPS.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0258"
+  },
+  {
+    "name": "Clideo",
+    "url": "https://clideo.com/cut-audio",
+    "category": "Online Utilities",
+    "type": "Utility",
+    "tags": [],
+    "description": "Online Utilities resource: Clideo.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0259"
+  },
+  {
+    "name": "Audio Trimmer",
+    "url": "https://audiotrimmer.com/",
+    "category": "Online Utilities",
+    "type": "Utility",
+    "tags": [],
+    "description": "Online Utilities resource: Audio Trimmer.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0260"
+  },
+  {
+    "name": "Save-Insta",
+    "url": "https://www.save-insta.com/profile-downloader/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: Save-Insta.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0261"
+  },
+  {
+    "name": "AnonyIG",
+    "url": "https://anonyig.com/en1/iganony/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: AnonyIG.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0262"
+  },
+  {
+    "name": "StorySaver",
+    "url": "https://www.storysaver.net/en",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: StorySaver.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0263"
+  },
+  {
+    "name": "Insnoop",
+    "url": "https://insnoop.com/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: Insnoop.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0264"
+  },
+  {
+    "name": "Islamicity",
+    "url": "https://www.islamicity.org/channels/islamic-movies/",
+    "category": "Islamic Resources",
+    "type": "Website",
+    "tags": [
+      "islam",
+      "resources"
+    ],
+    "description": "Islamic Resources resource: Islamicity.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0265"
+  },
+  {
+    "name": "Unsplash",
+    "url": "https://unsplash.com/",
+    "category": "Design & Assets",
+    "type": "Website",
+    "tags": [],
+    "description": "Design & Assets resource: Unsplash.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0266"
+  },
+  {
+    "name": "Weekrise",
+    "url": "https://weekrise.com/",
+    "category": "Productivity",
+    "type": "Website",
+    "tags": [],
+    "description": "Productivity resource: Weekrise.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0267"
+  },
+  {
+    "name": "FileHippo",
+    "url": "https://filehippo.com/",
+    "category": "Files & Software",
+    "type": "Utility",
+    "tags": [],
+    "description": "Files & Software resource: FileHippo.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0268"
+  },
+  {
+    "name": "IGET INTO PC",
+    "url": "https://igetintopc.com/software-categories/",
+    "category": "Files & Software",
+    "type": "Utility",
+    "tags": [],
+    "description": "Files & Software resource: IGET INTO PC.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0269"
+  },
+  {
+    "name": "iLovePDF",
+    "url": "https://www.ilovepdf.com/",
+    "category": "Online Utilities",
+    "type": "Utility",
+    "tags": [],
+    "description": "Online Utilities resource: iLovePDF.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0270"
+  },
+  {
+    "name": "W41",
+    "url": "https://w41.torlook.info/",
+    "category": "Imported Bookmarks",
+    "type": "Website",
+    "tags": [],
+    "description": "Imported Bookmarks resource: W41.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0271"
+  },
+  {
+    "name": "Islam for Earth",
+    "url": "http://islamforearth.blogspot.com/p/islamic-quotes-and-sayings.html",
+    "category": "Islamic Resources",
+    "type": "Website",
+    "tags": [
+      "islam",
+      "resources"
+    ],
+    "description": "Islamic Resources resource: Islam for Earth.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0272"
+  },
+  {
+    "name": "Freecoursesites",
+    "url": "https://freecoursesites.org/",
+    "category": "Courses & Learning",
+    "type": "Website",
+    "tags": [],
+    "description": "Imported Bookmarks resource: Freecoursesites.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0273"
+  },
+  {
+    "name": "CSS-Tricks",
+    "url": "https://css-tricks.com/",
+    "category": "Web Development",
+    "type": "Developer",
+    "tags": [],
+    "description": "Web Development resource: CSS-Tricks.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0274"
+  },
+  {
+    "name": "Responsively",
+    "url": "https://responsively.app/download",
+    "category": "Web Development",
+    "type": "Developer",
+    "tags": [],
+    "description": "Web Development resource: Responsively.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0275"
+  },
+  {
+    "name": "Charles Proxy",
+    "url": "https://www.charlesproxy.com/",
+    "category": "Web Development",
+    "type": "Developer",
+    "tags": [],
+    "description": "Web Development resource: Charles Proxy.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0276"
+  },
+  {
+    "name": "YEE Türkçe",
+    "url": "https://turkce.yee.org.tr/en/",
+    "category": "Imported Bookmarks",
+    "type": "Website",
+    "tags": [],
+    "description": "Imported Bookmarks resource: YEE Türkçe.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0277"
+  },
+  {
+    "name": "YTMP3",
+    "url": "https://ytmp3.cc/uu118cc/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: YTMP3.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0278"
+  },
+  {
+    "name": "Zamzar",
+    "url": "https://www.zamzar.com/uploadComplete.php?convertFile=epub&to=pdf&email=false&tcs=Z84",
+    "category": "Online Utilities",
+    "type": "Utility",
+    "tags": [],
+    "description": "Online Utilities resource: Zamzar.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0279"
+  },
+  {
+    "name": "Addoncrop",
+    "url": "https://addoncrop.com/youtube-mp3-converter-6/?id=1478711160",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: Addoncrop.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0280"
+  },
+  {
+    "name": "Pomotroid",
+    "url": "https://splode.github.io/pomotroid/",
+    "category": "Productivity",
+    "type": "Website",
+    "tags": [],
+    "description": "Productivity resource: Pomotroid.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0281"
+  },
+  {
+    "name": "Pomotodo",
+    "url": "https://pomotodo.com/?utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier&utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier",
+    "category": "Productivity",
+    "type": "Website",
+    "tags": [],
+    "description": "Productivity resource: Pomotodo.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0282"
+  },
+  {
+    "name": "Nuelink",
+    "url": "https://nuelink.com/tools/facebook-text-formatter",
+    "category": "LinkedIn & Content",
+    "type": "Website",
+    "tags": [],
+    "description": "LinkedIn & Content resource: Nuelink.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0283"
+  },
+  {
+    "name": "CodeBeautify",
+    "url": "https://codebeautify.org/remove-empty-lines",
+    "category": "Online Utilities",
+    "type": "Utility",
+    "tags": [],
+    "description": "Online Utilities resource: CodeBeautify.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0284"
+  },
+  {
+    "name": "FreeCourseWeb",
+    "url": "https://freecourseweb.com/tutorialsv4/",
+    "category": "Imported Bookmarks",
+    "type": "Website",
+    "tags": [],
+    "description": "Imported Bookmarks resource: FreeCourseWeb.",
+    "notes": "Imported from user bookmark collection.",
+    "id": "cmj-0285"
+  },
+  {
+    "name": "Udemy",
+    "url": "https://www.udemy.com/",
+    "category": "Learning & Education",
+    "type": "Learning",
+    "tags": [
+      "courses",
+      "learning",
+      "skills"
+    ],
+    "description": "Online learning platform with courses for technology, business, design and more.",
+    "id": "cmj-0286",
+    "favorite": false,
+    "lastUsed": 0,
+    "addedAt": 0
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/",
+    "category": "Development",
+    "type": "GitHub",
+    "tags": [
+      "git",
+      "code",
+      "opensource",
+      "development"
+    ],
+    "description": "Platform for hosting, reviewing and collaborating on software projects.",
+    "id": "cmj-0287",
+    "favorite": false,
+    "lastUsed": 0,
+    "addedAt": 0
+  },
+  {
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com/",
+    "category": "AI & Automation",
+    "type": "AI",
+    "tags": [
+      "ai",
+      "chat",
+      "assistant"
+    ],
+    "description": "AI assistant for writing, research, coding, analysis and everyday tasks.",
+    "id": "cmj-0288",
+    "favorite": false,
+    "lastUsed": 0,
+    "addedAt": 0
+  },
+  {
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com/",
+    "category": "Development",
+    "type": "Developer",
+    "tags": [
+      "programming",
+      "questions",
+      "community"
+    ],
+    "description": "Developer question-and-answer community for programming and software development.",
+    "id": "cmj-0289",
+    "favorite": false,
+    "lastUsed": 0,
+    "addedAt": 0
+  },
+  {
+    "name": "YouTube",
+    "url": "https://www.youtube.com/",
+    "category": "Media & Video",
+    "type": "Website",
+    "tags": [
+      "video",
+      "learning",
+      "media"
+    ],
+    "description": "Video platform for learning, entertainment, tutorials and creator content.",
+    "id": "cmj-0290",
+    "favorite": false,
+    "lastUsed": 0,
+    "addedAt": 0
+  },
+  {
+    "name": "Parcel ABC",
+    "url": "https://www.parcelabc.com/",
+    "category": "Logistics & Shipping",
+    "type": "Utility",
+    "tags": [
+      "parcel",
+      "shipping",
+      "delivery"
+    ],
+    "description": "Logistics & Shipping resource: Parcel ABC.",
+    "notes": "",
+    "id": "cmj-0291"
+  },
+  {
+    "name": "Download Twitter Video",
+    "url": "https://www.downloadtwittervideo.com/m/#TaskResults",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "twitter",
+      "video",
+      "download"
+    ],
+    "description": "Download & Media Tools resource: Download Twitter Video.",
+    "notes": "",
+    "id": "cmj-0292"
+  },
+  {
+    "name": "AloInstagram Caption Copier",
+    "url": "https://aloinstagram.com/copy-instagram-caption/#",
+    "category": "Social Media Tools",
+    "type": "Utility",
+    "tags": [
+      "instagram",
+      "caption",
+      "social-media"
+    ],
+    "description": "Social Media Tools resource: AloInstagram Caption Copier.",
+    "notes": "",
+    "id": "cmj-0293"
+  },
+  {
+    "name": "YTMP3",
+    "url": "https://ytmp3.cc/en13/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "youtube",
+      "mp3",
+      "audio"
+    ],
+    "description": "Download & Media Tools resource: YTMP3.",
+    "notes": "",
+    "id": "cmj-0294"
+  },
+  {
+    "name": "Z-Library",
+    "url": "https://z-lib.org/",
+    "category": "Books & Reading",
+    "type": "Reading",
+    "tags": [
+      "books",
+      "library",
+      "reading"
+    ],
+    "description": "Books & Reading resource: Z-Library.",
+    "notes": "",
+    "id": "cmj-0295"
+  },
+  {
+    "name": "PasteDownload",
+    "url": "https://pastedownload.com/3/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "video",
+      "download",
+      "media"
+    ],
+    "description": "Download & Media Tools resource: PasteDownload.",
+    "notes": "",
+    "id": "cmj-0296"
+  },
+  {
+    "name": "GetSnackVideo",
+    "url": "https://getsnackvideo.com/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "snackvideo",
+      "video",
+      "download"
+    ],
+    "description": "Download & Media Tools resource: GetSnackVideo.",
+    "notes": "",
+    "id": "cmj-0297"
+  },
+  {
+    "name": "YouTube 4K Downloader - Spotify MP3",
+    "url": "https://youtube4kdownloader.com/en10/download-spotify-mp3.html",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "spotify",
+      "mp3",
+      "download"
+    ],
+    "description": "Download & Media Tools resource: YouTube 4K Downloader - Spotify MP3.",
+    "notes": "",
+    "id": "cmj-0298"
+  },
+  {
+    "name": "Picnob Instagram Profile Viewer",
+    "url": "https://www.picnob.com/profile/",
+    "category": "Social Media Tools",
+    "type": "Utility",
+    "tags": [
+      "instagram",
+      "profile",
+      "viewer"
+    ],
+    "description": "Social Media Tools resource: Picnob Instagram Profile Viewer.",
+    "notes": "",
+    "id": "cmj-0299"
+  },
+  {
+    "name": "InDown Instagram DP Viewer",
+    "url": "https://indown.io/insta-dp-viewer",
+    "category": "Social Media Tools",
+    "type": "Utility",
+    "tags": [
+      "instagram",
+      "profile-picture",
+      "viewer"
+    ],
+    "description": "Social Media Tools resource: InDown Instagram DP Viewer.",
+    "notes": "",
+    "id": "cmj-0300"
+  },
+  {
+    "name": "InstaSuperSave Stories",
+    "url": "https://instasupersave.com/en/instagram-stories/",
+    "category": "Social Media Tools",
+    "type": "Utility",
+    "tags": [
+      "instagram",
+      "stories",
+      "download"
+    ],
+    "description": "Social Media Tools resource: InstaSuperSave Stories.",
+    "notes": "",
+    "id": "cmj-0301"
+  },
+  {
+    "name": "StorySaver",
+    "url": "https://www.storysaver.net/",
+    "category": "Download & Media Tools",
+    "type": "Utility",
+    "tags": [
+      "instagram",
+      "stories",
+      "download"
+    ],
+    "description": "Download & Media Tools resource: StorySaver.",
+    "notes": "",
+    "id": "cmj-0302"
+  },
+  {
+    "name": "Europass CV Creator",
+    "url": "https://europass.europa.eu/en/create-europass-cv",
+    "category": "Roadmaps & Career",
+    "type": "Career",
+    "tags": [
+      "europass",
+      "cv",
+      "career"
+    ],
+    "description": "Roadmaps & Career resource: Europass CV Creator.",
+    "notes": "",
+    "id": "cmj-0303"
+  },
+  {
+    "name": "SSSInstagram",
+    "url": "https://sssinstagram.com/en1",
+    "category": "Social Media Tools",
+    "type": "Utility",
+    "tags": [
+      "instagram",
+      "download",
+      "social-media"
+    ],
+    "description": "Social Media Tools resource: SSSInstagram.",
+    "notes": "",
+    "id": "cmj-0304"
+  },
+  {
+    "name": "InDown Instagram Photo",
+    "url": "https://indown.io/photo",
+    "category": "Social Media Tools",
+    "type": "Utility",
+    "tags": [
+      "instagram",
+      "photo",
+      "download"
+    ],
+    "description": "Social Media Tools resource: InDown Instagram Photo.",
+    "notes": "",
+    "id": "cmj-0305"
+  },
+  {
+    "name": "Inflact Instagram Stories Viewer",
+    "url": "https://inflact.com/instagram-viewer/stories/",
+    "category": "Social Media Tools",
+    "type": "Utility",
+    "tags": [
+      "instagram",
+      "stories",
+      "viewer"
+    ],
+    "description": "Social Media Tools resource: Inflact Instagram Stories Viewer.",
+    "notes": "",
+    "id": "cmj-0306"
+  },
+  {
+    "name": "StoriesIG",
+    "url": "https://storiesig.info/en/",
+    "category": "Social Media Tools",
+    "type": "Utility",
+    "tags": [
+      "instagram",
+      "stories",
+      "viewer"
+    ],
+    "description": "Social Media Tools resource: StoriesIG.",
+    "notes": "",
+    "id": "cmj-0307"
+  },
+  {
+    "name": "Insta Stories Viewer",
+    "url": "https://insta-stories-viewer.com/nuriyeeyupoglu/",
+    "category": "Social Media Tools",
+    "type": "Utility",
+    "tags": [
+      "instagram",
+      "stories",
+      "viewer"
+    ],
+    "description": "Social Media Tools resource: Insta Stories Viewer.",
+    "notes": "",
+    "id": "cmj-0308"
+  },
+  {
+    "name": "InstaSpeeder Caption Copier",
+    "url": "https://instaspeeder.com/copy-instagram-caption/#google_vignette",
+    "category": "Social Media Tools",
+    "type": "Utility",
+    "tags": [
+      "instagram",
+      "caption",
+      "social-media"
+    ],
+    "description": "Social Media Tools resource: InstaSpeeder Caption Copier.",
+    "notes": "",
+    "id": "cmj-0309"
+  },
+  {
+    "name": "Downloadly",
+    "url": "https://downloadly.net/",
+    "category": "Downloading Sites",
+    "type": "Utility",
+    "tags": [
+      "software",
+      "downloads",
+      "resources"
+    ],
+    "description": "Downloading Sites resource: Downloadly.",
+    "notes": "",
+    "id": "cmj-0310"
+  },
+  {
+    "name": "File Converter",
+    "url": "https://file-converter.org/download.html",
+    "category": "Download & Conversion",
+    "type": "Utility",
+    "tags": [
+      "file",
+      "converter",
+      "conversion"
+    ],
+    "description": "Download & Conversion resource: File Converter.",
+    "notes": "",
+    "id": "cmj-0311"
+  },
+  {
+    "name": "TutsNode",
+    "url": "https://tutsnode.com/",
+    "category": "Courses & Learning",
+    "type": "Learning",
+    "tags": [
+      "courses",
+      "tutorials",
+      "learning"
+    ],
+    "description": "Courses & Learning resource: TutsNode.",
+    "notes": "",
+    "id": "cmj-0312"
+  },
+  {
+    "name": "HowStuffWorks - Science",
+    "url": "https://science.howstuffworks.com/",
+    "category": "Science & Education",
+    "type": "Learning",
+    "tags": [
+      "science",
+      "education",
+      "how-it-works"
+    ],
+    "description": "Science & Education resource: HowStuffWorks - Science.",
+    "notes": "",
+    "id": "cmj-0313"
+  },
+  {
+    "name": "DownScribd",
+    "url": "https://downscribd.com/",
+    "category": "Download & Conversion",
+    "type": "Utility",
+    "tags": [
+      "scribd",
+      "documents",
+      "download"
+    ],
+    "description": "Download & Conversion resource: DownScribd.",
+    "notes": "",
+    "id": "cmj-0314"
+  },
+  {
+    "name": "DocDownloader",
+    "url": "https://docdownloader.com/",
+    "category": "Download & Conversion",
+    "type": "Utility",
+    "tags": [
+      "documents",
+      "download",
+      "converter"
+    ],
+    "description": "Download & Conversion resource: DocDownloader.",
+    "notes": "",
+    "id": "cmj-0315"
+  },
+  {
+    "name": "YouTube Multi Downloader",
+    "url": "https://youtubemultidownloader.net/",
+    "category": "YouTube Tools",
+    "type": "Utility",
+    "tags": [
+      "youtube",
+      "video",
+      "download"
+    ],
+    "description": "YouTube Tools resource: YouTube Multi Downloader.",
+    "notes": "",
+    "id": "cmj-0316"
+  }
+]

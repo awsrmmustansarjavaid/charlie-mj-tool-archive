@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Charlie MJ Tool Archive",
+  "version": "3.1.0",
+  "description": "A colorful local-first Chrome extension for organizing tools, websites, AI services, developer resources, learning links and personal bookmarks.",
+  "permissions": [
+    "storage",
+    "bookmarks",
+    "tabs",
+    "contextMenus"
+  ],
+  "action": {
+    "default_title": "Open Charlie MJ Tool Archive",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "options_page": "src/dashboard.html",
+  "commands": {
+    "open-dashboard": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L"
+      },
+      "description": "Open Charlie MJ Tool Archive"
+    }
+  }
+}

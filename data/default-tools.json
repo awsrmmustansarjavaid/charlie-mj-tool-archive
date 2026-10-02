@@ -1,7 +1,7 @@
 {
   "version": 2,
   "app": "Charlie MJ Tool Archive",
-  "exportedAt": "2026-10-02T07:17:09.935Z",
+  "exportedAt": "2026-10-02T07:28:46.735Z",
   "tools": [
     {
       "addedAt": 0,
@@ -1528,7 +1528,7 @@
       "description": "DevOps & Learning resource: AWS Skill Builder.",
       "favorite": false,
       "id": "cmj-0096",
-      "lastUsed": 0,
+      "lastUsed": 1790925627021,
       "name": "AWS Skill Builder",
       "notes": "Imported from user bookmark collection.",
       "tags": [
@@ -3669,8 +3669,8 @@
       "url": "https://www.beingguru.com/"
     },
     {
-      "addedAt": 0,
-      "category": "Imported Bookmarks",
+      "addedAt": 1790925855471,
+      "category": "Tech Blogs",
       "description": "Imported Bookmarks resource: Docs.",
       "favorite": false,
       "id": "cmj-0235",
@@ -3682,8 +3682,8 @@
       "url": "https://docs.aviatrix.com/documentation/latest/getting-started/platform-overview/aviatrix-glossary.html"
     },
     {
-      "addedAt": 0,
-      "category": "Imported Bookmarks",
+      "addedAt": 1790925844679,
+      "category": "Tech Blogs",
       "description": "Imported Bookmarks resource: Cisco Blogs.",
       "favorite": false,
       "id": "cmj-0236",
@@ -3695,12 +3695,12 @@
       "url": "https://blogs.cisco.com/tag/security-operations-center"
     },
     {
-      "addedAt": 0,
-      "category": "Imported Bookmarks",
+      "addedAt": 1790925899319,
+      "category": "Tech Blogs",
       "description": "Imported Bookmarks resource: Turtles AI.",
       "favorite": false,
       "id": "cmj-0237",
-      "lastUsed": 0,
+      "lastUsed": 1790925875084,
       "name": "Turtles AI",
       "notes": "Imported from user bookmark collection.",
       "tags": [],
@@ -3818,19 +3818,6 @@
     },
     {
       "addedAt": 0,
-      "category": "Imported Bookmarks",
-      "description": "Imported Bookmarks resource: LangAcademy.",
-      "favorite": false,
-      "id": "cmj-0245",
-      "lastUsed": 0,
-      "name": "LangAcademy",
-      "notes": "Imported from user bookmark collection.",
-      "tags": [],
-      "type": "Website",
-      "url": "http://langacademy.net/vb/"
-    },
-    {
-      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: YouTube-MP3.",
       "favorite": false,
@@ -3908,19 +3895,6 @@
       ],
       "type": "Utility",
       "url": "http://www.video2mp3.net/"
-    },
-    {
-      "addedAt": 0,
-      "category": "Imported Bookmarks",
-      "description": "Imported Bookmarks resource: FreeTutsDownload.",
-      "favorite": false,
-      "id": "cmj-0251",
-      "lastUsed": 0,
-      "name": "FreeTutsDownload",
-      "notes": "Imported from user bookmark collection.",
-      "tags": [],
-      "type": "Website",
-      "url": "https://freetutsdownload.net/"
     },
     {
       "addedAt": 1790921729252,
@@ -4164,8 +4138,8 @@
       "url": "https://weekrise.com/"
     },
     {
-      "addedAt": 0,
-      "category": "Files & Software",
+      "addedAt": 1790926039271,
+      "category": "Software Download",
       "description": "Files & Software resource: FileHippo.",
       "favorite": false,
       "id": "cmj-0268",
@@ -4177,8 +4151,8 @@
       "url": "https://filehippo.com/"
     },
     {
-      "addedAt": 0,
-      "category": "Files & Software",
+      "addedAt": 1790926048431,
+      "category": "Software Download",
       "description": "Files & Software resource: IGET INTO PC.",
       "favorite": false,
       "id": "cmj-0269",
@@ -4201,19 +4175,6 @@
       "tags": [],
       "type": "Utility",
       "url": "https://www.ilovepdf.com/"
-    },
-    {
-      "addedAt": 0,
-      "category": "Imported Bookmarks",
-      "description": "Imported Bookmarks resource: W41.",
-      "favorite": false,
-      "id": "cmj-0271",
-      "lastUsed": 0,
-      "name": "W41",
-      "notes": "Imported from user bookmark collection.",
-      "tags": [],
-      "type": "Website",
-      "url": "https://w41.torlook.info/"
     },
     {
       "addedAt": 0,
@@ -4284,8 +4245,8 @@
       "url": "https://www.charlesproxy.com/"
     },
     {
-      "addedAt": 0,
-      "category": "Imported Bookmarks",
+      "addedAt": 1790925829399,
+      "category": "Turkish Learning",
       "description": "Imported Bookmarks resource: YEE Türkçe.",
       "favorite": false,
       "id": "cmj-0277",
@@ -4378,8 +4339,8 @@
       "url": "https://codebeautify.org/remove-empty-lines"
     },
     {
-      "addedAt": 0,
-      "category": "Imported Bookmarks",
+      "addedAt": 1790925770527,
+      "category": "Learning & Education",
       "description": "Imported Bookmarks resource: FreeCourseWeb.",
       "favorite": false,
       "id": "cmj-0285",
@@ -4664,8 +4625,8 @@
       "url": "https://www.storysaver.net/"
     },
     {
-      "addedAt": 0,
-      "category": "Roadmaps & Career",
+      "addedAt": 1790925701319,
+      "category": "Career",
       "description": "Roadmaps & Career resource: Europass CV Creator.",
       "favorite": false,
       "id": "cmj-0303",
@@ -4677,7 +4638,7 @@
         "cv",
         "career"
       ],
-      "type": "Career",
+      "type": "",
       "url": "https://europass.europa.eu/en/create-europass-cv"
     },
     {
@@ -5152,7 +5113,7 @@
     },
     {
       "addedAt": 1790924774814,
-      "category": "Screen Tools",
+      "category": "Online Utilities",
       "description": "",
       "favorite": false,
       "id": "f2fe3fa5-8a08-4eb8-827d-31c818a11bd3",

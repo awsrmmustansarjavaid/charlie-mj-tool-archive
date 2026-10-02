@@ -1,9 +1,10 @@
 {
   "version": 2,
   "app": "Charlie MJ Tool Archive",
-  "exportedAt": "2026-10-02T06:32:19.069Z",
+  "exportedAt": "2026-10-02T07:17:09.935Z",
   "tools": [
     {
+      "addedAt": 0,
       "category": "System & Recovery",
       "description": "System & Recovery resource: Hiren's BootCD PE.",
       "favorite": false,
@@ -17,10 +18,10 @@
         "windows"
       ],
       "type": "Utility",
-      "url": "https://www.hirensbootcd.org/",
-      "addedAt": 0
+      "url": "https://www.hirensbootcd.org/"
     },
     {
+      "addedAt": 0,
       "category": "System & Recovery",
       "description": "System & Recovery resource: Hiren's BootCD 15.2 | Hiren's BootCD PE.",
       "favorite": false,
@@ -33,10 +34,10 @@
         "recovery"
       ],
       "type": "Utility",
-      "url": "https://www.hirensbootcd.org/hbcd-v152/",
-      "addedAt": 0
+      "url": "https://www.hirensbootcd.org/hbcd-v152/"
     },
     {
+      "addedAt": 0,
       "category": "System & Recovery",
       "description": "System & Recovery resource: Hiren's BootCD 15.2 - All in one Bootable CD.",
       "favorite": false,
@@ -49,10 +50,10 @@
         "recovery"
       ],
       "type": "Utility",
-      "url": "https://www.hiren.info/pages/bootcd",
-      "addedAt": 0
+      "url": "https://www.hiren.info/pages/bootcd"
     },
     {
+      "addedAt": 0,
       "category": "Download & Conversion",
       "description": "Download & Conversion resource: Scribd.VDownloaders.com - Scribd.com downloader.",
       "favorite": false,
@@ -65,10 +66,10 @@
         "documents"
       ],
       "type": "Utility",
-      "url": "https://scribd.vdownloaders.com/",
-      "addedAt": 0
+      "url": "https://scribd.vdownloaders.com/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Conversion",
       "description": "Download & Conversion resource: EPUB to PDF Converter - FreeConvert.com.",
       "favorite": false,
@@ -82,10 +83,10 @@
         "converter"
       ],
       "type": "Utility",
-      "url": "https://www.freeconvert.com/epub-to-pdf",
-      "addedAt": 0
+      "url": "https://www.freeconvert.com/epub-to-pdf"
     },
     {
+      "addedAt": 0,
       "category": "Markdown & Writing",
       "description": "Markdown & Writing resource: Editor.md.",
       "favorite": false,
@@ -98,10 +99,10 @@
         "editor"
       ],
       "type": "Website",
-      "url": "https://pandao.github.io/editor.md/en.html",
-      "addedAt": 0
+      "url": "https://pandao.github.io/editor.md/en.html"
     },
     {
+      "addedAt": 0,
       "category": "AI App Builders",
       "description": "AI App Builders resource: Anything - AI app builder.",
       "favorite": false,
@@ -114,10 +115,10 @@
         "app builder"
       ],
       "type": "AI",
-      "url": "https://www.createanything.com/dashboard/team/71d0628f-6405-4dec-a31f-f3f5c1cb7f08",
-      "addedAt": 0
+      "url": "https://www.createanything.com/dashboard/team/71d0628f-6405-4dec-a31f-f3f5c1cb7f08"
     },
     {
+      "addedAt": 0,
       "category": "Markdown & Writing",
       "description": "Markdown & Writing resource: Markdown Live Preview.",
       "favorite": false,
@@ -130,10 +131,10 @@
         "preview"
       ],
       "type": "Website",
-      "url": "https://markdownlivepreview.com/",
-      "addedAt": 0
+      "url": "https://markdownlivepreview.com/"
     },
     {
+      "addedAt": 0,
       "category": "Networking & Learning",
       "description": "Networking & Learning resource: Packet Tracer Downloads.",
       "favorite": false,
@@ -147,10 +148,10 @@
         "networking"
       ],
       "type": "Learning",
-      "url": "https://www.computernetworkingnotes.com/ccna-study-guide/download-packet-tracer-for-windows-and-linux.html",
-      "addedAt": 0
+      "url": "https://www.computernetworkingnotes.com/ccna-study-guide/download-packet-tracer-for-windows-and-linux.html"
     },
     {
+      "addedAt": 0,
       "category": "AI Chat & Research",
       "description": "AI Chat & Research resource: HuggingChat.",
       "favorite": false,
@@ -163,10 +164,10 @@
         "chat"
       ],
       "type": "AI",
-      "url": "https://huggingface.co/chat/",
-      "addedAt": 0
+      "url": "https://huggingface.co/chat/"
     },
     {
+      "addedAt": 0,
       "category": "AI Chat & Research",
       "description": "AI Chat & Research resource: Hugging Face.",
       "favorite": false,
@@ -180,10 +181,10 @@
         "hugging face"
       ],
       "type": "AI",
-      "url": "https://huggingface.co/welcome",
-      "addedAt": 0
+      "url": "https://huggingface.co/welcome"
     },
     {
+      "addedAt": 0,
       "category": "AI Chat & Research",
       "description": "AI Chat & Research resource: Perplexity Python Learning Search.",
       "favorite": false,
@@ -197,10 +198,10 @@
         "python"
       ],
       "type": "AI",
-      "url": "https://www.perplexity.ai/search/i-am-cloud-engineer-and-want-t-SaR_8kedQK2bevDho2XT2Q",
-      "addedAt": 0
+      "url": "https://www.perplexity.ai/search/i-am-cloud-engineer-and-want-t-SaR_8kedQK2bevDho2XT2Q"
     },
     {
+      "addedAt": 0,
       "category": "Language Learning",
       "description": "Language Learning resource: Mind Luster - Turkish Search.",
       "favorite": false,
@@ -213,10 +214,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.mindluster.com/?search_for=Turkish+",
-      "addedAt": 0
+      "url": "https://www.mindluster.com/?search_for=Turkish+"
     },
     {
+      "addedAt": 0,
       "category": "AI Design & Creative",
       "description": "AI Design & Creative resource: Design Arena.",
       "favorite": false,
@@ -229,10 +230,10 @@
         "ai"
       ],
       "type": "AI",
-      "url": "https://www.designarena.ai/",
-      "addedAt": 0
+      "url": "https://www.designarena.ai/"
     },
     {
+      "addedAt": 0,
       "category": "AI Design & Creative",
       "description": "AI Design & Creative resource: Design Arena - Agents.",
       "favorite": false,
@@ -246,10 +247,10 @@
         "ai"
       ],
       "type": "AI",
-      "url": "https://www.designarena.ai/?arena=agents&harness=standard",
-      "addedAt": 0
+      "url": "https://www.designarena.ai/?arena=agents&harness=standard"
     },
     {
+      "addedAt": 0,
       "category": "AI Design & Creative",
       "description": "AI Design & Creative resource: Magic Hour.",
       "favorite": false,
@@ -263,10 +264,10 @@
         "ai"
       ],
       "type": "AI",
-      "url": "https://magichour.ai/",
-      "addedAt": 0
+      "url": "https://magichour.ai/"
     },
     {
+      "addedAt": 0,
       "category": "AI Design & Creative",
       "description": "AI Design & Creative resource: Magic Hour - New Project.",
       "favorite": false,
@@ -280,10 +281,10 @@
         "ai"
       ],
       "type": "AI",
-      "url": "https://magichour.ai/create",
-      "addedAt": 0
+      "url": "https://magichour.ai/create"
     },
     {
+      "addedAt": 0,
       "category": "Design Resources",
       "description": "Design Resources resource: Psdly.",
       "favorite": false,
@@ -296,10 +297,10 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://www.psdly.org/",
-      "addedAt": 0
+      "url": "https://www.psdly.org/"
     },
     {
+      "addedAt": 0,
       "category": "AI Video & Avatar",
       "description": "AI Video & Avatar resource: HeyGen.",
       "favorite": false,
@@ -313,10 +314,10 @@
         "avatar"
       ],
       "type": "AI",
-      "url": "https://app.heygen.com/home",
-      "addedAt": 0
+      "url": "https://app.heygen.com/home"
     },
     {
+      "addedAt": 0,
       "category": "AI Prompt & Community",
       "description": "AI Prompt & Community resource: Snack Prompt.",
       "favorite": false,
@@ -329,10 +330,10 @@
         "prompts"
       ],
       "type": "AI",
-      "url": "https://snackprompt.com/",
-      "addedAt": 0
+      "url": "https://snackprompt.com/"
     },
     {
+      "addedAt": 0,
       "category": "Video & Collaboration",
       "description": "Video & Collaboration resource: twoseven.",
       "favorite": false,
@@ -345,10 +346,10 @@
         "video"
       ],
       "type": "Website",
-      "url": "https://twoseven.xyz/",
-      "addedAt": 0
+      "url": "https://twoseven.xyz/"
     },
     {
+      "addedAt": 0,
       "category": "Payments & APIs",
       "description": "Payments & APIs resource: NepaPay.",
       "favorite": false,
@@ -362,10 +363,10 @@
         "iso8583"
       ],
       "type": "Developer",
-      "url": "https://neapay.com/",
-      "addedAt": 0
+      "url": "https://neapay.com/"
     },
     {
+      "addedAt": 0,
       "category": "Internet & Connectivity",
       "description": "Internet & Connectivity resource: OnlineSIM.",
       "favorite": false,
@@ -378,10 +379,10 @@
         "sms"
       ],
       "type": "Utility",
-      "url": "https://onlinesim.io/",
-      "addedAt": 0
+      "url": "https://onlinesim.io/"
     },
     {
+      "addedAt": 0,
       "category": "Internet & Connectivity",
       "description": "Internet & Connectivity resource: WiFi Map.",
       "favorite": false,
@@ -394,10 +395,10 @@
         "connectivity"
       ],
       "type": "Utility",
-      "url": "https://www.wifimap.io/",
-      "addedAt": 0
+      "url": "https://www.wifimap.io/"
     },
     {
+      "addedAt": 0,
       "category": "Developer Tools",
       "description": "Developer Tools resource: LiveCodes.",
       "favorite": false,
@@ -410,10 +411,10 @@
         "playground"
       ],
       "type": "Developer",
-      "url": "https://livecodes.io/?template=blank",
-      "addedAt": 0
+      "url": "https://livecodes.io/?template=blank"
     },
     {
+      "addedAt": 0,
       "category": "Developer Tools",
       "description": "Developer Tools resource: TextCompare Python.",
       "favorite": false,
@@ -427,10 +428,10 @@
         "text"
       ],
       "type": "Developer",
-      "url": "https://www.textcompare.org/python/",
-      "addedAt": 0
+      "url": "https://www.textcompare.org/python/"
     },
     {
+      "addedAt": 0,
       "category": "YouTube Tools",
       "description": "YouTube Tools resource: YoutubeDL - GitHub.",
       "favorite": false,
@@ -444,10 +445,10 @@
         "github"
       ],
       "type": "GitHub",
-      "url": "https://github.com/realcoloride/YoutubeDL",
-      "addedAt": 0
+      "url": "https://github.com/realcoloride/YoutubeDL"
     },
     {
+      "addedAt": 0,
       "category": "YouTube Tools",
       "description": "YouTube Tools resource: YouTube Videos as MP4 Userscript.",
       "favorite": false,
@@ -461,10 +462,10 @@
         "userscript"
       ],
       "type": "GitHub",
-      "url": "https://github.com/anirudhkhanna/YouTube-Video-Downloader-Userscript/blob/master/Download%20YouTube%20Videos%20as%20MP4.user.js",
-      "addedAt": 0
+      "url": "https://github.com/anirudhkhanna/YouTube-Video-Downloader-Userscript/blob/master/Download%20YouTube%20Videos%20as%20MP4.user.js"
     },
     {
+      "addedAt": 0,
       "category": "Markdown & Writing",
       "description": "Markdown & Writing resource: Markdown Free.",
       "favorite": false,
@@ -479,10 +480,10 @@
         "epub"
       ],
       "type": "Utility",
-      "url": "https://www.markdown.free/",
-      "addedAt": 0
+      "url": "https://www.markdown.free/"
     },
     {
+      "addedAt": 0,
       "category": "Markdown & Writing",
       "description": "Markdown & Writing resource: CraftMarkdown.",
       "favorite": false,
@@ -495,10 +496,10 @@
         "converter"
       ],
       "type": "Website",
-      "url": "https://www.craftmarkdown.com/",
-      "addedAt": 0
+      "url": "https://www.craftmarkdown.com/"
     },
     {
+      "addedAt": 0,
       "category": "Writing & Content",
       "description": "Writing & Content resource: GetEmoji.",
       "favorite": false,
@@ -511,10 +512,10 @@
         "copy"
       ],
       "type": "Utility",
-      "url": "https://getemoji.com/",
-      "addedAt": 0
+      "url": "https://getemoji.com/"
     },
     {
+      "addedAt": 0,
       "category": "Reading & Research",
       "description": "Reading & Research resource: Freedium.",
       "favorite": false,
@@ -527,10 +528,10 @@
         "articles"
       ],
       "type": "Website",
-      "url": "https://freedium-mirror.cfd/",
-      "addedAt": 0
+      "url": "https://freedium-mirror.cfd/"
     },
     {
+      "addedAt": 0,
       "category": "Developer Tools",
       "description": "Developer Tools resource: VS Code Web.",
       "favorite": false,
@@ -544,10 +545,10 @@
         "web"
       ],
       "type": "Developer",
-      "url": "https://vscode.dev/",
-      "addedAt": 0
+      "url": "https://vscode.dev/"
     },
     {
+      "addedAt": 0,
       "category": "Developer Tools",
       "description": "Developer Tools resource: OneCompiler Bash.",
       "favorite": false,
@@ -561,10 +562,10 @@
         "terminal"
       ],
       "type": "Developer",
-      "url": "https://sandbox.onecompiler.com/bash/44p68b65v",
-      "addedAt": 0
+      "url": "https://sandbox.onecompiler.com/bash/44p68b65v"
     },
     {
+      "addedAt": 0,
       "category": "Cloud Native & Kubernetes",
       "description": "Cloud Native & Kubernetes resource: KSUG.AI.",
       "favorite": false,
@@ -578,10 +579,10 @@
         "ai"
       ],
       "type": "Learning",
-      "url": "https://ksug.ai/",
-      "addedAt": 0
+      "url": "https://ksug.ai/"
     },
     {
+      "addedAt": 0,
       "category": "LinkedIn & Content",
       "description": "LinkedIn & Content resource: LinkedIn Text Formatter - Typegrow.",
       "favorite": false,
@@ -594,10 +595,10 @@
         "formatter"
       ],
       "type": "Utility",
-      "url": "https://typegrow.com/tools/linkedin-text-formatter",
-      "addedAt": 0
+      "url": "https://typegrow.com/tools/linkedin-text-formatter"
     },
     {
+      "addedAt": 0,
       "category": "YouTube Tools",
       "description": "YouTube Tools resource: YouTube Subtitle Downloader.",
       "favorite": false,
@@ -610,10 +611,10 @@
         "subtitles"
       ],
       "type": "Utility",
-      "url": "https://www.downloadyoutubesubtitles.com/",
-      "addedAt": 0
+      "url": "https://www.downloadyoutubesubtitles.com/"
     },
     {
+      "addedAt": 0,
       "category": "Charlie MJ Projects",
       "description": "Charlie MJ Projects resource: Charlie MJ Medium Profile Article Search Engine.",
       "favorite": false,
@@ -627,10 +628,10 @@
         "search"
       ],
       "type": "Project",
-      "url": "https://awsrmmustansarjavaid.github.io/medium-article-search-engine/",
-      "addedAt": 0
+      "url": "https://awsrmmustansarjavaid.github.io/medium-article-search-engine/"
     },
     {
+      "addedAt": 0,
       "category": "Screen Recording & Demos",
       "description": "Screen Recording & Demos resource: Recordly - GitHub.",
       "favorite": false,
@@ -644,10 +645,10 @@
         "github"
       ],
       "type": "GitHub",
-      "url": "https://github.com/webadderallorg/recordly",
-      "addedAt": 0
+      "url": "https://github.com/webadderallorg/recordly"
     },
     {
+      "addedAt": 0,
       "category": "Screen Recording & Demos",
       "description": "Screen Recording & Demos resource: Recordly.",
       "favorite": false,
@@ -660,10 +661,10 @@
         "demo"
       ],
       "type": "Website",
-      "url": "https://recordly.dev/",
-      "addedAt": 0
+      "url": "https://recordly.dev/"
     },
     {
+      "addedAt": 0,
       "category": "LinkedIn & Content",
       "description": "LinkedIn & Content resource: LinkedIn Text & Content Formatter - AuthoredUp.",
       "favorite": false,
@@ -677,10 +678,10 @@
         "formatter"
       ],
       "type": "Utility",
-      "url": "https://authoredup.com/tools/linkedin-text-formatter",
-      "addedAt": 0
+      "url": "https://authoredup.com/tools/linkedin-text-formatter"
     },
     {
+      "addedAt": 0,
       "category": "YouTube Tools",
       "description": "YouTube Tools resource: YouTube Subtitle Downloader - Noteey.",
       "favorite": false,
@@ -693,10 +694,10 @@
         "subtitles"
       ],
       "type": "Utility",
-      "url": "https://www.noteey.com/youtube-subtitle-downloader",
-      "addedAt": 0
+      "url": "https://www.noteey.com/youtube-subtitle-downloader"
     },
     {
+      "addedAt": 0,
       "category": "YouTube Tools",
       "description": "YouTube Tools resource: YouTube Thumbnail Downloader.",
       "favorite": false,
@@ -709,10 +710,10 @@
         "thumbnail"
       ],
       "type": "Utility",
-      "url": "https://www.youtubethumbnaildownloader.com/",
-      "addedAt": 0
+      "url": "https://www.youtubethumbnaildownloader.com/"
     },
     {
+      "addedAt": 0,
       "category": "Charlie MJ Projects",
       "description": "Charlie MJ Projects resource: Charlie MJ YouTube Toolkit.",
       "favorite": false,
@@ -726,10 +727,10 @@
         "toolkit"
       ],
       "type": "Project",
-      "url": "https://awsrmmustansarjavaid.github.io/charlie-mj-youtube-toolkit/",
-      "addedAt": 0
+      "url": "https://awsrmmustansarjavaid.github.io/charlie-mj-youtube-toolkit/"
     },
     {
+      "addedAt": 0,
       "category": "Downloading Sites",
       "description": "Downloading Sites resource: Downloadly.",
       "favorite": false,
@@ -742,10 +743,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://downloadlynet.ir/",
-      "addedAt": 0
+      "url": "https://downloadlynet.ir/"
     },
     {
+      "addedAt": 0,
       "category": "Torrent Sites",
       "description": "Torrent Sites resource: Torrends.",
       "favorite": false,
@@ -755,10 +756,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://torrends.to/",
-      "addedAt": 0
+      "url": "https://torrends.to/"
     },
     {
+      "addedAt": 0,
       "category": "Torrent Sites",
       "description": "Torrent Sites resource: The Pirate Bay Mirror.",
       "favorite": false,
@@ -768,10 +769,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://thepiratebay10.info/",
-      "addedAt": 0
+      "url": "https://thepiratebay10.info/"
     },
     {
+      "addedAt": 0,
       "category": "Torrent Sites",
       "description": "Torrent Sites resource: 1337x.",
       "favorite": false,
@@ -781,10 +782,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://1337x.to/home/",
-      "addedAt": 0
+      "url": "https://1337x.to/home/"
     },
     {
+      "addedAt": 0,
       "category": "Torrent Sites",
       "description": "Torrent Sites resource: EZTV.",
       "favorite": false,
@@ -794,10 +795,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://eztvx.to/home",
-      "addedAt": 0
+      "url": "https://eztvx.to/home"
     },
     {
+      "addedAt": 0,
       "category": "Torrent Sites",
       "description": "Torrent Sites resource: LimeTorrents.",
       "favorite": false,
@@ -807,10 +808,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://limetorrents.so/",
-      "addedAt": 0
+      "url": "https://limetorrents.so/"
     },
     {
+      "addedAt": 0,
       "category": "Torrent Sites",
       "description": "Torrent Sites resource: EXT Torrents.",
       "favorite": false,
@@ -820,10 +821,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://ext.to/",
-      "addedAt": 0
+      "url": "https://ext.to/"
     },
     {
+      "addedAt": 0,
       "category": "Torrent Sites",
       "description": "Torrent Sites resource: 1337x Search.",
       "favorite": false,
@@ -833,10 +834,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://1337x.to/search/copywriting/1/",
-      "addedAt": 0
+      "url": "https://1337x.to/search/copywriting/1/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Upwork.",
       "favorite": false,
@@ -849,10 +850,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.upwork.com/",
-      "addedAt": 0
+      "url": "https://www.upwork.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Wellfound.",
       "favorite": false,
@@ -865,10 +866,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://wellfound.com/",
-      "addedAt": 0
+      "url": "https://wellfound.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Who Is Hiring.",
       "favorite": false,
@@ -881,10 +882,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://whoishiring.io/",
-      "addedAt": 0
+      "url": "https://whoishiring.io/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Remotely Jobs.",
       "favorite": false,
@@ -897,10 +898,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.remotely.jobs/",
-      "addedAt": 0
+      "url": "https://www.remotely.jobs/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: FlexJobs.",
       "favorite": false,
@@ -913,10 +914,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.flexjobs.com/",
-      "addedAt": 0
+      "url": "https://www.flexjobs.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Remotive.",
       "favorite": false,
@@ -929,10 +930,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://remotive.com/",
-      "addedAt": 0
+      "url": "https://remotive.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Pangian.",
       "favorite": false,
@@ -945,10 +946,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://pangian.com/remote/",
-      "addedAt": 0
+      "url": "https://pangian.com/remote/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: We Work Remotely.",
       "favorite": false,
@@ -961,10 +962,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://weworkremotely.com/",
-      "addedAt": 0
+      "url": "https://weworkremotely.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Working Nomads.",
       "favorite": false,
@@ -977,10 +978,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.workingnomads.com/jobs",
-      "addedAt": 0
+      "url": "https://www.workingnomads.com/jobs"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Remote OK.",
       "favorite": false,
@@ -993,10 +994,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://remoteok.com/",
-      "addedAt": 0
+      "url": "https://remoteok.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: JustRemote.",
       "favorite": false,
@@ -1009,10 +1010,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://justremote.co/",
-      "addedAt": 0
+      "url": "https://justremote.co/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: WorkChest.",
       "favorite": false,
@@ -1025,10 +1026,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://workchest.com/",
-      "addedAt": 0
+      "url": "https://workchest.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Remote.co.",
       "favorite": false,
@@ -1041,10 +1042,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://remote.co/",
-      "addedAt": 0
+      "url": "https://remote.co/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: 4 Day Week.",
       "favorite": false,
@@ -1057,10 +1058,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://4dayweek.io/",
-      "addedAt": 0
+      "url": "https://4dayweek.io/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Jobspresso.",
       "favorite": false,
@@ -1073,10 +1074,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://jobspresso.co/",
-      "addedAt": 0
+      "url": "https://jobspresso.co/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: AngelList / Wellfound.",
       "favorite": false,
@@ -1089,10 +1090,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.angellist.com/",
-      "addedAt": 0
+      "url": "https://www.angellist.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Virtual Vocations.",
       "favorite": false,
@@ -1105,10 +1106,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.virtualvocations.com/",
-      "addedAt": 0
+      "url": "https://www.virtualvocations.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Stack Overflow Questions.",
       "favorite": false,
@@ -1121,10 +1122,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://stackoverflow.com/questions",
-      "addedAt": 0
+      "url": "https://stackoverflow.com/questions"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Toptal.",
       "favorite": false,
@@ -1137,10 +1138,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.toptal.com/",
-      "addedAt": 0
+      "url": "https://www.toptal.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: SkipTheDrive.",
       "favorite": false,
@@ -1153,10 +1154,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.skipthedrive.com/",
-      "addedAt": 0
+      "url": "https://www.skipthedrive.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: NoDesk.",
       "favorite": false,
@@ -1169,10 +1170,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://nodesk.co/",
-      "addedAt": 0
+      "url": "https://nodesk.co/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Remote Habits.",
       "favorite": false,
@@ -1185,10 +1186,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://remotehabits.com/",
-      "addedAt": 0
+      "url": "https://remotehabits.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Remote4Me.",
       "favorite": false,
@@ -1201,10 +1202,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://remote4me.com/",
-      "addedAt": 0
+      "url": "https://remote4me.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: FlexJobs.",
       "favorite": false,
@@ -1217,10 +1218,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.flexjobs.com/homevariant/t1",
-      "addedAt": 0
+      "url": "https://www.flexjobs.com/homevariant/t1"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: SimplyHired.",
       "favorite": false,
@@ -1233,10 +1234,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.simplyhired.com/",
-      "addedAt": 0
+      "url": "https://www.simplyhired.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Freelancer.",
       "favorite": false,
@@ -1249,10 +1250,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.freelancer.com/",
-      "addedAt": 0
+      "url": "https://www.freelancer.com/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Jobs",
       "description": "Freelancing & Jobs resource: Remote In Tech.",
       "favorite": false,
@@ -1265,10 +1266,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://remoteintech.company/",
-      "addedAt": 0
+      "url": "https://remoteintech.company/"
     },
     {
+      "addedAt": 0,
       "category": "Freelancing & Payments",
       "description": "Freelancing & Payments resource: Elevate Pay.",
       "favorite": false,
@@ -1281,10 +1282,10 @@
         "career"
       ],
       "type": "Website",
-      "url": "https://www.elevatepay.co/",
-      "addedAt": 0
+      "url": "https://www.elevatepay.co/"
     },
     {
+      "addedAt": 0,
       "category": "Roadmaps & Career",
       "description": "Roadmaps & Career resource: roadmap.sh.",
       "favorite": false,
@@ -1299,10 +1300,10 @@
         "terraform"
       ],
       "type": "Learning",
-      "url": "https://roadmap.sh/",
-      "addedAt": 0
+      "url": "https://roadmap.sh/"
     },
     {
+      "addedAt": 0,
       "category": "Courses & Learning",
       "description": "Courses & Learning resource: FreeCourseSite.",
       "favorite": false,
@@ -1312,10 +1313,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Learning",
-      "url": "https://freecoursesites.com/",
-      "addedAt": 0
+      "url": "https://freecoursesites.com/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: CertCommunity.",
       "favorite": false,
@@ -1328,10 +1329,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.certcommunity.org/forum/",
-      "addedAt": 0
+      "url": "https://www.certcommunity.org/forum/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: HacksNation.",
       "favorite": false,
@@ -1341,10 +1342,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://hacksnation.com/",
-      "addedAt": 0
+      "url": "https://hacksnation.com/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: HacksNation.",
       "favorite": false,
@@ -1354,10 +1355,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://hacksnation.com/?q=devops",
-      "addedAt": 0
+      "url": "https://hacksnation.com/?q=devops"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Cisco Networking Academy.",
       "favorite": false,
@@ -1370,10 +1371,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.netacad.com",
-      "addedAt": 0
+      "url": "https://www.netacad.com"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Bugcrowd.",
       "favorite": false,
@@ -1386,10 +1387,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.bugcrowd.com/",
-      "addedAt": 0
+      "url": "https://www.bugcrowd.com/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: NIST NICE.",
       "favorite": false,
@@ -1402,10 +1403,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.nist.gov/itl/applied-cybersecurity/nice/resources/online-learning-content",
-      "addedAt": 0
+      "url": "https://www.nist.gov/itl/applied-cybersecurity/nice/resources/online-learning-content"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Codewars.",
       "favorite": false,
@@ -1418,10 +1419,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.codewars.com/dashboard",
-      "addedAt": 0
+      "url": "https://www.codewars.com/dashboard"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Killercoda.",
       "favorite": false,
@@ -1434,10 +1435,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://killercoda.com/",
-      "addedAt": 0
+      "url": "https://killercoda.com/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: AWS.",
       "favorite": false,
@@ -1452,10 +1453,10 @@
         "cloud"
       ],
       "type": "Learning",
-      "url": "https://aws.amazon.com/education/awseducate/",
-      "addedAt": 0
+      "url": "https://aws.amazon.com/education/awseducate/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: AWS Educate.",
       "favorite": false,
@@ -1470,10 +1471,10 @@
         "cloud"
       ],
       "type": "Learning",
-      "url": "https://www.awseducate.com/student/s/content",
-      "addedAt": 0
+      "url": "https://www.awseducate.com/student/s/content"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: AWS Skill Builder.",
       "favorite": false,
@@ -1488,10 +1489,10 @@
         "cloud"
       ],
       "type": "Learning",
-      "url": "https://skillbuilder.aws/learning-plan",
-      "addedAt": 0
+      "url": "https://skillbuilder.aws/learning-plan"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: AWS.",
       "favorite": false,
@@ -1506,10 +1507,10 @@
         "cloud"
       ],
       "type": "Learning",
-      "url": "https://aws.amazon.com/console/",
-      "addedAt": 0
+      "url": "https://aws.amazon.com/console/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: Learn.",
       "favorite": false,
@@ -1519,10 +1520,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://learn.cantrill.io/courses/enrolled/2022818",
-      "addedAt": 0
+      "url": "https://learn.cantrill.io/courses/enrolled/2022818"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: AWS Skill Builder.",
       "favorite": false,
@@ -1537,10 +1538,10 @@
         "cloud"
       ],
       "type": "Learning",
-      "url": "https://skillbuilder.aws/login",
-      "addedAt": 0
+      "url": "https://skillbuilder.aws/login"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: AWS Documentation.",
       "favorite": false,
@@ -1553,10 +1554,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://docs.aws.amazon.com/glossary/latest/reference/glos-chap.html",
-      "addedAt": 0
+      "url": "https://docs.aws.amazon.com/glossary/latest/reference/glos-chap.html"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Cisco DevNet Sandbox.",
       "favorite": false,
@@ -1569,10 +1570,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://devnetsandbox.cisco.com/",
-      "addedAt": 0
+      "url": "https://devnetsandbox.cisco.com/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Learn Anything.",
       "favorite": false,
@@ -1585,10 +1586,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://learn-anything.xyz/",
-      "addedAt": 0
+      "url": "https://learn-anything.xyz/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: LabEx.",
       "favorite": false,
@@ -1601,10 +1602,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://labex.io/linuxjourney",
-      "addedAt": 0
+      "url": "https://labex.io/linuxjourney"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Docker Documentation.",
       "favorite": false,
@@ -1621,10 +1622,10 @@
         "terraform"
       ],
       "type": "Learning",
-      "url": "https://docs.docker.com/",
-      "addedAt": 0
+      "url": "https://docs.docker.com/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Jenkins Documentation.",
       "favorite": false,
@@ -1641,10 +1642,10 @@
         "terraform"
       ],
       "type": "Learning",
-      "url": "https://www.jenkins.io/doc/",
-      "addedAt": 0
+      "url": "https://www.jenkins.io/doc/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Kubernetes Documentation Docs.",
       "favorite": false,
@@ -1661,10 +1662,10 @@
         "terraform"
       ],
       "type": "Learning",
-      "url": "https://kubernetes.io/docs/home/",
-      "addedAt": 0
+      "url": "https://kubernetes.io/docs/home/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: HashiCorp Developer Docs.",
       "favorite": false,
@@ -1681,10 +1682,10 @@
         "terraform"
       ],
       "type": "Learning",
-      "url": "https://developer.hashicorp.com/terraform/docs",
-      "addedAt": 0
+      "url": "https://developer.hashicorp.com/terraform/docs"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Tech5ense.",
       "favorite": false,
@@ -1697,10 +1698,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.tech5ense.com/",
-      "addedAt": 0
+      "url": "https://www.tech5ense.com/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: W3Schools.",
       "favorite": false,
@@ -1713,10 +1714,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.w3schools.com",
-      "addedAt": 0
+      "url": "https://www.w3schools.com"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Learn Shell.",
       "favorite": false,
@@ -1729,10 +1730,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.learnshell.org/",
-      "addedAt": 0
+      "url": "https://www.learnshell.org/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Codecademy.",
       "favorite": false,
@@ -1745,10 +1746,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.codecademy.com/learn/bash-scripting",
-      "addedAt": 0
+      "url": "https://www.codecademy.com/learn/bash-scripting"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: 8gwifi.",
       "favorite": false,
@@ -1761,10 +1762,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://8gwifi.org/tutorials/bash/",
-      "addedAt": 0
+      "url": "https://8gwifi.org/tutorials/bash/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Linux Command.",
       "favorite": false,
@@ -1777,10 +1778,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://linuxcommand.org/",
-      "addedAt": 0
+      "url": "https://linuxcommand.org/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: explainshell.",
       "favorite": false,
@@ -1793,10 +1794,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://explainshell.com/",
-      "addedAt": 0
+      "url": "https://explainshell.com/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: Learn.",
       "favorite": false,
@@ -1806,10 +1807,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://learn.kodekloud.com/user/onboarding/form",
-      "addedAt": 0
+      "url": "https://learn.kodekloud.com/user/onboarding/form"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: roadmap.sh.",
       "favorite": false,
@@ -1824,10 +1825,10 @@
         "terraform"
       ],
       "type": "Website",
-      "url": "https://roadmap.sh/devops",
-      "addedAt": 0
+      "url": "https://roadmap.sh/devops"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: LabEx.",
       "favorite": false,
@@ -1840,10 +1841,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://labex.io/labs/linux-your-first-linux-lab-270253?course=quick-start-with-linux",
-      "addedAt": 0
+      "url": "https://labex.io/labs/linux-your-first-linux-lab-270253?course=quick-start-with-linux"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: App.",
       "favorite": false,
@@ -1853,10 +1854,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://app.pulumi.com",
-      "addedAt": 0
+      "url": "https://app.pulumi.com"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Pulumi Docs.",
       "favorite": false,
@@ -1869,10 +1870,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.pulumi.com/docs/?_gl=1%2Agoz15h%2A_gcl_au%2ANTU0MjI1MTEzLjE3NjYyMzUxODguNjk4MjE1MDE5LjE3NzMxNDc0ODkuMTc3MzE0NzQ4OA..%2A_ga%2AMTIwNzI0Mjc3Ny4xNzY2MjM1MTg4%2A_ga_FQHG5CVY2D%2AczE3NzMxNDc0NTQkbzIkZzEkdDE3NzMxNDc1NjIkajE1JGwwJGgw",
-      "addedAt": 0
+      "url": "https://www.pulumi.com/docs/?_gl=1%2Agoz15h%2A_gcl_au%2ANTU0MjI1MTEzLjE3NjYyMzUxODguNjk4MjE1MDE5LjE3NzMxNDc0ODkuMTc3MzE0NzQ4OA..%2A_ga%2AMTIwNzI0Mjc3Ny4xNzY2MjM1MTg4%2A_ga_FQHG5CVY2D%2AczE3NzMxNDc0NTQkbzIkZzEkdDE3NzMxNDc1NjIkajE1JGwwJGgw"
     },
     {
+      "addedAt": 0,
       "category": "GitHub & Developer Learning",
       "description": "GitHub & Developer Learning resource: GitHub Docs.",
       "favorite": false,
@@ -1882,10 +1883,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "GitHub",
-      "url": "https://docs.github.com/en",
-      "addedAt": 0
+      "url": "https://docs.github.com/en"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Linux.org.",
       "favorite": false,
@@ -1898,10 +1899,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.linux.org/forums/",
-      "addedAt": 0
+      "url": "https://www.linux.org/forums/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Whimsical.",
       "favorite": false,
@@ -1914,10 +1915,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://whimsical.com/devops-7E37RVStMQycbbJYjfM77P",
-      "addedAt": 0
+      "url": "https://whimsical.com/devops-7E37RVStMQycbbJYjfM77P"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: E.",
       "favorite": false,
@@ -1927,10 +1928,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://e.huawei.com/en/talent/portal/",
-      "addedAt": 0
+      "url": "https://e.huawei.com/en/talent/portal/"
     },
     {
+      "addedAt": 0,
       "category": "Design & Assets",
       "description": "Design & Assets resource: GraphicsFamily.",
       "favorite": false,
@@ -1940,10 +1941,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://graphicsfamily.com/",
-      "addedAt": 0
+      "url": "https://graphicsfamily.com/"
     },
     {
+      "addedAt": 0,
       "category": "Writing & Articles",
       "description": "Writing & Articles resource: Plain English.",
       "favorite": false,
@@ -1953,10 +1954,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://plainenglish.io/",
-      "addedAt": 0
+      "url": "https://plainenglish.io/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Medical News Today.",
       "favorite": false,
@@ -1969,10 +1970,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.medicalnewstoday.com/",
-      "addedAt": 0
+      "url": "https://www.medicalnewstoday.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Healthline.",
       "favorite": false,
@@ -1985,10 +1986,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.healthline.com/",
-      "addedAt": 0
+      "url": "https://www.healthline.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Verywell Health.",
       "favorite": false,
@@ -2001,10 +2002,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.verywellhealth.com/",
-      "addedAt": 0
+      "url": "https://www.verywellhealth.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: HealthShots.",
       "favorite": false,
@@ -2017,10 +2018,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.healthshots.com/",
-      "addedAt": 0
+      "url": "https://www.healthshots.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Art of Healthy Living.",
       "favorite": false,
@@ -2033,10 +2034,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://artofhealthyliving.com/",
-      "addedAt": 0
+      "url": "https://artofhealthyliving.com/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: My.",
       "favorite": false,
@@ -2046,10 +2047,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://my.clevelandclinic.org/",
-      "addedAt": 0
+      "url": "https://my.clevelandclinic.org/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: WebMD.",
       "favorite": false,
@@ -2062,10 +2063,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.webmd.com/",
-      "addedAt": 0
+      "url": "https://www.webmd.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: ZOE.",
       "favorite": false,
@@ -2078,10 +2079,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://zoe.com/",
-      "addedAt": 0
+      "url": "https://zoe.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Health.com.",
       "favorite": false,
@@ -2094,10 +2095,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.health.com/",
-      "addedAt": 0
+      "url": "https://www.health.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Women's Health.",
       "favorite": false,
@@ -2110,10 +2111,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.womenshealthmag.com/",
-      "addedAt": 0
+      "url": "https://www.womenshealthmag.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Everyday Health.",
       "favorite": false,
@@ -2126,10 +2127,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.everydayhealth.com/",
-      "addedAt": 0
+      "url": "https://www.everydayhealth.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Muscle & Fitness.",
       "favorite": false,
@@ -2142,10 +2143,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.muscleandfitness.com/",
-      "addedAt": 0
+      "url": "https://www.muscleandfitness.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Physiopedia.",
       "favorite": false,
@@ -2158,10 +2159,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.physio-pedia.com/home/",
-      "addedAt": 0
+      "url": "https://www.physio-pedia.com/home/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: ATHLEAN-X.",
       "favorite": false,
@@ -2174,10 +2175,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://athleanx.com/",
-      "addedAt": 0
+      "url": "https://athleanx.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: 8fit.",
       "favorite": false,
@@ -2190,10 +2191,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://8fit.com/",
-      "addedAt": 0
+      "url": "https://8fit.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Anytime Fitness.",
       "favorite": false,
@@ -2206,10 +2207,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.anytimefitness.com/",
-      "addedAt": 0
+      "url": "https://www.anytimefitness.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: PureGym.",
       "favorite": false,
@@ -2222,10 +2223,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.puregym.com/",
-      "addedAt": 0
+      "url": "https://www.puregym.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Greatist.",
       "favorite": false,
@@ -2238,10 +2239,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://greatist.com/",
-      "addedAt": 0
+      "url": "https://greatist.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Muscle & Strength.",
       "favorite": false,
@@ -2254,10 +2255,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://muscleandstrength.com/",
-      "addedAt": 0
+      "url": "https://muscleandstrength.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Strongr Fastr.",
       "favorite": false,
@@ -2270,10 +2271,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.strongrfastr.com/",
-      "addedAt": 0
+      "url": "https://www.strongrfastr.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: JEFIT.",
       "favorite": false,
@@ -2286,10 +2287,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.jefit.com/",
-      "addedAt": 0
+      "url": "https://www.jefit.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: FitnessProgramer.",
       "favorite": false,
@@ -2302,10 +2303,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://fitnessprogramer.com/workout-plan/6-month-bodybuilding-program/",
-      "addedAt": 0
+      "url": "https://fitnessprogramer.com/workout-plan/6-month-bodybuilding-program/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: The Fitness Wiki.",
       "favorite": false,
@@ -2318,10 +2319,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://thefitness.wiki/",
-      "addedAt": 0
+      "url": "https://thefitness.wiki/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: ExRx.",
       "favorite": false,
@@ -2334,10 +2335,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://exrx.net/",
-      "addedAt": 0
+      "url": "https://exrx.net/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: MuscleWiki.",
       "favorite": false,
@@ -2350,10 +2351,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://musclewiki.com/",
-      "addedAt": 0
+      "url": "https://musclewiki.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: Darebee.",
       "favorite": false,
@@ -2366,10 +2367,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://darebee.com/",
-      "addedAt": 0
+      "url": "https://darebee.com/"
     },
     {
+      "addedAt": 0,
       "category": "Health & Fitness",
       "description": "Health & Fitness resource: StrengthLog.",
       "favorite": false,
@@ -2382,10 +2383,10 @@
         "fitness"
       ],
       "type": "Learning",
-      "url": "https://www.strengthlog.com/",
-      "addedAt": 0
+      "url": "https://www.strengthlog.com/"
     },
     {
+      "addedAt": 0,
       "category": "Books & Reading",
       "description": "Books & Reading resource: Project Gutenberg.",
       "favorite": false,
@@ -2395,10 +2396,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.gutenberg.org/",
-      "addedAt": 0
+      "url": "https://www.gutenberg.org/"
     },
     {
+      "addedAt": 0,
       "category": "AI Research",
       "description": "AI Research resource: Perplexity.",
       "favorite": false,
@@ -2408,10 +2409,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "AI",
-      "url": "https://www.perplexity.ai/",
-      "addedAt": 0
+      "url": "https://www.perplexity.ai/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: SSSTik.",
       "favorite": false,
@@ -2424,10 +2425,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://ssstik.io/",
-      "addedAt": 0
+      "url": "https://ssstik.io/"
     },
     {
+      "addedAt": 0,
       "category": "Islamic Resources",
       "description": "Islamic Resources resource: IslamQA.org.",
       "favorite": false,
@@ -2440,10 +2441,10 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://islamqa.org/",
-      "addedAt": 0
+      "url": "https://islamqa.org/"
     },
     {
+      "addedAt": 0,
       "category": "Islamic Resources",
       "description": "Islamic Resources resource: IslamQA.info.",
       "favorite": false,
@@ -2456,10 +2457,10 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://islamqa.info/en?utm_source=chatgpt.com",
-      "addedAt": 0
+      "url": "https://islamqa.info/en?utm_source=chatgpt.com"
     },
     {
+      "addedAt": 0,
       "category": "Islamic Resources",
       "description": "Islamic Resources resource: Karimia.",
       "favorite": false,
@@ -2472,10 +2473,10 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://www.karimia.com/",
-      "addedAt": 0
+      "url": "https://www.karimia.com/"
     },
     {
+      "addedAt": 0,
       "category": "Islamic Resources",
       "description": "Islamic Resources resource: Al-Islam.org.",
       "favorite": false,
@@ -2488,10 +2489,10 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://al-islam.org/ask",
-      "addedAt": 0
+      "url": "https://al-islam.org/ask"
     },
     {
+      "addedAt": 0,
       "category": "Islamic Resources",
       "description": "Islamic Resources resource: Islamicity.",
       "favorite": false,
@@ -2504,10 +2505,10 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://www.islamicity.org/",
-      "addedAt": 0
+      "url": "https://www.islamicity.org/"
     },
     {
+      "addedAt": 0,
       "category": "Islamic Resources",
       "description": "Islamic Resources resource: Ask the Sheikh.",
       "favorite": false,
@@ -2520,10 +2521,10 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://www.askthesheikh.com/",
-      "addedAt": 0
+      "url": "https://www.askthesheikh.com/"
     },
     {
+      "addedAt": 0,
       "category": "Islamic Resources",
       "description": "Islamic Resources resource: Islam Answers.",
       "favorite": false,
@@ -2536,10 +2537,10 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://islamanswers.co.uk/answers/",
-      "addedAt": 0
+      "url": "https://islamanswers.co.uk/answers/"
     },
     {
+      "addedAt": 0,
       "category": "Islamic Resources",
       "description": "Islamic Resources resource: About Islam.",
       "favorite": false,
@@ -2552,10 +2553,10 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://aboutislam.net/",
-      "addedAt": 0
+      "url": "https://aboutislam.net/"
     },
     {
+      "addedAt": 0,
       "category": "Islamic Resources",
       "description": "Islamic Resources resource: SeekersGuidance.",
       "favorite": false,
@@ -2568,10 +2569,10 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://seekersguidance.org/",
-      "addedAt": 0
+      "url": "https://seekersguidance.org/"
     },
     {
+      "addedAt": 0,
       "category": "Islamic Resources",
       "description": "Islamic Resources resource: Just Ask Islam.",
       "favorite": false,
@@ -2584,10 +2585,10 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://www.justaskislam.com/?utm_source=chatgpt.com",
-      "addedAt": 0
+      "url": "https://www.justaskislam.com/?utm_source=chatgpt.com"
     },
     {
+      "addedAt": 0,
       "category": "Design & Assets",
       "description": "Design & Assets resource: Tailor Nova.",
       "favorite": false,
@@ -2597,10 +2598,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://tailornova.com/",
-      "addedAt": 0
+      "url": "https://tailornova.com/"
     },
     {
+      "addedAt": 0,
       "category": "Design & Assets",
       "description": "Design & Assets resource: Nastix Design.",
       "favorite": false,
@@ -2610,10 +2611,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://nastix-design.com/",
-      "addedAt": 0
+      "url": "https://nastix-design.com/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: Parents.",
       "favorite": false,
@@ -2623,10 +2624,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.parents.com/https://www.education.com/",
-      "addedAt": 0
+      "url": "https://www.parents.com/https://www.education.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish TV & Media",
       "description": "Turkish TV & Media resource: Dizilah.",
       "favorite": false,
@@ -2639,10 +2640,10 @@
         "language"
       ],
       "type": "Utility",
-      "url": "https://www.dizilah.com/",
-      "addedAt": 0
+      "url": "https://www.dizilah.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish TV & Media",
       "description": "Turkish TV & Media resource: Kanal D.",
       "favorite": false,
@@ -2655,10 +2656,10 @@
         "language"
       ],
       "type": "Utility",
-      "url": "https://www.kanald.com.tr/",
-      "addedAt": 0
+      "url": "https://www.kanald.com.tr/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish TV & Media",
       "description": "Turkish TV & Media resource: TRT İzle.",
       "favorite": false,
@@ -2671,10 +2672,10 @@
         "language"
       ],
       "type": "Utility",
-      "url": "https://www.trtizle.com/",
-      "addedAt": 0
+      "url": "https://www.trtizle.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish TV & Media",
       "description": "Turkish TV & Media resource: puhutv.",
       "favorite": false,
@@ -2687,10 +2688,10 @@
         "language"
       ],
       "type": "Utility",
-      "url": "https://puhutv.com/",
-      "addedAt": 0
+      "url": "https://puhutv.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish TV & Media",
       "description": "Turkish TV & Media resource: Turkish Series.",
       "favorite": false,
@@ -2703,10 +2704,10 @@
         "language"
       ],
       "type": "Utility",
-      "url": "https://www.turkishseries.online/",
-      "addedAt": 0
+      "url": "https://www.turkishseries.online/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Literature",
       "description": "Turkish Literature resource: Antoloji.",
       "favorite": false,
@@ -2719,10 +2720,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.antoloji.com/",
-      "addedAt": 0
+      "url": "https://www.antoloji.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Literature",
       "description": "Turkish Literature resource: Edebiyat Defteri.",
       "favorite": false,
@@ -2735,10 +2736,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.edebiyatdefteri.com/",
-      "addedAt": 0
+      "url": "https://www.edebiyatdefteri.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Literature",
       "description": "Turkish Literature resource: TurkishClass.",
       "favorite": false,
@@ -2751,10 +2752,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.turkishclass.com/turkish/poetry/poems.php",
-      "addedAt": 0
+      "url": "https://www.turkishclass.com/turkish/poetry/poems.php"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: U.",
       "favorite": false,
@@ -2764,10 +2765,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://u.osu.edu/nelcpoetryproject/turkish-poems/",
-      "addedAt": 0
+      "url": "https://u.osu.edu/nelcpoetryproject/turkish-poems/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: Learn Turkish.",
       "favorite": false,
@@ -2777,10 +2778,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://learnturkish.com/doys/Login?varsayilanDil=en-US",
-      "addedAt": 0
+      "url": "https://learnturkish.com/doys/Login?varsayilanDil=en-US"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: Brainscape.",
       "favorite": false,
@@ -2790,10 +2791,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.brainscape.com/subjects/turkish",
-      "addedAt": 0
+      "url": "https://www.brainscape.com/subjects/turkish"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: Brainscape.",
       "favorite": false,
@@ -2803,10 +2804,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.brainscape.com/flashcards/turkish-1-1720545/packs/4251954",
-      "addedAt": 0
+      "url": "https://www.brainscape.com/flashcards/turkish-1-1720545/packs/4251954"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: Yabancılar İçin Türkçe.",
       "favorite": false,
@@ -2816,10 +2817,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://yabancilaricinturkce.com/category/dilbilgisi/",
-      "addedAt": 0
+      "url": "https://yabancilaricinturkce.com/category/dilbilgisi/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: English ILM.",
       "favorite": false,
@@ -2829,10 +2830,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://englishilm.com/category/english-vocabulary/picture-vocabulary/",
-      "addedAt": 0
+      "url": "https://englishilm.com/category/english-vocabulary/picture-vocabulary/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: EngVid.",
       "favorite": false,
@@ -2842,10 +2843,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.engvid.com/",
-      "addedAt": 0
+      "url": "https://www.engvid.com/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: British Council LearnEnglish Kids.",
       "favorite": false,
@@ -2855,10 +2856,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://learnenglishkids.britishcouncil.org/",
-      "addedAt": 0
+      "url": "https://learnenglishkids.britishcouncil.org/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: Cambridge English.",
       "favorite": false,
@@ -2868,10 +2869,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.cambridgeenglish.org/learning-english",
-      "addedAt": 0
+      "url": "https://www.cambridgeenglish.org/learning-english"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: News in Levels.",
       "favorite": false,
@@ -2881,10 +2882,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.newsinlevels.com/",
-      "addedAt": 0
+      "url": "https://www.newsinlevels.com/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: TalkEnglish.",
       "favorite": false,
@@ -2894,10 +2895,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.talkenglish.com/lessonindex.aspx",
-      "addedAt": 0
+      "url": "https://www.talkenglish.com/lessonindex.aspx"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: British Council LearnEnglish.",
       "favorite": false,
@@ -2907,10 +2908,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://learnenglish.britishcouncil.org/",
-      "addedAt": 0
+      "url": "https://learnenglish.britishcouncil.org/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: Tatoeba.",
       "favorite": false,
@@ -2920,10 +2921,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://tatoeba.org/en",
-      "addedAt": 0
+      "url": "https://tatoeba.org/en"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: Merriam-Webster.",
       "favorite": false,
@@ -2933,10 +2934,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.merriam-webster.com/",
-      "addedAt": 0
+      "url": "https://www.merriam-webster.com/"
     },
     {
+      "addedAt": 0,
       "category": "HacksNation - A Place Where Everyone Can Learn",
       "description": "HacksNation - A Place Where Everyone Can Learn resource: Dictionary.com.",
       "favorite": false,
@@ -2946,10 +2947,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.dictionary.com/",
-      "addedAt": 0
+      "url": "https://www.dictionary.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Dictionaries",
       "description": "Turkish Dictionaries resource: TDK Sözlük.",
       "favorite": false,
@@ -2963,10 +2964,10 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://sozluk.gov.tr/",
-      "addedAt": 0
+      "url": "https://sozluk.gov.tr/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Dictionaries",
       "description": "Turkish Dictionaries resource: Tureng.",
       "favorite": false,
@@ -2980,10 +2981,10 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://tureng.com/",
-      "addedAt": 0
+      "url": "https://tureng.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Dictionaries",
       "description": "Turkish Dictionaries resource: Sesli Sözlük.",
       "favorite": false,
@@ -2997,10 +2998,10 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://www.seslisozluk.net/",
-      "addedAt": 0
+      "url": "https://www.seslisozluk.net/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Dictionaries",
       "description": "Turkish Dictionaries resource: Nişanyan Sözlük.",
       "favorite": false,
@@ -3014,10 +3015,10 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://www.nisanyansozluk.com/",
-      "addedAt": 0
+      "url": "https://www.nisanyansozluk.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Dictionaries",
       "description": "Turkish Dictionaries resource: WordReference.",
       "favorite": false,
@@ -3031,10 +3032,10 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://www.wordreference.com/tren/",
-      "addedAt": 0
+      "url": "https://www.wordreference.com/tren/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Dictionaries",
       "description": "Turkish Dictionaries resource: Glosbe.",
       "favorite": false,
@@ -3048,10 +3049,10 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://glosbe.com/tr/en",
-      "addedAt": 0
+      "url": "https://glosbe.com/tr/en"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Dictionaries",
       "description": "Turkish Dictionaries resource: Wiktionary.",
       "favorite": false,
@@ -3065,10 +3066,10 @@
         "dictionary"
       ],
       "type": "Learning",
-      "url": "https://www.wiktionary.org/",
-      "addedAt": 0
+      "url": "https://www.wiktionary.org/"
     },
     {
+      "addedAt": 0,
       "category": "English Dictionaries",
       "description": "English Dictionaries resource: Cambridge Dictionary.",
       "favorite": false,
@@ -3081,10 +3082,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://dictionary.cambridge.org/",
-      "addedAt": 0
+      "url": "https://dictionary.cambridge.org/"
     },
     {
+      "addedAt": 0,
       "category": "English Dictionaries",
       "description": "English Dictionaries resource: Oxford Learner's Dictionaries.",
       "favorite": false,
@@ -3097,10 +3098,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.oxfordlearnersdictionaries.com/",
-      "addedAt": 0
+      "url": "https://www.oxfordlearnersdictionaries.com/"
     },
     {
+      "addedAt": 0,
       "category": "English Dictionaries",
       "description": "English Dictionaries resource: Collins Dictionary.",
       "favorite": false,
@@ -3113,10 +3114,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.collinsdictionary.com/",
-      "addedAt": 0
+      "url": "https://www.collinsdictionary.com/"
     },
     {
+      "addedAt": 0,
       "category": "English Dictionaries",
       "description": "English Dictionaries resource: WordReference.",
       "favorite": false,
@@ -3129,10 +3130,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.wordreference.com/",
-      "addedAt": 0
+      "url": "https://www.wordreference.com/"
     },
     {
+      "addedAt": 0,
       "category": "English Dictionaries",
       "description": "English Dictionaries resource: Britannica Dictionary.",
       "favorite": false,
@@ -3145,10 +3146,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.britannica.com/dictionary",
-      "addedAt": 0
+      "url": "https://www.britannica.com/dictionary"
     },
     {
+      "addedAt": 0,
       "category": "Urdu Dictionaries",
       "description": "Urdu Dictionaries resource: Rekhta Dictionary.",
       "favorite": false,
@@ -3161,10 +3162,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://rekhtadictionary.com/",
-      "addedAt": 0
+      "url": "https://rekhtadictionary.com/"
     },
     {
+      "addedAt": 0,
       "category": "Urdu Dictionaries",
       "description": "Urdu Dictionaries resource: UrduPoint Dictionary.",
       "favorite": false,
@@ -3177,10 +3178,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.urdupoint.com/dictionary/",
-      "addedAt": 0
+      "url": "https://www.urdupoint.com/dictionary/"
     },
     {
+      "addedAt": 0,
       "category": "Urdu Dictionaries",
       "description": "Urdu Dictionaries resource: Urdu English Dictionary.",
       "favorite": false,
@@ -3193,10 +3194,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.urduenglishdictionary.org/",
-      "addedAt": 0
+      "url": "https://www.urduenglishdictionary.org/"
     },
     {
+      "addedAt": 0,
       "category": "Urdu Dictionaries",
       "description": "Urdu Dictionaries resource: Cambridge Dictionary.",
       "favorite": false,
@@ -3209,10 +3210,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/",
-      "addedAt": 0
+      "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/"
     },
     {
+      "addedAt": 0,
       "category": "Multilingual / Translation",
       "description": "Multilingual / Translation resource: Glossary.",
       "favorite": false,
@@ -3225,10 +3226,10 @@
         "language"
       ],
       "type": "Website",
-      "url": "https://www.glossary.com/",
-      "addedAt": 0
+      "url": "https://www.glossary.com/"
     },
     {
+      "addedAt": 0,
       "category": "Multilingual / Translation",
       "description": "Multilingual / Translation resource: Glosbe.",
       "favorite": false,
@@ -3241,10 +3242,10 @@
         "language"
       ],
       "type": "Website",
-      "url": "https://glosbe.com/",
-      "addedAt": 0
+      "url": "https://glosbe.com/"
     },
     {
+      "addedAt": 0,
       "category": "Multilingual / Translation",
       "description": "Multilingual / Translation resource: Reverso.",
       "favorite": false,
@@ -3257,10 +3258,10 @@
         "language"
       ],
       "type": "Website",
-      "url": "https://www.reverso.net/",
-      "addedAt": 0
+      "url": "https://www.reverso.net/"
     },
     {
+      "addedAt": 0,
       "category": "Multilingual / Translation",
       "description": "Multilingual / Translation resource: Babla.",
       "favorite": false,
@@ -3273,10 +3274,10 @@
         "language"
       ],
       "type": "Website",
-      "url": "https://www.babla.com/",
-      "addedAt": 0
+      "url": "https://www.babla.com/"
     },
     {
+      "addedAt": 0,
       "category": "Multilingual / Translation",
       "description": "Multilingual / Translation resource: Linguee.",
       "favorite": false,
@@ -3289,10 +3290,10 @@
         "language"
       ],
       "type": "Website",
-      "url": "https://www.linguee.com/",
-      "addedAt": 0
+      "url": "https://www.linguee.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Learning",
       "description": "Turkish Learning resource: TDK Sözlük.",
       "favorite": false,
@@ -3305,10 +3306,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://sozluk.gov.tr/ — Official Turkish Language Association dictionaries.",
-      "addedAt": 0
+      "url": "https://sozluk.gov.tr/ — Official Turkish Language Association dictionaries."
     },
     {
+      "addedAt": 0,
       "category": "Turkish Learning",
       "description": "Turkish Learning resource: Tureng.",
       "favorite": false,
@@ -3321,10 +3322,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://tureng.com/ — Turkish–English and English–Turkish dictionary.",
-      "addedAt": 0
+      "url": "https://tureng.com/ — Turkish–English and English–Turkish dictionary."
     },
     {
+      "addedAt": 0,
       "category": "Turkish Learning",
       "description": "Turkish Learning resource: Sesli Sözlük.",
       "favorite": false,
@@ -3337,10 +3338,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://www.seslisozluk.net/ — Turkish–English dictionary with pronunciation and usage information.",
-      "addedAt": 0
+      "url": "https://www.seslisozluk.net/ — Turkish–English dictionary with pronunciation and usage information."
     },
     {
+      "addedAt": 0,
       "category": "Turkish Learning",
       "description": "Turkish Learning resource: Glosbe.",
       "favorite": false,
@@ -3353,10 +3354,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://glosbe.com/tr/en — Turkish–English translations, definitions, examples, and pronunciation.",
-      "addedAt": 0
+      "url": "https://glosbe.com/tr/en — Turkish–English translations, definitions, examples, and pronunciation."
     },
     {
+      "addedAt": 0,
       "category": "Turkish Learning",
       "description": "Turkish Learning resource: Cambridge Dictionary.",
       "favorite": false,
@@ -3369,10 +3370,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/ — English–Urdu dictionary with definitions, translations, and example sentences.",
-      "addedAt": 0
+      "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/ — English–Urdu dictionary with definitions, translations, and example sentences."
     },
     {
+      "addedAt": 0,
       "category": "Shopping",
       "description": "Shopping resource: Daraz.",
       "favorite": false,
@@ -3382,10 +3383,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.daraz.pk/",
-      "addedAt": 0
+      "url": "https://www.daraz.pk/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: ClipConverter.",
       "favorite": false,
@@ -3398,10 +3399,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://www.clipconverter.cc/",
-      "addedAt": 0
+      "url": "http://www.clipconverter.cc/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: 9SoundCloudDownloader.",
       "favorite": false,
@@ -3414,10 +3415,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://9soundclouddownloader.com/",
-      "addedAt": 0
+      "url": "http://9soundclouddownloader.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Learning",
       "description": "Turkish Learning resource: LearnEnglish.de.",
       "favorite": false,
@@ -3430,10 +3431,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "http://www.learnenglish.de/englishtestspage.html",
-      "addedAt": 0
+      "url": "http://www.learnenglish.de/englishtestspage.html"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Learning",
       "description": "Turkish Learning resource: PSL T20.",
       "favorite": false,
@@ -3446,10 +3447,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://psl-t20.com/live/",
-      "addedAt": 0
+      "url": "https://psl-t20.com/live/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: SoundCloud Downloader.",
       "favorite": false,
@@ -3462,10 +3463,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://scdownloader.net/playlist-downloader",
-      "addedAt": 0
+      "url": "http://scdownloader.net/playlist-downloader"
     },
     {
+      "addedAt": 0,
       "category": "Real Estate",
       "description": "Real Estate resource: Emlakjet.",
       "favorite": false,
@@ -3475,10 +3476,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.emlakjet.com/",
-      "addedAt": 0
+      "url": "https://www.emlakjet.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkish Learning",
       "description": "Turkish Learning resource: Yabangee.",
       "favorite": false,
@@ -3491,10 +3492,10 @@
         "language"
       ],
       "type": "Learning",
-      "url": "https://yabangee.com/",
-      "addedAt": 0
+      "url": "https://yabangee.com/"
     },
     {
+      "addedAt": 0,
       "category": "Shopping",
       "description": "Shopping resource: Trendyol.",
       "favorite": false,
@@ -3504,10 +3505,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.trendyol.com/",
-      "addedAt": 0
+      "url": "https://www.trendyol.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkey Jobs & Exams",
       "description": "Turkey Jobs & Exams resource: ÖSYM.",
       "favorite": false,
@@ -3520,10 +3521,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.osym.gov.tr/",
-      "addedAt": 0
+      "url": "https://www.osym.gov.tr/"
     },
     {
+      "addedAt": 0,
       "category": "Turkey Jobs & Exams",
       "description": "Turkey Jobs & Exams resource: İŞKUR e-Şube.",
       "favorite": false,
@@ -3536,10 +3537,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://esube.iskur.gov.tr/",
-      "addedAt": 0
+      "url": "https://esube.iskur.gov.tr/"
     },
     {
+      "addedAt": 0,
       "category": "Shopping",
       "description": "Shopping resource: Hepsiburada.",
       "favorite": false,
@@ -3549,10 +3550,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.hepsiburada.com/",
-      "addedAt": 0
+      "url": "https://www.hepsiburada.com/"
     },
     {
+      "addedAt": 0,
       "category": "Shopping",
       "description": "Shopping resource: Morhipo.",
       "favorite": false,
@@ -3562,10 +3563,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.morhipo.com/",
-      "addedAt": 0
+      "url": "https://www.morhipo.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkey Jobs & Exams",
       "description": "Turkey Jobs & Exams resource: Kariyer.net.",
       "favorite": false,
@@ -3578,10 +3579,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.kariyer.net/",
-      "addedAt": 0
+      "url": "https://www.kariyer.net/"
     },
     {
+      "addedAt": 0,
       "category": "Turkey Jobs & Exams",
       "description": "Turkey Jobs & Exams resource: Yenibiriş.",
       "favorite": false,
@@ -3594,10 +3595,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.yenibiris.com/",
-      "addedAt": 0
+      "url": "https://www.yenibiris.com/"
     },
     {
+      "addedAt": 0,
       "category": "Turkey Jobs & Exams",
       "description": "Turkey Jobs & Exams resource: Eleman.net.",
       "favorite": false,
@@ -3610,10 +3611,10 @@
         "career"
       ],
       "type": "Learning",
-      "url": "https://www.eleman.net/",
-      "addedAt": 0
+      "url": "https://www.eleman.net/"
     },
     {
+      "addedAt": 0,
       "category": "Education",
       "description": "Education resource: Virtual University of Pakistan.",
       "favorite": false,
@@ -3623,10 +3624,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Learning",
-      "url": "https://www.vu.edu.pk/pages/VUGradingScheme",
-      "addedAt": 0
+      "url": "https://www.vu.edu.pk/pages/VUGradingScheme"
     },
     {
+      "addedAt": 0,
       "category": "LinkedIn & Content",
       "description": "LinkedIn & Content resource: LinkedIn.",
       "favorite": false,
@@ -3636,10 +3637,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.linkedin.com/article/new/",
-      "addedAt": 0
+      "url": "https://www.linkedin.com/article/new/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Resources",
       "description": "Download & Resources resource: FMHY.",
       "favorite": false,
@@ -3652,10 +3653,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://fmhy.net/",
-      "addedAt": 0
+      "url": "https://fmhy.net/"
     },
     {
+      "addedAt": 0,
       "category": "Writing & Articles",
       "description": "Writing & Articles resource: BeingGuru.",
       "favorite": false,
@@ -3665,10 +3666,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.beingguru.com/",
-      "addedAt": 0
+      "url": "https://www.beingguru.com/"
     },
     {
+      "addedAt": 0,
       "category": "Imported Bookmarks",
       "description": "Imported Bookmarks resource: Docs.",
       "favorite": false,
@@ -3678,10 +3679,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://docs.aviatrix.com/documentation/latest/getting-started/platform-overview/aviatrix-glossary.html",
-      "addedAt": 0
+      "url": "https://docs.aviatrix.com/documentation/latest/getting-started/platform-overview/aviatrix-glossary.html"
     },
     {
+      "addedAt": 0,
       "category": "Imported Bookmarks",
       "description": "Imported Bookmarks resource: Cisco Blogs.",
       "favorite": false,
@@ -3691,10 +3692,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://blogs.cisco.com/tag/security-operations-center",
-      "addedAt": 0
+      "url": "https://blogs.cisco.com/tag/security-operations-center"
     },
     {
+      "addedAt": 0,
       "category": "Imported Bookmarks",
       "description": "Imported Bookmarks resource: Turtles AI.",
       "favorite": false,
@@ -3704,10 +3705,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.turtlesai.com/en/pages/news/002-1/index.html",
-      "addedAt": 0
+      "url": "https://www.turtlesai.com/en/pages/news/002-1/index.html"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: GitHub Skills.",
       "favorite": false,
@@ -3720,10 +3721,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://skills.github.com/",
-      "addedAt": 0
+      "url": "https://skills.github.com/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: DEV Community.",
       "favorite": false,
@@ -3736,10 +3737,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://dev.to/hosana/github-foundations-certification-is-free-1mlk?utm_source=chatgpt.com",
-      "addedAt": 0
+      "url": "https://dev.to/hosana/github-foundations-certification-is-free-1mlk?utm_source=chatgpt.com"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Linux Professional Institute Learning.",
       "favorite": false,
@@ -3752,10 +3753,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://learning.lpi.org/en/learning-materials/010-160/",
-      "addedAt": 0
+      "url": "https://learning.lpi.org/en/learning-materials/010-160/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Oracle MyLearn Search.",
       "favorite": false,
@@ -3768,10 +3769,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://mylearn.oracle.com/ou/search/?filters=Type-certification",
-      "addedAt": 0
+      "url": "https://mylearn.oracle.com/ou/search/?filters=Type-certification"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: Cisco NetSolutions.",
       "favorite": false,
@@ -3784,10 +3785,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://www.cisconetsolutions.com/ospfv2-multi-area-configuration-lab/",
-      "addedAt": 0
+      "url": "https://www.cisconetsolutions.com/ospfv2-multi-area-configuration-lab/"
     },
     {
+      "addedAt": 0,
       "category": "DevOps & Learning",
       "description": "DevOps & Learning resource: AWS Fundamentals.",
       "favorite": false,
@@ -3800,10 +3801,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://awsfundamentals.com/blog/amazon-vpc-introduction-part-1",
-      "addedAt": 0
+      "url": "https://awsfundamentals.com/blog/amazon-vpc-introduction-part-1"
     },
     {
+      "addedAt": 0,
       "category": "Communities",
       "description": "Communities resource: Reddit.",
       "favorite": false,
@@ -3813,10 +3814,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://www.reddit.com/",
-      "addedAt": 0
+      "url": "https://www.reddit.com/"
     },
     {
+      "addedAt": 0,
       "category": "Imported Bookmarks",
       "description": "Imported Bookmarks resource: LangAcademy.",
       "favorite": false,
@@ -3826,10 +3827,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "http://langacademy.net/vb/",
-      "addedAt": 0
+      "url": "http://langacademy.net/vb/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: YouTube-MP3.",
       "favorite": false,
@@ -3842,10 +3843,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://www.youtube-mp3.org/",
-      "addedAt": 0
+      "url": "http://www.youtube-mp3.org/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: FLVTO.",
       "favorite": false,
@@ -3858,10 +3859,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://www.flvto.biz/progress/mp3/yt_qsleJQPgqZM/",
-      "addedAt": 0
+      "url": "http://www.flvto.biz/progress/mp3/yt_qsleJQPgqZM/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: MP3Fiber.",
       "favorite": false,
@@ -3874,10 +3875,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://mp3fiber.com/",
-      "addedAt": 0
+      "url": "http://mp3fiber.com/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: ListenToYouTube.",
       "favorite": false,
@@ -3890,10 +3891,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://www.listentoyoutube.com/",
-      "addedAt": 0
+      "url": "http://www.listentoyoutube.com/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: Video2MP3.",
       "favorite": false,
@@ -3906,10 +3907,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "http://www.video2mp3.net/",
-      "addedAt": 0
+      "url": "http://www.video2mp3.net/"
     },
     {
+      "addedAt": 0,
       "category": "Imported Bookmarks",
       "description": "Imported Bookmarks resource: FreeTutsDownload.",
       "favorite": false,
@@ -3919,10 +3920,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://freetutsdownload.net/",
-      "addedAt": 0
+      "url": "https://freetutsdownload.net/"
     },
     {
+      "addedAt": 1790921729252,
       "category": "Instagram Tools",
       "description": "Download & Media Tools resource: Pixwox.",
       "favorite": false,
@@ -3936,10 +3937,10 @@
         "instagram"
       ],
       "type": "Utility",
-      "url": "https://www.pixwox.com/",
-      "addedAt": 1790921729252
+      "url": "https://www.pixwox.com/"
     },
     {
+      "addedAt": 1790921770404,
       "category": "Instagram Tools",
       "description": "Download & Media Tools resource: Toolzu.",
       "favorite": false,
@@ -3953,10 +3954,10 @@
         "instagram"
       ],
       "type": "Utility",
-      "url": "https://toolzu.com/downloader/instagram/profile/",
-      "addedAt": 1790921770404
+      "url": "https://toolzu.com/downloader/instagram/profile/"
     },
     {
+      "addedAt": 0,
       "category": "Files & Software",
       "description": "Files & Software resource: Send Anywhere.",
       "favorite": false,
@@ -3966,10 +3967,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Utility",
-      "url": "https://send-anywhere.com/",
-      "addedAt": 0
+      "url": "https://send-anywhere.com/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: Addoncrop.",
       "favorite": false,
@@ -3982,10 +3983,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://addoncrop.com/en-3/?uid=36441187",
-      "addedAt": 0
+      "url": "https://addoncrop.com/en-3/?uid=36441187"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: Media.io.",
       "favorite": false,
@@ -3998,10 +3999,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://www.media.io/youtube-to-mp3-cutter.html",
-      "addedAt": 0
+      "url": "https://www.media.io/youtube-to-mp3-cutter.html"
     },
     {
+      "addedAt": 0,
       "category": "Files & Software",
       "description": "Files & Software resource: The Library PK.",
       "favorite": false,
@@ -4011,10 +4012,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Utility",
-      "url": "https://www.thelibrarypk.com/",
-      "addedAt": 0
+      "url": "https://www.thelibrarypk.com/"
     },
     {
+      "addedAt": 0,
       "category": "Online Utilities",
       "description": "Online Utilities resource: 123APPS.",
       "favorite": false,
@@ -4024,10 +4025,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Utility",
-      "url": "https://123apps.com/",
-      "addedAt": 0
+      "url": "https://123apps.com/"
     },
     {
+      "addedAt": 0,
       "category": "Online Utilities",
       "description": "Online Utilities resource: Clideo.",
       "favorite": false,
@@ -4037,10 +4038,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Utility",
-      "url": "https://clideo.com/cut-audio",
-      "addedAt": 0
+      "url": "https://clideo.com/cut-audio"
     },
     {
+      "addedAt": 0,
       "category": "Online Utilities",
       "description": "Online Utilities resource: Audio Trimmer.",
       "favorite": false,
@@ -4050,10 +4051,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Utility",
-      "url": "https://audiotrimmer.com/",
-      "addedAt": 0
+      "url": "https://audiotrimmer.com/"
     },
     {
+      "addedAt": 1790921742124,
       "category": "Instagram Tools",
       "description": "Download & Media Tools resource: Save-Insta.",
       "favorite": false,
@@ -4067,10 +4068,10 @@
         "instagram"
       ],
       "type": "Utility",
-      "url": "https://www.save-insta.com/profile-downloader/",
-      "addedAt": 1790921742124
+      "url": "https://www.save-insta.com/profile-downloader/"
     },
     {
+      "addedAt": 1790921684628,
       "category": "Instagram Tools",
       "description": "Download & Media Tools resource: AnonyIG.",
       "favorite": false,
@@ -4084,10 +4085,10 @@
         "instagram"
       ],
       "type": "Utility",
-      "url": "https://anonyig.com/en1/iganony/",
-      "addedAt": 1790921684628
+      "url": "https://anonyig.com/en1/iganony/"
     },
     {
+      "addedAt": 1790921758340,
       "category": "Instagram Tools",
       "description": "Download & Media Tools resource: StorySaver.",
       "favorite": false,
@@ -4101,10 +4102,10 @@
         "instagram"
       ],
       "type": "Utility",
-      "url": "https://www.storysaver.net/en",
-      "addedAt": 1790921758340
+      "url": "https://www.storysaver.net/en"
     },
     {
+      "addedAt": 1790921712548,
       "category": "Instagram Tools",
       "description": "Download & Media Tools resource: Insnoop.",
       "favorite": false,
@@ -4118,10 +4119,10 @@
         "instagram"
       ],
       "type": "Utility",
-      "url": "https://insnoop.com/",
-      "addedAt": 1790921712548
+      "url": "https://insnoop.com/"
     },
     {
+      "addedAt": 0,
       "category": "Islamic Resources",
       "description": "Islamic Resources resource: Islamicity.",
       "favorite": false,
@@ -4134,10 +4135,10 @@
         "resources"
       ],
       "type": "Website",
-      "url": "https://www.islamicity.org/channels/islamic-movies/",
-      "addedAt": 0
+      "url": "https://www.islamicity.org/channels/islamic-movies/"
     },
     {
+      "addedAt": 0,
       "category": "Design & Assets",
       "description": "Design & Assets resource: Unsplash.",
       "favorite": false,
@@ -4147,10 +4148,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://unsplash.com/",
-      "addedAt": 0
+      "url": "https://unsplash.com/"
     },
     {
+      "addedAt": 0,
       "category": "Productivity",
       "description": "Productivity resource: Weekrise.",
       "favorite": false,
@@ -4160,10 +4161,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://weekrise.com/",
-      "addedAt": 0
+      "url": "https://weekrise.com/"
     },
     {
+      "addedAt": 0,
       "category": "Files & Software",
       "description": "Files & Software resource: FileHippo.",
       "favorite": false,
@@ -4173,10 +4174,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Utility",
-      "url": "https://filehippo.com/",
-      "addedAt": 0
+      "url": "https://filehippo.com/"
     },
     {
+      "addedAt": 0,
       "category": "Files & Software",
       "description": "Files & Software resource: IGET INTO PC.",
       "favorite": false,
@@ -4186,10 +4187,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Utility",
-      "url": "https://igetintopc.com/software-categories/",
-      "addedAt": 0
+      "url": "https://igetintopc.com/software-categories/"
     },
     {
+      "addedAt": 0,
       "category": "Online Utilities",
       "description": "Online Utilities resource: iLovePDF.",
       "favorite": false,
@@ -4199,10 +4200,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Utility",
-      "url": "https://www.ilovepdf.com/",
-      "addedAt": 0
+      "url": "https://www.ilovepdf.com/"
     },
     {
+      "addedAt": 0,
       "category": "Imported Bookmarks",
       "description": "Imported Bookmarks resource: W41.",
       "favorite": false,
@@ -4212,10 +4213,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://w41.torlook.info/",
-      "addedAt": 0
+      "url": "https://w41.torlook.info/"
     },
     {
+      "addedAt": 0,
       "category": "Islamic Resources",
       "description": "Islamic Resources resource: Islam for Earth.",
       "favorite": false,
@@ -4228,10 +4229,10 @@
         "resources"
       ],
       "type": "Website",
-      "url": "http://islamforearth.blogspot.com/p/islamic-quotes-and-sayings.html",
-      "addedAt": 0
+      "url": "http://islamforearth.blogspot.com/p/islamic-quotes-and-sayings.html"
     },
     {
+      "addedAt": 0,
       "category": "Courses & Learning",
       "description": "Imported Bookmarks resource: Freecoursesites.",
       "favorite": false,
@@ -4241,10 +4242,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://freecoursesites.org/",
-      "addedAt": 0
+      "url": "https://freecoursesites.org/"
     },
     {
+      "addedAt": 0,
       "category": "Web Development",
       "description": "Web Development resource: CSS-Tricks.",
       "favorite": false,
@@ -4254,10 +4255,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Developer",
-      "url": "https://css-tricks.com/",
-      "addedAt": 0
+      "url": "https://css-tricks.com/"
     },
     {
+      "addedAt": 0,
       "category": "Web Development",
       "description": "Web Development resource: Responsively.",
       "favorite": false,
@@ -4267,10 +4268,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Developer",
-      "url": "https://responsively.app/download",
-      "addedAt": 0
+      "url": "https://responsively.app/download"
     },
     {
+      "addedAt": 0,
       "category": "Web Development",
       "description": "Web Development resource: Charles Proxy.",
       "favorite": false,
@@ -4280,10 +4281,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Developer",
-      "url": "https://www.charlesproxy.com/",
-      "addedAt": 0
+      "url": "https://www.charlesproxy.com/"
     },
     {
+      "addedAt": 0,
       "category": "Imported Bookmarks",
       "description": "Imported Bookmarks resource: YEE Türkçe.",
       "favorite": false,
@@ -4293,10 +4294,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://turkce.yee.org.tr/en/",
-      "addedAt": 0
+      "url": "https://turkce.yee.org.tr/en/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: YTMP3.",
       "favorite": false,
@@ -4309,10 +4310,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://ytmp3.cc/uu118cc/",
-      "addedAt": 0
+      "url": "https://ytmp3.cc/uu118cc/"
     },
     {
+      "addedAt": 0,
       "category": "Online Utilities",
       "description": "Online Utilities resource: Zamzar.",
       "favorite": false,
@@ -4322,10 +4323,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Utility",
-      "url": "https://www.zamzar.com/uploadComplete.php?convertFile=epub&to=pdf&email=false&tcs=Z84",
-      "addedAt": 0
+      "url": "https://www.zamzar.com/uploadComplete.php?convertFile=epub&to=pdf&email=false&tcs=Z84"
     },
     {
+      "addedAt": 0,
       "category": "Productivity",
       "description": "Productivity resource: Pomotroid.",
       "favorite": false,
@@ -4335,10 +4336,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://splode.github.io/pomotroid/",
-      "addedAt": 0
+      "url": "https://splode.github.io/pomotroid/"
     },
     {
+      "addedAt": 0,
       "category": "Productivity",
       "description": "Productivity resource: Pomotodo.",
       "favorite": false,
@@ -4348,10 +4349,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://pomotodo.com/?utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier&utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier",
-      "addedAt": 0
+      "url": "https://pomotodo.com/?utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier&utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier"
     },
     {
+      "addedAt": 0,
       "category": "LinkedIn & Content",
       "description": "LinkedIn & Content resource: Nuelink.",
       "favorite": false,
@@ -4361,10 +4362,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://nuelink.com/tools/facebook-text-formatter",
-      "addedAt": 0
+      "url": "https://nuelink.com/tools/facebook-text-formatter"
     },
     {
+      "addedAt": 0,
       "category": "Online Utilities",
       "description": "Online Utilities resource: CodeBeautify.",
       "favorite": false,
@@ -4374,10 +4375,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Utility",
-      "url": "https://codebeautify.org/remove-empty-lines",
-      "addedAt": 0
+      "url": "https://codebeautify.org/remove-empty-lines"
     },
     {
+      "addedAt": 0,
       "category": "Imported Bookmarks",
       "description": "Imported Bookmarks resource: FreeCourseWeb.",
       "favorite": false,
@@ -4387,10 +4388,10 @@
       "notes": "Imported from user bookmark collection.",
       "tags": [],
       "type": "Website",
-      "url": "https://freecourseweb.com/tutorialsv4/",
-      "addedAt": 0
+      "url": "https://freecourseweb.com/tutorialsv4/"
     },
     {
+      "addedAt": 0,
       "category": "Learning & Education",
       "description": "Online learning platform with courses for technology, business, design and more.",
       "favorite": false,
@@ -4404,10 +4405,10 @@
         "skills"
       ],
       "type": "Learning",
-      "url": "https://www.udemy.com/",
-      "addedAt": 0
+      "url": "https://www.udemy.com/"
     },
     {
+      "addedAt": 0,
       "category": "Development",
       "description": "Platform for hosting, reviewing and collaborating on software projects.",
       "favorite": false,
@@ -4422,10 +4423,10 @@
         "development"
       ],
       "type": "GitHub",
-      "url": "https://github.com/",
-      "addedAt": 0
+      "url": "https://github.com/"
     },
     {
+      "addedAt": 0,
       "category": "AI & Automation",
       "description": "AI assistant for writing, research, coding, analysis and everyday tasks.",
       "favorite": false,
@@ -4439,10 +4440,10 @@
         "assistant"
       ],
       "type": "AI",
-      "url": "https://chatgpt.com/",
-      "addedAt": 0
+      "url": "https://chatgpt.com/"
     },
     {
+      "addedAt": 0,
       "category": "Development",
       "description": "Developer question-and-answer community for programming and software development.",
       "favorite": false,
@@ -4456,10 +4457,10 @@
         "community"
       ],
       "type": "Developer",
-      "url": "https://stackoverflow.com/",
-      "addedAt": 0
+      "url": "https://stackoverflow.com/"
     },
     {
+      "addedAt": 0,
       "category": "Media & Video",
       "description": "Video platform for learning, entertainment, tutorials and creator content.",
       "favorite": false,
@@ -4473,10 +4474,10 @@
         "media"
       ],
       "type": "Website",
-      "url": "https://www.youtube.com/",
-      "addedAt": 0
+      "url": "https://www.youtube.com/"
     },
     {
+      "addedAt": 0,
       "category": "Logistics & Shipping",
       "description": "Logistics & Shipping resource: Parcel ABC.",
       "favorite": false,
@@ -4490,10 +4491,10 @@
         "delivery"
       ],
       "type": "Utility",
-      "url": "https://www.parcelabc.com/",
-      "addedAt": 0
+      "url": "https://www.parcelabc.com/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: Download Twitter Video.",
       "favorite": false,
@@ -4507,10 +4508,10 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://www.downloadtwittervideo.com/m/#TaskResults",
-      "addedAt": 0
+      "url": "https://www.downloadtwittervideo.com/m/#TaskResults"
     },
     {
+      "addedAt": 0,
       "category": "Social Media Tools",
       "description": "Social Media Tools resource: AloInstagram Caption Copier.",
       "favorite": false,
@@ -4524,10 +4525,10 @@
         "social-media"
       ],
       "type": "Utility",
-      "url": "https://aloinstagram.com/copy-instagram-caption/#",
-      "addedAt": 0
+      "url": "https://aloinstagram.com/copy-instagram-caption/#"
     },
     {
+      "addedAt": 0,
       "category": "Books & Reading",
       "description": "Books & Reading resource: Z-Library.",
       "favorite": false,
@@ -4541,10 +4542,10 @@
         "reading"
       ],
       "type": "Reading",
-      "url": "https://z-lib.org/",
-      "addedAt": 0
+      "url": "https://z-lib.org/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: PasteDownload.",
       "favorite": false,
@@ -4558,10 +4559,10 @@
         "media"
       ],
       "type": "Utility",
-      "url": "https://pastedownload.com/3/",
-      "addedAt": 0
+      "url": "https://pastedownload.com/3/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: GetSnackVideo.",
       "favorite": false,
@@ -4575,10 +4576,10 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://getsnackvideo.com/",
-      "addedAt": 0
+      "url": "https://getsnackvideo.com/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: YouTube 4K Downloader - Spotify MP3.",
       "favorite": false,
@@ -4592,10 +4593,10 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://youtube4kdownloader.com/en10/download-spotify-mp3.html",
-      "addedAt": 0
+      "url": "https://youtube4kdownloader.com/en10/download-spotify-mp3.html"
     },
     {
+      "addedAt": 0,
       "category": "Social Media Tools",
       "description": "Social Media Tools resource: Picnob Instagram Profile Viewer.",
       "favorite": false,
@@ -4609,10 +4610,10 @@
         "viewer"
       ],
       "type": "Utility",
-      "url": "https://www.picnob.com/profile/",
-      "addedAt": 0
+      "url": "https://www.picnob.com/profile/"
     },
     {
+      "addedAt": 0,
       "category": "Social Media Tools",
       "description": "Social Media Tools resource: InDown Instagram DP Viewer.",
       "favorite": false,
@@ -4626,10 +4627,10 @@
         "viewer"
       ],
       "type": "Utility",
-      "url": "https://indown.io/insta-dp-viewer",
-      "addedAt": 0
+      "url": "https://indown.io/insta-dp-viewer"
     },
     {
+      "addedAt": 0,
       "category": "Social Media Tools",
       "description": "Social Media Tools resource: InstaSuperSave Stories.",
       "favorite": false,
@@ -4643,10 +4644,10 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://instasupersave.com/en/instagram-stories/",
-      "addedAt": 0
+      "url": "https://instasupersave.com/en/instagram-stories/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Media Tools",
       "description": "Download & Media Tools resource: StorySaver.",
       "favorite": false,
@@ -4660,10 +4661,10 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://www.storysaver.net/",
-      "addedAt": 0
+      "url": "https://www.storysaver.net/"
     },
     {
+      "addedAt": 0,
       "category": "Roadmaps & Career",
       "description": "Roadmaps & Career resource: Europass CV Creator.",
       "favorite": false,
@@ -4677,10 +4678,10 @@
         "career"
       ],
       "type": "Career",
-      "url": "https://europass.europa.eu/en/create-europass-cv",
-      "addedAt": 0
+      "url": "https://europass.europa.eu/en/create-europass-cv"
     },
     {
+      "addedAt": 0,
       "category": "Social Media Tools",
       "description": "Social Media Tools resource: SSSInstagram.",
       "favorite": false,
@@ -4694,10 +4695,10 @@
         "social-media"
       ],
       "type": "Utility",
-      "url": "https://sssinstagram.com/en1",
-      "addedAt": 0
+      "url": "https://sssinstagram.com/en1"
     },
     {
+      "addedAt": 0,
       "category": "Social Media Tools",
       "description": "Social Media Tools resource: InDown Instagram Photo.",
       "favorite": false,
@@ -4711,10 +4712,10 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://indown.io/photo",
-      "addedAt": 0
+      "url": "https://indown.io/photo"
     },
     {
+      "addedAt": 0,
       "category": "Social Media Tools",
       "description": "Social Media Tools resource: Inflact Instagram Stories Viewer.",
       "favorite": false,
@@ -4728,10 +4729,10 @@
         "viewer"
       ],
       "type": "Utility",
-      "url": "https://inflact.com/instagram-viewer/stories/",
-      "addedAt": 0
+      "url": "https://inflact.com/instagram-viewer/stories/"
     },
     {
+      "addedAt": 0,
       "category": "Social Media Tools",
       "description": "Social Media Tools resource: StoriesIG.",
       "favorite": false,
@@ -4745,10 +4746,10 @@
         "viewer"
       ],
       "type": "Utility",
-      "url": "https://storiesig.info/en/",
-      "addedAt": 0
+      "url": "https://storiesig.info/en/"
     },
     {
+      "addedAt": 0,
       "category": "Social Media Tools",
       "description": "Social Media Tools resource: Insta Stories Viewer.",
       "favorite": false,
@@ -4762,10 +4763,10 @@
         "viewer"
       ],
       "type": "Utility",
-      "url": "https://insta-stories-viewer.com/nuriyeeyupoglu/",
-      "addedAt": 0
+      "url": "https://insta-stories-viewer.com/nuriyeeyupoglu/"
     },
     {
+      "addedAt": 0,
       "category": "Social Media Tools",
       "description": "Social Media Tools resource: InstaSpeeder Caption Copier.",
       "favorite": false,
@@ -4779,10 +4780,10 @@
         "social-media"
       ],
       "type": "Utility",
-      "url": "https://instaspeeder.com/copy-instagram-caption/#google_vignette",
-      "addedAt": 0
+      "url": "https://instaspeeder.com/copy-instagram-caption/#google_vignette"
     },
     {
+      "addedAt": 0,
       "category": "Downloading Sites",
       "description": "Downloading Sites resource: Downloadly.",
       "favorite": false,
@@ -4796,10 +4797,10 @@
         "resources"
       ],
       "type": "Utility",
-      "url": "https://downloadly.net/",
-      "addedAt": 0
+      "url": "https://downloadly.net/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Conversion",
       "description": "Download & Conversion resource: File Converter.",
       "favorite": false,
@@ -4813,10 +4814,10 @@
         "conversion"
       ],
       "type": "Utility",
-      "url": "https://file-converter.org/download.html",
-      "addedAt": 0
+      "url": "https://file-converter.org/download.html"
     },
     {
+      "addedAt": 0,
       "category": "Courses & Learning",
       "description": "Courses & Learning resource: TutsNode.",
       "favorite": false,
@@ -4830,10 +4831,10 @@
         "learning"
       ],
       "type": "Learning",
-      "url": "https://tutsnode.com/",
-      "addedAt": 0
+      "url": "https://tutsnode.com/"
     },
     {
+      "addedAt": 0,
       "category": "Science & Education",
       "description": "Science & Education resource: HowStuffWorks - Science.",
       "favorite": false,
@@ -4847,10 +4848,10 @@
         "how-it-works"
       ],
       "type": "Learning",
-      "url": "https://science.howstuffworks.com/",
-      "addedAt": 0
+      "url": "https://science.howstuffworks.com/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Conversion",
       "description": "Download & Conversion resource: DownScribd.",
       "favorite": false,
@@ -4864,10 +4865,10 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://downscribd.com/",
-      "addedAt": 0
+      "url": "https://downscribd.com/"
     },
     {
+      "addedAt": 0,
       "category": "Download & Conversion",
       "description": "Download & Conversion resource: DocDownloader.",
       "favorite": false,
@@ -4881,10 +4882,10 @@
         "converter"
       ],
       "type": "Utility",
-      "url": "https://docdownloader.com/",
-      "addedAt": 0
+      "url": "https://docdownloader.com/"
     },
     {
+      "addedAt": 0,
       "category": "YouTube Tools",
       "description": "YouTube Tools resource: YouTube Multi Downloader.",
       "favorite": false,
@@ -4898,21 +4899,269 @@
         "download"
       ],
       "type": "Utility",
-      "url": "https://youtubemultidownloader.net/",
-      "addedAt": 0
+      "url": "https://youtubemultidownloader.net/"
     },
     {
-      "id": "40c48d37-c2dd-45be-aa31-cc1868c8a152",
-      "name": "Convert ZIP to CRX",
-      "url": "https://www.ezyzip.com/convert-zip-to-crx.html",
+      "addedAt": 1790920529381,
       "category": "Developer Tools",
-      "type": "Website",
-      "tags": [],
       "description": "Convert Chrome Extension ZIP files into CRX packages",
-      "notes": "",
       "favorite": false,
+      "id": "40c48d37-c2dd-45be-aa31-cc1868c8a152",
       "lastUsed": 0,
-      "addedAt": 1790920529381
+      "name": "Convert ZIP to CRX",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://www.ezyzip.com/convert-zip-to-crx.html"
+    },
+    {
+      "addedAt": 1790923672654,
+      "category": "PC Games",
+      "description": "",
+      "favorite": false,
+      "id": "958c8b56-db64-4ebf-8435-3b76a6ee4fb5",
+      "lastUsed": 0,
+      "name": "downloadfury",
+      "notes": "",
+      "tags": [
+        "PC games"
+      ],
+      "type": "Website",
+      "url": "https://downloadfury.com/category/pc-games/"
+    },
+    {
+      "addedAt": 1790923758077,
+      "category": "Software Download",
+      "description": "",
+      "favorite": false,
+      "id": "a2996217-b818-4cb3-a0e0-26a3fd689b9d",
+      "lastUsed": 0,
+      "name": "Filecr",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://filecr.com/"
+    },
+    {
+      "addedAt": 1790923836270,
+      "category": "PC Games",
+      "description": "",
+      "favorite": false,
+      "id": "0ff64f1f-651b-4a0d-8e64-cef684fa0816",
+      "lastUsed": 0,
+      "name": "Hisgames",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://hisgames.org/"
+    },
+    {
+      "addedAt": 1790923878078,
+      "category": "PC Games",
+      "description": "",
+      "favorite": false,
+      "id": "b958dcf6-f2af-4efb-9027-834848e1d955",
+      "lastUsed": 0,
+      "name": "Gamingbeasts",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://gamingbeasts.com/"
+    },
+    {
+      "addedAt": 1790924009230,
+      "category": "PC Games",
+      "description": "",
+      "favorite": false,
+      "id": "02a23b13-a556-4d76-bcb9-37ca2244aeb5",
+      "lastUsed": 0,
+      "name": "Steamunlocked",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://steamunlocked.net/"
+    },
+    {
+      "addedAt": 1790924042574,
+      "category": "PC Games",
+      "description": "",
+      "favorite": false,
+      "id": "31423022-ab23-415e-b599-0fe9d6f95eed",
+      "lastUsed": 0,
+      "name": "ipcgames",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://ipcgames.com/"
+    },
+    {
+      "addedAt": 1790924063814,
+      "category": "PC Games",
+      "description": "",
+      "favorite": false,
+      "id": "f0fe54e7-93c6-4bac-b011-281909122c80",
+      "lastUsed": 0,
+      "name": "oceanoffgames",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://oceanoffgames.com/"
+    },
+    {
+      "addedAt": 1790924205950,
+      "category": "Design Blog",
+      "description": "",
+      "favorite": false,
+      "id": "52cc17c8-49dc-4489-9e25-2d547df48afa",
+      "lastUsed": 0,
+      "name": "designweek",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://www.designweek.co.uk/"
+    },
+    {
+      "addedAt": 1790924280230,
+      "category": "Design Blog",
+      "description": "",
+      "favorite": false,
+      "id": "dde44d4b-56fd-4c36-b758-ac9f312b4772",
+      "lastUsed": 0,
+      "name": "graphicdesignforum",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://www.graphicdesignforum.com/"
+    },
+    {
+      "addedAt": 1790924343942,
+      "category": "Psychology Blogs",
+      "description": "",
+      "favorite": false,
+      "id": "bc834c1e-553b-45f1-9575-81039b2639fe",
+      "lastUsed": 0,
+      "name": "positivepsychology",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://positivepsychology.com/inner-critic-worksheets/"
+    },
+    {
+      "addedAt": 1790924380078,
+      "category": "Developer Tools",
+      "description": "",
+      "favorite": false,
+      "id": "fdd5e6c0-9238-43a4-a7b0-830b8580bbb2",
+      "lastUsed": 0,
+      "name": "headline-analyzer",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://coschedule.com/headline-analyzer"
+    },
+    {
+      "addedAt": 1790924420150,
+      "category": "Developer Tools",
+      "description": "",
+      "favorite": false,
+      "id": "d10fd013-7baf-419e-87da-e9a216a41440",
+      "lastUsed": 0,
+      "name": "titlecaseconverter.",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://titlecaseconverter.com/"
+    },
+    {
+      "addedAt": 1790924558062,
+      "category": "Developer Tools",
+      "description": "",
+      "favorite": false,
+      "id": "3a129a1c-efd6-46fe-b5b4-e7adf82b801d",
+      "lastUsed": 0,
+      "name": "convertcase",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://convertcase.net/"
+    },
+    {
+      "addedAt": 1790924584510,
+      "category": "Developer Tools",
+      "description": "",
+      "favorite": false,
+      "id": "6a508426-655d-4e3c-93b9-c52035247004",
+      "lastUsed": 0,
+      "name": "capitalizemytitle",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://capitalizemytitle.com/"
+    },
+    {
+      "addedAt": 1790924614590,
+      "category": "Developer Tools",
+      "description": "",
+      "favorite": false,
+      "id": "57334ef0-829d-46ee-b062-8a0eab32a67a",
+      "lastUsed": 0,
+      "name": "content-analysis",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://yoast.com/research/real-time-content-analysis/"
+    },
+    {
+      "addedAt": 1790924692007,
+      "category": "Magazines",
+      "description": "",
+      "favorite": false,
+      "id": "866ca3f4-115a-459d-88cb-3c5d0a01ba7d",
+      "lastUsed": 0,
+      "name": "worldmags",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://worldmags.net/"
+    },
+    {
+      "addedAt": 1790924715494,
+      "category": "Network Tools",
+      "description": "",
+      "favorite": false,
+      "id": "bf4ea42b-f9ad-4bf0-ae2c-87aa6fac852e",
+      "lastUsed": 0,
+      "name": "speedtest",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://www.speedtest.net/"
+    },
+    {
+      "addedAt": 1790924745870,
+      "category": "Network Tools",
+      "description": "",
+      "favorite": false,
+      "id": "53698db3-0dd0-42bc-928e-142d83fbb532",
+      "lastUsed": 0,
+      "name": "Fast Speed Tester",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://fast.com/"
+    },
+    {
+      "addedAt": 1790924774814,
+      "category": "Screen Tools",
+      "description": "",
+      "favorite": false,
+      "id": "f2fe3fa5-8a08-4eb8-827d-31c818a11bd3",
+      "lastUsed": 0,
+      "name": "printwhatyoulike",
+      "notes": "",
+      "tags": [],
+      "type": "Website",
+      "url": "https://www.printwhatyoulike.com/"
     }
   ]
 }

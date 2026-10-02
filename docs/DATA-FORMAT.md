@@ -1,6 +1,21 @@
-# Charlie MJ Tool Archive — Data Format
+# Charlie MJ Tool Archive v5.0.0 — Data Format
 
-`data/default-tools.json` is the portable seed/snapshot format. The live extension database is kept in Chrome local storage.
+## Default library format
+
+`data/default-tools.json` is the portable default-library snapshot format.
+
+Both the packaged Local Default Library and the GitHub Remote Library use the same top-level structure:
+
+```json
+{
+  "version": "5.0.0",
+  "app": "Charlie MJ Tool Archive",
+  "exportedAt": "2026-10-02T00:00:00.000Z",
+  "tools": []
+}
+```
+
+The extension's live personal data is stored separately in Chrome local storage.
 
 ## Tool record
 
@@ -12,59 +27,107 @@
   "category": "Developer Tools",
   "type": "Website",
   "tags": ["developer", "utility"],
-  "description": "Short useful description.",
-  "notes": "Personal notes.",
-  "favorite": false,
-  "addedAt": 0,
-  "lastModified": 0,
-  "lastUsed": 0,
-  "usageCount": 0,
-  "source": "bundled",
-  "githubFingerprint": "",
-  "githubSyncedAt": 0
+  "description": "Short useful description."
 }
 ```
 
-## Important fields
+Personal runtime fields may exist in local backups, but they are not required in the public GitHub default snapshot.
 
-- `id` — unique record identifier.
-- `name` — display name.
-- `url` — website URL.
-- `category` — current user-facing category.
-- `type` — Website, Developer, AI, Project, GitHub, Learning or Utility.
-- `tags` — searchable labels.
-- `description` — short useful description shown on cards/details.
-- `notes` — personal notes; preserved during GitHub sync.
-- `favorite` — local favorite state.
-- `addedAt` — creation timestamp.
-- `lastModified` — last local edit timestamp.
-- `lastUsed` — most recent open timestamp.
-- `usageCount` — number of recorded opens.
-- `source` — bundled, github, import or local.
-- `githubFingerprint` — internal remote-data fingerprint.
-- `githubSyncedAt` — last GitHub enrichment timestamp.
+## Source model
+
+The extension keeps two source collections:
+
+```text
+localLibrary
+remoteLibrary
+```
+
+The dashboard derives the source state for each normalized URL:
+
+```text
+local only       → 🏠 LOCAL
+remote only      → ☁️ REMOTE
+both             → 🏠 LOCAL + ☁️ REMOTE
+```
+
+## URL normalization
+
+For archive duplicate comparison the extension:
+
+- normalizes protocol and hostname case
+- removes the leading `www.` hostname prefix
+- removes query strings
+- removes URL fragments
+- normalizes repeated slashes
+- normalizes trailing slashes
+
+Useful paths remain meaningful. For example:
+
+```text
+https://example.com/tools
+https://example.com/download
+```
+
+remain separate records.
+
+## Local personal metadata
+
+The following information is treated as personal/local data:
+
+- favorites
+- notes
+- usage count
+- last-used timestamp
+- local edits
+- local copies of remote-only tools
+
+Remote synchronization must not blindly replace these values.
+
+## Remote synchronization metadata
+
+Chrome local storage maintains synchronization state separately from the tool records, including:
+
+- last synchronization time
+- synchronization status
+- remote tool count
+- added count
+- updated count
+- removed count
+- recent sync history
+- most recent change summary
+
+## GitHub publishing
+
+**Prepare GitHub Update** creates a clean default snapshot from the local library.
+
+Personal runtime fields are removed before the file is prepared for publication.
+
+Recommended flow:
+
+```text
+Local Library
+    ↓
+Prepare GitHub Update
+    ↓
+data/default-tools.json
+    ↓
+Git commit / push
+    ↓
+Remote GitHub Library
+```
 
 ## Duplicate handling
 
-The extension normalizes URLs before comparing them. It removes common tracking parameters and fragments, normalizes the host, and normalizes trailing slashes. Query variations that represent the same saved page are treated as the same archive record during cleanup/sync.
+Duplicate URL records are merged locally before they are shown in the dashboard.
 
-When duplicates are found, the extension keeps one record and combines useful metadata such as tags, notes, favorites and usage history.
-
-## GitHub sync rules
-
-GitHub is treated as a **default-library source**, not the live personal database.
-
-When GitHub contains a new URL:
+When the same normalized URL exists in Local and Remote, the dashboard shows one unified card with:
 
 ```text
-GitHub record → new local record
+🏠 LOCAL + ☁️ REMOTE
 ```
 
-When the URL already exists:
+## Remote deletion safety
 
-```text
-GitHub metadata → fill missing local information
-Personal notes/favorites/usage → stay local
-```
+A record disappearing from GitHub does not authorize deletion of a local personal record.
 
-This makes it safe to publish new default tools without destroying personal archive data.
+This prevents remote library maintenance from destroying local information.

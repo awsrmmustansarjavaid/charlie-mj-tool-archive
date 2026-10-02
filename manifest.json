@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Charlie MJ Tool Archive",
-  "version": "4.0.0",
-  "description": "A smart local-first Chrome tool archive with GitHub sync, duplicate protection, smart categories, backups, health checks and rich exports.",
+  "version": "5.0.0",
+  "description": "A dual-source local and GitHub Chrome tool archive with source badges, smart categories, duplicate protection, library comparison, safe synchronization, backups, health checks and rich exports.",
   "permissions": [
     "alarms",
     "bookmarks",

@@ -21,6 +21,15 @@ The extension is designed to remain useful both **offline** and when connected t
   <img src="./assets/85d6b421-b702-43ab-aebc-1713e4747ca7.png" alt="Charlie MJ Tool Archive" width="600">
 </p>
 
+## Download
+
+<p align="center">
+  <a href="/downloads/charlie-mj-tool-archive.zip">
+    <img src="https://img.shields.io/badge/⬇%20Download%20Chrome%20Extension-2ea44f?style=for-the-badge" alt="Download Chrome Extension">
+  </a>
+</p>
+
+
 ---
 
 # 🚀 v5.0.0 Highlights

@@ -1,0 +1,36 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "021368d4-254d-5d31-85cd-dd3096d0635d",
+    "displayId": "PSYCHOLOGY-BLOGS-D0635D",
+    "name": "Psychology Blogs",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 1,
+  "tools": [
+    {
+      "id": "bc834c1e-553b-45f1-9575-81039b2639fe",
+      "name": "positivepsychology",
+      "url": "https://positivepsychology.com/inner-critic-worksheets/",
+      "category": "Psychology Blogs",
+      "type": "Website",
+      "tags": [
+        "positivepsychology"
+      ],
+      "description": "Psychology resource with practical articles and worksheets for personal development and wellbeing topics.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790924343942,
+      "lastModified": 1790924343942,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

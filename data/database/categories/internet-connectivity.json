@@ -1,0 +1,56 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "5df6b380-839b-5e93-b35b-57c4e78619a7",
+    "displayId": "INTERNET-CONNECTIVITY-8619A7",
+    "name": "Internet & Connectivity",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 2,
+  "tools": [
+    {
+      "id": "cmj-0023",
+      "name": "OnlineSIM",
+      "url": "https://onlinesim.io/",
+      "category": "Internet & Connectivity",
+      "type": "Utility",
+      "tags": [
+        "virtual sim",
+        "sms"
+      ],
+      "description": "Internet & Connectivity resource: OnlineSIM.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0024",
+      "name": "WiFi Map",
+      "url": "https://www.wifimap.io/",
+      "category": "Internet & Connectivity",
+      "type": "Utility",
+      "tags": [
+        "wifi",
+        "connectivity"
+      ],
+      "description": "Internet & Connectivity resource: WiFi Map.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

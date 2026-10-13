@@ -1,0 +1,36 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "65b35dcc-da0c-5bda-91f7-7363624c3828",
+    "displayId": "AI-RESEARCH-4C3828",
+    "name": "AI Research",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 1,
+  "tools": [
+    {
+      "id": "cmj-0151",
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai/",
+      "category": "AI Research",
+      "type": "AI",
+      "tags": [
+        "perplexity"
+      ],
+      "description": "AI Research resource: Perplexity.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

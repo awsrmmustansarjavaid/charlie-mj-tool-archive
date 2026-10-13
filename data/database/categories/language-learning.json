@@ -1,0 +1,37 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "06c007ae-57ae-5c88-933d-9524baf6c51d",
+    "displayId": "LANGUAGE-LEARNING-F6C51D",
+    "name": "Language Learning",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 1,
+  "tools": [
+    {
+      "id": "cmj-0013",
+      "name": "Mind Luster - Turkish Search",
+      "url": "https://www.mindluster.com/?search_for=Turkish+",
+      "category": "Language Learning",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language"
+      ],
+      "description": "Language Learning resource: Mind Luster - Turkish Search.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

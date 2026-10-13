@@ -1,0 +1,135 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "c01bd82b-3916-57f1-91fa-77243f64454a",
+    "displayId": "YOUTUBE-TOOLS-64454A",
+    "name": "YouTube Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 6,
+  "tools": [
+    {
+      "id": "cmj-0027",
+      "name": "YoutubeDL - GitHub",
+      "url": "https://github.com/realcoloride/YoutubeDL",
+      "category": "YouTube Tools",
+      "type": "GitHub",
+      "tags": [
+        "youtube",
+        "download",
+        "github"
+      ],
+      "description": "YouTube Tools resource: YoutubeDL - GitHub.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0028",
+      "name": "YouTube Videos as MP4 Userscript",
+      "url": "https://github.com/anirudhkhanna/YouTube-Video-Downloader-Userscript/blob/master/Download%20YouTube%20Videos%20as%20MP4.user.js",
+      "category": "YouTube Tools",
+      "type": "GitHub",
+      "tags": [
+        "youtube",
+        "mp4",
+        "userscript"
+      ],
+      "description": "YouTube Tools resource: YouTube Videos as MP4 Userscript.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0037",
+      "name": "YouTube Subtitle Downloader",
+      "url": "https://www.downloadyoutubesubtitles.com/",
+      "category": "YouTube Tools",
+      "type": "Utility",
+      "tags": [
+        "youtube",
+        "subtitles"
+      ],
+      "description": "YouTube Tools resource: YouTube Subtitle Downloader.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0042",
+      "name": "YouTube Subtitle Downloader - Noteey",
+      "url": "https://www.noteey.com/youtube-subtitle-downloader",
+      "category": "YouTube Tools",
+      "type": "Utility",
+      "tags": [
+        "youtube",
+        "subtitles"
+      ],
+      "description": "YouTube Tools resource: YouTube Subtitle Downloader - Noteey.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0043",
+      "name": "YouTube Thumbnail Downloader",
+      "url": "https://www.youtubethumbnaildownloader.com/",
+      "category": "YouTube Tools",
+      "type": "Utility",
+      "tags": [
+        "youtube",
+        "thumbnail"
+      ],
+      "description": "YouTube Tools resource: YouTube Thumbnail Downloader.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0316",
+      "name": "YouTube Multi Downloader",
+      "url": "https://youtubemultidownloader.net/",
+      "category": "YouTube Tools",
+      "type": "Utility",
+      "tags": [
+        "youtube",
+        "video",
+        "download"
+      ],
+      "description": "YouTube Tools resource: YouTube Multi Downloader.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

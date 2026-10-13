@@ -1,0 +1,57 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "6937d28c-a257-5936-a135-ec06e52c6e67",
+    "displayId": "SCREEN-RECORDING-DEMOS-2C6E67",
+    "name": "Screen Recording & Demos",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 2,
+  "tools": [
+    {
+      "id": "cmj-0039",
+      "name": "Recordly - GitHub",
+      "url": "https://github.com/webadderallorg/recordly",
+      "category": "Screen Recording & Demos",
+      "type": "GitHub",
+      "tags": [
+        "screen recording",
+        "demo",
+        "github"
+      ],
+      "description": "Screen Recording & Demos resource: Recordly - GitHub.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0040",
+      "name": "Recordly",
+      "url": "https://recordly.dev/",
+      "category": "Screen Recording & Demos",
+      "type": "Website",
+      "tags": [
+        "screen recording",
+        "demo"
+      ],
+      "description": "Screen Recording & Demos resource: Recordly.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

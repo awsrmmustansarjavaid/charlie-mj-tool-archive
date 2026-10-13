@@ -1,0 +1,218 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "e12b7142-9ad3-5d56-94d3-b1dc91430891",
+    "displayId": "SOCIAL-MEDIA-TOOLS-430891",
+    "name": "Social Media Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 10,
+  "tools": [
+    {
+      "id": "cmj-0293",
+      "name": "AloInstagram Caption Copier",
+      "url": "https://aloinstagram.com/copy-instagram-caption/#",
+      "category": "Social Media Tools",
+      "type": "Utility",
+      "tags": [
+        "instagram",
+        "caption",
+        "social-media"
+      ],
+      "description": "Social Media Tools resource: AloInstagram Caption Copier.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0299",
+      "name": "Picnob Instagram Profile Viewer",
+      "url": "https://www.picnob.com/profile/",
+      "category": "Social Media Tools",
+      "type": "Utility",
+      "tags": [
+        "instagram",
+        "profile",
+        "viewer"
+      ],
+      "description": "Social Media Tools resource: Picnob Instagram Profile Viewer.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0300",
+      "name": "InDown Instagram DP Viewer",
+      "url": "https://indown.io/insta-dp-viewer",
+      "category": "Social Media Tools",
+      "type": "Utility",
+      "tags": [
+        "instagram",
+        "profile-picture",
+        "viewer"
+      ],
+      "description": "Social Media Tools resource: InDown Instagram DP Viewer.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0301",
+      "name": "InstaSuperSave Stories",
+      "url": "https://instasupersave.com/en/instagram-stories/",
+      "category": "Social Media Tools",
+      "type": "Utility",
+      "tags": [
+        "instagram",
+        "stories",
+        "download"
+      ],
+      "description": "Social Media Tools resource: InstaSuperSave Stories.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0304",
+      "name": "SSSInstagram",
+      "url": "https://sssinstagram.com/en1",
+      "category": "Social Media Tools",
+      "type": "Utility",
+      "tags": [
+        "instagram",
+        "download",
+        "social-media"
+      ],
+      "description": "Social Media Tools resource: SSSInstagram.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0305",
+      "name": "InDown Instagram Photo",
+      "url": "https://indown.io/photo",
+      "category": "Social Media Tools",
+      "type": "Utility",
+      "tags": [
+        "instagram",
+        "photo",
+        "download"
+      ],
+      "description": "Social Media Tools resource: InDown Instagram Photo.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0306",
+      "name": "Inflact Instagram Stories Viewer",
+      "url": "https://inflact.com/instagram-viewer/stories/",
+      "category": "Social Media Tools",
+      "type": "Utility",
+      "tags": [
+        "instagram",
+        "stories",
+        "viewer"
+      ],
+      "description": "Social Media Tools resource: Inflact Instagram Stories Viewer.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0307",
+      "name": "StoriesIG",
+      "url": "https://storiesig.info/en/",
+      "category": "Social Media Tools",
+      "type": "Utility",
+      "tags": [
+        "instagram",
+        "stories",
+        "viewer"
+      ],
+      "description": "Social Media Tools resource: StoriesIG.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0308",
+      "name": "Insta Stories Viewer",
+      "url": "https://insta-stories-viewer.com/nuriyeeyupoglu/",
+      "category": "Social Media Tools",
+      "type": "Utility",
+      "tags": [
+        "instagram",
+        "stories",
+        "viewer"
+      ],
+      "description": "Social Media Tools resource: Insta Stories Viewer.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0309",
+      "name": "InstaSpeeder Caption Copier",
+      "url": "https://instaspeeder.com/copy-instagram-caption/#google_vignette",
+      "category": "Social Media Tools",
+      "type": "Utility",
+      "tags": [
+        "instagram",
+        "caption",
+        "social-media"
+      ],
+      "description": "Social Media Tools resource: InstaSpeeder Caption Copier.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

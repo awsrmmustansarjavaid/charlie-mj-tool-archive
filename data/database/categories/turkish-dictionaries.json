@@ -1,0 +1,158 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "b53ef905-dc9a-5027-a905-5270c2293c9c",
+    "displayId": "TURKISH-DICTIONARIES-293C9C",
+    "name": "Turkish Dictionaries",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 7,
+  "tools": [
+    {
+      "id": "cmj-0189",
+      "name": "TDK Sözlük",
+      "url": "https://sozluk.gov.tr/",
+      "category": "Turkish Dictionaries",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language",
+        "dictionary"
+      ],
+      "description": "Turkish Dictionaries resource: TDK Sözlük.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0190",
+      "name": "Tureng",
+      "url": "https://tureng.com/",
+      "category": "Turkish Dictionaries",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language",
+        "dictionary"
+      ],
+      "description": "Turkish Dictionaries resource: Tureng.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0191",
+      "name": "Sesli Sözlük",
+      "url": "https://www.seslisozluk.net/",
+      "category": "Turkish Dictionaries",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language",
+        "dictionary"
+      ],
+      "description": "Turkish Dictionaries resource: Sesli Sözlük.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0192",
+      "name": "Nişanyan Sözlük",
+      "url": "https://www.nisanyansozluk.com/",
+      "category": "Turkish Dictionaries",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language",
+        "dictionary"
+      ],
+      "description": "Turkish Dictionaries resource: Nişanyan Sözlük.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0193",
+      "name": "WordReference",
+      "url": "https://www.wordreference.com/tren/",
+      "category": "Turkish Dictionaries",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language",
+        "dictionary"
+      ],
+      "description": "Turkish Dictionaries resource: WordReference.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0194",
+      "name": "Glosbe",
+      "url": "https://glosbe.com/tr/en",
+      "category": "Turkish Dictionaries",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language",
+        "dictionary"
+      ],
+      "description": "Turkish Dictionaries resource: Glosbe.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0195",
+      "name": "Wiktionary",
+      "url": "https://www.wiktionary.org/",
+      "category": "Turkish Dictionaries",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language",
+        "dictionary"
+      ],
+      "description": "Turkish Dictionaries resource: Wiktionary.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

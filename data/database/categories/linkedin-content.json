@@ -1,0 +1,93 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "73914a53-83f2-5095-a188-a1513b3340f1",
+    "displayId": "LINKEDIN-CONTENT-3340F1",
+    "name": "LinkedIn & Content",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 4,
+  "tools": [
+    {
+      "id": "cmj-0036",
+      "name": "LinkedIn Text Formatter - Typegrow",
+      "url": "https://typegrow.com/tools/linkedin-text-formatter",
+      "category": "LinkedIn & Content",
+      "type": "Utility",
+      "tags": [
+        "linkedin",
+        "formatter"
+      ],
+      "description": "LinkedIn & Content resource: LinkedIn Text Formatter - Typegrow.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0041",
+      "name": "LinkedIn Text & Content Formatter - AuthoredUp",
+      "url": "https://authoredup.com/tools/linkedin-text-formatter",
+      "category": "LinkedIn & Content",
+      "type": "Utility",
+      "tags": [
+        "linkedin",
+        "content",
+        "formatter"
+      ],
+      "description": "LinkedIn & Content resource: LinkedIn Text & Content Formatter - AuthoredUp.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0232",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/article/new/",
+      "category": "LinkedIn & Content",
+      "type": "Website",
+      "tags": [
+        "linkedin"
+      ],
+      "description": "LinkedIn & Content resource: LinkedIn.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0283",
+      "name": "Nuelink",
+      "url": "https://nuelink.com/tools/facebook-text-formatter",
+      "category": "LinkedIn & Content",
+      "type": "Website",
+      "tags": [
+        "nuelink"
+      ],
+      "description": "LinkedIn & Content resource: Nuelink.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

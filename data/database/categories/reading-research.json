@@ -1,0 +1,37 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "70a3ae10-f5fe-5431-93a7-346b496913e9",
+    "displayId": "READING-RESEARCH-6913E9",
+    "name": "Reading & Research",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 1,
+  "tools": [
+    {
+      "id": "cmj-0032",
+      "name": "Freedium",
+      "url": "https://freedium-mirror.cfd/",
+      "category": "Reading & Research",
+      "type": "Website",
+      "tags": [
+        "medium",
+        "articles"
+      ],
+      "description": "Reading & Research resource: Freedium.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

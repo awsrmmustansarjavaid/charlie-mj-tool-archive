@@ -1,0 +1,59 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "491b3b71-a21e-5f99-841f-b78a6a803ae7",
+    "displayId": "DEVELOPMENT-803AE7",
+    "name": "Development",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 2,
+  "tools": [
+    {
+      "id": "cmj-0287",
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "category": "Development",
+      "type": "GitHub",
+      "tags": [
+        "git",
+        "code",
+        "opensource",
+        "development"
+      ],
+      "description": "Platform for hosting, reviewing and collaborating on software projects.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0289",
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com/",
+      "category": "Development",
+      "type": "Developer",
+      "tags": [
+        "programming",
+        "questions",
+        "community"
+      ],
+      "description": "Developer question-and-answer community for programming and software development.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

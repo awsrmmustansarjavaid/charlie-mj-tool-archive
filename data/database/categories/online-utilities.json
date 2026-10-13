@@ -1,0 +1,165 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "88a66b1b-5bb4-527c-a943-dec088931477",
+    "displayId": "ONLINE-UTILITIES-931477",
+    "name": "Online Utilities",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 8,
+  "tools": [
+    {
+      "id": "cmj-0258",
+      "name": "123APPS",
+      "url": "https://123apps.com/",
+      "category": "Online Utilities",
+      "type": "Utility",
+      "tags": [
+        "123apps"
+      ],
+      "description": "Online Utilities resource: 123APPS.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0259",
+      "name": "Clideo",
+      "url": "https://clideo.com/cut-audio",
+      "category": "Online Utilities",
+      "type": "Utility",
+      "tags": [
+        "clideo"
+      ],
+      "description": "Online Utilities resource: Clideo.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0260",
+      "name": "Audio Trimmer",
+      "url": "https://audiotrimmer.com/",
+      "category": "Online Utilities",
+      "type": "Utility",
+      "tags": [
+        "audio",
+        "trimmer"
+      ],
+      "description": "Online Utilities resource: Audio Trimmer.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0270",
+      "name": "iLovePDF",
+      "url": "https://www.ilovepdf.com/",
+      "category": "Online Utilities",
+      "type": "Utility",
+      "tags": [
+        "ilovepdf"
+      ],
+      "description": "Online Utilities resource: iLovePDF.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0279",
+      "name": "Zamzar",
+      "url": "https://www.zamzar.com/uploadComplete.php?convertFile=epub&to=pdf&email=false&tcs=Z84",
+      "category": "Online Utilities",
+      "type": "Utility",
+      "tags": [
+        "zamzar"
+      ],
+      "description": "Online Utilities resource: Zamzar.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0284",
+      "name": "CodeBeautify",
+      "url": "https://codebeautify.org/remove-empty-lines",
+      "category": "Online Utilities",
+      "type": "Utility",
+      "tags": [
+        "codebeautify"
+      ],
+      "description": "Online Utilities resource: CodeBeautify.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "f2fe3fa5-8a08-4eb8-827d-31c818a11bd3",
+      "name": "printwhatyoulike",
+      "url": "https://www.printwhatyoulike.com/",
+      "category": "Online Utilities",
+      "type": "Website",
+      "tags": [
+        "printwhatyoulike"
+      ],
+      "description": "Web printing utility designed to simplify pages before printing or saving them.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790924774814,
+      "lastModified": 1790924774814,
+      "source": "local"
+    },
+    {
+      "id": "5ffcf16e-a27a-480b-bf69-b373e73f4c68",
+      "name": "PDFAID",
+      "url": "https://pdfaid.com/",
+      "category": "Online Utilities",
+      "type": "Website",
+      "tags": [
+        "pdfaid",
+        "online",
+        "utilities"
+      ],
+      "description": "Online Utilities resource: PDFAID. Useful for quick access from your personal tool archive.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955531210,
+      "lastModified": 1790955531210,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

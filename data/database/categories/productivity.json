@@ -1,0 +1,72 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "776cd014-b1a4-58a0-9d39-01f7597786f9",
+    "displayId": "PRODUCTIVITY-7786F9",
+    "name": "Productivity",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 3,
+  "tools": [
+    {
+      "id": "cmj-0267",
+      "name": "Weekrise",
+      "url": "https://weekrise.com/",
+      "category": "Productivity",
+      "type": "Website",
+      "tags": [
+        "weekrise"
+      ],
+      "description": "Productivity resource: Weekrise.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0281",
+      "name": "Pomotroid",
+      "url": "https://splode.github.io/pomotroid/",
+      "category": "Productivity",
+      "type": "Website",
+      "tags": [
+        "pomotroid"
+      ],
+      "description": "Productivity resource: Pomotroid.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0282",
+      "name": "Pomotodo",
+      "url": "https://pomotodo.com/?utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier&utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier",
+      "category": "Productivity",
+      "type": "Website",
+      "tags": [
+        "pomotodo"
+      ],
+      "description": "Productivity resource: Pomotodo.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

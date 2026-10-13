@@ -1,0 +1,74 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "492d4c6b-673e-501e-a451-ec2ce9f6c33c",
+    "displayId": "TECH-BLOGS-F6C33C",
+    "name": "Tech Blogs",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 3,
+  "tools": [
+    {
+      "id": "cmj-0235",
+      "name": "Docs",
+      "url": "https://docs.aviatrix.com/documentation/latest/getting-started/platform-overview/aviatrix-glossary.html",
+      "category": "Tech Blogs",
+      "type": "Website",
+      "tags": [
+        "docs"
+      ],
+      "description": "Imported Bookmarks resource: Docs.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790925855471,
+      "lastModified": 1790925855471,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0236",
+      "name": "Cisco Blogs",
+      "url": "https://blogs.cisco.com/tag/security-operations-center",
+      "category": "Tech Blogs",
+      "type": "Website",
+      "tags": [
+        "cisco",
+        "blogs"
+      ],
+      "description": "Imported Bookmarks resource: Cisco Blogs.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790925844679,
+      "lastModified": 1790925844679,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0237",
+      "name": "Turtles AI",
+      "url": "https://www.turtlesai.com/en/pages/news/002-1/index.html",
+      "category": "Tech Blogs",
+      "type": "Website",
+      "tags": [
+        "turtles",
+        "ai"
+      ],
+      "description": "Imported Bookmarks resource: Turtles AI.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 1790925875084,
+      "addedAt": 1790925899319,
+      "lastModified": 1790925899319,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

@@ -1,0 +1,138 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "c5cec684-5510-5791-9ce4-76adc9212f78",
+    "displayId": "INSTAGRAM-TOOLS-212F78",
+    "name": "Instagram Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 6,
+  "tools": [
+    {
+      "id": "cmj-0252",
+      "name": "Pixwox",
+      "url": "https://www.pixwox.com/",
+      "category": "Instagram Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media",
+        "instagram"
+      ],
+      "description": "Download & Media Tools resource: Pixwox.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790921729252,
+      "lastModified": 1790921729252,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0253",
+      "name": "Toolzu",
+      "url": "https://toolzu.com/downloader/instagram/profile/",
+      "category": "Instagram Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media",
+        "instagram"
+      ],
+      "description": "Download & Media Tools resource: Toolzu.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790921770404,
+      "lastModified": 1790921770404,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0261",
+      "name": "Save-Insta",
+      "url": "https://www.save-insta.com/profile-downloader/",
+      "category": "Instagram Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media",
+        "instagram"
+      ],
+      "description": "Download & Media Tools resource: Save-Insta.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790921742124,
+      "lastModified": 1790921742124,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0262",
+      "name": "AnonyIG",
+      "url": "https://anonyig.com/en1/iganony/",
+      "category": "Instagram Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media",
+        "instagram"
+      ],
+      "description": "Download & Media Tools resource: AnonyIG.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790921684628,
+      "lastModified": 1790921684628,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0263",
+      "name": "StorySaver",
+      "url": "https://www.storysaver.net/en",
+      "category": "Instagram Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media",
+        "instagram"
+      ],
+      "description": "Download & Media Tools resource: StorySaver.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790921758340,
+      "lastModified": 1790921758340,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0264",
+      "name": "Insnoop",
+      "url": "https://insnoop.com/",
+      "category": "Instagram Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media",
+        "instagram"
+      ],
+      "description": "Download & Media Tools resource: Insnoop.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790921712548,
+      "lastModified": 1790921712548,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

@@ -1,0 +1,512 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "78851c66-00db-5d0e-85e1-acc9ec854c60",
+    "displayId": "HEALTH-FITNESS-854C60",
+    "name": "Health & Fitness",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 26,
+  "tools": [
+    {
+      "id": "cmj-0123",
+      "name": "Medical News Today",
+      "url": "https://www.medicalnewstoday.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Medical News Today.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0124",
+      "name": "Healthline",
+      "url": "https://www.healthline.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Healthline.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0125",
+      "name": "Verywell Health",
+      "url": "https://www.verywellhealth.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Verywell Health.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0126",
+      "name": "HealthShots",
+      "url": "https://www.healthshots.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: HealthShots.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0127",
+      "name": "Art of Healthy Living",
+      "url": "https://artofhealthyliving.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Art of Healthy Living.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0129",
+      "name": "WebMD",
+      "url": "https://www.webmd.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: WebMD.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0130",
+      "name": "ZOE",
+      "url": "https://zoe.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: ZOE.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0131",
+      "name": "Health.com",
+      "url": "https://www.health.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Health.com.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0132",
+      "name": "Women's Health",
+      "url": "https://www.womenshealthmag.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Women's Health.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0133",
+      "name": "Everyday Health",
+      "url": "https://www.everydayhealth.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Everyday Health.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0134",
+      "name": "Muscle & Fitness",
+      "url": "https://www.muscleandfitness.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Muscle & Fitness.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0135",
+      "name": "Physiopedia",
+      "url": "https://www.physio-pedia.com/home/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Physiopedia.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0136",
+      "name": "ATHLEAN-X",
+      "url": "https://athleanx.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: ATHLEAN-X.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0137",
+      "name": "8fit",
+      "url": "https://8fit.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: 8fit.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0138",
+      "name": "Anytime Fitness",
+      "url": "https://www.anytimefitness.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Anytime Fitness.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0139",
+      "name": "PureGym",
+      "url": "https://www.puregym.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: PureGym.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0140",
+      "name": "Greatist",
+      "url": "https://greatist.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Greatist.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0141",
+      "name": "Muscle & Strength",
+      "url": "https://muscleandstrength.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Muscle & Strength.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0142",
+      "name": "Strongr Fastr",
+      "url": "https://www.strongrfastr.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Strongr Fastr.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0143",
+      "name": "JEFIT",
+      "url": "https://www.jefit.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: JEFIT.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0144",
+      "name": "FitnessProgramer",
+      "url": "https://fitnessprogramer.com/workout-plan/6-month-bodybuilding-program/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: FitnessProgramer.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0145",
+      "name": "The Fitness Wiki",
+      "url": "https://thefitness.wiki/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: The Fitness Wiki.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0146",
+      "name": "ExRx",
+      "url": "https://exrx.net/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: ExRx.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0147",
+      "name": "MuscleWiki",
+      "url": "https://musclewiki.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: MuscleWiki.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0148",
+      "name": "Darebee",
+      "url": "https://darebee.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: Darebee.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0149",
+      "name": "StrengthLog",
+      "url": "https://www.strengthlog.com/",
+      "category": "Health & Fitness",
+      "type": "Learning",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "description": "Health & Fitness resource: StrengthLog.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

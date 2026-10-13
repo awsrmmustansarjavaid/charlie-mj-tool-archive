@@ -1,8 +1,8 @@
-# ✨ Charlie MJ Tool Archive v5.0.0
+# ✨ Charlie MJ Tool Archive v6.1.2 — Advanced Edition
 
 A modern **Manifest V3 Chrome extension** for organizing a large personal collection of websites, online tools, learning resources, AI services, developer utilities, social-media tools, productivity resources, and other bookmarks.
 
-**Charlie MJ Tool Archive v5.0.0** introduces a **Dual Library Architecture** with:
+**Charlie MJ Tool Archive v6.1.2** preserves the v5.0.0 Dual Library Architecture and adds a modular advanced resource-management layer with:
 
 * 🏠 **Local Default Library**
 * ☁️ **Remote GitHub Library**
@@ -24,11 +24,63 @@ The extension is designed to remain useful both **offline** and when connected t
 ## Download
 
 <p align="center">
-  <a href="/downloads/charlie-mj-tool-archive.zip">
+  <a href="/downloads/charlie-mj-tool-archive-v6.1.3-transfer-settings-hotfix.zip">
     <img src="https://img.shields.io/badge/⬇%20Download%20Chrome%20Extension-2ea44f?style=for-the-badge" alt="Download Chrome Extension">
   </a>
 </p>
 
+
+---
+
+# 🚀 v6.0.1 Advanced Edition Highlights
+
+Version 6.0.1 is a corrective additive database upgrade. The existing Local Default Library, Remote GitHub Library, Unified Library, tool editor, favorites, source badges, synchronization, legacy JSON import/export, CSV/HTML exports, bookmark import, diagnostics and existing settings remain in place.
+
+* 🗄️ **Central Database Manager** with independent category collections
+* 🌳 **Hierarchical categories** with nested subcategories and stable IDs
+* 🔎 **Smart search** across tool names, URLs, descriptions, categories, tags, aliases and generated labels
+* 🌐 **Chrome Omnibox search** using the `cmj` keyword (type `cmj`, then a space, then your query)
+* 📊 **URL similarity analysis** that distinguishes exact duplicates from similar-but-distinct paths
+* 📦 **Category JSON export/import** and complete database JSON backups
+* 🗜️ **ZIP directory backup and restore** for category JSON collections
+* 📚 **Smart Collections** with create, open and delete actions
+* ⌘ **Command Center** (Ctrl+Shift+P)
+* 🧾 **Tool metadata**: category IDs, subcategory IDs, display IDs, aliases and smart labels
+* 🕘 **Basic tool revision snapshots** retained in local storage (a dedicated revision-browser UI is a future enhancement)
+* 🧩 **Additive modular services** in `src/advanced.js` and `src/zip-manager.js`
+
+### v6.1.2 portable profile transfer
+
+This release checks `user-data/profile-data.json` before initializing/saving the local library. To use the requested copy-the-extension-folder workflow, first install the Native Messaging host on PC1 and set its data-folder path to the unpacked extension’s `user-data` directory. Run Test Native Helper / Sync Now and verify the profile contains all personal tools. Copy the complete extension folder (including `user-data/profile-data.json`) to PC2 and Load unpacked. The dashboard merges that profile before its first save. For ongoing writes on PC2, install the helper there and configure its path to the PC2 `user-data` directory. The helper is optional for normal extension use but required for automatic file writes. See `docs/BUNDLED-PROFILE-TRANSFER-V6.1.2.md`.
+
+### Install / upgrade
+
+1. Extract the ZIP to a new folder; do not overwrite your existing project folder.
+2. Open `chrome://extensions` and enable Developer mode.
+3. If upgrading an installed copy, export a v5 backup first.
+4. Select **Load unpacked** and choose the extracted `charlie-mj-tool-archive` folder (or use **Reload** if replacing the unpacked folder).
+5. Open the extension dashboard and allow the one-time v6 metadata initialization to finish.
+6. Test the local library, remote sync, import/export and Omnibox (`cmj` + Space).
+
+Chrome Omnibox integration is opt-in by its keyword activation: Chrome does not let extensions intercept every ordinary address-bar keystroke. The extension uses the supported `cmj` keyword provider.
+
+### Data and compatibility notes
+
+* `localLibrary` and `remoteLibrary` remain in `chrome.storage.local` for v5 compatibility and service-worker integrations. IndexedDB is the v6 local category database.
+* v6.0.1 stores category collections in IndexedDB and maintains the legacy localLibrary key as a compatibility mirror.
+* Category JSON files are portable import/export artifacts. Normal extension JavaScript cannot write into its installation directory; the optional Native Messaging helper can write to the user-authorized `user-data` directory.
+* ZIP backups contain one JSON collection per category plus index/config/manifest files.
+* URL comparison preserves meaningful path case and query parameters; it ignores fragments, leading `www.`, default ports and trailing slash differences.
+* Similarity percentages are advisory. Only exact canonical URL matches are blocked by the standard save/import flow; similar URLs remain reviewable and importable.
+
+### v6.0.1 documentation
+
+* `docs/V6.0.0-ADVANCED-FEATURES.md` (updated for v6.0.1)
+* `docs/DATABASE-FORMAT-V6.0.1.md`
+* `docs/CHANGELOG-V6.0.1.md`
+* `docs/CHARLIE-MJ-TOOL-ARCHIVE.md`
+* `docs/DATA-FORMAT.md`
+* `docs/V5.0.0-DUAL-LIBRARY.md` (historical v5 behavior plus v6 compatibility notes)
 
 ---
 
@@ -1079,3 +1131,43 @@ LICENSE
 A personal, local-first Chrome extension for building, organizing, discovering, maintaining, and sharing a large collection of useful online resources.
 
 The project is designed to evolve from a simple bookmark archive into a **source-aware personal tool library and knowledge resource manager**.
+
+
+## Independent category databases (v6.0.1)
+
+The live local database now uses IndexedDB (`CharlieMJToolArchiveDB`). Each category and subcategory is stored as an independent logical collection. Tool records are assigned to exactly one leaf collection; parent collections do not duplicate child records. The legacy `localLibrary` Chrome Storage value is maintained as a compatibility mirror for existing v5 features and background integrations.
+
+The packaged seed database is split into individual JSON collection files under `data/database/`: `database-config.json`, `categories-index.json`, `categories/<category>.json`, and `subcategories/<parent>/<subcategory>.json`. These files are portable seed/backup representations; they are not continuously writable files inside the installed extension. Chrome extensions cannot silently create or update arbitrary files in their installation directory. Use Database Manager to export one collection as JSON or all collections as a ZIP archive containing separate JSON files.
+
+Database Manager supports per-category JSON export/restore, multi-file JSON import, folder import, ZIP import/export, full JSON backup, and the legacy v5 library export. ZIP archives include the category index and one JSON file per category/subcategory.
+
+
+## v6.0.2 — Dedicated Settings Center
+
+Version 6.0.2 adds a standalone, full-page Settings Center opened from the dashboard gear button. Settings are organized into independent navigation tabs: General, Database, Categories, Subcategories, Smart Search, Chrome Omnibox, Duplicate Detection, Import & Export, Collections, Tool Health, Usage Analytics, Keyboard Shortcuts, Privacy, and Advanced. The responsive two-column card grid includes independent module switches, editable preferences, save/discard/reset controls, and settings JSON import/export.
+
+Open the archive and select the gear icon in the top-right corner to open Settings in its own tab. Use **Save changes** to persist preferences in `chrome.storage.local`. Database Manager and Chrome shortcut management are available through contextual quick actions.
+
+The settings schema is additive and retains existing v6.0.1 settings. Controls that describe planned or independently configurable behavior are stored as preferences; a toggle is not represented as a completed runtime feature unless the corresponding module currently reads and enforces it. Core add/edit/delete, existing library storage, local/remote library separation, and database workflows remain available.
+
+## v6.1.0 — Hybrid Portable Database
+
+The existing Chrome Storage + IndexedDB architecture remains the primary application store. v6.1.0 adds an optional portable JSON persistence layer: authorize a normal local folder from Database Manager to automatically maintain separate category/subcategory JSON files, profile-data.json, indexes, manifests, collections, and dated backups. An optional Native Messaging companion host can write the same data to a configured folder. On the original PC, connect a portable folder while your personal tools are still present. Copy that separate data folder to the second PC, then choose it in Database Manager. v6.1.2 reads the existing profile and asks to merge it before writing, so a smaller fresh library cannot overwrite the larger portable copy.
+
+See [Hybrid Portable Database v6.1.2](docs/PORTABLE-DATABASE-V6.1.2.md) and [Native Messaging setup](native-messaging/README.md). Chrome extensions cannot modify their own installed package directory; the portable database must live in a separate folder.
+
+
+## v6.1.2 — Portable Restore & Settings Hotfix
+
+Fixes the Settings renderer crash (`path.split is not a function`) by rendering individual control definitions and validating setting paths. Adds a Database & Storage tab. Most importantly, connecting an existing portable folder now reads and offers to merge its profile before any write; Native Messaging supports chunked profile reads too. This prevents a clean PC with only bundled defaults from overwriting a larger portable library before restoration. Existing Chrome Storage, IndexedDB, packaged defaults, and library features remain in place.
+
+
+### Important cross-PC transfer procedure
+
+1. **Original PC:** Do not uninstall or remove the extension before exporting/synchronizing. Open Database Manager → Portable Database → Choose Portable Data Folder and select a separate folder (for example `Documents/Charlie-MJ-Portable-Data`). If it is empty, the extension creates `profile-data.json` with the complete current local library, categories, collections, and settings.
+2. Wait until the status reports a successful synchronization. Confirm `profile-data.json` contains the expected tool count.
+3. Copy the entire `Charlie-MJ-Portable-Data` folder to the second PC (USB, network share, or another file-transfer method). Copying only the extension folder does not include Chrome profile storage.
+4. **Second PC:** Load the extension, open Database Manager → Choose Portable Data Folder, and select the copied data folder. v6.1.2 detects the existing profile and asks to merge before syncing. Accept the merge to restore personal tools; do not select a new empty folder.
+5. If using Native Messaging, install the helper on each PC and configure its local data-folder path. Use Test Native Helper; it now reads and offers to merge an existing profile before writing.
+
+If the extension was already uninstalled on the original PC before any backup was created, Chrome may have removed that extension's local storage. The package cannot reconstruct those personal tools; recover them from an existing JSON/ZIP backup, another browser profile, or another PC where the old library still exists.

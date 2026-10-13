@@ -1,0 +1,36 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "519f2a2a-12f9-5360-a821-f50adfabee45",
+    "displayId": "MAGAZINES-ABEE45",
+    "name": "Magazines",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 1,
+  "tools": [
+    {
+      "id": "866ca3f4-115a-459d-88cb-3c5d0a01ba7d",
+      "name": "worldmags",
+      "url": "https://worldmags.net/",
+      "category": "Magazines",
+      "type": "Website",
+      "tags": [
+        "worldmags"
+      ],
+      "description": "Online magazine resource for browsing magazine titles and publication-related content.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790924692007,
+      "lastModified": 1790924692007,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

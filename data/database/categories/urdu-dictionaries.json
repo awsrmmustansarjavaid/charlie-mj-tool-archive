@@ -1,0 +1,94 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "026d7280-a63a-5d5c-bff6-9a8759af5686",
+    "displayId": "URDU-DICTIONARIES-AF5686",
+    "name": "Urdu Dictionaries",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 4,
+  "tools": [
+    {
+      "id": "cmj-0201",
+      "name": "Rekhta Dictionary",
+      "url": "https://rekhtadictionary.com/",
+      "category": "Urdu Dictionaries",
+      "type": "Learning",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "description": "Urdu Dictionaries resource: Rekhta Dictionary.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0202",
+      "name": "UrduPoint Dictionary",
+      "url": "https://www.urdupoint.com/dictionary/",
+      "category": "Urdu Dictionaries",
+      "type": "Learning",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "description": "Urdu Dictionaries resource: UrduPoint Dictionary.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0203",
+      "name": "Urdu English Dictionary",
+      "url": "https://www.urduenglishdictionary.org/",
+      "category": "Urdu Dictionaries",
+      "type": "Learning",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "description": "Urdu Dictionaries resource: Urdu English Dictionary.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0204",
+      "name": "Cambridge Dictionary",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/",
+      "category": "Urdu Dictionaries",
+      "type": "Learning",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "description": "Urdu Dictionaries resource: Cambridge Dictionary.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

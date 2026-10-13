@@ -1,0 +1,117 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "b20c2065-25ee-5308-9e02-70b468af7063",
+    "displayId": "DOWNLOAD-CONVERSION-AF7063",
+    "name": "Download & Conversion",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 5,
+  "tools": [
+    {
+      "id": "cmj-0004",
+      "name": "Scribd.VDownloaders.com - Scribd.com downloader",
+      "url": "https://scribd.vdownloaders.com/",
+      "category": "Download & Conversion",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "documents"
+      ],
+      "description": "Download & Conversion resource: Scribd.VDownloaders.com - Scribd.com downloader.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0005",
+      "name": "EPUB to PDF Converter - FreeConvert.com",
+      "url": "https://www.freeconvert.com/epub-to-pdf",
+      "category": "Download & Conversion",
+      "type": "Utility",
+      "tags": [
+        "epub",
+        "pdf",
+        "converter"
+      ],
+      "description": "Download & Conversion resource: EPUB to PDF Converter - FreeConvert.com.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0311",
+      "name": "File Converter",
+      "url": "https://file-converter.org/download.html",
+      "category": "Download & Conversion",
+      "type": "Utility",
+      "tags": [
+        "file",
+        "converter",
+        "conversion"
+      ],
+      "description": "Download & Conversion resource: File Converter.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0314",
+      "name": "DownScribd",
+      "url": "https://downscribd.com/",
+      "category": "Download & Conversion",
+      "type": "Utility",
+      "tags": [
+        "scribd",
+        "documents",
+        "download"
+      ],
+      "description": "Download & Conversion resource: DownScribd.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0315",
+      "name": "DocDownloader",
+      "url": "https://docdownloader.com/",
+      "category": "Download & Conversion",
+      "type": "Utility",
+      "tags": [
+        "documents",
+        "download",
+        "converter"
+      ],
+      "description": "Download & Conversion resource: DocDownloader.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

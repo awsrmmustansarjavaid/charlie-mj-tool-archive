@@ -1,0 +1,37 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "2169b62d-ee75-5460-baec-0722d8b8b5f1",
+    "displayId": "AI-PROMPT-COMMUNITY-B8B5F1",
+    "name": "AI Prompt & Community",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 1,
+  "tools": [
+    {
+      "id": "cmj-0020",
+      "name": "Snack Prompt",
+      "url": "https://snackprompt.com/",
+      "category": "AI Prompt & Community",
+      "type": "AI",
+      "tags": [
+        "ai",
+        "prompts"
+      ],
+      "description": "AI Prompt & Community resource: Snack Prompt.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

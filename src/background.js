@@ -6,13 +6,13 @@ const makeId = () => crypto.randomUUID ? crypto.randomUUID() : Date.now().toStri
 function normalizeUrl(url) {
   try {
     const u = new URL(String(url || '').trim());
-    u.search = '';
     u.hash = '';
     u.protocol = u.protocol.toLowerCase();
     u.hostname = u.hostname.toLowerCase().replace(/^www\./, '');
+    if ((u.protocol === 'https:' && u.port === '443') || (u.protocol === 'http:' && u.port === '80')) u.port = '';
     u.pathname = u.pathname.replace(/\/{2,}/g, '/').replace(/\/$/, '') || '/';
-    return u.toString().replace(/\/$/, '').toLowerCase();
-  } catch { return String(url || '').trim().toLowerCase().replace(/\/$/, ''); }
+    return u.toString().replace(/\/$/, '');
+  } catch { return String(url || '').trim().replace(/\/$/, ''); }
 }
 function unique(a) { return [...new Set((a || []).filter(Boolean))]; }
 function normalizeTool(raw, source='local') {
@@ -104,3 +104,49 @@ chrome.contextMenus.onClicked.addListener(async(info,tab)=>{
 });
 chrome.commands.onCommand.addListener(c=>{if(c==='open-dashboard')chrome.tabs.create({url:chrome.runtime.getURL('src/dashboard.html')})});
 chrome.action.onClicked.addListener(()=>chrome.tabs.create({url:chrome.runtime.getURL('src/dashboard.html')}));
+
+
+// v6.0.1 additive Chrome Omnibox integration.
+// Chrome requires the user to activate this provider with the "cmj" keyword.
+function cmjOmniboxScore(tool, query) {
+  const q=String(query||'').trim().toLowerCase(); if(!q)return 0;
+  const name=String(tool.name||'').toLowerCase(),url=String(tool.url||'').toLowerCase();
+  const host=(()=>{try{return new URL(tool.url).hostname.toLowerCase()}catch{return ''}})();
+  const labels=[...(tool.tags||[]),...(tool.smartLabels||[]),...(tool.aliases||[])].join(' ').toLowerCase();
+  const category=String(tool.category||'').toLowerCase(),desc=String(tool.description||'').toLowerCase();
+  if(name===q)return 1000;if(name.startsWith(q))return 900;
+  if(host===q||host.startsWith(q))return 850;if(url===q)return 800;
+  if(labels.includes(q))return 750;if(category.includes(q))return 650;
+  if(name.includes(q))return 600;if(host.includes(q)||url.includes(q))return 500;
+  if(desc.includes(q))return 250;
+  const terms=q.split(/\s+/).filter(Boolean),hay=[name,host,url,labels,category,desc].join(' ');
+  const n=terms.filter(t=>hay.includes(t)).length;return n===terms.length?200+n*10:n*20;
+}
+if (chrome.omnibox) {
+  chrome.omnibox.setDefaultSuggestion({description:'Search your Charlie MJ Tool Archive for %s'});
+  chrome.omnibox.onInputChanged.addListener(async (text, suggest) => {
+    try {
+      const r=await chrome.storage.local.get(['localLibrary','remoteLibrary','settings']);
+      if(r.settings?.moduleFlags?.omnibox===false||r.settings?.omnibox?.enabled===false){suggest([]);return;}
+      const all=[...(r.localLibrary||[]),...(r.remoteLibrary||[])];
+      const seen=new Set();
+      const matches=all.map(t=>({tool:t,score:cmjOmniboxScore(t,text)}))
+        .filter(x=>x.score>0).sort((a,b)=>b.score-a.score)
+        .filter(x=>{const k=String(x.tool.url||'').toLowerCase();if(seen.has(k))return false;seen.add(k);return true}).slice(0,8);
+      suggest(matches.map(({tool})=>({
+        content:String(tool.url||''),
+        description:`${String(tool.name||'Tool').replace(/[<>]/g,'')} — ${String(tool.category||'Uncategorized').replace(/[<>]/g,'')} · ${String(tool.url||'').replace(/[<>]/g,'')}`
+      })));
+    } catch { suggest([]); }
+  });
+  chrome.omnibox.onInputEntered.addListener(async (text, disposition) => {
+    const query=String(text||'').trim();
+    if(/^https?:\/\//i.test(query)){chrome.tabs.create({url:query,active:disposition!=='newBackgroundTab'});return;}
+    const r=await chrome.storage.local.get(['localLibrary','remoteLibrary','settings']);
+    if(r.settings?.moduleFlags?.omnibox===false||r.settings?.omnibox?.enabled===false){chrome.tabs.create({url:chrome.runtime.getURL('src/dashboard.html')+'?q='+encodeURIComponent(query)});return;}
+    const match=[...(r.localLibrary||[]),...(r.remoteLibrary||[])]
+      .map(t=>({t,s:cmjOmniboxScore(t,query)})).sort((a,b)=>b.s-a.s)[0];
+    if(match?.s>0&&match.t.url)chrome.tabs.create({url:match.t.url,active:disposition!=='newBackgroundTab'});
+    else chrome.tabs.create({url:chrome.runtime.getURL('src/dashboard.html')+'?q='+encodeURIComponent(query)});
+  });
+}

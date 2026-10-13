@@ -1,0 +1,74 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "5d07127a-2d00-5ac7-afcd-eb8b3747ade1",
+    "displayId": "SOFTWARE-DOWNLOAD-47ADE1",
+    "name": "Software Download",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 3,
+  "tools": [
+    {
+      "id": "cmj-0268",
+      "name": "FileHippo",
+      "url": "https://filehippo.com/",
+      "category": "Software Download",
+      "type": "Utility",
+      "tags": [
+        "filehippo"
+      ],
+      "description": "Files & Software resource: FileHippo.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790926039271,
+      "lastModified": 1790926039271,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0269",
+      "name": "IGET INTO PC",
+      "url": "https://igetintopc.com/software-categories/",
+      "category": "Software Download",
+      "type": "Utility",
+      "tags": [
+        "iget",
+        "into",
+        "pc"
+      ],
+      "description": "Files & Software resource: IGET INTO PC.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790926048431,
+      "lastModified": 1790926048431,
+      "source": "local"
+    },
+    {
+      "id": "a2996217-b818-4cb3-a0e0-26a3fd689b9d",
+      "name": "Filecr",
+      "url": "https://filecr.com/",
+      "category": "Software Download",
+      "type": "Website",
+      "tags": [
+        "filecr"
+      ],
+      "description": "Software Download resource for Filecr, saved for quick access in the Charlie MJ Tool Archive.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790923758077,
+      "lastModified": 1790923758077,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

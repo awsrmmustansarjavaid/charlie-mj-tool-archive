@@ -1,0 +1,38 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "f8c72d89-e77b-5d2c-bd37-8db54c8921c2",
+    "displayId": "NETWORKING-LEARNING-8921C2",
+    "name": "Networking & Learning",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 1,
+  "tools": [
+    {
+      "id": "cmj-0009",
+      "name": "Packet Tracer Downloads",
+      "url": "https://www.computernetworkingnotes.com/ccna-study-guide/download-packet-tracer-for-windows-and-linux.html",
+      "category": "Networking & Learning",
+      "type": "Learning",
+      "tags": [
+        "packet tracer",
+        "ccna",
+        "networking"
+      ],
+      "description": "Networking & Learning resource: Packet Tracer Downloads.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

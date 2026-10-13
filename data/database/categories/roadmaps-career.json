@@ -1,0 +1,39 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "1af2e9df-8eb2-522e-8cd9-2e52e46336ba",
+    "displayId": "ROADMAPS-CAREER-6336BA",
+    "name": "Roadmaps & Career",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 1,
+  "tools": [
+    {
+      "id": "cmj-0081",
+      "name": "roadmap.sh",
+      "url": "https://roadmap.sh/",
+      "category": "Roadmaps & Career",
+      "type": "Learning",
+      "tags": [
+        "docker",
+        "jenkins",
+        "kubernetes",
+        "terraform"
+      ],
+      "description": "Roadmaps & Career resource: roadmap.sh.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

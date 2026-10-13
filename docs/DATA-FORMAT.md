@@ -1,4 +1,4 @@
-# Charlie MJ Tool Archive v5.0.0 — Data Format
+# Charlie MJ Tool Archive v6.0.1 — Data Format
 
 ## Default library format
 
@@ -8,7 +8,7 @@ Both the packaged Local Default Library and the GitHub Remote Library use the sa
 
 ```json
 {
-  "version": "5.0.0",
+  "version": "6.0.1",
   "app": "Charlie MJ Tool Archive",
   "exportedAt": "2026-10-02T00:00:00.000Z",
   "tools": []
@@ -50,18 +50,19 @@ remote only      → ☁️ REMOTE
 both             → 🏠 LOCAL + ☁️ REMOTE
 ```
 
-## URL normalization
+## URL normalization (v6)
 
-For archive duplicate comparison the extension:
+For exact duplicate comparison the extension:
 
 - normalizes protocol and hostname case
 - removes the leading `www.` hostname prefix
-- removes query strings
 - removes URL fragments
-- normalizes repeated slashes
-- normalizes trailing slashes
+- removes default HTTP/HTTPS ports
+- normalizes repeated slashes and trailing slashes
+- preserves meaningful URL path case
+- preserves query parameters because they may identify different tools or resources
 
-Useful paths remain meaningful. For example:
+For example:
 
 ```text
 https://example.com/tools
@@ -131,3 +132,41 @@ When the same normalized URL exists in Local and Remote, the dashboard shows one
 A record disappearing from GitHub does not authorize deletion of a local personal record.
 
 This prevents remote library maintenance from destroying local information.
+
+
+## v6 optional tool metadata
+
+Existing v5 fields remain supported. v6 may add:
+
+```json
+{
+  "categoryId": "immutable-category-uuid",
+  "subcategory": "AI Research",
+  "subcategoryId": "immutable-subcategory-uuid",
+  "displayId": "AI-TOOLS-AI-RESEARCH-ELICIT-ABC123",
+  "smartLabels": ["research", "academic", "papers"],
+  "aliases": ["literature assistant"],
+  "collections": [],
+  "priority": "normal"
+}
+```
+
+All added fields are optional. Old v5 JSON files continue to import.
+
+## v6 database snapshot
+
+A full JSON snapshot uses the `database` object for category metadata and category collection records while also retaining the `tools` array for portability. ZIP exports contain `database-config.json`, `categories-index.json`, `collections.json`, one `categories/*.json` file per category node, and `backup-manifest.json`.
+
+A category export uses:
+
+```json
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category",
+  "category": {"id": "uuid", "displayId": "AI-TOOLS-4A91C2", "name": "AI Tools", "parentId": null},
+  "tools": []
+}
+```
+
+Category JSON files are export/import artifacts; the extension cannot create files in its own installation directory at runtime.

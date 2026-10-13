@@ -1,0 +1,190 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "e7e51aca-a4f4-55b9-a808-31dded21df2f",
+    "displayId": "TURKISH-LEARNING-21DF2F",
+    "name": "Turkish Learning",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 9,
+  "tools": [
+    {
+      "id": "cmj-0210",
+      "name": "TDK Sözlük",
+      "url": "https://sozluk.gov.tr/ — Official Turkish Language Association dictionaries.",
+      "category": "Turkish Learning",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language"
+      ],
+      "description": "Turkish Learning resource: TDK Sözlük.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0211",
+      "name": "Tureng",
+      "url": "https://tureng.com/ — Turkish–English and English–Turkish dictionary.",
+      "category": "Turkish Learning",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language"
+      ],
+      "description": "Turkish Learning resource: Tureng.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0212",
+      "name": "Sesli Sözlük",
+      "url": "https://www.seslisozluk.net/ — Turkish–English dictionary with pronunciation and usage information.",
+      "category": "Turkish Learning",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language"
+      ],
+      "description": "Turkish Learning resource: Sesli Sözlük.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0213",
+      "name": "Glosbe",
+      "url": "https://glosbe.com/tr/en — Turkish–English translations, definitions, examples, and pronunciation.",
+      "category": "Turkish Learning",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language"
+      ],
+      "description": "Turkish Learning resource: Glosbe.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0214",
+      "name": "Cambridge Dictionary",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/ — English–Urdu dictionary with definitions, translations, and example sentences.",
+      "category": "Turkish Learning",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language"
+      ],
+      "description": "Turkish Learning resource: Cambridge Dictionary.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0218",
+      "name": "LearnEnglish.de",
+      "url": "http://www.learnenglish.de/englishtestspage.html",
+      "category": "Turkish Learning",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language"
+      ],
+      "description": "Turkish Learning resource: LearnEnglish.de.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0219",
+      "name": "PSL T20",
+      "url": "https://psl-t20.com/live/",
+      "category": "Turkish Learning",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language"
+      ],
+      "description": "Turkish Learning resource: PSL T20.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0222",
+      "name": "Yabangee",
+      "url": "https://yabangee.com/",
+      "category": "Turkish Learning",
+      "type": "Learning",
+      "tags": [
+        "turkish",
+        "language"
+      ],
+      "description": "Turkish Learning resource: Yabangee.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0277",
+      "name": "YEE Türkçe",
+      "url": "https://turkce.yee.org.tr/en/",
+      "category": "Turkish Learning",
+      "type": "Website",
+      "tags": [
+        "yee",
+        "t",
+        "rk"
+      ],
+      "description": "Imported Bookmarks resource: YEE Türkçe.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790925829399,
+      "lastModified": 1790925829399,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

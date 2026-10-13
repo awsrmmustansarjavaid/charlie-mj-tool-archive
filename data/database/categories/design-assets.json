@@ -1,0 +1,92 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "24e8b0f2-d809-5933-9ed8-466bd99f89a9",
+    "displayId": "DESIGN-ASSETS-9F89A9",
+    "name": "Design & Assets",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 4,
+  "tools": [
+    {
+      "id": "cmj-0121",
+      "name": "GraphicsFamily",
+      "url": "https://graphicsfamily.com/",
+      "category": "Design & Assets",
+      "type": "Website",
+      "tags": [
+        "graphicsfamily"
+      ],
+      "description": "Design & Assets resource: GraphicsFamily.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0163",
+      "name": "Tailor Nova",
+      "url": "https://tailornova.com/",
+      "category": "Design & Assets",
+      "type": "Website",
+      "tags": [
+        "tailor",
+        "nova"
+      ],
+      "description": "Design & Assets resource: Tailor Nova.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0164",
+      "name": "Nastix Design",
+      "url": "https://nastix-design.com/",
+      "category": "Design & Assets",
+      "type": "Website",
+      "tags": [
+        "nastix",
+        "design"
+      ],
+      "description": "Design & Assets resource: Nastix Design.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0266",
+      "name": "Unsplash",
+      "url": "https://unsplash.com/",
+      "category": "Design & Assets",
+      "type": "Website",
+      "tags": [
+        "unsplash"
+      ],
+      "description": "Design & Assets resource: Unsplash.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

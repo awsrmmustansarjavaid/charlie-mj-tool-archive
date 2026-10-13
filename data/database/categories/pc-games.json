@@ -1,0 +1,126 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "bbfa6838-744e-5e40-932f-b04e14c5d726",
+    "displayId": "PC-GAMES-C5D726",
+    "name": "PC Games",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 6,
+  "tools": [
+    {
+      "id": "958c8b56-db64-4ebf-8435-3b76a6ee4fb5",
+      "name": "downloadfury",
+      "url": "https://downloadfury.com/category/pc-games/",
+      "category": "PC Games",
+      "type": "Website",
+      "tags": [
+        "PC games"
+      ],
+      "description": "PC games resource page focused on finding and browsing PC game downloads.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790923672654,
+      "lastModified": 1790923672654,
+      "source": "local"
+    },
+    {
+      "id": "0ff64f1f-651b-4a0d-8e64-cef684fa0816",
+      "name": "Hisgames",
+      "url": "https://hisgames.org/",
+      "category": "PC Games",
+      "type": "Website",
+      "tags": [
+        "hisgames"
+      ],
+      "description": "PC Games resource for Hisgames, saved for quick access in the Charlie MJ Tool Archive.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790923836270,
+      "lastModified": 1790923836270,
+      "source": "local"
+    },
+    {
+      "id": "b958dcf6-f2af-4efb-9027-834848e1d955",
+      "name": "Gamingbeasts",
+      "url": "https://gamingbeasts.com/",
+      "category": "PC Games",
+      "type": "Website",
+      "tags": [
+        "gamingbeasts"
+      ],
+      "description": "PC Games resource for Gamingbeasts, saved for quick access in the Charlie MJ Tool Archive.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790923878078,
+      "lastModified": 1790923878078,
+      "source": "local"
+    },
+    {
+      "id": "02a23b13-a556-4d76-bcb9-37ca2244aeb5",
+      "name": "Steamunlocked",
+      "url": "https://steamunlocked.net/",
+      "category": "PC Games",
+      "type": "Website",
+      "tags": [
+        "steamunlocked"
+      ],
+      "description": "PC Games resource for Steamunlocked, saved for quick access in the Charlie MJ Tool Archive.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790924009230,
+      "lastModified": 1790924009230,
+      "source": "local"
+    },
+    {
+      "id": "31423022-ab23-415e-b599-0fe9d6f95eed",
+      "name": "ipcgames",
+      "url": "https://ipcgames.com/",
+      "category": "PC Games",
+      "type": "Website",
+      "tags": [
+        "ipcgames"
+      ],
+      "description": "PC gaming resource for discovering PC game titles and related downloads.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790924042574,
+      "lastModified": 1790924042574,
+      "source": "local"
+    },
+    {
+      "id": "f0fe54e7-93c6-4bac-b011-281909122c80",
+      "name": "oceanoffgames",
+      "url": "https://oceanoffgames.com/",
+      "category": "PC Games",
+      "type": "Website",
+      "tags": [
+        "oceanoffgames"
+      ],
+      "description": "PC gaming resource for discovering game titles and downloadable content.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790924063814,
+      "lastModified": 1790924063814,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

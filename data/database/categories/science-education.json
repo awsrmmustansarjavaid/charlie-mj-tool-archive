@@ -1,0 +1,38 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "5c67ecba-f642-5a3a-a1cc-7634d312f15d",
+    "displayId": "SCIENCE-EDUCATION-12F15D",
+    "name": "Science & Education",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 1,
+  "tools": [
+    {
+      "id": "cmj-0313",
+      "name": "HowStuffWorks - Science",
+      "url": "https://science.howstuffworks.com/",
+      "category": "Science & Education",
+      "type": "Learning",
+      "tags": [
+        "science",
+        "education",
+        "how-it-works"
+      ],
+      "description": "Science & Education resource: HowStuffWorks - Science.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

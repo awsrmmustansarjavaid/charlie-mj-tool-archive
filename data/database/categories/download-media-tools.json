@@ -1,0 +1,346 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "95beedd6-8b0c-574d-b07b-d2cbe8939c74",
+    "displayId": "DOWNLOAD-MEDIA-TOOLS-939C74",
+    "name": "Download & Media Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 17,
+  "tools": [
+    {
+      "id": "cmj-0152",
+      "name": "SSSTik",
+      "url": "https://ssstik.io/",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media"
+      ],
+      "description": "Download & Media Tools resource: SSSTik.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0216",
+      "name": "ClipConverter",
+      "url": "http://www.clipconverter.cc/",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media"
+      ],
+      "description": "Download & Media Tools resource: ClipConverter.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0217",
+      "name": "9SoundCloudDownloader",
+      "url": "http://9soundclouddownloader.com/",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media"
+      ],
+      "description": "Download & Media Tools resource: 9SoundCloudDownloader.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0220",
+      "name": "SoundCloud Downloader",
+      "url": "http://scdownloader.net/playlist-downloader",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media"
+      ],
+      "description": "Download & Media Tools resource: SoundCloud Downloader.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0246",
+      "name": "YouTube-MP3",
+      "url": "http://www.youtube-mp3.org/",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media"
+      ],
+      "description": "Download & Media Tools resource: YouTube-MP3.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0247",
+      "name": "FLVTO",
+      "url": "http://www.flvto.biz/progress/mp3/yt_qsleJQPgqZM/",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media"
+      ],
+      "description": "Download & Media Tools resource: FLVTO.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0248",
+      "name": "MP3Fiber",
+      "url": "http://mp3fiber.com/",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media"
+      ],
+      "description": "Download & Media Tools resource: MP3Fiber.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0249",
+      "name": "ListenToYouTube",
+      "url": "http://www.listentoyoutube.com/",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media"
+      ],
+      "description": "Download & Media Tools resource: ListenToYouTube.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0250",
+      "name": "Video2MP3",
+      "url": "http://www.video2mp3.net/",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media"
+      ],
+      "description": "Download & Media Tools resource: Video2MP3.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0255",
+      "name": "Addoncrop",
+      "url": "https://addoncrop.com/en-3/?uid=36441187",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media"
+      ],
+      "description": "Download & Media Tools resource: Addoncrop.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0256",
+      "name": "Media.io",
+      "url": "https://www.media.io/youtube-to-mp3-cutter.html",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media"
+      ],
+      "description": "Download & Media Tools resource: Media.io.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0278",
+      "name": "YTMP3",
+      "url": "https://ytmp3.cc/uu118cc/",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "download",
+        "media"
+      ],
+      "description": "Download & Media Tools resource: YTMP3.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0292",
+      "name": "Download Twitter Video",
+      "url": "https://www.downloadtwittervideo.com/m/#TaskResults",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "twitter",
+        "video",
+        "download"
+      ],
+      "description": "Download & Media Tools resource: Download Twitter Video.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0296",
+      "name": "PasteDownload",
+      "url": "https://pastedownload.com/3/",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "video",
+        "download",
+        "media"
+      ],
+      "description": "Download & Media Tools resource: PasteDownload.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0297",
+      "name": "GetSnackVideo",
+      "url": "https://getsnackvideo.com/",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "snackvideo",
+        "video",
+        "download"
+      ],
+      "description": "Download & Media Tools resource: GetSnackVideo.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0298",
+      "name": "YouTube 4K Downloader - Spotify MP3",
+      "url": "https://youtube4kdownloader.com/en10/download-spotify-mp3.html",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "spotify",
+        "mp3",
+        "download"
+      ],
+      "description": "Download & Media Tools resource: YouTube 4K Downloader - Spotify MP3.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0302",
+      "name": "StorySaver",
+      "url": "https://www.storysaver.net/",
+      "category": "Download & Media Tools",
+      "type": "Utility",
+      "tags": [
+        "instagram",
+        "stories",
+        "download"
+      ],
+      "description": "Download & Media Tools resource: StorySaver.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

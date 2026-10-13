@@ -1,0 +1,37 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "59ebd6ca-ff6f-5376-ad3e-5d255eb28cf8",
+    "displayId": "WRITING-CONTENT-B28CF8",
+    "name": "Writing & Content",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 1,
+  "tools": [
+    {
+      "id": "cmj-0031",
+      "name": "GetEmoji",
+      "url": "https://getemoji.com/",
+      "category": "Writing & Content",
+      "type": "Utility",
+      "tags": [
+        "emoji",
+        "copy"
+      ],
+      "description": "Writing & Content resource: GetEmoji.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

@@ -1,14 +1,15 @@
 {
   "manifest_version": 3,
   "name": "Charlie MJ Tool Archive",
-  "version": "5.0.0",
-  "description": "A dual-source local and GitHub Chrome tool archive with source badges, smart categories, duplicate protection, library comparison, safe synchronization, backups, health checks and rich exports.",
+  "version": "6.1.3",
+  "description": "Local-first personal resource manager with IndexedDB, portable category JSON storage, bundled profile transfer, and resilient Settings rendering.",
   "permissions": [
     "alarms",
     "bookmarks",
     "contextMenus",
     "storage",
-    "tabs"
+    "tabs",
+    "nativeMessaging"
   ],
   "action": {
     "default_title": "Open Charlie MJ Tool Archive",
@@ -34,12 +35,16 @@
       "suggested_key": {
         "default": "Ctrl+Shift+L"
       },
-      "description": "Open Charlie MJ Tool Archive"
+      "description": "Open Charlie MJ Tool Archive v6.1.2"
     }
   },
   "host_permissions": [
     "https://raw.githubusercontent.com/*",
     "http://*/*",
     "https://*/*"
-  ]
+  ],
+  "omnibox": {
+    "keyword": "cmj"
+  },
+  "version_name": "6.1.3 \u2014 Transfer Profile & Settings Renderer Hotfix"
 }

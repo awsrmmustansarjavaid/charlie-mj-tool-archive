@@ -1,0 +1,207 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "08b3b292-033c-5beb-b2d3-878a61fe0512",
+    "displayId": "DEVELOPER-TOOLS-FE0512",
+    "name": "Developer Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 10,
+  "tools": [
+    {
+      "id": "cmj-0025",
+      "name": "LiveCodes",
+      "url": "https://livecodes.io/?template=blank",
+      "category": "Developer Tools",
+      "type": "Developer",
+      "tags": [
+        "code",
+        "playground"
+      ],
+      "description": "Developer Tools resource: LiveCodes.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0026",
+      "name": "TextCompare Python",
+      "url": "https://www.textcompare.org/python/",
+      "category": "Developer Tools",
+      "type": "Developer",
+      "tags": [
+        "python",
+        "compare",
+        "text"
+      ],
+      "description": "Developer Tools resource: TextCompare Python.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0033",
+      "name": "VS Code Web",
+      "url": "https://vscode.dev/",
+      "category": "Developer Tools",
+      "type": "Developer",
+      "tags": [
+        "vscode",
+        "editor",
+        "web"
+      ],
+      "description": "Developer Tools resource: VS Code Web.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0034",
+      "name": "OneCompiler Bash",
+      "url": "https://sandbox.onecompiler.com/bash/44p68b65v",
+      "category": "Developer Tools",
+      "type": "Developer",
+      "tags": [
+        "bash",
+        "compiler",
+        "terminal"
+      ],
+      "description": "Developer Tools resource: OneCompiler Bash.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "40c48d37-c2dd-45be-aa31-cc1868c8a152",
+      "name": "Convert ZIP to CRX",
+      "url": "https://www.ezyzip.com/convert-zip-to-crx.html",
+      "category": "Developer Tools",
+      "type": "Website",
+      "tags": [
+        "convert",
+        "zip",
+        "to"
+      ],
+      "description": "Convert Chrome Extension ZIP files into CRX packages",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790920529381,
+      "lastModified": 1790920529381,
+      "source": "local"
+    },
+    {
+      "id": "fdd5e6c0-9238-43a4-a7b0-830b8580bbb2",
+      "name": "headline-analyzer",
+      "url": "https://coschedule.com/headline-analyzer",
+      "category": "Developer Tools",
+      "type": "Website",
+      "tags": [
+        "headline-analyzer"
+      ],
+      "description": "Headline analysis tool for reviewing and improving titles used in content and marketing.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790924380078,
+      "lastModified": 1790924380078,
+      "source": "local"
+    },
+    {
+      "id": "d10fd013-7baf-419e-87da-e9a216a41440",
+      "name": "titlecaseconverter.",
+      "url": "https://titlecaseconverter.com/",
+      "category": "Developer Tools",
+      "type": "Website",
+      "tags": [
+        "titlecaseconverter"
+      ],
+      "description": "Online text utility for converting titles and headings into title case.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790924420150,
+      "lastModified": 1790924420150,
+      "source": "local"
+    },
+    {
+      "id": "3a129a1c-efd6-46fe-b5b4-e7adf82b801d",
+      "name": "convertcase",
+      "url": "https://convertcase.net/",
+      "category": "Developer Tools",
+      "type": "Website",
+      "tags": [
+        "convertcase"
+      ],
+      "description": "Online text utility for changing capitalization and letter case.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790924558062,
+      "lastModified": 1790924558062,
+      "source": "local"
+    },
+    {
+      "id": "6a508426-655d-4e3c-93b9-c52035247004",
+      "name": "capitalizemytitle",
+      "url": "https://capitalizemytitle.com/",
+      "category": "Developer Tools",
+      "type": "Website",
+      "tags": [
+        "capitalizemytitle"
+      ],
+      "description": "Title formatting utility for creating and checking capitalization in headings.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790924584510,
+      "lastModified": 1790924584510,
+      "source": "local"
+    },
+    {
+      "id": "57334ef0-829d-46ee-b062-8a0eab32a67a",
+      "name": "content-analysis",
+      "url": "https://yoast.com/research/real-time-content-analysis/",
+      "category": "Developer Tools",
+      "type": "Website",
+      "tags": [
+        "content-analysis"
+      ],
+      "description": "Content analysis resource for reviewing readability, SEO and content quality signals.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790924614590,
+      "lastModified": 1790924614590,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

@@ -1,0 +1,645 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "categories": [
+    {
+      "id": "d23d78cf-11e4-5981-9385-8cbaae73cf14",
+      "displayId": "AI-AUTOMATION-73CF14",
+      "name": "AI & Automation",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "7f09ba25-1269-57cf-a2b9-f82bcf6d5a8b",
+      "displayId": "AI-APP-BUILDERS-6D5A8B",
+      "name": "AI App Builders",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "28424884-1b19-533e-beed-5e6c9b11f401",
+      "displayId": "AI-CHAT-RESEARCH-11F401",
+      "name": "AI Chat & Research",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "dff08777-87d4-55fd-9639-36f9bdaee38c",
+      "displayId": "AI-DESIGN-CREATIVE-AEE38C",
+      "name": "AI Design & Creative",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "2169b62d-ee75-5460-baec-0722d8b8b5f1",
+      "displayId": "AI-PROMPT-COMMUNITY-B8B5F1",
+      "name": "AI Prompt & Community",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "65b35dcc-da0c-5bda-91f7-7363624c3828",
+      "displayId": "AI-RESEARCH-4C3828",
+      "name": "AI Research",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "3b73ec5e-c478-57bd-ac72-cff1c19cc841",
+      "displayId": "AI-VIDEO-AVATAR-9CC841",
+      "name": "AI Video & Avatar",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "6aca472c-32df-50b1-8302-f39cd910a279",
+      "displayId": "BOOKS-READING-10A279",
+      "name": "Books & Reading",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "bea40971-08dd-50c4-8501-5f9bf0da2a51",
+      "displayId": "CAREER-DA2A51",
+      "name": "Career",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "c75d3280-39ea-5ff0-8855-fb68bb8601de",
+      "displayId": "CHARLIE-MJ-PROJECTS-8601DE",
+      "name": "Charlie MJ Projects",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "4c42c01b-a5f8-5e10-aa6c-baec3bbf33c1",
+      "displayId": "CLOUD-NATIVE-KUBERNETES-BF33C1",
+      "name": "Cloud Native & Kubernetes",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "4125cceb-35ce-59da-98f0-a39a4f91a6fc",
+      "displayId": "COMMUNITIES-91A6FC",
+      "name": "Communities",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "fae3350e-1306-5852-b957-034ab7a621a0",
+      "displayId": "COURSES-LEARNING-A621A0",
+      "name": "Courses & Learning",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "24e8b0f2-d809-5933-9ed8-466bd99f89a9",
+      "displayId": "DESIGN-ASSETS-9F89A9",
+      "name": "Design & Assets",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "b1d64bf6-4458-5b4a-ab9b-5f3dea1e9e22",
+      "displayId": "DESIGN-BLOG-1E9E22",
+      "name": "Design Blog",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "ccb96240-24eb-55c9-a139-27564283a218",
+      "displayId": "DESIGN-RESOURCES-83A218",
+      "name": "Design Resources",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "08b3b292-033c-5beb-b2d3-878a61fe0512",
+      "displayId": "DEVELOPER-TOOLS-FE0512",
+      "name": "Developer Tools",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "491b3b71-a21e-5f99-841f-b78a6a803ae7",
+      "displayId": "DEVELOPMENT-803AE7",
+      "name": "Development",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "d02edaf6-e81e-52a4-9523-1dedc28b4bd0",
+      "displayId": "DEVOPS-LEARNING-8B4BD0",
+      "name": "DevOps & Learning",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "b20c2065-25ee-5308-9e02-70b468af7063",
+      "displayId": "DOWNLOAD-CONVERSION-AF7063",
+      "name": "Download & Conversion",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "95beedd6-8b0c-574d-b07b-d2cbe8939c74",
+      "displayId": "DOWNLOAD-MEDIA-TOOLS-939C74",
+      "name": "Download & Media Tools",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "4dbaa6e8-b2bd-56cb-809c-46c6c44323b7",
+      "displayId": "DOWNLOAD-RESOURCES-4323B7",
+      "name": "Download & Resources",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "b66e0bec-a094-5015-9af6-6363af9efc94",
+      "displayId": "DOWNLOADING-SITES-9EFC94",
+      "name": "Downloading Sites",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "3a6e5ddb-7c23-5ff6-8a7e-14a093fe6f82",
+      "displayId": "EDUCATION-FE6F82",
+      "name": "Education",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "c8ec7b32-f746-55f0-9541-7cfe08a5a9e4",
+      "displayId": "ENGLISH-DICTIONARIES-A5A9E4",
+      "name": "English Dictionaries",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "e28c41a6-6e12-5b47-a2d7-2ffd148d1987",
+      "displayId": "FILES-SOFTWARE-8D1987",
+      "name": "Files & Software",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "b3b60208-b0ff-5be2-984a-aa44a71f0b20",
+      "displayId": "FREELANCING-JOBS-1F0B20",
+      "name": "Freelancing & Jobs",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "adce58eb-edff-5ac0-9e0c-024ac9173574",
+      "displayId": "FREELANCING-PAYMENTS-173574",
+      "name": "Freelancing & Payments",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "7507454c-7d43-5acf-9331-ccb2e5f16df5",
+      "displayId": "GITHUB-DEVELOPER-LEARNING-F16DF5",
+      "name": "GitHub & Developer Learning",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "6cf47305-28e5-5627-a854-b73f6db2cacc",
+      "displayId": "HACKSNATION-A-PLACE-WHERE-EVERYONE-CAN-LEARN-B2CACC",
+      "name": "HacksNation - A Place Where Everyone Can Learn",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "78851c66-00db-5d0e-85e1-acc9ec854c60",
+      "displayId": "HEALTH-FITNESS-854C60",
+      "name": "Health & Fitness",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "c5cec684-5510-5791-9ce4-76adc9212f78",
+      "displayId": "INSTAGRAM-TOOLS-212F78",
+      "name": "Instagram Tools",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "5df6b380-839b-5e93-b35b-57c4e78619a7",
+      "displayId": "INTERNET-CONNECTIVITY-8619A7",
+      "name": "Internet & Connectivity",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "143c80e7-5f76-5d04-b987-5534d44fd9b0",
+      "displayId": "ISLAMIC-RESOURCES-4FD9B0",
+      "name": "Islamic Resources",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "06c007ae-57ae-5c88-933d-9524baf6c51d",
+      "displayId": "LANGUAGE-LEARNING-F6C51D",
+      "name": "Language Learning",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "d498fbb8-b280-5938-ad0c-503753a83af5",
+      "displayId": "LEARNING-EDUCATION-A83AF5",
+      "name": "Learning & Education",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "73914a53-83f2-5095-a188-a1513b3340f1",
+      "displayId": "LINKEDIN-CONTENT-3340F1",
+      "name": "LinkedIn & Content",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "e00a2a39-a9a9-5ef6-97cb-4d50016eefaa",
+      "displayId": "LOGISTICS-SHIPPING-6EEFAA",
+      "name": "Logistics & Shipping",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "519f2a2a-12f9-5360-a821-f50adfabee45",
+      "displayId": "MAGAZINES-ABEE45",
+      "name": "Magazines",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "eef1468c-bf6c-5223-9039-b5e4e12c7cb0",
+      "displayId": "MARKDOWN-WRITING-2C7CB0",
+      "name": "Markdown & Writing",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "2b097613-f964-556a-8298-4af6dc1e5a38",
+      "displayId": "MEDIA-VIDEO-1E5A38",
+      "name": "Media & Video",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "9e299241-39a4-543d-ab40-1e703c3f15c2",
+      "displayId": "MULTILINGUAL-TRANSLATION-3F15C2",
+      "name": "Multilingual / Translation",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "fc0fc09a-89e6-5821-9bbe-dbc16cd8cd56",
+      "displayId": "NETWORK-TOOLS-D8CD56",
+      "name": "Network Tools",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "f8c72d89-e77b-5d2c-bd37-8db54c8921c2",
+      "displayId": "NETWORKING-LEARNING-8921C2",
+      "name": "Networking & Learning",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "88a66b1b-5bb4-527c-a943-dec088931477",
+      "displayId": "ONLINE-UTILITIES-931477",
+      "name": "Online Utilities",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "3a25cbc0-05d2-5ac6-90b5-14ced56b4d45",
+      "displayId": "PAYMENTS-APIS-6B4D45",
+      "name": "Payments & APIs",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "bbfa6838-744e-5e40-932f-b04e14c5d726",
+      "displayId": "PC-GAMES-C5D726",
+      "name": "PC Games",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "776cd014-b1a4-58a0-9d39-01f7597786f9",
+      "displayId": "PRODUCTIVITY-7786F9",
+      "name": "Productivity",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "021368d4-254d-5d31-85cd-dd3096d0635d",
+      "displayId": "PSYCHOLOGY-BLOGS-D0635D",
+      "name": "Psychology Blogs",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "70a3ae10-f5fe-5431-93a7-346b496913e9",
+      "displayId": "READING-RESEARCH-6913E9",
+      "name": "Reading & Research",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "0061246a-37d1-58cf-a9e5-18ee20f31cf9",
+      "displayId": "REAL-ESTATE-F31CF9",
+      "name": "Real Estate",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "1af2e9df-8eb2-522e-8cd9-2e52e46336ba",
+      "displayId": "ROADMAPS-CAREER-6336BA",
+      "name": "Roadmaps & Career",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "5c67ecba-f642-5a3a-a1cc-7634d312f15d",
+      "displayId": "SCIENCE-EDUCATION-12F15D",
+      "name": "Science & Education",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "6937d28c-a257-5936-a135-ec06e52c6e67",
+      "displayId": "SCREEN-RECORDING-DEMOS-2C6E67",
+      "name": "Screen Recording & Demos",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "0574ea2f-74c2-5803-ad79-a7f2bc3dc162",
+      "displayId": "SHOPPING-3DC162",
+      "name": "Shopping",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "e12b7142-9ad3-5d56-94d3-b1dc91430891",
+      "displayId": "SOCIAL-MEDIA-TOOLS-430891",
+      "name": "Social Media Tools",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "5d07127a-2d00-5ac7-afcd-eb8b3747ade1",
+      "displayId": "SOFTWARE-DOWNLOAD-47ADE1",
+      "name": "Software Download",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "e71e278d-6ee0-52f1-93ea-23444832fa4c",
+      "displayId": "SYSTEM-RECOVERY-32FA4C",
+      "name": "System & Recovery",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "492d4c6b-673e-501e-a451-ec2ce9f6c33c",
+      "displayId": "TECH-BLOGS-F6C33C",
+      "name": "Tech Blogs",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "3ad79e5c-637b-5604-86dc-ba91b26de459",
+      "displayId": "TORRENT-SITES-6DE459",
+      "name": "Torrent Sites",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "bf11d2a9-cd91-5d69-a550-3df4ba655edc",
+      "displayId": "TURKEY-JOBS-EXAMS-655EDC",
+      "name": "Turkey Jobs & Exams",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "b53ef905-dc9a-5027-a905-5270c2293c9c",
+      "displayId": "TURKISH-DICTIONARIES-293C9C",
+      "name": "Turkish Dictionaries",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "e7e51aca-a4f4-55b9-a808-31dded21df2f",
+      "displayId": "TURKISH-LEARNING-21DF2F",
+      "name": "Turkish Learning",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "f7a19af1-e08d-5ecc-ac10-47cb9dab80d9",
+      "displayId": "TURKISH-LITERATURE-AB80D9",
+      "name": "Turkish Literature",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "ae193a12-fabe-55a3-89bf-571b446049b8",
+      "displayId": "TURKISH-TV-MEDIA-6049B8",
+      "name": "Turkish TV & Media",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "026d7280-a63a-5d5c-bff6-9a8759af5686",
+      "displayId": "URDU-DICTIONARIES-AF5686",
+      "name": "Urdu Dictionaries",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "89aeb7df-1da0-5d3b-863d-60914582e32a",
+      "displayId": "VIDEO-COLLABORATION-82E32A",
+      "name": "Video & Collaboration",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "49095b75-967f-53e2-8f72-50395a3bcc0f",
+      "displayId": "WEB-DEVELOPMENT-3BCC0F",
+      "name": "Web Development",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "5e5a14c6-2863-5d8e-b1ac-91b0324822ea",
+      "displayId": "WRITING-ARTICLES-4822EA",
+      "name": "Writing & Articles",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "59ebd6ca-ff6f-5376-ad3e-5d255eb28cf8",
+      "displayId": "WRITING-CONTENT-B28CF8",
+      "name": "Writing & Content",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    },
+    {
+      "id": "c01bd82b-3916-57f1-91fa-77243f64454a",
+      "displayId": "YOUTUBE-TOOLS-64454A",
+      "name": "YouTube Tools",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 0,
+      "updatedAt": 0
+    }
+  ]
+}

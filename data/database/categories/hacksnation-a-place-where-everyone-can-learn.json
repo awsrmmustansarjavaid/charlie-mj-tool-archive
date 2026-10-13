@@ -1,0 +1,447 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "6cf47305-28e5-5627-a854-b73f6db2cacc",
+    "displayId": "HACKSNATION-A-PLACE-WHERE-EVERYONE-CAN-LEARN-B2CACC",
+    "name": "HacksNation - A Place Where Everyone Can Learn",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 23,
+  "tools": [
+    {
+      "id": "cmj-0084",
+      "name": "HacksNation",
+      "url": "https://hacksnation.com/",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "hacksnation"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: HacksNation.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0095",
+      "name": "Learn",
+      "url": "https://learn.cantrill.io/courses/enrolled/2022818",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "learn"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: Learn.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0112",
+      "name": "Learn",
+      "url": "https://learn.kodekloud.com/user/onboarding/form",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "learn"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: Learn.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0113",
+      "name": "roadmap.sh",
+      "url": "https://roadmap.sh/devops",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "docker",
+        "jenkins",
+        "kubernetes",
+        "terraform"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: roadmap.sh.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0115",
+      "name": "App",
+      "url": "https://app.pulumi.com",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "app"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: App.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0120",
+      "name": "E",
+      "url": "https://e.huawei.com/en/talent/portal/",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "e"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: E.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0128",
+      "name": "My",
+      "url": "https://my.clevelandclinic.org/",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "my"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: My.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0165",
+      "name": "Parents",
+      "url": "https://www.parents.com/https://www.education.com/",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "parents"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: Parents.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0174",
+      "name": "U",
+      "url": "https://u.osu.edu/nelcpoetryproject/turkish-poems/",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "u"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: U.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0175",
+      "name": "Learn Turkish",
+      "url": "https://learnturkish.com/doys/Login?varsayilanDil=en-US",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "learn",
+        "turkish"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: Learn Turkish.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0176",
+      "name": "Brainscape",
+      "url": "https://www.brainscape.com/subjects/turkish",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "brainscape"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: Brainscape.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0177",
+      "name": "Brainscape",
+      "url": "https://www.brainscape.com/flashcards/turkish-1-1720545/packs/4251954",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "brainscape"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: Brainscape.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0178",
+      "name": "Yabancılar İçin Türkçe",
+      "url": "https://yabancilaricinturkce.com/category/dilbilgisi/",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "yabanc",
+        "lar",
+        "in"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: Yabancılar İçin Türkçe.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0179",
+      "name": "English ILM",
+      "url": "https://englishilm.com/category/english-vocabulary/picture-vocabulary/",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "english",
+        "ilm"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: English ILM.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0180",
+      "name": "EngVid",
+      "url": "https://www.engvid.com/",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "engvid"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: EngVid.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0181",
+      "name": "British Council LearnEnglish Kids",
+      "url": "https://learnenglishkids.britishcouncil.org/",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "british",
+        "council",
+        "learnenglish"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: British Council LearnEnglish Kids.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0182",
+      "name": "Cambridge English",
+      "url": "https://www.cambridgeenglish.org/learning-english",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "cambridge",
+        "english"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: Cambridge English.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0183",
+      "name": "News in Levels",
+      "url": "https://www.newsinlevels.com/",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "news",
+        "in",
+        "levels"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: News in Levels.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0184",
+      "name": "TalkEnglish",
+      "url": "https://www.talkenglish.com/lessonindex.aspx",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "talkenglish"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: TalkEnglish.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0185",
+      "name": "British Council LearnEnglish",
+      "url": "https://learnenglish.britishcouncil.org/",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "british",
+        "council",
+        "learnenglish"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: British Council LearnEnglish.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425801,
+      "lastModified": 1790955425801,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0186",
+      "name": "Tatoeba",
+      "url": "https://tatoeba.org/en",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "tatoeba"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: Tatoeba.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0187",
+      "name": "Merriam-Webster",
+      "url": "https://www.merriam-webster.com/",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "merriam-webster"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: Merriam-Webster.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0188",
+      "name": "Dictionary.com",
+      "url": "https://www.dictionary.com/",
+      "category": "HacksNation - A Place Where Everyone Can Learn",
+      "type": "Website",
+      "tags": [
+        "dictionary",
+        "com"
+      ],
+      "description": "HacksNation - A Place Where Everyone Can Learn resource: Dictionary.com.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

@@ -1,0 +1,90 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "0574ea2f-74c2-5803-ad79-a7f2bc3dc162",
+    "displayId": "SHOPPING-3DC162",
+    "name": "Shopping",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 4,
+  "tools": [
+    {
+      "id": "cmj-0215",
+      "name": "Daraz",
+      "url": "https://www.daraz.pk/",
+      "category": "Shopping",
+      "type": "Website",
+      "tags": [
+        "daraz"
+      ],
+      "description": "Shopping resource: Daraz.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0223",
+      "name": "Trendyol",
+      "url": "https://www.trendyol.com/",
+      "category": "Shopping",
+      "type": "Website",
+      "tags": [
+        "trendyol"
+      ],
+      "description": "Shopping resource: Trendyol.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0226",
+      "name": "Hepsiburada",
+      "url": "https://www.hepsiburada.com/",
+      "category": "Shopping",
+      "type": "Website",
+      "tags": [
+        "hepsiburada"
+      ],
+      "description": "Shopping resource: Hepsiburada.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0227",
+      "name": "Morhipo",
+      "url": "https://www.morhipo.com/",
+      "category": "Shopping",
+      "type": "Website",
+      "tags": [
+        "morhipo"
+      ],
+      "description": "Shopping resource: Morhipo.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

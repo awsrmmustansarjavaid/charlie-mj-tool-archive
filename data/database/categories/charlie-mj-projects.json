@@ -1,0 +1,58 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "c75d3280-39ea-5ff0-8855-fb68bb8601de",
+    "displayId": "CHARLIE-MJ-PROJECTS-8601DE",
+    "name": "Charlie MJ Projects",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 2,
+  "tools": [
+    {
+      "id": "cmj-0038",
+      "name": "Charlie MJ Medium Profile Article Search Engine",
+      "url": "https://awsrmmustansarjavaid.github.io/medium-article-search-engine/",
+      "category": "Charlie MJ Projects",
+      "type": "Project",
+      "tags": [
+        "charlie mj",
+        "medium",
+        "search"
+      ],
+      "description": "Charlie MJ Projects resource: Charlie MJ Medium Profile Article Search Engine.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0044",
+      "name": "Charlie MJ YouTube Toolkit",
+      "url": "https://awsrmmustansarjavaid.github.io/charlie-mj-youtube-toolkit/",
+      "category": "Charlie MJ Projects",
+      "type": "Project",
+      "tags": [
+        "charlie mj",
+        "youtube",
+        "toolkit"
+      ],
+      "description": "Charlie MJ Projects resource: Charlie MJ YouTube Toolkit.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

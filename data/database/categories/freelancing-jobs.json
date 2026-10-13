@@ -1,0 +1,531 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "b3b60208-b0ff-5be2-984a-aa44a71f0b20",
+    "displayId": "FREELANCING-JOBS-1F0B20",
+    "name": "Freelancing & Jobs",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 27,
+  "tools": [
+    {
+      "id": "cmj-0053",
+      "name": "Upwork",
+      "url": "https://www.upwork.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Upwork.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0054",
+      "name": "Wellfound",
+      "url": "https://wellfound.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Wellfound.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0055",
+      "name": "Who Is Hiring",
+      "url": "https://whoishiring.io/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Who Is Hiring.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0056",
+      "name": "Remotely Jobs",
+      "url": "https://www.remotely.jobs/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Remotely Jobs.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0057",
+      "name": "FlexJobs",
+      "url": "https://www.flexjobs.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: FlexJobs.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0058",
+      "name": "Remotive",
+      "url": "https://remotive.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Remotive.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0059",
+      "name": "Pangian",
+      "url": "https://pangian.com/remote/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Pangian.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0060",
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: We Work Remotely.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0061",
+      "name": "Working Nomads",
+      "url": "https://www.workingnomads.com/jobs",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Working Nomads.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0062",
+      "name": "Remote OK",
+      "url": "https://remoteok.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Remote OK.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0063",
+      "name": "JustRemote",
+      "url": "https://justremote.co/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: JustRemote.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0064",
+      "name": "WorkChest",
+      "url": "https://workchest.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: WorkChest.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0065",
+      "name": "Remote.co",
+      "url": "https://remote.co/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Remote.co.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0066",
+      "name": "4 Day Week",
+      "url": "https://4dayweek.io/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: 4 Day Week.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0067",
+      "name": "Jobspresso",
+      "url": "https://jobspresso.co/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Jobspresso.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0068",
+      "name": "AngelList / Wellfound",
+      "url": "https://www.angellist.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: AngelList / Wellfound.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0069",
+      "name": "Virtual Vocations",
+      "url": "https://www.virtualvocations.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Virtual Vocations.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0070",
+      "name": "Stack Overflow Questions",
+      "url": "https://stackoverflow.com/questions",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Stack Overflow Questions.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0071",
+      "name": "Toptal",
+      "url": "https://www.toptal.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Toptal.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0072",
+      "name": "SkipTheDrive",
+      "url": "https://www.skipthedrive.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: SkipTheDrive.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0073",
+      "name": "NoDesk",
+      "url": "https://nodesk.co/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: NoDesk.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0074",
+      "name": "Remote Habits",
+      "url": "https://remotehabits.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Remote Habits.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0075",
+      "name": "Remote4Me",
+      "url": "https://remote4me.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Remote4Me.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0076",
+      "name": "FlexJobs",
+      "url": "https://www.flexjobs.com/homevariant/t1",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: FlexJobs.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0077",
+      "name": "SimplyHired",
+      "url": "https://www.simplyhired.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: SimplyHired.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0078",
+      "name": "Freelancer",
+      "url": "https://www.freelancer.com/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Freelancer.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0079",
+      "name": "Remote In Tech",
+      "url": "https://remoteintech.company/",
+      "category": "Freelancing & Jobs",
+      "type": "Learning",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "description": "Freelancing & Jobs resource: Remote In Tech.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

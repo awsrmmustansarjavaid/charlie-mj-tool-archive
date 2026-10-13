@@ -1,0 +1,96 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "eef1468c-bf6c-5223-9039-b5e4e12c7cb0",
+    "displayId": "MARKDOWN-WRITING-2C7CB0",
+    "name": "Markdown & Writing",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 4,
+  "tools": [
+    {
+      "id": "cmj-0006",
+      "name": "Editor.md",
+      "url": "https://pandao.github.io/editor.md/en.html",
+      "category": "Markdown & Writing",
+      "type": "Website",
+      "tags": [
+        "markdown",
+        "editor"
+      ],
+      "description": "Markdown & Writing resource: Editor.md.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0008",
+      "name": "Markdown Live Preview",
+      "url": "https://markdownlivepreview.com/",
+      "category": "Markdown & Writing",
+      "type": "Website",
+      "tags": [
+        "markdown",
+        "preview"
+      ],
+      "description": "Markdown & Writing resource: Markdown Live Preview.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0029",
+      "name": "Markdown Free",
+      "url": "https://www.markdown.free/",
+      "category": "Markdown & Writing",
+      "type": "Utility",
+      "tags": [
+        "markdown",
+        "pdf",
+        "docx",
+        "epub"
+      ],
+      "description": "Markdown & Writing resource: Markdown Free.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0030",
+      "name": "CraftMarkdown",
+      "url": "https://www.craftmarkdown.com/",
+      "category": "Markdown & Writing",
+      "type": "Website",
+      "tags": [
+        "markdown",
+        "converter"
+      ],
+      "description": "Markdown & Writing resource: CraftMarkdown.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

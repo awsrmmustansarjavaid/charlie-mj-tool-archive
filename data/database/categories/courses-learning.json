@@ -1,0 +1,74 @@
+{
+  "version": "6.0.1",
+  "app": "Charlie MJ Tool Archive",
+  "exportType": "category-collection",
+  "category": {
+    "id": "fae3350e-1306-5852-b957-034ab7a621a0",
+    "displayId": "COURSES-LEARNING-A621A0",
+    "name": "Courses & Learning",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 0,
+    "updatedAt": 0
+  },
+  "recordCount": 3,
+  "tools": [
+    {
+      "id": "cmj-0082",
+      "name": "FreeCourseSite",
+      "url": "https://freecoursesites.com/",
+      "category": "Courses & Learning",
+      "type": "Learning",
+      "tags": [
+        "freecoursesite"
+      ],
+      "description": "Courses & Learning resource: FreeCourseSite.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425800,
+      "lastModified": 1790955425800,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0273",
+      "name": "Freecoursesites",
+      "url": "https://freecoursesites.org/",
+      "category": "Courses & Learning",
+      "type": "Website",
+      "tags": [
+        "freecoursesites"
+      ],
+      "description": "Imported Bookmarks resource: Freecoursesites.",
+      "notes": "Imported from user bookmark collection.",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425802,
+      "lastModified": 1790955425802,
+      "source": "local"
+    },
+    {
+      "id": "cmj-0312",
+      "name": "TutsNode",
+      "url": "https://tutsnode.com/",
+      "category": "Courses & Learning",
+      "type": "Learning",
+      "tags": [
+        "courses",
+        "tutorials",
+        "learning"
+      ],
+      "description": "Courses & Learning resource: TutsNode.",
+      "notes": "",
+      "favorite": false,
+      "usageCount": 0,
+      "lastUsed": 0,
+      "addedAt": 1790955425803,
+      "lastModified": 1790955425803,
+      "source": "local"
+    }
+  ],
+  "source": "v5.0.0 default-tools.json"
+}

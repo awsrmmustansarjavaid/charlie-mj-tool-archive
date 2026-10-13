@@ -1,8 +1,8 @@
-# ✨ Charlie MJ Tool Archive v5.0.0
+# ✨ Charlie MJ Tool Archive v6.0.1 — Advanced Edition
 
 ## Smart Library Chrome Extension
 
-> **v5 architecture note:** See `V5.0.0-DUAL-LIBRARY.md` for the complete Local + Remote library model, source badges, comparison, sync history and remote-safety rules.
+> **Compatibility note:** v6.0.1 is additive. See `V5.0.0-DUAL-LIBRARY.md` for the preserved Local + Remote model and `V6.0.1-ADVANCED-FEATURES.md` for new database, hierarchy, search, Omnibox and backup services.
 
 **Charlie MJ Tool Archive** is a modern Manifest V3 Chrome extension for organizing a large personal collection of websites, online tools, learning resources, AI services, developer utilities, social-media tools, productivity sites and other bookmarks.
 
@@ -12,7 +12,7 @@ The extension is designed as a **local-first personal tool library** while also 
 
 ## 📦 Version
 
-**Version:** `5.0.0`
+**Version:** `6.0.1`
 
 **Project:** Charlie MJ Tool Archive
 
@@ -714,3 +714,45 @@ The default library can be maintained as a version-controlled JSON file in the p
 GitHub repository:
 
 `https://github.com/awsrmmustansarjavaid/charlie-mj-tool-archive`
+
+
+---
+
+# v6.0.1 Advanced Systems
+
+## Compatibility-first upgrade
+
+The original v5 local and remote arrays remain intact in Chrome local storage:
+
+- `localLibrary`
+- `remoteLibrary`
+- `settings`
+- `syncState`, `syncHistory`, and `syncChanges`
+
+The new services add `cmjCategoriesV6`, `cmjCollectionsV6`, `cmjToolRevisionsV6`, `cmjAdvancedSettingsV6`, and `cmjCategoryCollectionsV6`. These are additive metadata and snapshots; they do not replace the original library arrays.
+
+## Category hierarchy
+
+Categories are stored as nodes with immutable UUID `id`, human-readable `displayId`, `name`, `parentId`, `kind`, and timestamps. A node with `parentId: null` is a top-level category; a node with a parent is a subcategory. The same representation supports further nesting.
+
+Tool records retain their original fields and may additionally contain `categoryId`, `subcategoryId`, `subcategory`, `displayId`, `smartLabels`, `aliases`, `collections`, and `priority`.
+
+## Chrome Omnibox
+
+Use the Chrome address bar keyword `cmj`, press Space or Tab, then enter a query. Suggestions search local and remote library records by name, domain, URL, tags, aliases, smart labels, category and description.
+
+## Database Manager
+
+The Database Manager exports one category as JSON, a full database as a portable JSON snapshot, or all category collections as a ZIP archive. Import supports JSON files and ZIP files produced by this extension. Exact URL duplicates are skipped; similar URLs are shown for review in the import preview.
+
+## Command Center
+
+Press Ctrl+Shift+P (or Cmd+Shift+P on macOS) to open the in-extension Command Center. Ctrl+K continues to focus the main library search.
+
+## Limitations and safety
+
+- Chrome extensions cannot write JSON files into their own installed source directory. Category files are generated when the user exports them.
+- Omnibox suggestions require the `cmj` keyword; Chrome does not expose ordinary address-bar keystrokes to extensions.
+- Similarity scores are advisory, not proof that two websites are the same tool.
+- Health checks can be blocked by CORS, authentication, bot protection or site policy. A failed fetch is not proof that a website is offline.
+- The v6 migration adds metadata and collection snapshots while preserving v5 local and remote arrays. Export a backup before upgrading.

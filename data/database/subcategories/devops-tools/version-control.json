@@ -1,0 +1,154 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "b426d3d1-c124-4458-b6a5-1025d9479157",
+    "displayId": "DEVOPS-TOOLS-95F7A9-VERSION-CONTROL-479157",
+    "name": "Version Control",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994819663,
+    "updatedAt": 1791994819663
+  },
+  "parentCategory": {
+    "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "displayId": "DEVOPS-TOOLS-95F7A9",
+    "name": "DevOps Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791994819447,
+    "updatedAt": 1791994819447
+  },
+  "recordCount": 4,
+  "tools": [
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A self-hosted Git collaboration platform and community-driven fork of Gitea.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-FORGEJO",
+      "id": "cmj-devops-0018",
+      "lastModified": 1791936000000,
+      "name": "Forgejo",
+      "priority": "normal",
+      "smartLabels": [
+        "self hosted",
+        "git"
+      ],
+      "subcategory": "Version Control",
+      "subcategoryId": "b426d3d1-c124-4458-b6a5-1025d9479157",
+      "tags": [
+        "git",
+        "self-hosted",
+        "forge"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://forgejo.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [
+        "Git"
+      ],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A distributed version control system used to track source code changes and collaborate on software projects.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-GIT",
+      "id": "cmj-devops-0014",
+      "lastModified": 1791936000000,
+      "name": "Git",
+      "priority": "high",
+      "smartLabels": [
+        "version control",
+        "essential"
+      ],
+      "subcategory": "Version Control",
+      "subcategoryId": "b426d3d1-c124-4458-b6a5-1025d9479157",
+      "tags": [
+        "git",
+        "version-control",
+        "source-code"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://git-scm.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A self-hosted Git service that provides repository hosting, code review, and collaboration features.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-GITEA",
+      "id": "cmj-devops-0017",
+      "lastModified": 1791936000000,
+      "name": "Gitea",
+      "priority": "normal",
+      "smartLabels": [
+        "self hosted",
+        "git"
+      ],
+      "subcategory": "Version Control",
+      "subcategoryId": "b426d3d1-c124-4458-b6a5-1025d9479157",
+      "tags": [
+        "git",
+        "self-hosted",
+        "repository"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://about.gitea.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An integrated DevOps platform providing Git repositories, CI/CD pipelines, issue tracking, and security features.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-GITLAB",
+      "id": "cmj-devops-0016",
+      "lastModified": 1791936000000,
+      "name": "GitLab",
+      "priority": "high",
+      "smartLabels": [
+        "git hosting",
+        "ci cd",
+        "devsecops"
+      ],
+      "subcategory": "Version Control",
+      "subcategoryId": "b426d3d1-c124-4458-b6a5-1025d9479157",
+      "tags": [
+        "gitlab",
+        "git",
+        "ci-cd",
+        "devsecops"
+      ],
+      "type": "Online Platform",
+      "url": "https://about.gitlab.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

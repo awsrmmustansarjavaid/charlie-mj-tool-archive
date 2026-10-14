@@ -1,0 +1,220 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "3e3e8e3b-1ee5-4683-93bf-adc9a1b4f605",
+    "displayId": "DEVOPS-TOOLS-95F7A9-INFRASTRUCTURE-AS-CODE-B4F605",
+    "name": "Infrastructure as Code",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994820629,
+    "updatedAt": 1791994820629
+  },
+  "parentCategory": {
+    "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "displayId": "DEVOPS-TOOLS-95F7A9",
+    "name": "DevOps Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791994819447,
+    "updatedAt": 1791994819447
+  },
+  "recordCount": 6,
+  "tools": [
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An open-source automation platform for configuration management, application deployment, and infrastructure orchestration.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-ANSIBLE",
+      "id": "cmj-devops-0039",
+      "lastModified": 1791936000000,
+      "name": "Ansible",
+      "priority": "high",
+      "smartLabels": [
+        "configuration management",
+        "automation"
+      ],
+      "subcategory": "Infrastructure as Code",
+      "subcategoryId": "3e3e8e3b-1ee5-4683-93bf-adc9a1b4f605",
+      "tags": [
+        "ansible",
+        "automation",
+        "configuration",
+        "yaml"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://www.ansible.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "AWS infrastructure as code service for defining and provisioning AWS resources using YAML or JSON templates.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-CLOUDFORMATION",
+      "id": "cmj-devops-0038",
+      "lastModified": 1791936000000,
+      "name": "AWS CloudFormation",
+      "priority": "high",
+      "smartLabels": [
+        "aws",
+        "infrastructure as code"
+      ],
+      "subcategory": "Infrastructure as Code",
+      "subcategoryId": "3e3e8e3b-1ee5-4683-93bf-adc9a1b4f605",
+      "tags": [
+        "aws",
+        "cloudformation",
+        "iac",
+        "yaml",
+        "json"
+      ],
+      "type": "Cloud Service",
+      "url": "https://aws.amazon.com/cloudformation/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An open-source infrastructure as code alternative to Terraform that is compatible with much of the Terraform ecosystem.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-OPENTOFU",
+      "id": "cmj-devops-0037",
+      "lastModified": 1791936000000,
+      "name": "OpenTofu",
+      "priority": "normal",
+      "smartLabels": [
+        "infrastructure as code",
+        "open source"
+      ],
+      "subcategory": "Infrastructure as Code",
+      "subcategoryId": "3e3e8e3b-1ee5-4683-93bf-adc9a1b4f605",
+      "tags": [
+        "opentofu",
+        "terraform",
+        "iac",
+        "cloud"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://opentofu.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An infrastructure provisioning and deployment platform that supports multiple cloud providers and programming languages.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-PULUMI",
+      "id": "cmj-devops-0040",
+      "lastModified": 1791936000000,
+      "name": "Pulumi",
+      "priority": "normal",
+      "smartLabels": [
+        "infrastructure as code",
+        "multi cloud"
+      ],
+      "subcategory": "Infrastructure as Code",
+      "subcategoryId": "3e3e8e3b-1ee5-4683-93bf-adc9a1b4f605",
+      "tags": [
+        "pulumi",
+        "iac",
+        "typescript",
+        "python",
+        "cloud"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://www.pulumi.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An open-source infrastructure as code tool for provisioning and managing infrastructure through declarative configuration.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-TERRAFORM",
+      "id": "cmj-devops-0036",
+      "lastModified": 1791936000000,
+      "name": "Terraform",
+      "priority": "high",
+      "smartLabels": [
+        "infrastructure as code",
+        "essential"
+      ],
+      "subcategory": "Infrastructure as Code",
+      "subcategoryId": "3e3e8e3b-1ee5-4683-93bf-adc9a1b4f605",
+      "tags": [
+        "terraform",
+        "iac",
+        "cloud",
+        "automation"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://developer.hashicorp.com/terraform",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A tool for validating, formatting, and linting Terraform configuration files.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-TFLINT",
+      "id": "cmj-devops-0041",
+      "lastModified": 1791936000000,
+      "name": "TFLint",
+      "priority": "normal",
+      "smartLabels": [
+        "terraform",
+        "linting"
+      ],
+      "subcategory": "Infrastructure as Code",
+      "subcategoryId": "3e3e8e3b-1ee5-4683-93bf-adc9a1b4f605",
+      "tags": [
+        "terraform",
+        "lint",
+        "iac",
+        "validation"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/terraform-linters/tflint",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

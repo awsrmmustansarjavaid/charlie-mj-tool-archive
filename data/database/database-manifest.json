@@ -3,9 +3,9 @@
   "app": "Charlie MJ Tool Archive",
   "format": "default-library-manifest",
   "role": "primary-database",
-  "exportedAt": "2026-10-14T11:27:23.596Z",
-  "categoryCount": 127,
-  "toolCount": 403,
+  "exportedAt": "2026-10-14T16:22:00.096Z",
+  "categoryCount": 156,
+  "toolCount": 502,
   "categoryIndex": "database/category-index.json",
   "files": [
     {
@@ -54,6 +54,16 @@
       "sha256": "d19784bb02cb4edd33f610b327aff14c9a078b9c810f58c975afade9ea53bc04"
     },
     {
+      "path": "subcategories/devops-tools/infrastructure-security.json",
+      "recordCount": 1,
+      "sha256": "263cc29428213428dc050f5105b0884b48b0a8bee5716e751d588cb5625da8a1"
+    },
+    {
+      "path": "subcategories/devops-tools/online-security-utilities.json",
+      "recordCount": 2,
+      "sha256": "6286bc4c439427fee3bd3aa4414db2ec52afd0052805a7369b8f211eb069efb3"
+    },
+    {
       "path": "categories/islamic-resources.json",
       "recordCount": 12,
       "sha256": "8d4dbb4db4c4c21eccdb10fb2fc03f2ad654cb8466194d5a61bec3b85b4b6b17"
@@ -69,14 +79,34 @@
       "sha256": "d2cc3e54ad970581e45283b132ee7ea524a7a9efc21fa067a503b8fdf0686023"
     },
     {
+      "path": "subcategories/devops-tools/devops-directories.json",
+      "recordCount": 3,
+      "sha256": "6dd805c94e6dbe226ed4494dc6c93110872ea75d32a41e2502ec817af92e6704"
+    },
+    {
       "path": "categories/roadmaps-career.json",
       "recordCount": 1,
       "sha256": "b5bdad5ab75c0d91e9588ae36fa93519cd27c05021018f202a5caf487cdd7573"
     },
     {
+      "path": "subcategories/devops-tools/logging.json",
+      "recordCount": 2,
+      "sha256": "55ab321a799cd4da696285ee76c3ff6392af590e9ea66516cdd3ed79f2abf83f"
+    },
+    {
+      "path": "subcategories/devops-tools/ci-cd-and-gitops.json",
+      "recordCount": 0,
+      "sha256": "6142d010242961a3d161b7cdf60bae67caf6359b287cfbe49a02efc736c1a968"
+    },
+    {
       "path": "categories/ai-development-coding.json",
       "recordCount": 1,
       "sha256": "2946a44c91244e064757b3c85ccd740667539a884971954c13747d57e8db5823"
+    },
+    {
+      "path": "subcategories/ci/cd-and-gitops.json",
+      "recordCount": 2,
+      "sha256": "fcd2a65d80ce59c89646932b41dde72965f135ee301d046e5f8113d38459786a"
     },
     {
       "path": "categories/reverse-engineering-development.json",
@@ -102,6 +132,11 @@
       "path": "categories/ai-chat-research.json",
       "recordCount": 3,
       "sha256": "e848a7f0638b5c6a2401b83ab4bb3ae8ca3555c0727bcc3e158976d5fd1d9fee"
+    },
+    {
+      "path": "subcategories/devops-tools/monitoring-and-reliability.json",
+      "recordCount": 1,
+      "sha256": "dabc8182065a046c86b722f855b3d26ba80e8b37bee64a99b21367361ee83b88"
     },
     {
       "path": "categories/media-video.json",
@@ -149,6 +184,11 @@
       "sha256": "d2f8f6bcdd289040276e2778d6ce0683c8e0024136372c4246da8385c033762c"
     },
     {
+      "path": "subcategories/devops-tools/infrastructure-as-code.json",
+      "recordCount": 6,
+      "sha256": "510d7c79e223e89e5491486da7d6469f1a9c3361a9e0574aeff74ef5c87fbef3"
+    },
+    {
       "path": "categories/ai-tools.json",
       "recordCount": 1,
       "sha256": "8705c700b2739e38d3d9a81d09d332c8b69ad4bd40c02e5c01dfb451b7493768"
@@ -162,6 +202,11 @@
       "path": "categories/communities.json",
       "recordCount": 1,
       "sha256": "04c65f2b7886be62d33516d40b10bac9549e3f6250143cdd2b70bf82bb5e2bff"
+    },
+    {
+      "path": "subcategories/devops-tools/networking.json",
+      "recordCount": 7,
+      "sha256": "e161c2e57ad6f71146e771d5471cb71f34ebedcb62218d7c1deb10eeeb9b5d91"
     },
     {
       "path": "categories/open-source-software.json",
@@ -180,8 +225,8 @@
     },
     {
       "path": "categories/tech-blogs.json",
-      "recordCount": 3,
-      "sha256": "d241e9c9ed8897ec9daafda19db9deea80d283f6043dadc2a4ce1474cdd6b000"
+      "recordCount": 4,
+      "sha256": "34ac505422ff2b01fea54bbad1753e3c73d4dc7e9eb48ea4576dab45eebbb758"
     },
     {
       "path": "categories/cloud-native-kubernetes.json",
@@ -189,9 +234,19 @@
       "sha256": "aa73faf1f4da545da32f2f4f9dfe4cd9ae5288d623f3fd1e3cc82a1ee6df1eec"
     },
     {
+      "path": "subcategories/devops-tools/containers.json",
+      "recordCount": 5,
+      "sha256": "b707f1c03f7e43964afe7354d521ee5889264692c4cf1fce90099a966e713c83"
+    },
+    {
       "path": "categories/download-resources.json",
       "recordCount": 1,
       "sha256": "598411539455808881c9564f5e3e4ce72056928fde399cc6a38adae08769d587"
+    },
+    {
+      "path": "subcategories/devops-tools/hands-on-labs.json",
+      "recordCount": 7,
+      "sha256": "7dbf767d33c4aef6b7c88349fb54b120b2f1328196eab9b453d9fb52181bb58b"
     },
     {
       "path": "categories/magazines.json",
@@ -219,6 +274,11 @@
       "sha256": "22b50fa6719de02162b1899079133a086f2d0505cef20909e7fd9421f813d243"
     },
     {
+      "path": "subcategories/devops-tools/ci.json",
+      "recordCount": 0,
+      "sha256": "93c211420d5e2ad6dac2f402d897ea93efa12c01a8411f498b1d70214e830a5b"
+    },
+    {
       "path": "categories/science-education.json",
       "recordCount": 1,
       "sha256": "072db4474122d298bc1118a5290be66dd132ca0ea8ed7880e3572b30cb85b071"
@@ -240,8 +300,8 @@
     },
     {
       "path": "categories/cloud-computing-devops.json",
-      "recordCount": 1,
-      "sha256": "a0b177981b141620e35c747fed4c55e8f6b7255e6da863516b71a3c7a1da159f"
+      "recordCount": 3,
+      "sha256": "5b2478e58de921cf7364af4447c5447a59d0a215fb0d2d3497a8bbb74bd042d4"
     },
     {
       "path": "categories/developer-tools-productivity.json",
@@ -284,6 +344,11 @@
       "sha256": "404426967e15f6eeb9c1b93ae99e2b265c80aea98a5e66ce1380f833564c5db4"
     },
     {
+      "path": "subcategories/devops-tools/finops-and-cost-management.json",
+      "recordCount": 2,
+      "sha256": "29188b5e3af36c077ee786b89146b4880faee063895169d9e4f219bb6779bef4"
+    },
+    {
       "path": "categories/developer-tools-automation.json",
       "recordCount": 1,
       "sha256": "6534f0f597ec951de60271535c83f2d559be3f1b1ffc31ad568ca1c76f15fd67"
@@ -312,6 +377,11 @@
       "path": "categories/developer-tools-ai-agents.json",
       "recordCount": 1,
       "sha256": "290c79db69fb63465790b42613035bd31498de738413931038f4731d157c1a92"
+    },
+    {
+      "path": "subcategories/devops-tools/platform-engineering.json",
+      "recordCount": 1,
+      "sha256": "2ef0f8ffcc1769bc5f0d2e2c5d5979aed1139b4616e3e41a89c7526995505d65"
     },
     {
       "path": "categories/desktop-software-open-source.json",
@@ -349,6 +419,11 @@
       "sha256": "dd034ba5c141c0753ec7f108f7a61daf9e5dac3dfffd98421b2cb44c6aae7f3b"
     },
     {
+      "path": "subcategories/devops-tools/testing-and-reliability.json",
+      "recordCount": 4,
+      "sha256": "56bcbf113ac0620d515f2ac916eec5d4479325532b220c6edb0ac440b0d11800"
+    },
+    {
       "path": "categories/engineering-technical-tools.json",
       "recordCount": 1,
       "sha256": "e472e82e8c73a82b023d8befa80cf3b4689f1aa46023897bb17e6c0f220a3a50"
@@ -364,14 +439,29 @@
       "sha256": "a1415eb71c265698070e0bff30ab33225a26277a5a4be62e3d52d0e111cc92c3"
     },
     {
+      "path": "categories/devops-tools.json",
+      "recordCount": 0,
+      "sha256": "7cee13e9137cb5d4feba05b140264eb3d8cf60379a2577cde3eca3acd456916d"
+    },
+    {
       "path": "categories/multilingual-translation.json",
       "recordCount": 5,
       "sha256": "0d7609cb516ff8bfb5d468a207e00658c8f9cd7302538dbc8da0695d11f0ba13"
     },
     {
+      "path": "subcategories/ci/cd.json",
+      "recordCount": 3,
+      "sha256": "6bd0d5a88cf5ee2237c510bbf6f7e2c250d9a18e23e8e46d5c772d94b42a5ee4"
+    },
+    {
       "path": "categories/ai-video-generation.json",
       "recordCount": 1,
       "sha256": "f5d97f53b28bbf9dbe7279548ec5c2b38be34a8e889c27b92e9237fe39dd7278"
+    },
+    {
+      "path": "subcategories/devops-tools/automation.json",
+      "recordCount": 2,
+      "sha256": "1a291cd24e82562c199466ff2632984195935496acbb319dc6f93be0da410823"
     },
     {
       "path": "categories/ocr-text-extraction.json",
@@ -382,6 +472,11 @@
       "path": "categories/media-entertainment.json",
       "recordCount": 1,
       "sha256": "e756252d53f59ae2a1adb49c1d7583c5b61e14190654d5b762fbf606f95290db"
+    },
+    {
+      "path": "categories/devops-github-repo.json",
+      "recordCount": 1,
+      "sha256": "a42e6c674bf791922bd4129820462f9fceb1165624551b347d863bd6ed97df7f"
     },
     {
       "path": "categories/productivity-development.json",
@@ -429,9 +524,19 @@
       "sha256": "f51dfc7dfb10b1cc26c155dd4f20421967741c47f80f1093fbf53a9a9fbd5ad5"
     },
     {
+      "path": "subcategories/devops-tools/devsecops.json",
+      "recordCount": 11,
+      "sha256": "cb32daac3ba8021f076a9f86b5746e45d2371fd9236ae7bf41018bfddc097d5c"
+    },
+    {
       "path": "categories/freelancing-jobs.json",
       "recordCount": 27,
       "sha256": "1d45cf957377933867234f9be5542baed244c2786afbcb91d82770d52112cb12"
+    },
+    {
+      "path": "subcategories/devops-tools/version-control.json",
+      "recordCount": 4,
+      "sha256": "7342ec3e91d989424b3814fdae64e1048c91e2c2101b40cdd892250fc40a55cd"
     },
     {
       "path": "categories/turkish-dictionaries.json",
@@ -514,6 +619,11 @@
       "sha256": "99f4e5a43f3d2b443514f96a50d35b6ac313b89173a3b7af0a9f278887ba4b4b"
     },
     {
+      "path": "subcategories/devops-tools/ci-cd.json",
+      "recordCount": 0,
+      "sha256": "25a7ed1d7680433acd2b65c5a33fe6e6efa6a49769e10066c0a01b8a29259291"
+    },
+    {
       "path": "categories/design-resources.json",
       "recordCount": 1,
       "sha256": "da151c095c9685248f0b64f469ea791f1d41f67f8af9c1d74ca8f5e45a4299c6"
@@ -534,9 +644,19 @@
       "sha256": "9ffc293dc0f5410fa5de090f2158007a6cad60404eb927fd8fc3077e50c58bec"
     },
     {
+      "path": "subcategories/devops-tools/online-developer-utilities.json",
+      "recordCount": 7,
+      "sha256": "13766849c02fb64ad52c26292ee6fed3255a72ecd5a65198e6dfc35812a14083"
+    },
+    {
       "path": "categories/online-tools-utilities.json",
       "recordCount": 2,
       "sha256": "889dae17589da876e1f1001843814e825d7dc3bf4aaf9989c88eb0dcff7aadf6"
+    },
+    {
+      "path": "subcategories/devops-tools/linux-and-system-administration.json",
+      "recordCount": 5,
+      "sha256": "20c9d991e0623daa484247dc31e62f98f2a6f809c6847cced8e6bfe87beecc86"
     },
     {
       "path": "categories/productivity-online-tools.json",
@@ -584,6 +704,16 @@
       "sha256": "8232b66c0b59cd15a0beb888adab7af08e50705b87e65d2adc10c59735f19bf9"
     },
     {
+      "path": "subcategories/devops-tools/online-networking-utilities.json",
+      "recordCount": 1,
+      "sha256": "64f7250abebceb9003d4d6dab1a721db8788b427d4f19fe010ef1125bea3fdc6"
+    },
+    {
+      "path": "subcategories/devops-tools/artifact-management.json",
+      "recordCount": 4,
+      "sha256": "4957e859f57e9881506e62a65e42ce63deb7b12f054531bef65d108e03ae741f"
+    },
+    {
       "path": "categories/turkish-learning.json",
       "recordCount": 9,
       "sha256": "cc51a3123f7f2ebe45d48ade80d6589c7eef559a1fdaecf8572079258ebecc0e"
@@ -609,6 +739,16 @@
       "sha256": "d68926cd253596cfb11facd17e2c923a56d593c2e7a16005d37ab1c1c9a5687b"
     },
     {
+      "path": "subcategories/devops-tools/kubernetes.json",
+      "recordCount": 7,
+      "sha256": "8c275d704bd029c9eb6e3ddd9645b632b8319f12b4c81b99113eb0e301f8b402"
+    },
+    {
+      "path": "subcategories/devops-tools/secrets-and-identity.json",
+      "recordCount": 4,
+      "sha256": "5f845d8fcb871a92cd97d1cced39bd352cec95b3d633c86c37fd3d1d5fce8b94"
+    },
+    {
       "path": "categories/turkish-literature.json",
       "recordCount": 3,
       "sha256": "8134902d918cf9252af1123a849b60476d963ba7b6cceec8f07849c1b013eb75"
@@ -617,6 +757,11 @@
       "path": "categories/creative-media-production.json",
       "recordCount": 1,
       "sha256": "475eed481f3e31c8ca4ab71c1066c1fc23de7c732f650e961bfc0af9b579e7aa"
+    },
+    {
+      "path": "subcategories/devops-tools/monitoring-and-observability.json",
+      "recordCount": 4,
+      "sha256": "4ada59d40f4432fc6c04a02ba821d0285834d1e17c91d399c153133ab05be7dd"
     },
     {
       "path": "categories/networking-learning.json",

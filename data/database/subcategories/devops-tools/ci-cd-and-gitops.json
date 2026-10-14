@@ -1,0 +1,25 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "1bd77a94-a3ea-4b21-9f7b-176cb5645ed2",
+    "displayId": "DEVOPS-TOOLS-95F7A9-CI-CD-AND-GITOPS-645ED2",
+    "name": "CI/CD and GitOps",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994820241,
+    "updatedAt": 1791994820241
+  },
+  "parentCategory": {
+    "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "displayId": "DEVOPS-TOOLS-95F7A9",
+    "name": "DevOps Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791994819447,
+    "updatedAt": 1791994819447
+  },
+  "recordCount": 0,
+  "tools": []
+}

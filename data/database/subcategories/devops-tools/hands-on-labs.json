@@ -1,0 +1,254 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "512fc341-c9de-49cd-8942-cc44fdb96c59",
+    "displayId": "DEVOPS-TOOLS-95F7A9-HANDS-ON-LABS-B96C59",
+    "name": "Hands-on Labs",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994819475,
+    "updatedAt": 1791994819475
+  },
+  "parentCategory": {
+    "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "displayId": "DEVOPS-TOOLS-95F7A9",
+    "name": "DevOps Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791994819447,
+    "updatedAt": 1791994819447
+  },
+  "recordCount": 7,
+  "tools": [
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A project-based challenge that teaches cloud engineering by building and deploying a cloud-hosted resume website.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-CLOUD-RESUME",
+      "id": "cmj-devops-0009",
+      "lastModified": 1791936000000,
+      "name": "Cloud Resume Challenge",
+      "priority": "high",
+      "smartLabels": [
+        "portfolio project",
+        "cloud",
+        "beginner"
+      ],
+      "subcategory": "Hands-on Labs",
+      "subcategoryId": "512fc341-c9de-49cd-8942-cc44fdb96c59",
+      "tags": [
+        "aws",
+        "azure",
+        "cloud",
+        "portfolio",
+        "serverless"
+      ],
+      "type": "Learning Project",
+      "url": "https://cloudresumechallenge.dev/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A collection of practical DevOps exercises covering containers, CI/CD, infrastructure automation, Kubernetes, and monitoring.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-DEVOPS-EXERCISES",
+      "id": "cmj-devops-0004",
+      "lastModified": 1791936000000,
+      "name": "DevOps Exercises",
+      "priority": "high",
+      "smartLabels": [
+        "github",
+        "learning",
+        "practice"
+      ],
+      "subcategory": "Hands-on Labs",
+      "subcategoryId": "512fc341-c9de-49cd-8942-cc44fdb96c59",
+      "tags": [
+        "devops",
+        "exercises",
+        "github",
+        "learning"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/bregman-arie/devops-exercises",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An open-source platform for learning Linux, containers, Kubernetes, and cloud technologies through interactive environments.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-INSTRUQT",
+      "id": "cmj-devops-0008",
+      "lastModified": 1791936000000,
+      "name": "Instruqt",
+      "priority": "normal",
+      "smartLabels": [
+        "interactive labs",
+        "cloud-native"
+      ],
+      "subcategory": "Hands-on Labs",
+      "subcategoryId": "512fc341-c9de-49cd-8942-cc44fdb96c59",
+      "tags": [
+        "devops",
+        "labs",
+        "kubernetes",
+        "cloud"
+      ],
+      "type": "Online Platform",
+      "url": "https://instruqt.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A learning platform offering hands-on DevOps, Kubernetes, Linux, cloud, and infrastructure courses and labs.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-KODEKLOUD",
+      "id": "cmj-devops-0007",
+      "lastModified": 1791936000000,
+      "name": "KodeKloud",
+      "priority": "high",
+      "smartLabels": [
+        "learning platform",
+        "devops",
+        "kubernetes"
+      ],
+      "subcategory": "Hands-on Labs",
+      "subcategoryId": "512fc341-c9de-49cd-8942-cc44fdb96c59",
+      "tags": [
+        "devops",
+        "linux",
+        "docker",
+        "kubernetes",
+        "cloud"
+      ],
+      "type": "Learning Platform",
+      "url": "https://kodekloud.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An interactive environment for learning Docker and Kubernetes through browser-based terminal exercises.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-PLAY-WITH-DOCKER",
+      "id": "cmj-devops-0005",
+      "lastModified": 1791936000000,
+      "name": "Play with Docker",
+      "priority": "normal",
+      "smartLabels": [
+        "docker",
+        "online lab"
+      ],
+      "subcategory": "Hands-on Labs",
+      "subcategoryId": "512fc341-c9de-49cd-8942-cc44fdb96c59",
+      "tags": [
+        "docker",
+        "containers",
+        "practice"
+      ],
+      "type": "Online Lab",
+      "url": "https://labs.play-with-docker.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A browser-based Kubernetes environment for learning and experimenting with Kubernetes clusters.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-PLAY-WITH-K8S",
+      "id": "cmj-devops-0006",
+      "lastModified": 1791936000000,
+      "name": "Play with Kubernetes",
+      "priority": "normal",
+      "smartLabels": [
+        "kubernetes",
+        "online lab"
+      ],
+      "subcategory": "Hands-on Labs",
+      "subcategoryId": "512fc341-c9de-49cd-8942-cc44fdb96c59",
+      "tags": [
+        "kubernetes",
+        "cluster",
+        "practice"
+      ],
+      "type": "Online Lab",
+      "url": "https://labs.play-with-k8s.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "Interactive browser-based troubleshooting challenges for Linux, networking, databases, Kubernetes, and system administration.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-SAD-SERVERS",
+      "id": "cmj-devops-0002",
+      "lastModified": 1791936000000,
+      "name": "SadServers",
+      "priority": "high",
+      "smartLabels": [
+        "online lab",
+        "troubleshooting",
+        "linux"
+      ],
+      "subcategory": "Hands-on Labs",
+      "subcategoryId": "512fc341-c9de-49cd-8942-cc44fdb96c59",
+      "tags": [
+        "linux",
+        "troubleshooting",
+        "sysadmin",
+        "practice"
+      ],
+      "type": "Online Tool",
+      "url": "https://sadservers.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

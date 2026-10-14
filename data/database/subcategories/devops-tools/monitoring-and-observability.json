@@ -1,0 +1,156 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "f8206a82-983f-4a50-87f6-c70dca9745b4",
+    "displayId": "DEVOPS-TOOLS-95F7A9-MONITORING-AND-OBSERVABILITY-9745B4",
+    "name": "Monitoring and Observability",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994820851,
+    "updatedAt": 1791994820851
+  },
+  "parentCategory": {
+    "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "displayId": "DEVOPS-TOOLS-95F7A9",
+    "name": "DevOps Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791994819447,
+    "updatedAt": 1791994819447
+  },
+  "recordCount": 4,
+  "tools": [
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A distributed tracing platform for monitoring and troubleshooting requests across microservices.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-JAEGER",
+      "id": "cmj-devops-0049",
+      "lastModified": 1791936000000,
+      "name": "Jaeger",
+      "priority": "normal",
+      "smartLabels": [
+        "distributed tracing",
+        "microservices"
+      ],
+      "subcategory": "Monitoring and Observability",
+      "subcategoryId": "f8206a82-983f-4a50-87f6-c70dca9745b4",
+      "tags": [
+        "jaeger",
+        "tracing",
+        "microservices",
+        "observability"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://www.jaegertracing.io/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A metrics exporter that exposes hardware and operating system metrics for Prometheus.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-NODE-EXPORTER",
+      "id": "cmj-devops-0045",
+      "lastModified": 1791936000000,
+      "name": "Node Exporter",
+      "priority": "normal",
+      "smartLabels": [
+        "prometheus",
+        "linux monitoring"
+      ],
+      "subcategory": "Monitoring and Observability",
+      "subcategoryId": "f8206a82-983f-4a50-87f6-c70dca9745b4",
+      "tags": [
+        "prometheus",
+        "linux",
+        "metrics",
+        "exporter"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://github.com/prometheus/node_exporter",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A vendor-neutral framework for generating, collecting, and exporting telemetry data such as metrics, logs, and traces.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-OPENTELEMETRY",
+      "id": "cmj-devops-0048",
+      "lastModified": 1791936000000,
+      "name": "OpenTelemetry",
+      "priority": "high",
+      "smartLabels": [
+        "observability",
+        "tracing",
+        "metrics"
+      ],
+      "subcategory": "Monitoring and Observability",
+      "subcategoryId": "f8206a82-983f-4a50-87f6-c70dca9745b4",
+      "tags": [
+        "opentelemetry",
+        "tracing",
+        "metrics",
+        "logs"
+      ],
+      "type": "Open Source Project",
+      "url": "https://opentelemetry.io/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A platform for monitoring, querying, and alerting on metrics collected from applications and infrastructure.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-PROMETHEUS",
+      "id": "cmj-devops-0043",
+      "lastModified": 1791936000000,
+      "name": "Prometheus",
+      "priority": "high",
+      "smartLabels": [
+        "monitoring",
+        "metrics",
+        "essential"
+      ],
+      "subcategory": "Monitoring and Observability",
+      "subcategoryId": "f8206a82-983f-4a50-87f6-c70dca9745b4",
+      "tags": [
+        "prometheus",
+        "monitoring",
+        "metrics",
+        "alerting"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://prometheus.io/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

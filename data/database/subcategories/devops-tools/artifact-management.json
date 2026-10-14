@@ -1,0 +1,155 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "e7b85c98-23a7-4055-8f69-0352372fa096",
+    "displayId": "DEVOPS-TOOLS-95F7A9-ARTIFACT-MANAGEMENT-2FA096",
+    "name": "Artifact Management",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994821502,
+    "updatedAt": 1791994821502
+  },
+  "parentCategory": {
+    "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "displayId": "DEVOPS-TOOLS-95F7A9",
+    "name": "DevOps Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791994819447,
+    "updatedAt": 1791994819447
+  },
+  "recordCount": 4,
+  "tools": [
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A popular cloud-based service for storing, sharing, and distributing container images.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-DOCKER-HUB",
+      "id": "cmj-devops-0068",
+      "lastModified": 1791936000000,
+      "name": "Docker Hub",
+      "priority": "high",
+      "smartLabels": [
+        "container registry",
+        "docker"
+      ],
+      "subcategory": "Artifact Management",
+      "subcategoryId": "e7b85c98-23a7-4055-8f69-0352372fa096",
+      "tags": [
+        "docker",
+        "registry",
+        "container-images"
+      ],
+      "type": "Online Service",
+      "url": "https://hub.docker.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A repository hosting service for storing and distributing container images and OCI artifacts.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-GHCR",
+      "id": "cmj-devops-0067",
+      "lastModified": 1791936000000,
+      "name": "GitHub Container Registry",
+      "priority": "normal",
+      "smartLabels": [
+        "container registry",
+        "github"
+      ],
+      "subcategory": "Artifact Management",
+      "subcategoryId": "e7b85c98-23a7-4055-8f69-0352372fa096",
+      "tags": [
+        "ghcr",
+        "github",
+        "docker",
+        "oci",
+        "registry"
+      ],
+      "type": "Online Service",
+      "url": "https://github.com/features/packages",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A container image registry that provides storage, scanning, replication, and management for container artifacts.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-HARBOR",
+      "id": "cmj-devops-0065",
+      "lastModified": 1791936000000,
+      "name": "Harbor",
+      "priority": "normal",
+      "smartLabels": [
+        "container registry",
+        "supply chain"
+      ],
+      "subcategory": "Artifact Management",
+      "subcategoryId": "e7b85c98-23a7-4055-8f69-0352372fa096",
+      "tags": [
+        "harbor",
+        "docker",
+        "registry",
+        "container"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://goharbor.io/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A universal artifact repository manager for storing and distributing build artifacts and dependencies.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-SONATYPE-NEXUS",
+      "id": "cmj-devops-0066",
+      "lastModified": 1791936000000,
+      "name": "Sonatype Nexus Repository",
+      "priority": "normal",
+      "smartLabels": [
+        "artifact repository",
+        "dependencies"
+      ],
+      "subcategory": "Artifact Management",
+      "subcategoryId": "e7b85c98-23a7-4055-8f69-0352372fa096",
+      "tags": [
+        "nexus",
+        "artifact",
+        "repository",
+        "maven",
+        "npm"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://www.sonatype.com/products/sonatype-nexus-repository",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

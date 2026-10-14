@@ -1,0 +1,382 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "b348eccb-f135-468b-a21c-4d9bc047c0af",
+    "displayId": "DEVOPS-TOOLS-95F7A9-DEVSECOPS-47C0AF",
+    "name": "DevSecOps",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994821072,
+    "updatedAt": 1791994821072
+  },
+  "parentCategory": {
+    "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "displayId": "DEVOPS-TOOLS-95F7A9",
+    "name": "DevOps Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791994819447,
+    "updatedAt": 1791994819447
+  },
+  "recordCount": 11,
+  "tools": [
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A runtime security tool that detects suspicious activity in Linux systems and containers using kernel events.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-FALCO",
+      "id": "cmj-devops-0057",
+      "lastModified": 1791936000000,
+      "name": "Falco",
+      "priority": "high",
+      "smartLabels": [
+        "runtime security",
+        "kubernetes"
+      ],
+      "subcategory": "DevSecOps",
+      "subcategoryId": "b348eccb-f135-468b-a21c-4d9bc047c0af",
+      "tags": [
+        "falco",
+        "runtime-security",
+        "linux",
+        "kubernetes"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://falco.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An open-source secrets detection tool that scans repositories and files for exposed credentials.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-GITLEAKS",
+      "id": "cmj-devops-0056",
+      "lastModified": 1791936000000,
+      "name": "Gitleaks",
+      "priority": "high",
+      "smartLabels": [
+        "secrets scanning",
+        "security"
+      ],
+      "subcategory": "DevSecOps",
+      "subcategoryId": "b348eccb-f135-468b-a21c-4d9bc047c0af",
+      "tags": [
+        "gitleaks",
+        "secrets",
+        "credentials",
+        "security"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A fast vulnerability scanner for container images, filesystems, and software dependencies.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-GRYPE",
+      "id": "cmj-devops-0053",
+      "lastModified": 1791936000000,
+      "name": "Grype",
+      "priority": "normal",
+      "smartLabels": [
+        "vulnerability scanning",
+        "containers"
+      ],
+      "subcategory": "DevSecOps",
+      "subcategoryId": "b348eccb-f135-468b-a21c-4d9bc047c0af",
+      "tags": [
+        "grype",
+        "security",
+        "container",
+        "vulnerability"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://github.com/anchore/grype",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A security benchmark tool that checks Kubernetes cluster configuration against CIS recommendations.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-KUBE-BENCH",
+      "id": "cmj-devops-0059",
+      "lastModified": 1791936000000,
+      "name": "kube-bench",
+      "priority": "normal",
+      "smartLabels": [
+        "kubernetes security",
+        "cis benchmark"
+      ],
+      "subcategory": "DevSecOps",
+      "subcategoryId": "b348eccb-f135-468b-a21c-4d9bc047c0af",
+      "tags": [
+        "kubernetes",
+        "cis",
+        "security",
+        "benchmark"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/aquasecurity/kube-bench",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A Kubernetes security testing tool that identifies potential cluster weaknesses and attack paths.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-KUBE-HUNTER",
+      "id": "cmj-devops-0060",
+      "lastModified": 1791936000000,
+      "name": "kube-hunter",
+      "priority": "normal",
+      "smartLabels": [
+        "kubernetes security",
+        "penetration testing"
+      ],
+      "subcategory": "DevSecOps",
+      "subcategoryId": "b348eccb-f135-468b-a21c-4d9bc047c0af",
+      "tags": [
+        "kubernetes",
+        "security",
+        "testing",
+        "vulnerability"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/aquasecurity/kube-hunter",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A Kubernetes security platform for scanning clusters, workloads, configurations, and cloud-native environments.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-KUBESCAPE",
+      "id": "cmj-devops-0058",
+      "lastModified": 1791936000000,
+      "name": "Kubescape",
+      "priority": "high",
+      "smartLabels": [
+        "kubernetes security",
+        "compliance"
+      ],
+      "subcategory": "DevSecOps",
+      "subcategoryId": "b348eccb-f135-468b-a21c-4d9bc047c0af",
+      "tags": [
+        "kubernetes",
+        "security",
+        "compliance",
+        "scanning"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://kubescape.io/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An open-source tool that checks project dependencies for known security vulnerabilities.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-OWASP-DEPENDENCY-CHECK",
+      "id": "cmj-devops-0052",
+      "lastModified": 1791936000000,
+      "name": "OWASP Dependency-Check",
+      "priority": "high",
+      "smartLabels": [
+        "dependency scanning",
+        "owasp",
+        "devsecops"
+      ],
+      "subcategory": "DevSecOps",
+      "subcategoryId": "b348eccb-f135-468b-a21c-4d9bc047c0af",
+      "tags": [
+        "owasp",
+        "dependency-check",
+        "security",
+        "supply-chain"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://owasp.org/www-project-dependency-check/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An open-source web application security scanner maintained by the OWASP community.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-OWASP-ZAP",
+      "id": "cmj-devops-0055",
+      "lastModified": 1791936000000,
+      "name": "OWASP ZAP",
+      "priority": "high",
+      "smartLabels": [
+        "web security",
+        "owasp",
+        "dast"
+      ],
+      "subcategory": "DevSecOps",
+      "subcategoryId": "b348eccb-f135-468b-a21c-4d9bc047c0af",
+      "tags": [
+        "owasp",
+        "zap",
+        "dast",
+        "web-security"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://www.zaproxy.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A code quality and static analysis platform that detects bugs, vulnerabilities, and maintainability issues.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-SONARQUBE",
+      "id": "cmj-devops-0051",
+      "lastModified": 1791936000000,
+      "name": "SonarQube",
+      "priority": "high",
+      "smartLabels": [
+        "code quality",
+        "static analysis"
+      ],
+      "subcategory": "DevSecOps",
+      "subcategoryId": "b348eccb-f135-468b-a21c-4d9bc047c0af",
+      "tags": [
+        "sonarqube",
+        "code-quality",
+        "static-analysis",
+        "security"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://www.sonarsource.com/products/sonarqube/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A tool for generating software bills of materials that describe packages and components in software artifacts.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-SYFT",
+      "id": "cmj-devops-0054",
+      "lastModified": 1791936000000,
+      "name": "Syft",
+      "priority": "normal",
+      "smartLabels": [
+        "sbom",
+        "software supply chain"
+      ],
+      "subcategory": "DevSecOps",
+      "subcategoryId": "b348eccb-f135-468b-a21c-4d9bc047c0af",
+      "tags": [
+        "syft",
+        "sbom",
+        "security",
+        "supply-chain"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://github.com/anchore/syft",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A container image and filesystem vulnerability scanner that identifies operating system and application dependency issues.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-TRIVY",
+      "id": "cmj-devops-0050",
+      "lastModified": 1791936000000,
+      "name": "Trivy",
+      "priority": "high",
+      "smartLabels": [
+        "security scanning",
+        "containers",
+        "devsecops"
+      ],
+      "subcategory": "DevSecOps",
+      "subcategoryId": "b348eccb-f135-468b-a21c-4d9bc047c0af",
+      "tags": [
+        "trivy",
+        "docker",
+        "kubernetes",
+        "vulnerability",
+        "security"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://trivy.dev/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

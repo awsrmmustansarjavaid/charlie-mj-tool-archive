@@ -234,6 +234,17 @@
       "recordCount": 2
     },
     {
+      "id": "e7b85c98-23a7-4055-8f69-0352372fa096",
+      "displayId": "DEVOPS-TOOLS-95F7A9-ARTIFACT-MANAGEMENT-2FA096",
+      "name": "Artifact Management",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994821502,
+      "updatedAt": 1791994821502,
+      "path": "subcategories/devops-tools/artifact-management.json",
+      "recordCount": 4
+    },
+    {
       "id": "ffd09bd6-4b38-4399-9a9e-0d6dfbb07804",
       "displayId": "ARTIFICIAL-INTELLIGENCE-B07804",
       "name": "Artificial Intelligence",
@@ -243,6 +254,17 @@
       "updatedAt": 1791977135493,
       "path": "categories/artificial-intelligence.json",
       "recordCount": 1
+    },
+    {
+      "id": "a32d2909-e40f-4aac-a226-0437555af86f",
+      "displayId": "DEVOPS-TOOLS-95F7A9-AUTOMATION-5AF86F",
+      "name": "Automation",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994822096,
+      "updatedAt": 1791994822096,
+      "path": "subcategories/devops-tools/automation.json",
+      "recordCount": 2
     },
     {
       "id": "65fa8df4-d1a8-4438-9323-ffbc45bce813",
@@ -278,6 +300,28 @@
       "recordCount": 1
     },
     {
+      "id": "a12fdaff-f5d0-445a-aa5a-84ff6b80e70b",
+      "displayId": "DEVOPS-TOOLS-95F7A9-CI-C1E6D1-CD-80E70B",
+      "name": "CD",
+      "parentId": "5bc6f1c9-8d6d-479d-b064-00a4aac1e6d1",
+      "kind": "subcategory",
+      "createdAt": 1791994822434,
+      "updatedAt": 1791994822434,
+      "path": "subcategories/ci/cd.json",
+      "recordCount": 3
+    },
+    {
+      "id": "1ece3050-fb6c-4129-ac29-60985aae3cc7",
+      "displayId": "DEVOPS-TOOLS-95F7A9-CI-C1E6D1-CD-AND-GITOPS-AE3CC7",
+      "name": "CD and GitOps",
+      "parentId": "5bc6f1c9-8d6d-479d-b064-00a4aac1e6d1",
+      "kind": "subcategory",
+      "createdAt": 1791994822435,
+      "updatedAt": 1791994822435,
+      "path": "subcategories/ci/cd-and-gitops.json",
+      "recordCount": 2
+    },
+    {
       "createdAt": 1791977019470,
       "displayId": "CHARLIE-MJ-PROJECTS-8601DE",
       "id": "c75d3280-39ea-5ff0-8855-fb68bb8601de",
@@ -289,6 +333,39 @@
       "recordCount": 2
     },
     {
+      "id": "5bc6f1c9-8d6d-479d-b064-00a4aac1e6d1",
+      "displayId": "DEVOPS-TOOLS-95F7A9-CI-C1E6D1",
+      "name": "CI",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994822434,
+      "updatedAt": 1791994822434,
+      "path": "subcategories/devops-tools/ci.json",
+      "recordCount": 0
+    },
+    {
+      "id": "caa52ee4-807a-43f1-9bc2-64e0a7b30ab8",
+      "displayId": "DEVOPS-TOOLS-95F7A9-CI-CD-B30AB8",
+      "name": "CI/CD",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994820175,
+      "updatedAt": 1791994820175,
+      "path": "subcategories/devops-tools/ci-cd.json",
+      "recordCount": 0
+    },
+    {
+      "id": "1bd77a94-a3ea-4b21-9f7b-176cb5645ed2",
+      "displayId": "DEVOPS-TOOLS-95F7A9-CI-CD-AND-GITOPS-645ED2",
+      "name": "CI/CD and GitOps",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994820241,
+      "updatedAt": 1791994820241,
+      "path": "subcategories/devops-tools/ci-cd-and-gitops.json",
+      "recordCount": 0
+    },
+    {
       "id": "5ff569a6-b398-4521-aaed-71e1696ff112",
       "displayId": "CLOUD-COMPUTING-DEVOPS-6FF112",
       "name": "Cloud Computing & DevOps",
@@ -297,7 +374,7 @@
       "createdAt": 1791977135662,
       "updatedAt": 1791977135662,
       "path": "categories/cloud-computing-devops.json",
-      "recordCount": 1
+      "recordCount": 3
     },
     {
       "createdAt": 1791977019470,
@@ -331,6 +408,17 @@
       "updatedAt": 1791977019470,
       "path": "categories/communities.json",
       "recordCount": 1
+    },
+    {
+      "id": "4d454a05-9cbd-43cb-9985-23005b1745dd",
+      "displayId": "DEVOPS-TOOLS-95F7A9-CONTAINERS-1745DD",
+      "name": "Containers",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994820316,
+      "updatedAt": 1791994820316,
+      "path": "subcategories/devops-tools/containers.json",
+      "recordCount": 5
     },
     {
       "createdAt": 1791977019470,
@@ -553,6 +641,50 @@
       "recordCount": 36
     },
     {
+      "id": "18dcf35a-8613-4ab3-b65b-170e01525121",
+      "displayId": "DEVOPS-TOOLS-95F7A9-DEVOPS-DIRECTORIES-525121",
+      "name": "DevOps Directories",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994819616,
+      "updatedAt": 1791994819616,
+      "path": "subcategories/devops-tools/devops-directories.json",
+      "recordCount": 3
+    },
+    {
+      "id": "a82337c6-65ad-4a6a-a4c7-80bd693b723b",
+      "displayId": "DEVOPS-GITHUB-REPO-3B723B",
+      "name": "Devops Github Repo",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 1791987089802,
+      "updatedAt": 1791987089802,
+      "path": "categories/devops-github-repo.json",
+      "recordCount": 1
+    },
+    {
+      "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "displayId": "DEVOPS-TOOLS-95F7A9",
+      "name": "DevOps Tools",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 1791994819447,
+      "updatedAt": 1791994819447,
+      "path": "categories/devops-tools.json",
+      "recordCount": 0
+    },
+    {
+      "id": "b348eccb-f135-468b-a21c-4d9bc047c0af",
+      "displayId": "DEVOPS-TOOLS-95F7A9-DEVSECOPS-47C0AF",
+      "name": "DevSecOps",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994821072,
+      "updatedAt": 1791994821072,
+      "path": "subcategories/devops-tools/devsecops.json",
+      "recordCount": 11
+    },
+    {
       "id": "ea6eba32-4a58-4df8-a513-423453bbac28",
       "displayId": "DOCUMENT-MANAGEMENT-PRODUCTIVITY-BBAC28",
       "name": "Document Management & Productivity",
@@ -696,6 +828,17 @@
       "recordCount": 2
     },
     {
+      "id": "716c155d-121e-4a61-8b68-f52ce893a079",
+      "displayId": "DEVOPS-TOOLS-95F7A9-FINOPS-AND-COST-MANAGEMENT-93A079",
+      "name": "FinOps and Cost Management",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994822339,
+      "updatedAt": 1791994822339,
+      "path": "subcategories/devops-tools/finops-and-cost-management.json",
+      "recordCount": 2
+    },
+    {
       "createdAt": 1791977019470,
       "displayId": "FREELANCING-JOBS-1F0B20",
       "id": "b3b60208-b0ff-5be2-984a-aa44a71f0b20",
@@ -751,6 +894,17 @@
       "recordCount": 23
     },
     {
+      "id": "512fc341-c9de-49cd-8942-cc44fdb96c59",
+      "displayId": "DEVOPS-TOOLS-95F7A9-HANDS-ON-LABS-B96C59",
+      "name": "Hands-on Labs",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994819475,
+      "updatedAt": 1791994819475,
+      "path": "subcategories/devops-tools/hands-on-labs.json",
+      "recordCount": 7
+    },
+    {
       "createdAt": 1791977019470,
       "displayId": "HEALTH-FITNESS-854C60",
       "id": "78851c66-00db-5d0e-85e1-acc9ec854c60",
@@ -760,6 +914,28 @@
       "updatedAt": 1791977019470,
       "path": "categories/health-fitness.json",
       "recordCount": 26
+    },
+    {
+      "id": "3e3e8e3b-1ee5-4683-93bf-adc9a1b4f605",
+      "displayId": "DEVOPS-TOOLS-95F7A9-INFRASTRUCTURE-AS-CODE-B4F605",
+      "name": "Infrastructure as Code",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994820629,
+      "updatedAt": 1791994820629,
+      "path": "subcategories/devops-tools/infrastructure-as-code.json",
+      "recordCount": 6
+    },
+    {
+      "id": "0c904fde-db55-4388-bead-de58bc3f19b7",
+      "displayId": "DEVOPS-TOOLS-95F7A9-INFRASTRUCTURE-SECURITY-3F19B7",
+      "name": "Infrastructure Security",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994820797,
+      "updatedAt": 1791994820797,
+      "path": "subcategories/devops-tools/infrastructure-security.json",
+      "recordCount": 1
     },
     {
       "createdAt": 1791977019470,
@@ -795,6 +971,17 @@
       "recordCount": 12
     },
     {
+      "id": "f33b1a23-df1b-4bc3-8126-0293c4ebf39a",
+      "displayId": "DEVOPS-TOOLS-95F7A9-KUBERNETES-EBF39A",
+      "name": "Kubernetes",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994820439,
+      "updatedAt": 1791994820439,
+      "path": "subcategories/devops-tools/kubernetes.json",
+      "recordCount": 7
+    },
+    {
       "createdAt": 1791977019470,
       "displayId": "LANGUAGE-LEARNING-F6C51D",
       "id": "06c007ae-57ae-5c88-933d-9524baf6c51d",
@@ -826,6 +1013,28 @@
       "updatedAt": 1791977019470,
       "path": "categories/linkedin-content.json",
       "recordCount": 4
+    },
+    {
+      "id": "d7c53aca-5a2f-47f7-b35b-5a217a7ac80e",
+      "displayId": "DEVOPS-TOOLS-95F7A9-LINUX-AND-SYSTEM-ADMINISTRATION-7AC80E",
+      "name": "Linux and System Administration",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994822008,
+      "updatedAt": 1791994822008,
+      "path": "subcategories/devops-tools/linux-and-system-administration.json",
+      "recordCount": 5
+    },
+    {
+      "id": "1af9afa1-554c-4e56-8074-a35d9f2f15d1",
+      "displayId": "DEVOPS-TOOLS-95F7A9-LOGGING-2F15D1",
+      "name": "Logging",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994820942,
+      "updatedAt": 1791994820942,
+      "path": "subcategories/devops-tools/logging.json",
+      "recordCount": 2
     },
     {
       "createdAt": 1791977019470,
@@ -883,6 +1092,28 @@
       "recordCount": 1
     },
     {
+      "id": "f8206a82-983f-4a50-87f6-c70dca9745b4",
+      "displayId": "DEVOPS-TOOLS-95F7A9-MONITORING-AND-OBSERVABILITY-9745B4",
+      "name": "Monitoring and Observability",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994820851,
+      "updatedAt": 1791994820851,
+      "path": "subcategories/devops-tools/monitoring-and-observability.json",
+      "recordCount": 4
+    },
+    {
+      "id": "28db4a33-6f0a-4d1c-818e-734b2e710da0",
+      "displayId": "DEVOPS-TOOLS-95F7A9-MONITORING-AND-RELIABILITY-710DA0",
+      "name": "Monitoring and Reliability",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994821977,
+      "updatedAt": 1791994821977,
+      "path": "subcategories/devops-tools/monitoring-and-reliability.json",
+      "recordCount": 1
+    },
+    {
       "createdAt": 1791977019470,
       "displayId": "MULTILINGUAL-TRANSLATION-3F15C2",
       "id": "9e299241-39a4-543d-ab40-1e703c3f15c2",
@@ -905,6 +1136,17 @@
       "recordCount": 2
     },
     {
+      "id": "46e9303e-a456-46c5-be3f-095f2644d2e2",
+      "displayId": "DEVOPS-TOOLS-95F7A9-NETWORKING-44D2E2",
+      "name": "Networking",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994821639,
+      "updatedAt": 1791994821639,
+      "path": "subcategories/devops-tools/networking.json",
+      "recordCount": 7
+    },
+    {
       "createdAt": 1791977019470,
       "displayId": "NETWORKING-LEARNING-8921C2",
       "id": "f8c72d89-e77b-5d2c-bd37-8db54c8921c2",
@@ -924,6 +1166,39 @@
       "createdAt": 1791977135602,
       "updatedAt": 1791977135602,
       "path": "categories/ocr-text-extraction.json",
+      "recordCount": 2
+    },
+    {
+      "id": "d4fc5586-e8a1-481d-881b-69889afcb435",
+      "displayId": "DEVOPS-TOOLS-95F7A9-ONLINE-DEVELOPER-UTILITIES-FCB435",
+      "name": "Online Developer Utilities",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994822139,
+      "updatedAt": 1791994822139,
+      "path": "subcategories/devops-tools/online-developer-utilities.json",
+      "recordCount": 7
+    },
+    {
+      "id": "e7958f85-e777-4242-b40a-4ea6512aa30b",
+      "displayId": "DEVOPS-TOOLS-95F7A9-ONLINE-NETWORKING-UTILITIES-2AA30B",
+      "name": "Online Networking Utilities",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994822285,
+      "updatedAt": 1791994822285,
+      "path": "subcategories/devops-tools/online-networking-utilities.json",
+      "recordCount": 1
+    },
+    {
+      "id": "0e0d2524-375a-4a7f-839d-ff2e9d0c2940",
+      "displayId": "DEVOPS-TOOLS-95F7A9-ONLINE-SECURITY-UTILITIES-0C2940",
+      "name": "Online Security Utilities",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994822255,
+      "updatedAt": 1791994822255,
+      "path": "subcategories/devops-tools/online-security-utilities.json",
       "recordCount": 2
     },
     {
@@ -1012,6 +1287,17 @@
       "createdAt": 1791977134190,
       "updatedAt": 1791977134190,
       "path": "categories/photo-editor-tools.json",
+      "recordCount": 1
+    },
+    {
+      "id": "7bf896c1-2e6c-4576-8eeb-be5a17c0ede3",
+      "displayId": "DEVOPS-TOOLS-95F7A9-PLATFORM-ENGINEERING-C0EDE3",
+      "name": "Platform Engineering",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994821947,
+      "updatedAt": 1791994821947,
+      "path": "subcategories/devops-tools/platform-engineering.json",
       "recordCount": 1
     },
     {
@@ -1158,6 +1444,17 @@
       "recordCount": 2
     },
     {
+      "id": "f4d444a4-9e2a-4595-a670-54dc8ee28fe1",
+      "displayId": "DEVOPS-TOOLS-95F7A9-SECRETS-AND-IDENTITY-E28FE1",
+      "name": "Secrets and Identity",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994821365,
+      "updatedAt": 1791994821365,
+      "path": "subcategories/devops-tools/secrets-and-identity.json",
+      "recordCount": 4
+    },
+    {
       "id": "38faaca6-bc27-4729-b02a-ca674a16666f",
       "displayId": "SEO-MARKETING-16666F",
       "name": "SEO & Marketing",
@@ -1232,7 +1529,18 @@
       "parentId": null,
       "updatedAt": 1791977019471,
       "path": "categories/tech-blogs.json",
-      "recordCount": 3
+      "recordCount": 4
+    },
+    {
+      "id": "8f14a17d-e83e-42e0-82f1-86fe0f35262c",
+      "displayId": "DEVOPS-TOOLS-95F7A9-TESTING-AND-RELIABILITY-35262C",
+      "name": "Testing and Reliability",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994821871,
+      "updatedAt": 1791994821871,
+      "path": "subcategories/devops-tools/testing-and-reliability.json",
+      "recordCount": 4
     },
     {
       "createdAt": 1791977019471,
@@ -1320,6 +1628,17 @@
       "parentId": null,
       "updatedAt": 1791977019471,
       "path": "categories/urdu-dictionaries.json",
+      "recordCount": 4
+    },
+    {
+      "id": "b426d3d1-c124-4458-b6a5-1025d9479157",
+      "displayId": "DEVOPS-TOOLS-95F7A9-VERSION-CONTROL-479157",
+      "name": "Version Control",
+      "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "kind": "subcategory",
+      "createdAt": 1791994819663,
+      "updatedAt": 1791994819663,
+      "path": "subcategories/devops-tools/version-control.json",
       "recordCount": 4
     },
     {

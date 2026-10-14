@@ -1,0 +1,58 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "a82337c6-65ad-4a6a-a4c7-80bd693b723b",
+    "displayId": "DEVOPS-GITHUB-REPO-3B723B",
+    "name": "Devops Github Repo",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791987089802,
+    "updatedAt": 1791987089802
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791987089782,
+      "aliases": [],
+      "category": "Devops Github Repo",
+      "categoryId": "a82337c6-65ad-4a6a-a4c7-80bd693b723b",
+      "collections": [],
+      "description": "Devops Github Repo resource: kubernetes-goat (GitHub). Useful for quick access from your personal tool archive.",
+      "displayId": "DEVOPS-GITHUB-REPO-3B723B-KUBERNETES-GOAT-GITHUB-092A62",
+      "id": "a8845fbe-fbc8-4d63-a969-fb17f3092a62",
+      "lastModified": 1791987089782,
+      "name": "kubernetes-goat (GitHub)",
+      "priority": "normal",
+      "smartLabels": [
+        "kubernetes",
+        "goat",
+        "github",
+        "devops",
+        "repo",
+        "resource",
+        "useful",
+        "quick",
+        "access",
+        "personal",
+        "archive"
+      ],
+      "subcategory": "",
+      "tags": [
+        "kubernetes",
+        "goat",
+        "github",
+        "devops"
+      ],
+      "type": "Website",
+      "url": "https://github.com/madhuakula/kubernetes-goat",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

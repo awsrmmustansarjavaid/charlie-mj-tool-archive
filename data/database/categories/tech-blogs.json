@@ -12,7 +12,7 @@
     "updatedAt": 1791977019471
   },
   "parentCategory": null,
-  "recordCount": 3,
+  "recordCount": 4,
   "tools": [
     {
       "addedAt": 1790925844679,
@@ -59,6 +59,43 @@
       ],
       "type": "Website",
       "url": "https://docs.aviatrix.com/documentation/latest/getting-started/platform-overview/aviatrix-glossary.html",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791986520121,
+      "aliases": [],
+      "category": "Tech Blogs",
+      "categoryId": "492d4c6b-673e-501e-a451-ec2ce9f6c33c",
+      "collections": [],
+      "description": "Tech Blogs resource: techopsexamples. Useful for quick access from your personal tool archive.",
+      "displayId": "TECH-BLOGS-F6C33C-TECHOPSEXAMPLES-055A58",
+      "id": "d52d46d4-6920-4e14-8b88-2fe8af055a58",
+      "lastModified": 1791986520121,
+      "name": "techopsexamples",
+      "priority": "normal",
+      "smartLabels": [
+        "techopsexamples",
+        "tech",
+        "blogs",
+        "resource",
+        "useful",
+        "quick",
+        "access",
+        "personal",
+        "archive"
+      ],
+      "subcategory": "",
+      "tags": [
+        "techopsexamples",
+        "tech",
+        "blogs"
+      ],
+      "type": "Website",
+      "url": "https://www.techopsexamples.com/",
       "favorite": false,
       "notes": "",
       "usageCount": 0,

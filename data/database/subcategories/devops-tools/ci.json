@@ -1,0 +1,25 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "5bc6f1c9-8d6d-479d-b064-00a4aac1e6d1",
+    "displayId": "DEVOPS-TOOLS-95F7A9-CI-C1E6D1",
+    "name": "CI",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994822434,
+    "updatedAt": 1791994822434
+  },
+  "parentCategory": {
+    "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "displayId": "DEVOPS-TOOLS-95F7A9",
+    "name": "DevOps Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791994819447,
+    "updatedAt": 1791994819447
+  },
+  "recordCount": 0,
+  "tools": []
+}

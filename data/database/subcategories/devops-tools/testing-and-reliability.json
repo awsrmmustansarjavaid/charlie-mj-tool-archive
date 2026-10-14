@@ -1,0 +1,154 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "8f14a17d-e83e-42e0-82f1-86fe0f35262c",
+    "displayId": "DEVOPS-TOOLS-95F7A9-TESTING-AND-RELIABILITY-35262C",
+    "name": "Testing and Reliability",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994821871,
+    "updatedAt": 1791994821871
+  },
+  "parentCategory": {
+    "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "displayId": "DEVOPS-TOOLS-95F7A9",
+    "name": "DevOps Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791994819447,
+    "updatedAt": 1791994819447
+  },
+  "recordCount": 4,
+  "tools": [
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A chaos engineering platform for injecting controlled failures into Kubernetes environments.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-CHAOS-MESH",
+      "id": "cmj-devops-0078",
+      "lastModified": 1791936000000,
+      "name": "Chaos Mesh",
+      "priority": "normal",
+      "smartLabels": [
+        "chaos engineering",
+        "kubernetes"
+      ],
+      "subcategory": "Testing and Reliability",
+      "subcategoryId": "8f14a17d-e83e-42e0-82f1-86fe0f35262c",
+      "tags": [
+        "chaos",
+        "kubernetes",
+        "resilience",
+        "testing"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://chaos-mesh.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A load testing tool for measuring application performance and behavior under concurrent traffic.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-K6",
+      "id": "cmj-devops-0076",
+      "lastModified": 1791936000000,
+      "name": "k6",
+      "priority": "normal",
+      "smartLabels": [
+        "performance testing",
+        "load testing"
+      ],
+      "subcategory": "Testing and Reliability",
+      "subcategoryId": "8f14a17d-e83e-42e0-82f1-86fe0f35262c",
+      "tags": [
+        "k6",
+        "load-testing",
+        "performance",
+        "testing"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://grafana.com/oss/k6/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A chaos engineering framework for Kubernetes that helps test application resilience through controlled experiments.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-LITMUSCHAOS",
+      "id": "cmj-devops-0079",
+      "lastModified": 1791936000000,
+      "name": "LitmusChaos",
+      "priority": "normal",
+      "smartLabels": [
+        "chaos engineering",
+        "kubernetes"
+      ],
+      "subcategory": "Testing and Reliability",
+      "subcategoryId": "8f14a17d-e83e-42e0-82f1-86fe0f35262c",
+      "tags": [
+        "litmus",
+        "chaos",
+        "kubernetes",
+        "resilience"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://litmuschaos.io/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A load testing tool that allows developers to write performance tests using Python.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-LOCUST",
+      "id": "cmj-devops-0077",
+      "lastModified": 1791936000000,
+      "name": "Locust",
+      "priority": "normal",
+      "smartLabels": [
+        "load testing",
+        "python"
+      ],
+      "subcategory": "Testing and Reliability",
+      "subcategoryId": "8f14a17d-e83e-42e0-82f1-86fe0f35262c",
+      "tags": [
+        "locust",
+        "python",
+        "performance",
+        "load-testing"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://locust.io/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

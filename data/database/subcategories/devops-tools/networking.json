@@ -1,0 +1,253 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "46e9303e-a456-46c5-be3f-095f2644d2e2",
+    "displayId": "DEVOPS-TOOLS-95F7A9-NETWORKING-44D2E2",
+    "name": "Networking",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994821639,
+    "updatedAt": 1791994821639
+  },
+  "parentCategory": {
+    "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "displayId": "DEVOPS-TOOLS-95F7A9",
+    "name": "DevOps Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791994819447,
+    "updatedAt": 1791994819447
+  },
+  "recordCount": 7,
+  "tools": [
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A reverse proxy and web server designed to provide automatic HTTPS and simple configuration.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-CADDY",
+      "id": "cmj-devops-0069",
+      "lastModified": 1791936000000,
+      "name": "Caddy",
+      "priority": "normal",
+      "smartLabels": [
+        "web server",
+        "reverse proxy",
+        "tls"
+      ],
+      "subcategory": "Networking",
+      "subcategoryId": "46e9303e-a456-46c5-be3f-095f2644d2e2",
+      "tags": [
+        "caddy",
+        "reverse-proxy",
+        "https",
+        "web-server"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://caddyserver.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A command-line HTTP client for sending requests and testing APIs and web endpoints.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-CURL",
+      "id": "cmj-devops-0075",
+      "lastModified": 1791936000000,
+      "name": "cURL",
+      "priority": "high",
+      "smartLabels": [
+        "http client",
+        "troubleshooting"
+      ],
+      "subcategory": "Networking",
+      "subcategoryId": "46e9303e-a456-46c5-be3f-095f2644d2e2",
+      "tags": [
+        "curl",
+        "http",
+        "api",
+        "linux",
+        "network"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://curl.se/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A software-defined load balancer and proxy for TCP and HTTP applications.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-HAPROXY",
+      "id": "cmj-devops-0071",
+      "lastModified": 1791936000000,
+      "name": "HAProxy",
+      "priority": "normal",
+      "smartLabels": [
+        "load balancing",
+        "networking"
+      ],
+      "subcategory": "Networking",
+      "subcategoryId": "46e9303e-a456-46c5-be3f-095f2644d2e2",
+      "tags": [
+        "haproxy",
+        "load-balancer",
+        "proxy",
+        "networking"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://www.haproxy.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A high-performance HTTP and reverse proxy server used for web hosting, load balancing, and traffic routing.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-NGINX",
+      "id": "cmj-devops-0070",
+      "lastModified": 1791936000000,
+      "name": "NGINX",
+      "priority": "high",
+      "smartLabels": [
+        "web server",
+        "reverse proxy",
+        "load balancing"
+      ],
+      "subcategory": "Networking",
+      "subcategoryId": "46e9303e-a456-46c5-be3f-095f2644d2e2",
+      "tags": [
+        "nginx",
+        "web-server",
+        "reverse-proxy",
+        "load-balancer"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://nginx.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A command-line network discovery and security auditing tool for scanning hosts, ports, and services.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-NMAP",
+      "id": "cmj-devops-0074",
+      "lastModified": 1791936000000,
+      "name": "Nmap",
+      "priority": "normal",
+      "smartLabels": [
+        "network scanning",
+        "security"
+      ],
+      "subcategory": "Networking",
+      "subcategoryId": "46e9303e-a456-46c5-be3f-095f2644d2e2",
+      "tags": [
+        "nmap",
+        "network",
+        "ports",
+        "security"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://nmap.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A command-line packet analyzer used to capture and inspect network traffic.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-TCPDUMP",
+      "id": "cmj-devops-0073",
+      "lastModified": 1791936000000,
+      "name": "tcpdump",
+      "priority": "normal",
+      "smartLabels": [
+        "network troubleshooting",
+        "packet capture"
+      ],
+      "subcategory": "Networking",
+      "subcategoryId": "46e9303e-a456-46c5-be3f-095f2644d2e2",
+      "tags": [
+        "tcpdump",
+        "linux",
+        "network",
+        "packet-capture"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://www.tcpdump.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A network protocol analyzer for inspecting and troubleshooting network traffic.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-WIRESHARK",
+      "id": "cmj-devops-0072",
+      "lastModified": 1791936000000,
+      "name": "Wireshark",
+      "priority": "normal",
+      "smartLabels": [
+        "network troubleshooting",
+        "packet analysis"
+      ],
+      "subcategory": "Networking",
+      "subcategoryId": "46e9303e-a456-46c5-be3f-095f2644d2e2",
+      "tags": [
+        "wireshark",
+        "network",
+        "packet-capture",
+        "troubleshooting"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://www.wireshark.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

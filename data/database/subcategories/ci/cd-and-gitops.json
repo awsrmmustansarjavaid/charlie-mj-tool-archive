@@ -1,0 +1,91 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "1ece3050-fb6c-4129-ac29-60985aae3cc7",
+    "displayId": "DEVOPS-TOOLS-95F7A9-CI-C1E6D1-CD-AND-GITOPS-AE3CC7",
+    "name": "CD and GitOps",
+    "parentId": "5bc6f1c9-8d6d-479d-b064-00a4aac1e6d1",
+    "kind": "subcategory",
+    "createdAt": 1791994822435,
+    "updatedAt": 1791994822435
+  },
+  "parentCategory": {
+    "id": "5bc6f1c9-8d6d-479d-b064-00a4aac1e6d1",
+    "displayId": "DEVOPS-TOOLS-95F7A9-CI-C1E6D1",
+    "name": "CI",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994822434,
+    "updatedAt": 1791994822434
+  },
+  "recordCount": 2,
+  "tools": [
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A Kubernetes-native continuous delivery tool that automates application deployment and synchronization from Git repositories.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-ARGO-CD",
+      "id": "cmj-devops-0022",
+      "lastModified": 1791936000000,
+      "name": "Argo CD",
+      "priority": "high",
+      "smartLabels": [
+        "gitops",
+        "kubernetes",
+        "deployment"
+      ],
+      "subcategory": "CI / CD and GitOps",
+      "subcategoryId": "1ece3050-fb6c-4129-ac29-60985aae3cc7",
+      "tags": [
+        "argocd",
+        "gitops",
+        "kubernetes",
+        "deployment"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://argo-cd.readthedocs.io/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A GitOps tool that continuously reconciles Kubernetes cluster state with configuration stored in Git.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-FLUX",
+      "id": "cmj-devops-0023",
+      "lastModified": 1791936000000,
+      "name": "Flux CD",
+      "priority": "normal",
+      "smartLabels": [
+        "gitops",
+        "kubernetes"
+      ],
+      "subcategory": "CI / CD and GitOps",
+      "subcategoryId": "1ece3050-fb6c-4129-ac29-60985aae3cc7",
+      "tags": [
+        "flux",
+        "gitops",
+        "kubernetes",
+        "automation"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://fluxcd.io/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "d4fc5586-e8a1-481d-881b-69889afcb435",
+    "displayId": "DEVOPS-TOOLS-95F7A9-ONLINE-DEVELOPER-UTILITIES-FCB435",
+    "name": "Online Developer Utilities",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994822139,
+    "updatedAt": 1791994822139
+  },
+  "parentCategory": {
+    "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "displayId": "DEVOPS-TOOLS-95F7A9",
+    "name": "DevOps Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791994819447,
+    "updatedAt": 1791994819447
+  },
+  "recordCount": 7,
+  "tools": [
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A website that helps users create and understand cron schedule expressions.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-CRONTAB-GURU",
+      "id": "cmj-devops-0093",
+      "lastModified": 1791936000000,
+      "name": "crontab.guru",
+      "priority": "normal",
+      "smartLabels": [
+        "online utility",
+        "cron",
+        "scheduling"
+      ],
+      "subcategory": "Online Developer Utilities",
+      "subcategoryId": "d4fc5586-e8a1-481d-881b-69889afcb435",
+      "tags": [
+        "cron",
+        "linux",
+        "scheduling",
+        "online"
+      ],
+      "type": "Online Tool",
+      "url": "https://crontab.guru/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An online playground for experimenting with jq expressions against JSON data.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-JQPLAY",
+      "id": "cmj-devops-0091",
+      "lastModified": 1791936000000,
+      "name": "jqPlay",
+      "priority": "normal",
+      "smartLabels": [
+        "online utility",
+        "json",
+        "jq"
+      ],
+      "subcategory": "Online Developer Utilities",
+      "subcategoryId": "d4fc5586-e8a1-481d-881b-69889afcb435",
+      "tags": [
+        "jq",
+        "json",
+        "playground",
+        "online"
+      ],
+      "type": "Online Tool",
+      "url": "https://jqplay.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An online JSON validator and formatter for checking JSON syntax and making documents easier to read.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-JSONLINT",
+      "id": "cmj-devops-0090",
+      "lastModified": 1791936000000,
+      "name": "JSONLint",
+      "priority": "normal",
+      "smartLabels": [
+        "online utility",
+        "json",
+        "validation"
+      ],
+      "subcategory": "Online Developer Utilities",
+      "subcategoryId": "d4fc5586-e8a1-481d-881b-69889afcb435",
+      "tags": [
+        "json",
+        "validator",
+        "formatter",
+        "online"
+      ],
+      "type": "Online Tool",
+      "url": "https://jsonlint.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An online tool for testing and debugging regular expressions across multiple programming languages.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-REGEX101",
+      "id": "cmj-devops-0092",
+      "lastModified": 1791936000000,
+      "name": "regex101",
+      "priority": "normal",
+      "smartLabels": [
+        "online utility",
+        "regex",
+        "debugging"
+      ],
+      "subcategory": "Online Developer Utilities",
+      "subcategoryId": "d4fc5586-e8a1-481d-881b-69889afcb435",
+      "tags": [
+        "regex",
+        "regular-expression",
+        "testing",
+        "online"
+      ],
+      "type": "Online Tool",
+      "url": "https://regex101.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A free online tool for testing HTTP requests and inspecting API responses.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-REQBIN",
+      "id": "cmj-devops-0094",
+      "lastModified": 1791936000000,
+      "name": "ReqBin",
+      "priority": "normal",
+      "smartLabels": [
+        "online utility",
+        "api testing"
+      ],
+      "subcategory": "Online Developer Utilities",
+      "subcategoryId": "d4fc5586-e8a1-481d-881b-69889afcb435",
+      "tags": [
+        "http",
+        "api",
+        "rest",
+        "testing"
+      ],
+      "type": "Online Tool",
+      "url": "https://reqbin.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A request inspection service for testing webhooks and viewing incoming HTTP requests.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-WEBHOOK-SITE",
+      "id": "cmj-devops-0095",
+      "lastModified": 1791936000000,
+      "name": "webhook.site",
+      "priority": "normal",
+      "smartLabels": [
+        "online utility",
+        "webhooks",
+        "debugging"
+      ],
+      "subcategory": "Online Developer Utilities",
+      "subcategoryId": "d4fc5586-e8a1-481d-881b-69889afcb435",
+      "tags": [
+        "webhook",
+        "http",
+        "api",
+        "debugging"
+      ],
+      "type": "Online Tool",
+      "url": "https://webhook.site/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A free online YAML validator and parser for checking YAML syntax.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-YAML-LINT",
+      "id": "cmj-devops-0089",
+      "lastModified": 1791936000000,
+      "name": "YAML Lint",
+      "priority": "normal",
+      "smartLabels": [
+        "online utility",
+        "yaml",
+        "validation"
+      ],
+      "subcategory": "Online Developer Utilities",
+      "subcategoryId": "d4fc5586-e8a1-481d-881b-69889afcb435",
+      "tags": [
+        "yaml",
+        "validator",
+        "lint",
+        "online"
+      ],
+      "type": "Online Tool",
+      "url": "https://www.yamllint.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

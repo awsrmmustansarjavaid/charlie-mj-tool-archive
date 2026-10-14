@@ -1,0 +1,59 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "0c904fde-db55-4388-bead-de58bc3f19b7",
+    "displayId": "DEVOPS-TOOLS-95F7A9-INFRASTRUCTURE-SECURITY-3F19B7",
+    "name": "Infrastructure Security",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994820797,
+    "updatedAt": 1791994820797
+  },
+  "parentCategory": {
+    "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "displayId": "DEVOPS-TOOLS-95F7A9",
+    "name": "DevOps Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791994819447,
+    "updatedAt": 1791994819447
+  },
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "A tool that scans infrastructure as code files for security and compliance misconfigurations.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-CHECKOV",
+      "id": "cmj-devops-0042",
+      "lastModified": 1791936000000,
+      "name": "Checkov",
+      "priority": "high",
+      "smartLabels": [
+        "iac security",
+        "devsecops"
+      ],
+      "subcategory": "Infrastructure Security",
+      "subcategoryId": "0c904fde-db55-4388-bead-de58bc3f19b7",
+      "tags": [
+        "checkov",
+        "terraform",
+        "cloudformation",
+        "security",
+        "iac"
+      ],
+      "type": "Open Source Tool",
+      "url": "https://www.checkov.io/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

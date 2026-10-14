@@ -1,0 +1,59 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "e7958f85-e777-4242-b40a-4ea6512aa30b",
+    "displayId": "DEVOPS-TOOLS-95F7A9-ONLINE-NETWORKING-UTILITIES-2AA30B",
+    "name": "Online Networking Utilities",
+    "parentId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "kind": "subcategory",
+    "createdAt": 1791994822285,
+    "updatedAt": 1791994822285
+  },
+  "parentCategory": {
+    "id": "9cd13908-f902-445b-8874-27ccb795f7a9",
+    "displayId": "DEVOPS-TOOLS-95F7A9",
+    "name": "DevOps Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791994819447,
+    "updatedAt": 1791994819447
+  },
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791936000000,
+      "aliases": [],
+      "category": "DevOps Tools",
+      "categoryId": "9cd13908-f902-445b-8874-27ccb795f7a9",
+      "collections": [],
+      "description": "An online service for checking DNS records and propagation from different locations around the world.",
+      "displayId": "DEVOPS-TOOLS-7A91C2-DNSCHECKER",
+      "id": "cmj-devops-0097",
+      "lastModified": 1791936000000,
+      "name": "DNSChecker",
+      "priority": "normal",
+      "smartLabels": [
+        "online utility",
+        "dns",
+        "networking"
+      ],
+      "subcategory": "Online Networking Utilities",
+      "subcategoryId": "e7958f85-e777-4242-b40a-4ea6512aa30b",
+      "tags": [
+        "dns",
+        "network",
+        "propagation",
+        "troubleshooting"
+      ],
+      "type": "Online Tool",
+      "url": "https://dnschecker.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

@@ -11,7 +11,7 @@ A **Manifest V3 Chrome extension** for organizing a large personal collection of
 ## Download
 
 <p align="center">
-  <a href="/downloads/charlie-mj-tool-archive-v6_2_0-settings-manager.zip">
+  <a href="/downloads/charlie-mj-tool-archive-v6_2_0-settings-manager (Updated).zip">
     <img src="https://img.shields.io/badge/⬇%20Download%20Chrome%20Extension-2ea44f?style=for-the-badge" alt="Download Chrome Extension">
   </a>
 </p>
@@ -54,7 +54,7 @@ A **Manifest V3 Chrome extension** for organizing a large personal collection of
 | **Database Manager upgrades** | Migration Manager, Transfer Readiness Check, Database Files table (records / size / integrity), Reconcile Databases, maintenance interval. |
 | **Settings integration** | *Settings → Database & Storage → Database & Portable Manager* embeds the complete manager. |
 | **Safety backups** | Automatic backup before a migration batch (`pre-migration-*`) and a safety copy before a first write could shrink an existing portable database (`pre-overwrite-*`). Newest 15 dated backups are kept. |
-| **GitHub sync** | Reads both the old flat `default-tools.json` and the new pointer + category-file format; an incomplete remote download is rejected instead of partially syncing. |
+| **GitHub sync** | Syncs the repository's `data/database/` directory (manifest + all category JSON files) as the primary database and shows total tools and category files; flat `default-tools.json` is only a fallback. *Prepare GitHub Database Update* exports your local library as a ready-to-commit `data/` folder. |
 | **Native helper 2.0** | Adds `hashFiles`, `listFiles` and `removeFile`. The previous helper still works. |
 
 Everything from earlier versions remains: dashboard, favorites, notes, categories, collections, Settings Center, omnibox, GitHub sync and the Local / Remote library separation.
@@ -132,7 +132,7 @@ Everything from earlier versions remains: dashboard, favorites, notes, categorie
 | --- | --- | --- |
 | Packaged defaults (330 tools / 71 categories) | `data/database/categories/*.json` | No — read-only package files |
 | Personal local tools | IndexedDB + Chrome Storage, mirrored to `user-data/` | Yes |
-| GitHub remote tools | cached remote library | Only through sync; never overwrites personal records |
+| GitHub remote tools | cached copy of the repo's `data/database/` directory | Only through sync; never overwrites personal records |
 
 The manifest records `defaultToolCount` and `personalToolCount`; the library still displays everything together. GitHub updates never overwrite personal local data.
 
@@ -234,8 +234,8 @@ If the extension was removed from Chrome on PC1 before any backup or portable sy
 * **Sync:** automatic at startup and on an interval (15 min, 30 min, 1 h, 6 h, daily, or off) or manually (*Settings → Sync from GitHub Now*). Recent activity is recorded in Sync History.
 * **Remote deletion protection:** removing a site from GitHub never deletes your local record.
 * **Create Local Copy:** turn a remote-only tool into your own customizable local record.
-* **Remote format:** the loader accepts the old flat `default-tools.json` (a `tools` array) or the v6.2.0 pointer file plus category files listed by `database-manifest.json`. A partial/incomplete remote download is rejected.
-* **Publishing:** *Settings → Prepare GitHub Update* exports a GitHub-ready `default-tools.json` without private notes, favorites or usage history. Note that this exports a flat file; the packaged defaults inside the extension use the category-file format.
+* **The `data/database/` directory is the primary remote database.** Sync reads `data/database/database-manifest.json` and every category JSON file it lists (an older repo layout with `backup-manifest.json` is understood too) and shows the total tool count and category-file count in the sync status. `data/default-tools.json` is only a small pointer; a flat `default-tools.json` that still contains a `tools` array is used only as a fallback when the directory is unavailable. An incomplete download (fewer tools than the manifest says) is rejected instead of partially syncing.
+* **Publishing your local tools to GitHub:** the extension only *reads* GitHub; it cannot push without credentials. Use **Prepare GitHub Database Update** (Dashboard → Settings & Library Tools, or Settings → Backup / GitHub Sync) to download `charlie-mj-tool-archive-github-data-update.zip`. It contains `data/database/` (category files, index, manifest, config) and the pointer `data/default-tools.json`, with private notes, favorites and usage history removed. Delete the old `data/database/categories` and `subcategories` folders in your repo, copy the ZIP's `data` folder over it, commit and push, then click **Sync from GitHub Now**.
 
 Personal data (favorites, notes, usage history, local overrides) is kept separate and is not blindly overwritten by remote sync.
 
@@ -350,6 +350,7 @@ Chrome does not allow extensions to intercept ordinary address-bar typing; the s
 * The maintenance/reconciliation timer runs only while a dashboard tab is open.
 * Chrome's own storage (`chrome.storage`, IndexedDB) is never copied with the folder; only what the extension wrote into `user-data/` travels.
 * Packaged files under `data/` are read-only at runtime.
+* The extension cannot push to GitHub by itself; publishing is export → commit → push.
 * There is currently no "migrate only after X minutes" delay and no manual-only migration mode; migration runs right after each add or import, and *Process Pending Now* handles anything left in the queue.
 * The planned *Available Tools* tab, extra Settings tabs (Staging Queue, Category File Database, Local & Remote Sync, Automation, Logs) and selective "move selected to local" controls are not part of v6.2.0.
 

@@ -20,3 +20,9 @@ Dashboard, favourites, notes, categories, collections, Settings Center, omnibox,
 
 ## Settings page
 Settings → **Database & Storage** now contains a **Database & Portable Manager** section. It embeds the complete Database Manager page, so every control from "Open Database & Portable Manager" is available there (portable folder + native helper, staging & migration manager, transfer readiness, database files, category tree, collections, backups, restore and recovery). The original "Open Database & Portable Manager" button is kept and still opens the full-page version. Saving the Settings page no longer overwrites values owned by the manager (maintenance interval, native helper path/enable).
+
+## GitHub database directory sync (fix)
+- **Fixed:** GitHub sync used `data/default-tools.json` first, so tools stored in the repository's `data/database/` directory were ignored whenever the pointer file was used. The directory is now the primary source for both the GitHub remote library and the packaged defaults; `default-tools.json` is only a fallback. Supported manifests: `database-manifest.json` and the older `backup-manifest.json`.
+- Sync status now shows the total remote tools and the number of category files read (Settings → GitHub Sync, Dashboard sync panel). *Check GitHub Connection* reports the same.
+- **New:** *Prepare GitHub Database Update* exports the local library (e.g. 403 tools) as `charlie-mj-tool-archive-github-data-update.zip` containing `data/database/*` and the pointer file, ready to copy into the repo, commit and push. Private notes, favorites and usage history are removed.
+- Removed obsolete `data/database/categories-index.json` and `backup-manifest.json` from the package (replaced by `category-index.json` and `database-manifest.json`).

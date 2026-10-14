@@ -33,24 +33,33 @@ async function fetchJson(url) {
   if (!r.ok) throw new Error(`HTTP ${r.status}`);
   return r.json();
 }
-// v6.2.0: the default library is a set of category JSON files listed by a manifest. data/default-tools.json is now
-// only a small pointer; an older flat default-tools.json (with a tools array) is still understood, locally and on GitHub.
-async function libraryFromPointer(dataBase, pointer) {
-  const flat = payloadTools(pointer);
-  if (Array.isArray(flat) && flat.length) return flat;
-  if (!pointer || !pointer.libraryManifest) return [];
-  const manifest = await fetchJson(dataBase + pointer.libraryManifest);
-  const files = Array.isArray(manifest.files) ? manifest.files : [];
-  const out = [];
-  for (let i = 0; i < files.length; i += 10) {
-    const parts = await Promise.all(files.slice(i, i + 10).map(f => fetchJson(dataBase + 'database/' + f.path)));
-    for (const part of parts) out.push(...(payloadTools(part) || []));
+// v6.2.0: the data/database/ directory (category JSON files listed by a manifest) is the PRIMARY library, both for the
+// packaged defaults and for the GitHub remote library. data/default-tools.json is only a pointer / compatibility file;
+// a flat default-tools.json that still contains a tools array is used only as a fallback.
+async function loadCategoryDirectory(dbBase) {
+  let manifest = null, paths = null, expected = null, manifestName = '';
+  try { manifest = await fetchJson(dbBase + 'database-manifest.json'); if (Array.isArray(manifest.files) && manifest.files.length) { paths = manifest.files.map(f => f.path); expected = manifest.toolCount; manifestName = 'database-manifest.json'; } } catch {}
+  if (!paths) { try { const m = await fetchJson(dbBase + 'backup-manifest.json'); if (Array.isArray(m.collectionFiles) && m.collectionFiles.length) { paths = m.collectionFiles; expected = m.toolCount; manifestName = 'backup-manifest.json'; } } catch {} }
+  if (!paths) throw new Error('No database manifest found in data/database/');
+  const tools = [];
+  for (let i = 0; i < paths.length; i += 10) {
+    const parts = await Promise.all(paths.slice(i, i + 10).map(p => fetchJson(dbBase + p)));
+    for (const part of parts) tools.push(...(payloadTools(part) || []));
   }
-  if (Number.isFinite(manifest.toolCount) && out.length !== manifest.toolCount) throw new Error(`Default library incomplete: ${out.length} of ${manifest.toolCount} tools loaded`);
-  return out;
+  if (Number.isFinite(expected) && tools.length !== expected) throw new Error(`Database directory incomplete: ${tools.length} of ${expected} tools loaded`);
+  return { tools, info: { source: 'database-directory', manifest: manifestName, categoryFiles: paths.length, tools: tools.length } };
 }
-async function bundled() { const base = chrome.runtime.getURL('data/'); return libraryFromPointer(base, await fetchJson(base + 'default-tools.json')); }
-async function remote() { return libraryFromPointer(GITHUB_DATA_BASE, await fetchJson(GITHUB_RAW_URL)); }
+async function loadLibrary(dataBase, flatUrl) {
+  try { return await loadCategoryDirectory(dataBase + 'database/'); }
+  catch (dirErr) {
+    try { const flat = payloadTools(await fetchJson(flatUrl)); if (Array.isArray(flat) && flat.length) return { tools: flat, info: { source: 'default-tools.json', categoryFiles: 0, tools: flat.length, note: 'data/database unavailable (' + dirErr.message + ') — used default-tools.json' } }; } catch {}
+    throw dirErr;
+  }
+}
+async function bundledWithInfo() { const base = chrome.runtime.getURL('data/'); return loadLibrary(base, base + 'default-tools.json'); }
+async function remoteWithInfo() { return loadLibrary(GITHUB_DATA_BASE, GITHUB_RAW_URL); }
+async function bundled() { return (await bundledWithInfo()).tools; }
+async function remote() { return (await remoteWithInfo()).tools; }
 function fingerprint(x) { return JSON.stringify({name:x.name,url:normalizeUrl(x.url),category:x.category,type:x.type,tags:unique(x.tags),description:x.description}); }
 function mapByUrl(list) { const m=new Map(); for(const raw of list||[]){const x=normalizeTool(raw); const k=normalizeUrl(x.url); if(k && !m.has(k)) m.set(k,x);} return m; }
 function mergeUnique(list) { const m=new Map(), out=[]; for(const raw of list||[]){const x=normalizeTool(raw,'local'); const k=normalizeUrl(x.url); if(!k) continue; if(!m.has(k)){m.set(k,x);out.push(x)} else {const old=m.get(k); old.tags=unique([...old.tags,...x.tags]); if(!old.description&&x.description)old.description=x.description; if(!old.notes&&x.notes)old.notes=x.notes; old.favorite ||= x.favorite; old.usageCount=Math.max(old.usageCount||0,x.usageCount||0); old.lastUsed=Math.max(old.lastUsed||0,x.lastUsed||0);} } return out; }
@@ -80,7 +89,7 @@ async function syncGithub({manual=false}={}) {
   try {
     const r=await migrate();
     const old=Array.isArray(r.remoteLibrary)?r.remoteLibrary:[];
-    const incoming=(await remote()).map(x=>normalizeTool(x,'remote'));
+    const loaded=await remoteWithInfo();const incoming=loaded.tools.map(x=>normalizeTool(x,'remote'));
     const oldMap=mapByUrl(old), newMap=mapByUrl(incoming);
     let added=0, updated=0;
     for(const [k,x] of newMap){ if(!oldMap.has(k)) added++; else if(fingerprint(oldMap.get(k))!==fingerprint(x)) updated++; }
@@ -90,9 +99,9 @@ async function syncGithub({manual=false}={}) {
     for(const k of oldMap.keys())if(!newMap.has(k))changes.items.removed.push(oldMap.get(k).name);
     const history = (r.syncHistory||[]).slice(0,9);
     history.unshift({at:Date.now(),status:'success',added,updated,removed,remoteCount:incoming.length});
-    await chrome.storage.local.set({remoteLibrary:incoming,syncState:{lastSync:Date.now(),lastStatus:'success',lastError:'',source:GITHUB_RAW_URL,remoteCount:incoming.length,added,updated,removed},syncChanges:changes,syncHistory:history});
+    await chrome.storage.local.set({remoteLibrary:incoming,syncState:{lastSync:Date.now(),lastStatus:'success',lastError:'',source:GITHUB_DATA_BASE+'database/',remoteCount:incoming.length,added,updated,removed,remoteInfo:loaded.info},syncChanges:changes,syncHistory:history});
     await chrome.alarms.create(GITHUB_SYNC_ALARM,{periodInMinutes:Math.max(15, Number((r.settings||{}).syncInterval||DEFAULT_INTERVAL))});
-    return {ok:true,added,updated,removed,remoteCount:incoming.length,changes};
+    return {ok:true,added,updated,removed,remoteCount:incoming.length,changes,info:loaded.info};
   } catch(e) {
     const r=await chrome.storage.local.get(['syncHistory']);
     const history=(r.syncHistory||[]).slice(0,9); history.unshift({at:Date.now(),status:'error',error:String(e.message||e)});
@@ -111,6 +120,7 @@ chrome.runtime.onInstalled.addListener(setup); chrome.runtime.onStartup.addListe
 chrome.alarms.onAlarm.addListener(a=>{if(a.name===GITHUB_SYNC_ALARM)chrome.storage.local.get('settings').then(s=>{if(s.settings?.syncEnabled!==false)syncGithub()})});
 chrome.runtime.onMessage.addListener((m,_s,send)=>{
   if(m?.type==='get-default-library'){bundled().then(tools=>send({ok:true,tools})).catch(e=>send({ok:false,error:String(e.message||e)}));return true;}
+  if(m?.type==='check-github'){remoteWithInfo().then(r=>send({ok:true,info:r.info})).catch(e=>send({ok:false,error:String(e.message||e)}));return true;}
   if(m?.type==='sync-github'){syncGithub({manual:true}).then(send);return true;}
   if(m?.type==='get-library-state'){chrome.storage.local.get(['localLibrary','remoteLibrary','syncState','syncHistory','syncChanges','settings']).then(send);return true;}
   if(m?.type==='set-sync-settings'){chrome.storage.local.get('settings').then(async r=>{const settings={...(r.settings||{}),...(m.settings||{})};await chrome.storage.local.set({settings});if(settings.syncEnabled!==false)await chrome.alarms.create(GITHUB_SYNC_ALARM,{periodInMinutes:Math.max(15,Number(settings.syncInterval||DEFAULT_INTERVAL))});send({ok:true,settings})});return true;}

@@ -506,6 +506,52 @@
     return { ready: checks.every(c => c.ok), checks, counts: { ...counts, files: res.fileCount }, inspect: r };
   }
 
+  /* ---------- GitHub database export: the repo's data/database directory is the primary database ---------- */
+  const slug = n => String(n || 'category').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60) || 'category';
+  async function buildGithubDatabase({ tools = [], categories = [] }) {
+    const nodes = Array.isArray(categories) ? categories : [], byId = new Map(nodes.map(n => [n.id, n]));
+    const clean = t => { const y = { ...t }; for (const k of ['favorite', 'notes', 'lastUsed', 'usageCount', 'source']) delete y[k]; if (y.favorite === undefined) y.favorite = false; y.notes = ''; y.usageCount = 0; y.lastUsed = 0; y.source = 'remote'; return y; };
+    const leafOf = t => byId.has(t.subcategoryId) ? t.subcategoryId : (byId.has(t.categoryId) ? t.categoryId : null);
+    const grouped = new Map(nodes.map(n => [n.id, []])), orphan = [];
+    for (const t of tools) {
+      const leaf = leafOf(t);
+      if (leaf) grouped.get(leaf).push(clean(t));
+      else { const byName = nodes.find(n => !n.parentId && String(n.name).toLowerCase() === String(t.category || '').toLowerCase()); (byName ? grouped.get(byName.id) : orphan).push(clean(t)); }
+    }
+    const used = new Set(), files = {}, entries = [], manifestFiles = [];
+    const pathFor = n => {
+      const parent = n.parentId ? byId.get(n.parentId) : null;
+      let base = parent ? `subcategories/${slug(parent.name)}/${slug(n.name)}` : `categories/${slug(n.name)}`;
+      if (used.has(base)) base += '-' + String(n.id).replace(/[^a-z0-9]/gi, '').slice(0, 6).toLowerCase();
+      used.add(base); return base + '.json';
+    };
+    const emit = async (node, list) => {
+      const rel = pathFor(node);
+      list.sort((a, b) => String(a.name).localeCompare(String(b.name)));
+      const body = JSON.stringify({ version: VERSION, app: APP, format: 'category-collection', category: node, parentCategory: node.parentId ? (byId.get(node.parentId) || null) : null, recordCount: list.length, tools: list }, null, 2);
+      files['data/database/' + rel] = body;
+      entries.push({ ...node, path: rel, recordCount: list.length });
+      manifestFiles.push({ path: rel, recordCount: list.length, sha256: await sha256(body) });
+      return list.length;
+    };
+    let total = 0;
+    for (const n of nodes) total += await emit(n, grouped.get(n.id) || []);
+    if (orphan.length) total += await emit({ id: 'uncategorized-recovered', name: 'Uncategorized (recovered)', parentId: null, kind: 'category' }, orphan);
+    entries.sort((a, b) => String(a.name).toLowerCase().localeCompare(String(b.name).toLowerCase()));
+    const stamp = new Date().toISOString();
+    files['data/database/category-index.json'] = JSON.stringify({ version: VERSION, app: APP, categories: entries }, null, 2);
+    files['data/database/database-manifest.json'] = JSON.stringify({ version: VERSION, app: APP, format: 'default-library-manifest', role: 'primary-database', exportedAt: stamp, categoryCount: entries.length, toolCount: total, categoryIndex: 'database/category-index.json', files: manifestFiles }, null, 2);
+    files['data/database/database-config.json'] = JSON.stringify({ app: APP, version: VERSION, format: 'category-json-database', role: 'primary-database', runtimeDatabase: 'IndexedDB', stagingFile: 'data/default-tools.json (pointer only)' }, null, 2);
+    files['data/default-tools.json'] = JSON.stringify({ version: VERSION, app: APP, format: 'default-library-pointer', tools: [], libraryManifest: 'database/database-manifest.json', categoryCount: entries.length, toolCount: total, note: 'The primary database is data/database/. This file is only a small pointer.' }, null, 2);
+    files['README-GITHUB-UPDATE.txt'] = `Charlie MJ Tool Archive — GitHub database update (${stamp})\n\n${total} tools in ${entries.length} category files.\n\n1. In your repository delete the old folders  data/database/categories  and  data/database/subcategories  (and the old data/database/categories-index.json and backup-manifest.json if present).\n2. Copy the  data  folder from this ZIP over your repository's  data  folder.\n3. Commit and push. Other installations (and this one) pick it up with "Sync from GitHub Now".\n\nThe extension reads  data/database/database-manifest.json  and every category file it lists. data/default-tools.json is only a pointer.\n`;
+    return { files, counts: { tools: total, categories: entries.length, files: Object.keys(files).length } };
+  }
+  async function githubDatabaseZip(args) {
+    const built = await buildGithubDatabase(args);
+    const blob = await window.CMJZip.create(Object.entries(built.files).map(([name, data]) => ({ name, data })));
+    return { blob, counts: built.counts };
+  }
+
   /* ---------- setup / status ---------- */
   async function chooseFolder() {
     if (!window.showDirectoryPicker) throw new Error('Folder access is not supported in this Chrome version. Use the Native Messaging helper.');
@@ -539,5 +585,5 @@
   async function forgetFolder() { await clearHandle(); writeCache.clear(); await chrome.storage.local.set({ cmjPortableSync: { status: 'not-configured', lastSync: 0, error: '', verified: false } }); }
   function clearWriteCache() { writeCache.clear(); }
 
-  window.CMJPortable = { sync, chooseFolder, readProfile, readDestination, readBundled, status, forgetFolder, makeFiles: buildFiles, inspect, transferReadiness, writeStaging, clearWriteCache, log, sha256, urlKey, QUEUE_KEY };
+  window.CMJPortable = { buildGithubDatabase, githubDatabaseZip, sync, chooseFolder, readProfile, readDestination, readBundled, status, forgetFolder, makeFiles: buildFiles, inspect, transferReadiness, writeStaging, clearWriteCache, log, sha256, urlKey, QUEUE_KEY };
 })();

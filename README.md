@@ -24,7 +24,7 @@ The extension is designed to remain useful both **offline** and when connected t
 ## Download
 
 <p align="center">
-  <a href="https://github.com/awsrmmustansarjavaid/charlie-mj-tool-archive/releases">
+  <a href="/downloads/charlie-mj-tool-archive-v6_2_0-settings-manager.zip">
     <img src="https://img.shields.io/badge/⬇%20Download%20Chrome%20Extension-2ea44f?style=for-the-badge" alt="Download Chrome Extension">
   </a>
 </p>

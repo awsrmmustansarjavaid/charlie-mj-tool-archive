@@ -63,6 +63,10 @@ Everything from earlier versions remains: dashboard, favorites, notes, categorie
 
 ## Feature overview
 
+<p align="center">
+  <img src="./assets/charlie-mj-tool-archive.png" alt="Charlie MJ Tool Archive" width="600">
+</p>
+
 * 🏠 **Local Library**, ☁️ **Remote GitHub Library** and 🔗 **Unified Library** with source badges
 * 🔄 GitHub synchronization with sync history and remote-deletion protection
 * ⇄ Local vs Remote comparison and ＋ *Create Local Copy*

@@ -1,5 +1,5 @@
 {
-  "version": "6.1.3",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
   "exportedAt": null,
   "localLibrary": [],
@@ -9,5 +9,5 @@
   "categories": [],
   "toolCount": 0,
   "categoryCount": 0,
-  "note": "Empty starter profile. On the source PC, authorize this extension folder user-data directory and synchronize the personal library here before copying the unpacked extension to another PC."
+  "note": "Empty starter profile. On PC1 select this extension folder under Database Manager > Portable Database, then run Transfer Readiness Check before copying the folder."
 }

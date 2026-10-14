@@ -2,7 +2,7 @@
 """Charlie MJ Tool Archive Native Messaging host (Windows/macOS/Linux).
    The extension chooses a root folder; this host writes only safe relative paths beneath it.
 """
-import json, os, sys, struct, traceback
+import json, os, sys, struct, traceback, hashlib
 
 def read_message():
     raw=sys.stdin.buffer.read(4)
@@ -33,7 +33,7 @@ def main():
         if msg is None: break
         try:
             action=msg.get('action')
-            if action=='ping': send({'ok':True,'host':'Charlie MJ Tool Archive Native Helper','version':'1.0.0'}); continue
+            if action=='ping': send({'ok':True,'host':'Charlie MJ Tool Archive Native Helper','version':'2.0.0','actions':['writeFile','readFile','hashFiles','listFiles','removeFile','inspect']}); continue
             root=os.path.abspath(os.path.expanduser(str(msg.get('root') or '')))
             drive,tail=os.path.splitdrive(root)
             if not root or (drive and tail in ('\\','/','')) or root==os.path.abspath(os.sep): raise ValueError('A dedicated data folder path is required')
@@ -61,6 +61,25 @@ def main():
                 offset=max(0,int(msg.get('offset') or 0)); limit=min(120000,max(1000,int(msg.get('limit') or 120000)))
                 chunk=content[offset:offset+limit]; next_offset=offset+len(chunk)
                 send({'ok':True,'found':True,'content':chunk,'eof':next_offset>=len(content),'nextOffset':next_offset}); continue
+            if action=='hashFiles':
+                paths=msg.get('paths') or []
+                if not isinstance(paths,list) or len(paths)>2000: raise ValueError('paths must be a list of at most 2000 entries')
+                hashes={}
+                for rel in paths:
+                    target=safe_target(root,rel)
+                    hashes[rel]=hashlib.sha256(open(target,'rb').read()).hexdigest() if os.path.isfile(target) else None
+                send({'ok':True,'hashes':hashes}); continue
+            if action=='listFiles':
+                rel=str(msg.get('path') or '')
+                target=safe_target(root,rel) if rel.strip('/\\') else os.path.realpath(root)
+                names=sorted(n for n in os.listdir(target) if os.path.isfile(os.path.join(target,n))) if os.path.isdir(target) else []
+                send({'ok':True,'files':names}); continue
+            if action=='removeFile':
+                rel=str(msg.get('path') or '').replace('\\','/')
+                if not (rel.startswith('database/') or rel.startswith('backups/') or rel.startswith('staging/')): raise ValueError('Only database, backups and staging files can be removed')
+                target=safe_target(root,rel)
+                if os.path.isfile(target): os.remove(target)
+                send({'ok':True,'removed':rel}); continue
             if action=='inspect':
                 profile_path=safe_target(root,'profile-data.json'); index_path=safe_target(root,'database/category-index.json')
                 profile=json.load(open(profile_path,encoding='utf-8')) if os.path.isfile(profile_path) else {}

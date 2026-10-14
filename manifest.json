@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Charlie MJ Tool Archive",
-  "version": "6.1.3",
-  "description": "Local-first personal resource manager with IndexedDB, portable category JSON storage, bundled profile transfer, and resilient Settings rendering.",
+  "version": "6.2.0",
+  "description": "Local-first personal resource manager with a durable staging queue, category JSON database, verified portable transfer and GitHub library sync.",
   "permissions": [
     "alarms",
     "bookmarks",
@@ -35,7 +35,7 @@
       "suggested_key": {
         "default": "Ctrl+Shift+L"
       },
-      "description": "Open Charlie MJ Tool Archive v6.1.3"
+      "description": "Open Charlie MJ Tool Archive v6.2.0"
     }
   },
   "host_permissions": [
@@ -46,5 +46,5 @@
   "omnibox": {
     "keyword": "cmj"
   },
-  "version_name": "6.1.3 \u2014 Portable Transfer + Restored v5 Settings"
+  "version_name": "6.2.0 \u2014 Staging Queue + Verified Category Database"
 }

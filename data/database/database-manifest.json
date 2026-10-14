@@ -1,0 +1,366 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "default-library-manifest",
+  "role": "packaged-read-only-default-library",
+  "categoryCount": 71,
+  "toolCount": 330,
+  "categoryIndex": "database/category-index.json",
+  "files": [
+    {
+      "path": "categories/ai-app-builders.json",
+      "recordCount": 1,
+      "sha256": "2b43b3e61bfe8ecbacc476d888399afe26b1545856d0f57104b233bc75d419b0"
+    },
+    {
+      "path": "categories/ai-automation.json",
+      "recordCount": 1,
+      "sha256": "2b5c0bedeed686d4390639eeebebcb936c6a7798562b71f0205a809180c0b9da"
+    },
+    {
+      "path": "categories/ai-chat-research.json",
+      "recordCount": 3,
+      "sha256": "4d04c70ff26b44dce17e1acb193e1e94a57dee1a8385c38fb1c6159707b2b51a"
+    },
+    {
+      "path": "categories/ai-design-creative.json",
+      "recordCount": 3,
+      "sha256": "40dbf7f7619158a6eee253c73249a1e3fc364862db713652ea64f73ee763620d"
+    },
+    {
+      "path": "categories/ai-prompt-community.json",
+      "recordCount": 1,
+      "sha256": "ab61aff8b6f72c650f103eea1e35c3ad2fb3f001c23b1e5480e4bbcdafa43eea"
+    },
+    {
+      "path": "categories/ai-research.json",
+      "recordCount": 1,
+      "sha256": "275601396a1147f485dcee8e0fd644d574fbafb8292cccf8ce033d91daab6454"
+    },
+    {
+      "path": "categories/ai-video-avatar.json",
+      "recordCount": 1,
+      "sha256": "c556247c68f5fae179d94c74588b226863da34da177ba78ae3ec04effc37ae72"
+    },
+    {
+      "path": "categories/books-reading.json",
+      "recordCount": 2,
+      "sha256": "3ed5f95a3cda5e37d1fe9a0c2efba304737eca11d5014913e0c3ee61ec10626e"
+    },
+    {
+      "path": "categories/career.json",
+      "recordCount": 1,
+      "sha256": "82fc3c2e60880b5dbedf1edce86130c09d37e4137f6012a1e1cac4f841dc1c54"
+    },
+    {
+      "path": "categories/charlie-mj-projects.json",
+      "recordCount": 2,
+      "sha256": "2df3ac84836cf006058c7b9683e06d671f2c3cf7a095a4f15dbe6f108abad10f"
+    },
+    {
+      "path": "categories/cloud-native-kubernetes.json",
+      "recordCount": 1,
+      "sha256": "88f4a0983e2d9538b63ffeff7951e06a2e65ee86ed74433b696c94870a158866"
+    },
+    {
+      "path": "categories/communities.json",
+      "recordCount": 1,
+      "sha256": "211f93ccd07d41a78f2ce3d46e170bac28b31606056b6b549b9726fb72ee1096"
+    },
+    {
+      "path": "categories/courses-learning.json",
+      "recordCount": 3,
+      "sha256": "de9adb4c64ddd3339fa83a4a5b62f0c5f06619d61b056ffec47f5cbca8d755fd"
+    },
+    {
+      "path": "categories/design-assets.json",
+      "recordCount": 4,
+      "sha256": "f1d4a438faa89703fd52525dc0b5b3a402fce9f03c3c76d0f913c53b122f159f"
+    },
+    {
+      "path": "categories/design-blog.json",
+      "recordCount": 2,
+      "sha256": "22e60774fe582f0c4cd07b499f2aedadcc7a47a2c2704cf6e779310166a6e22b"
+    },
+    {
+      "path": "categories/design-resources.json",
+      "recordCount": 1,
+      "sha256": "102b5fe86e13018d9a47963c1248950a747568749647b6a862d20d96f969a300"
+    },
+    {
+      "path": "categories/developer-tools.json",
+      "recordCount": 10,
+      "sha256": "b1ec8113c8ac2236969714c21a98dcaa731d4fd4d86f5db4d9564ed9b09b3186"
+    },
+    {
+      "path": "categories/development.json",
+      "recordCount": 2,
+      "sha256": "127fe1f5d8fe56006ed9bd46cdf24ae4e15e8ae76e54058c9ab6b5d11f3c6b49"
+    },
+    {
+      "path": "categories/devops-learning.json",
+      "recordCount": 36,
+      "sha256": "6fa87299da35edf864829a56e4fc0f055fa3380ab7e1307f9d144fcd7faa3356"
+    },
+    {
+      "path": "categories/download-conversion.json",
+      "recordCount": 5,
+      "sha256": "b204e33fa00c5c7d5590ab37146eb600d5eb7a0f9469119c70968cd80a070c17"
+    },
+    {
+      "path": "categories/download-media-tools.json",
+      "recordCount": 17,
+      "sha256": "c5c9b1a21beab2293fa1837c3fb4a7d4b2632b85a2ce5300b859ee4d6b06af72"
+    },
+    {
+      "path": "categories/download-resources.json",
+      "recordCount": 1,
+      "sha256": "861e0bacfee7b9b253079f807a7c02fa50e3221a9740875687437e981a8d0d75"
+    },
+    {
+      "path": "categories/downloading-sites.json",
+      "recordCount": 2,
+      "sha256": "76d7dd4b22185204dd81113fd879b2a41e53ad57a7063d1724bf59e502a6d98b"
+    },
+    {
+      "path": "categories/education.json",
+      "recordCount": 1,
+      "sha256": "37becfee36d8ab92b87806ca319b0b1decae4f88d4981583ec8d666494b9b1bd"
+    },
+    {
+      "path": "categories/english-dictionaries.json",
+      "recordCount": 5,
+      "sha256": "65fabd2c79c2f5f0e9056dad452c215a23912a5a3d34a377579f53ee9fec8a5b"
+    },
+    {
+      "path": "categories/files-software.json",
+      "recordCount": 2,
+      "sha256": "69ba6797dd6848f34e19b8b598ab5e41e61d8e206a84b5826aa7b0729a7f03d8"
+    },
+    {
+      "path": "categories/freelancing-jobs.json",
+      "recordCount": 27,
+      "sha256": "01a6ac46b3b06735b90597ff34817e85f5e8ae6aeadc2ac70165583001effe20"
+    },
+    {
+      "path": "categories/freelancing-payments.json",
+      "recordCount": 1,
+      "sha256": "d7f506cdcfcf5227ecffa571c375396313b001b5edfe9c9c172cf9fcc0943237"
+    },
+    {
+      "path": "categories/github-developer-learning.json",
+      "recordCount": 1,
+      "sha256": "f7ca2ec6f17783db51806b96fd02aa8971eb951260ce629bb8bc86c2a08bd1b1"
+    },
+    {
+      "path": "categories/hacksnation-a-place-where-everyone-can-learn.json",
+      "recordCount": 23,
+      "sha256": "fa11030feebb997848a510c3c24f985197bdbc2ce3a263ebf6e8388b6bea755b"
+    },
+    {
+      "path": "categories/health-fitness.json",
+      "recordCount": 26,
+      "sha256": "5d4ad243acecadb00248a130d0323c1a63340a5d4fe99c2a771a6a4a8c53a7eb"
+    },
+    {
+      "path": "categories/instagram-tools.json",
+      "recordCount": 6,
+      "sha256": "1e0c404cc5c9ca2c021d43311b1ff0dceff83b255406cf9653f8fc5c139e15f8"
+    },
+    {
+      "path": "categories/internet-connectivity.json",
+      "recordCount": 2,
+      "sha256": "5373255317a25285c1041d4343b56d1b92b45270d200c6de0afacc77eaa00758"
+    },
+    {
+      "path": "categories/islamic-resources.json",
+      "recordCount": 12,
+      "sha256": "63f895093429042d8da57d24d17623075c89951a5f43524e1cec48041941cf83"
+    },
+    {
+      "path": "categories/language-learning.json",
+      "recordCount": 1,
+      "sha256": "fd16d0de88d964f12160b7ae455e75da27fc6fae53072fa9f581d6fd508d8e59"
+    },
+    {
+      "path": "categories/learning-education.json",
+      "recordCount": 2,
+      "sha256": "257784d7a118f0c1c9f7d814f20d04c69dc4e7ce991385501b78c141a1f4fa35"
+    },
+    {
+      "path": "categories/linkedin-content.json",
+      "recordCount": 4,
+      "sha256": "3ce3c4eac0af2b01809fc019df7ad93c18c28a65556526a5cea11f9385415917"
+    },
+    {
+      "path": "categories/logistics-shipping.json",
+      "recordCount": 1,
+      "sha256": "38c8bddbe7cbba5ff97189b304cf3fe4645c8679726486aeb25c7f325fa90153"
+    },
+    {
+      "path": "categories/magazines.json",
+      "recordCount": 1,
+      "sha256": "439f452b249255e56735a7af97686eec7ea5c90f00915195e018d97d14908351"
+    },
+    {
+      "path": "categories/markdown-writing.json",
+      "recordCount": 4,
+      "sha256": "8e6db6d3ced0913700974d2e4f2cbdd25341e13b2e4c923ef93aa83e8f108c9a"
+    },
+    {
+      "path": "categories/media-video.json",
+      "recordCount": 1,
+      "sha256": "9c1f2f1d8861d20e172895f2368b89c77106c35912a1de49a30a49f668081bd6"
+    },
+    {
+      "path": "categories/multilingual-translation.json",
+      "recordCount": 5,
+      "sha256": "4513426d326156b341f666dc24e40cd3e5cac53bb811297431c44d44bb3f5d76"
+    },
+    {
+      "path": "categories/network-tools.json",
+      "recordCount": 2,
+      "sha256": "e3dc0aebef5c76121358f65bfe75f4208ac39d9cbbae66a2afd7da8ac5fd6e6e"
+    },
+    {
+      "path": "categories/networking-learning.json",
+      "recordCount": 1,
+      "sha256": "98880f3b8629c3e50abb35a975c75e692793b51e6330256a81c535ceba22f1f8"
+    },
+    {
+      "path": "categories/online-utilities.json",
+      "recordCount": 8,
+      "sha256": "9166d9449b3c0eacac3210415012a1325434fa3a902c2be098692e8dda246bb1"
+    },
+    {
+      "path": "categories/payments-apis.json",
+      "recordCount": 1,
+      "sha256": "0a978249cb8f2bcaf35a3c78ab095e6c22a3a34a536877244c919d44e4d06cf6"
+    },
+    {
+      "path": "categories/pc-games.json",
+      "recordCount": 6,
+      "sha256": "49d7445b187bcb73a4a78ebcb76ce16d7d399a52ce505659aafcbd8d4b2f80f0"
+    },
+    {
+      "path": "categories/productivity.json",
+      "recordCount": 3,
+      "sha256": "fbc0cfbfbf8b61d3cb31e03ec92026107c395c5f8e7148861ff9f9701622df39"
+    },
+    {
+      "path": "categories/psychology-blogs.json",
+      "recordCount": 1,
+      "sha256": "2f21116fe75a5c15f44151ff64041d1f766c2f6564274c0ada93ab4796806d40"
+    },
+    {
+      "path": "categories/reading-research.json",
+      "recordCount": 1,
+      "sha256": "4fcee44505d569583be39b929c22ea574d93743b49348f4835987f06cde3dc76"
+    },
+    {
+      "path": "categories/real-estate.json",
+      "recordCount": 1,
+      "sha256": "2defbe37f99d39318057f7525eeda0b5effc66aa7f4f53f20c78003e044d4c67"
+    },
+    {
+      "path": "categories/roadmaps-career.json",
+      "recordCount": 1,
+      "sha256": "832971f60f7a8981ab6957f697ce7904ec2a335192ee99b573824590edf01d50"
+    },
+    {
+      "path": "categories/science-education.json",
+      "recordCount": 1,
+      "sha256": "bf9c406122b2750a80223511f0c32988872aa444b1a73dc875b550b122b59d32"
+    },
+    {
+      "path": "categories/screen-recording-demos.json",
+      "recordCount": 2,
+      "sha256": "353a8cb8b31d69cf01395e7ca2ed2920abc0443ca064ad782b2d48f68c690ce9"
+    },
+    {
+      "path": "categories/shopping.json",
+      "recordCount": 4,
+      "sha256": "dfaf253ecfd7fadfa6019ed2067be891043e511daa97443e52f85fdb08e2d178"
+    },
+    {
+      "path": "categories/social-media-tools.json",
+      "recordCount": 10,
+      "sha256": "221f094ac56856e8d032da7aee5781928af27932b699276153216ed405b9ccba"
+    },
+    {
+      "path": "categories/software-download.json",
+      "recordCount": 3,
+      "sha256": "bf451eb85be9cac9b83052caf70de6dc4e7c828633c60262d6ac718241275f58"
+    },
+    {
+      "path": "categories/system-recovery.json",
+      "recordCount": 3,
+      "sha256": "072101c998e2ec1901806e9039857999adae3126e7ee8071c4c03024a56a1341"
+    },
+    {
+      "path": "categories/tech-blogs.json",
+      "recordCount": 3,
+      "sha256": "f3c07eac17a69e2fc1d540e68499a844e16573ca90a3d925a8641703fd7bfe21"
+    },
+    {
+      "path": "categories/torrent-sites.json",
+      "recordCount": 7,
+      "sha256": "f6de24fa4fa267a6a71bb52d2770df26fc1fb7d790db11602433257f96fa76dc"
+    },
+    {
+      "path": "categories/turkey-jobs-exams.json",
+      "recordCount": 5,
+      "sha256": "8b67796675aafde9d2b9b369a980f5ae8dc0cb83e0509f004d7710503944be44"
+    },
+    {
+      "path": "categories/turkish-dictionaries.json",
+      "recordCount": 7,
+      "sha256": "61c79e50f1aacb719f972b801a89678a2af6310792ca0626080101e47224ec7b"
+    },
+    {
+      "path": "categories/turkish-learning.json",
+      "recordCount": 9,
+      "sha256": "a2083bda414e78299da6bbbed3ace48927a4ef00a62f70425f039c0800798eaa"
+    },
+    {
+      "path": "categories/turkish-literature.json",
+      "recordCount": 3,
+      "sha256": "a96d008edc901e414b507fc20898428c049de06a3a511c9f59bce64a866f4240"
+    },
+    {
+      "path": "categories/turkish-tv-media.json",
+      "recordCount": 5,
+      "sha256": "720ce8f766d798b9baaad4e6c9e3661aabe074fd6130b2b91e0f85e566e7ce4f"
+    },
+    {
+      "path": "categories/urdu-dictionaries.json",
+      "recordCount": 4,
+      "sha256": "bcd5ab8b406e10506b1979877079b97ef85733485ae9a4544b5a1f9bc203f559"
+    },
+    {
+      "path": "categories/video-collaboration.json",
+      "recordCount": 1,
+      "sha256": "44bbdb903361387fc8f5b5ab70bca58304d55018610cbe71b5f935db3da1b272"
+    },
+    {
+      "path": "categories/web-development.json",
+      "recordCount": 3,
+      "sha256": "958bc4f8cd9b796ee68cb600e2b6fb39524ffe69a0fa73068d8eaa52c1494593"
+    },
+    {
+      "path": "categories/writing-articles.json",
+      "recordCount": 2,
+      "sha256": "ed39c25b896ab6b4681ab5faa2873aba4a74030c3cc31d2b276c1c548ef40353"
+    },
+    {
+      "path": "categories/writing-content.json",
+      "recordCount": 1,
+      "sha256": "802300f9436de1a37eb4e09e6895018b60fec3f10852684bca2618d838962bfa"
+    },
+    {
+      "path": "categories/youtube-tools.json",
+      "recordCount": 6,
+      "sha256": "5198e067faad34313c2baa25a7f7541d08dfee5b5047fb90d1d4708cf2749e6e"
+    }
+  ]
+}

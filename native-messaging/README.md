@@ -17,3 +17,7 @@ The helper accepts one-file-at-a-time requests, supports bounded/chunked reads o
 On PC1, set the Native Messaging data-folder path to the extension project’s `user-data` subfolder (not the extension root). Click Test Native Helper, then Sync Now. Confirm that `user-data/profile-data.json` contains your full personal library before copying the folder. Copy the entire extension folder, including `user-data/profile-data.json`, to PC2. On PC2, Load unpacked. The dashboard reads that JSON profile before it initializes or saves the PC2 Chrome database, and merges the profile with the 330 packaged defaults. To keep saving changes on PC2, install/register the Native Messaging helper on PC2 and point it to PC2’s own copied `user-data` folder.
 
 The profile is not magically extracted from PC1’s Chrome profile: the first PC1 sync is mandatory. If the personal records have not been written to `user-data/profile-data.json`, copying the extension folder cannot transfer them.
+
+
+## Helper 2.0 (extension v6.2.0)
+Adds `hashFiles` (SHA-256 verification of every write), `listFiles` and `removeFile` (limited to `database/`, `backups/`, `staging/`). Rebuild the Windows executable with `build-native-host.ps1` to get them; the previous helper still works because the extension falls back to reading files back.

@@ -1,4 +1,4 @@
-# ✨ Charlie MJ Tool Archive v6.1.2 — Advanced Edition
+# ✨ Charlie MJ Tool Archive v6.2.0 — Advanced Edition
 
 A modern **Manifest V3 Chrome extension** for organizing a large personal collection of websites, online tools, learning resources, AI services, developer utilities, social-media tools, productivity resources, and other bookmarks.
 
@@ -24,7 +24,7 @@ The extension is designed to remain useful both **offline** and when connected t
 ## Download
 
 <p align="center">
-  <a href="/downloads/charlie-mj-tool-archive-v6.1.3-portable-settings-fixed.zip">
+  <a href="https://github.com/awsrmmustansarjavaid/charlie-mj-tool-archive/releases">
     <img src="https://img.shields.io/badge/⬇%20Download%20Chrome%20Extension-2ea44f?style=for-the-badge" alt="Download Chrome Extension">
   </a>
 </p>
@@ -1171,3 +1171,8 @@ Fixes the Settings renderer crash (`path.split is not a function`) by rendering 
 5. If using Native Messaging, install the helper on each PC and configure its local data-folder path. Use Test Native Helper; it now reads and offers to merge an existing profile before writing.
 
 If the extension was already uninstalled on the original PC before any backup was created, Chrome may have removed that extension's local storage. The package cannot reconstruct those personal tools; recover them from an existing JSON/ZIP backup, another browser profile, or another PC where the old library still exists.
+
+
+## v6.2.0 — Staging queue + verified category database
+
+New and imported tools enter a durable **staging queue**, are validated and categorised, written to per-category JSON files (stable ID file names) and verified by read-back before leaving the queue. The 330 packaged defaults now live in `data/database/categories/*.json` (`data/default-tools.json` is only a pointer). Database Manager gains a **Migration Manager**, **Transfer Readiness Check**, **Database Files** table and **Reconcile Databases**. See `docs/CHANGELOG-V6.2.0.md` and `docs/STAGING-AND-CATEGORY-DATABASE-V6.2.0.md`.

@@ -1,6 +1,8 @@
 const GITHUB_SYNC_ALARM = 'charlie-mj-github-sync';
 const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/awsrmmustansarjavaid/charlie-mj-tool-archive/main/data/default-tools.json';
+const GITHUB_DATA_BASE = GITHUB_RAW_URL.replace(/default-tools\.json$/, '');
 const DEFAULT_INTERVAL = 15;
+const STAGING_KEY = 'cmjStagingQueueV1';
 
 const makeId = () => crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36) + Math.random().toString(36).slice(2);
 function normalizeUrl(url) {
@@ -31,8 +33,24 @@ async function fetchJson(url) {
   if (!r.ok) throw new Error(`HTTP ${r.status}`);
   return r.json();
 }
-async function bundled() { return payloadTools(await fetchJson(chrome.runtime.getURL('data/default-tools.json'))) || []; }
-async function remote() { return payloadTools(await fetchJson(GITHUB_RAW_URL)) || []; }
+// v6.2.0: the default library is a set of category JSON files listed by a manifest. data/default-tools.json is now
+// only a small pointer; an older flat default-tools.json (with a tools array) is still understood, locally and on GitHub.
+async function libraryFromPointer(dataBase, pointer) {
+  const flat = payloadTools(pointer);
+  if (Array.isArray(flat) && flat.length) return flat;
+  if (!pointer || !pointer.libraryManifest) return [];
+  const manifest = await fetchJson(dataBase + pointer.libraryManifest);
+  const files = Array.isArray(manifest.files) ? manifest.files : [];
+  const out = [];
+  for (let i = 0; i < files.length; i += 10) {
+    const parts = await Promise.all(files.slice(i, i + 10).map(f => fetchJson(dataBase + 'database/' + f.path)));
+    for (const part of parts) out.push(...(payloadTools(part) || []));
+  }
+  if (Number.isFinite(manifest.toolCount) && out.length !== manifest.toolCount) throw new Error(`Default library incomplete: ${out.length} of ${manifest.toolCount} tools loaded`);
+  return out;
+}
+async function bundled() { const base = chrome.runtime.getURL('data/'); return libraryFromPointer(base, await fetchJson(base + 'default-tools.json')); }
+async function remote() { return libraryFromPointer(GITHUB_DATA_BASE, await fetchJson(GITHUB_RAW_URL)); }
 function fingerprint(x) { return JSON.stringify({name:x.name,url:normalizeUrl(x.url),category:x.category,type:x.type,tags:unique(x.tags),description:x.description}); }
 function mapByUrl(list) { const m=new Map(); for(const raw of list||[]){const x=normalizeTool(raw); const k=normalizeUrl(x.url); if(k && !m.has(k)) m.set(k,x);} return m; }
 function mergeUnique(list) { const m=new Map(), out=[]; for(const raw of list||[]){const x=normalizeTool(raw,'local'); const k=normalizeUrl(x.url); if(!k) continue; if(!m.has(k)){m.set(k,x);out.push(x)} else {const old=m.get(k); old.tags=unique([...old.tags,...x.tags]); if(!old.description&&x.description)old.description=x.description; if(!old.notes&&x.notes)old.notes=x.notes; old.favorite ||= x.favorite; old.usageCount=Math.max(old.usageCount||0,x.usageCount||0); old.lastUsed=Math.max(old.lastUsed||0,x.lastUsed||0);} } return out; }
@@ -92,15 +110,18 @@ async function setup(){
 chrome.runtime.onInstalled.addListener(setup); chrome.runtime.onStartup.addListener(setup);
 chrome.alarms.onAlarm.addListener(a=>{if(a.name===GITHUB_SYNC_ALARM)chrome.storage.local.get('settings').then(s=>{if(s.settings?.syncEnabled!==false)syncGithub()})});
 chrome.runtime.onMessage.addListener((m,_s,send)=>{
+  if(m?.type==='get-default-library'){bundled().then(tools=>send({ok:true,tools})).catch(e=>send({ok:false,error:String(e.message||e)}));return true;}
   if(m?.type==='sync-github'){syncGithub({manual:true}).then(send);return true;}
   if(m?.type==='get-library-state'){chrome.storage.local.get(['localLibrary','remoteLibrary','syncState','syncHistory','syncChanges','settings']).then(send);return true;}
   if(m?.type==='set-sync-settings'){chrome.storage.local.get('settings').then(async r=>{const settings={...(r.settings||{}),...(m.settings||{})};await chrome.storage.local.set({settings});if(settings.syncEnabled!==false)await chrome.alarms.create(GITHUB_SYNC_ALARM,{periodInMinutes:Math.max(15,Number(settings.syncInterval||DEFAULT_INTERVAL))});send({ok:true,settings})});return true;}
 });
 chrome.contextMenus.onClicked.addListener(async(info,tab)=>{
   const url=info.linkUrl||info.pageUrl||tab?.url||''; if(!/^https?:\/\//i.test(url))return;
-  const r=await migrate(); const local=Array.isArray(r.localLibrary)?r.localLibrary:[]; const k=normalizeUrl(url);
-  if(!local.some(x=>normalizeUrl(x.url)===k)) local.push(normalizeTool({name:info.linkText||tab?.title||new URL(url).hostname,url,category:'Saved from Chrome',type:'Website'},'local'));
-  await chrome.storage.local.set({localLibrary:mergeUnique(local)}); chrome.tabs.create({url:chrome.runtime.getURL('src/dashboard.html')});
+  await migrate();
+  // v6.2.0: new tools go through the durable staging queue; the dashboard validates, categorises and verifies them.
+  const r=await chrome.storage.local.get(STAGING_KEY); const queue=Array.isArray(r[STAGING_KEY])?r[STAGING_KEY]:[];
+  queue.push({queueId:makeId(),source:'context-menu',enqueuedAt:Date.now(),status:'pending',attempts:0,error:'',tool:normalizeTool({name:info.linkText||tab?.title||new URL(url).hostname,url,category:'Saved from Chrome',type:'Website'},'local')});
+  await chrome.storage.local.set({[STAGING_KEY]:queue}); chrome.tabs.create({url:chrome.runtime.getURL('src/dashboard.html')});
 });
 chrome.commands.onCommand.addListener(c=>{if(c==='open-dashboard')chrome.tabs.create({url:chrome.runtime.getURL('src/dashboard.html')})});
 chrome.action.onClicked.addListener(()=>chrome.tabs.create({url:chrome.runtime.getURL('src/dashboard.html')}));

@@ -46,3 +46,8 @@
 
 .collections-panel{border:1px solid var(--line,#26364e);border-radius:14px;padding:14px;margin-top:16px;background:rgba(10,22,42,.22)}
 .collections-panel h3{margin:0 0 10px;font-size:14px}
+
+/* Embedded Database & Portable Manager (shown inside Settings > Database & Storage) */
+.embedded-manager .topbar,.embedded-manager #close-database,.embedded-manager .modal-head .eyebrow{display:none!important}
+.embedded-manager #database-modal{padding:0!important}
+.embedded-manager #database-modal .modal-card{width:100%!important;box-shadow:none}

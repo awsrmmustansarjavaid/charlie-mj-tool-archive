@@ -91,7 +91,7 @@
     if(r[KEY.migration]) return r[KEY.categories]||[];
     const names=[...new Set((tools||[]).map(x=>String(x.category||'Uncategorized').trim()||'Uncategorized'))];
     let seedNodes=[];
-    try { const url=chrome.runtime?.getURL?chrome.runtime.getURL('data/database/categories-index.json'):'../data/database/categories-index.json'; const response=await fetch(url); if(response.ok){const seed=await response.json();seedNodes=Array.isArray(seed.categories)?seed.categories:[]} } catch {}
+    try { const url=chrome.runtime?.getURL?chrome.runtime.getURL('data/database/category-index.json'):'../data/database/category-index.json'; const response=await fetch(url); if(response.ok){const seed=await response.json();seedNodes=Array.isArray(seed.categories)?seed.categories:[]} } catch {}
     const categories=names.map(name=>{const seed=seedNodes.find(x=>String(x.name).toLowerCase()===name.toLowerCase());const id=seed?.id||uuid();return{id,displayId:seed?.displayId||displayId(name,id),name,parentId:null,kind:'category',createdAt:Date.now(),updatedAt:Date.now()}});
     await set({[KEY.categories]:categories,[KEY.migration]:true});
     return categories;

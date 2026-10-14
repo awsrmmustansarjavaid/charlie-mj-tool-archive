@@ -2,8 +2,7 @@
   "app": "Charlie MJ Tool Archive",
   "version": "6.2.0",
   "format": "category-json-database",
-  "role": "packaged-read-only-default-library",
+  "role": "primary-database",
   "runtimeDatabase": "IndexedDB",
-  "personalDatabase": "user-data/database/categories (written by the extension)",
-  "stagingQueue": "user-data/staging/pending-tools.json"
+  "stagingFile": "data/default-tools.json (pointer only)"
 }

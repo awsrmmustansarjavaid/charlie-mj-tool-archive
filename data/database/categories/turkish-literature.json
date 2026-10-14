@@ -1,75 +1,96 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "f7a19af1-e08d-5ecc-ac10-47cb9dab80d9",
+    "createdAt": 1791977019471,
     "displayId": "TURKISH-LITERATURE-AB80D9",
+    "id": "f7a19af1-e08d-5ecc-ac10-47cb9dab80d9",
+    "kind": "category",
     "name": "Turkish Literature",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019471
   },
+  "parentCategory": null,
   "recordCount": 3,
   "tools": [
     {
-      "id": "cmj-0171",
-      "name": "Antoloji",
-      "url": "https://www.antoloji.com/",
+      "addedAt": 1790955425801,
+      "aliases": [],
       "category": "Turkish Literature",
-      "type": "Learning",
-      "tags": [
-        "turkish",
-        "language"
-      ],
+      "categoryId": "f7a19af1-e08d-5ecc-ac10-47cb9dab80d9",
+      "collections": [],
       "description": "Turkish Literature resource: Antoloji.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425801,
+      "displayId": "TURKISH-LITERATURE-AB80D9-ANTOLOJI-J-0171",
+      "id": "cmj-0171",
       "lastModified": 1790955425801,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0172",
-      "name": "Edebiyat Defteri",
-      "url": "https://www.edebiyatdefteri.com/",
-      "category": "Turkish Literature",
-      "type": "Learning",
+      "name": "Antoloji",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "turkish",
         "language"
       ],
+      "type": "Learning",
+      "url": "https://www.antoloji.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425801,
+      "aliases": [],
+      "category": "Turkish Literature",
+      "categoryId": "f7a19af1-e08d-5ecc-ac10-47cb9dab80d9",
+      "collections": [],
       "description": "Turkish Literature resource: Edebiyat Defteri.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425801,
+      "displayId": "TURKISH-LITERATURE-AB80D9-EDEBIYAT-DEFTERI-J-0172",
+      "id": "cmj-0172",
       "lastModified": 1790955425801,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0173",
-      "name": "TurkishClass",
-      "url": "https://www.turkishclass.com/turkish/poetry/poems.php",
-      "category": "Turkish Literature",
-      "type": "Learning",
+      "name": "Edebiyat Defteri",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "turkish",
         "language"
       ],
-      "description": "Turkish Literature resource: TurkishClass.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Learning",
+      "url": "https://www.edebiyatdefteri.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
+      "source": "remote"
+    },
+    {
       "addedAt": 1790955425801,
+      "aliases": [],
+      "category": "Turkish Literature",
+      "categoryId": "f7a19af1-e08d-5ecc-ac10-47cb9dab80d9",
+      "collections": [],
+      "description": "Turkish Literature resource: TurkishClass.",
+      "displayId": "TURKISH-LITERATURE-AB80D9-TURKISHCLASS-J-0173",
+      "id": "cmj-0173",
       "lastModified": 1790955425801,
-      "source": "local"
+      "name": "TurkishClass",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "turkish",
+        "language"
+      ],
+      "type": "Learning",
+      "url": "https://www.turkishclass.com/turkish/poetry/poems.php",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

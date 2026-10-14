@@ -1,0 +1,59 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "2d879247-c1bb-4994-a547-5585e30b095e",
+    "displayId": "ANDROID-OPEN-SOURCE-SOFTWARE-0B095E",
+    "name": "Android & Open Source Software",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135712,
+    "updatedAt": 1791977135712
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Android & Open Source Software",
+      "categoryId": "2d879247-c1bb-4994-a547-5585e30b095e",
+      "collections": [],
+      "description": "OpenDroid: Open-source Android-related project reference saved for exploring mobile software and development tools.",
+      "displayId": "ANDROID-OPEN-SOURCE-SOFTWARE-89AA4F-OPENDROID-9A783E",
+      "id": "a59bb701-4d18-43b9-af83-7d3d139a783e",
+      "lastModified": 1791676800000,
+      "name": "OpenDroid",
+      "priority": "normal",
+      "smartLabels": [
+        "opendroid",
+        "android",
+        "open",
+        "source",
+        "software",
+        "related",
+        "project",
+        "reference",
+        "saved",
+        "exploring",
+        "mobile",
+        "development"
+      ],
+      "subcategory": "",
+      "tags": [
+        "android",
+        "open-source",
+        "mobile",
+        "development"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=OpenDroid&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

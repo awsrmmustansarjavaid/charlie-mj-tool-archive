@@ -1,0 +1,56 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "3ec5b904-c793-4441-8e82-006faf6f9405",
+    "displayId": "AI-TOOLS-6F9405",
+    "name": "AI Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135150,
+    "updatedAt": 1791977135150
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "AI Tools",
+      "categoryId": "3ec5b904-c793-4441-8e82-006faf6f9405",
+      "collections": [],
+      "description": "DigAI: AI-related online resource saved for exploring digital tools and artificial intelligence applications.",
+      "displayId": "AI-TOOLS-2CD0FF-DIGAI-7B5C24",
+      "id": "63a59d37-6823-4e26-bdef-d5dfb37b5c24",
+      "lastModified": 1791676800000,
+      "name": "DigAI",
+      "priority": "normal",
+      "smartLabels": [
+        "digai",
+        "related",
+        "resource",
+        "saved",
+        "exploring",
+        "digital",
+        "artificial",
+        "intelligence",
+        "applications",
+        "productivity"
+      ],
+      "subcategory": "",
+      "tags": [
+        "ai",
+        "digital-tools",
+        "productivity"
+      ],
+      "type": "Website",
+      "url": "https://www.google.com/search?q=DigAI+AI+tool",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

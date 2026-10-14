@@ -1,94 +1,122 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "026d7280-a63a-5d5c-bff6-9a8759af5686",
+    "createdAt": 1791977019471,
     "displayId": "URDU-DICTIONARIES-AF5686",
+    "id": "026d7280-a63a-5d5c-bff6-9a8759af5686",
+    "kind": "category",
     "name": "Urdu Dictionaries",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019471
   },
+  "parentCategory": null,
   "recordCount": 4,
   "tools": [
     {
-      "id": "cmj-0201",
-      "name": "Rekhta Dictionary",
-      "url": "https://rekhtadictionary.com/",
-      "category": "Urdu Dictionaries",
-      "type": "Learning",
-      "tags": [
-        "dictionary",
-        "language"
-      ],
-      "description": "Urdu Dictionaries resource: Rekhta Dictionary.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
       "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0202",
-      "name": "UrduPoint Dictionary",
-      "url": "https://www.urdupoint.com/dictionary/",
+      "aliases": [],
       "category": "Urdu Dictionaries",
-      "type": "Learning",
-      "tags": [
-        "dictionary",
-        "language"
-      ],
-      "description": "Urdu Dictionaries resource: UrduPoint Dictionary.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0203",
-      "name": "Urdu English Dictionary",
-      "url": "https://www.urduenglishdictionary.org/",
-      "category": "Urdu Dictionaries",
-      "type": "Learning",
-      "tags": [
-        "dictionary",
-        "language"
-      ],
-      "description": "Urdu Dictionaries resource: Urdu English Dictionary.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0204",
-      "name": "Cambridge Dictionary",
-      "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/",
-      "category": "Urdu Dictionaries",
-      "type": "Learning",
-      "tags": [
-        "dictionary",
-        "language"
-      ],
+      "categoryId": "026d7280-a63a-5d5c-bff6-9a8759af5686",
+      "collections": [],
       "description": "Urdu Dictionaries resource: Cambridge Dictionary.",
-      "notes": "Imported from user bookmark collection.",
+      "displayId": "URDU-DICTIONARIES-AF5686-CAMBRIDGE-DICTIONARY-J-0204",
+      "id": "cmj-0204",
+      "lastModified": 1790955425802,
+      "name": "Cambridge Dictionary",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "type": "Learning",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english-urdu/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
+      "source": "remote"
+    },
+    {
       "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Urdu Dictionaries",
+      "categoryId": "026d7280-a63a-5d5c-bff6-9a8759af5686",
+      "collections": [],
+      "description": "Urdu Dictionaries resource: Rekhta Dictionary.",
+      "displayId": "URDU-DICTIONARIES-AF5686-REKHTA-DICTIONARY-J-0201",
+      "id": "cmj-0201",
       "lastModified": 1790955425802,
-      "source": "local"
+      "name": "Rekhta Dictionary",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "type": "Learning",
+      "url": "https://rekhtadictionary.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Urdu Dictionaries",
+      "categoryId": "026d7280-a63a-5d5c-bff6-9a8759af5686",
+      "collections": [],
+      "description": "Urdu Dictionaries resource: Urdu English Dictionary.",
+      "displayId": "URDU-DICTIONARIES-AF5686-URDU-ENGLISH-DICTIONARY-J-0203",
+      "id": "cmj-0203",
+      "lastModified": 1790955425802,
+      "name": "Urdu English Dictionary",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "type": "Learning",
+      "url": "https://www.urduenglishdictionary.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Urdu Dictionaries",
+      "categoryId": "026d7280-a63a-5d5c-bff6-9a8759af5686",
+      "collections": [],
+      "description": "Urdu Dictionaries resource: UrduPoint Dictionary.",
+      "displayId": "URDU-DICTIONARIES-AF5686-URDUPOINT-DICTIONARY-J-0202",
+      "id": "cmj-0202",
+      "lastModified": 1790955425802,
+      "name": "UrduPoint Dictionary",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "type": "Learning",
+      "url": "https://www.urdupoint.com/dictionary/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

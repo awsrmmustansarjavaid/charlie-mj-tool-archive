@@ -1,55 +1,69 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "5e5a14c6-2863-5d8e-b1ac-91b0324822ea",
+    "createdAt": 1791977019471,
     "displayId": "WRITING-ARTICLES-4822EA",
+    "id": "5e5a14c6-2863-5d8e-b1ac-91b0324822ea",
+    "kind": "category",
     "name": "Writing & Articles",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019471
   },
+  "parentCategory": null,
   "recordCount": 2,
   "tools": [
     {
-      "id": "cmj-0122",
-      "name": "Plain English",
-      "url": "https://plainenglish.io/",
+      "addedAt": 1790955425802,
+      "aliases": [],
       "category": "Writing & Articles",
+      "categoryId": "5e5a14c6-2863-5d8e-b1ac-91b0324822ea",
+      "collections": [],
+      "description": "Writing & Articles resource: BeingGuru.",
+      "displayId": "WRITING-ARTICLES-4822EA-BEINGGURU-J-0234",
+      "id": "cmj-0234",
+      "lastModified": 1790955425802,
+      "name": "BeingGuru",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "beingguru"
+      ],
       "type": "Website",
+      "url": "https://www.beingguru.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425801,
+      "aliases": [],
+      "category": "Writing & Articles",
+      "categoryId": "5e5a14c6-2863-5d8e-b1ac-91b0324822ea",
+      "collections": [],
+      "description": "Writing & Articles resource: Plain English.",
+      "displayId": "WRITING-ARTICLES-4822EA-PLAIN-ENGLISH-J-0122",
+      "id": "cmj-0122",
+      "lastModified": 1790955425801,
+      "name": "Plain English",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "plain",
         "english"
       ],
-      "description": "Writing & Articles resource: Plain English.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425801,
-      "lastModified": 1790955425801,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0234",
-      "name": "BeingGuru",
-      "url": "https://www.beingguru.com/",
-      "category": "Writing & Articles",
       "type": "Website",
-      "tags": [
-        "beingguru"
-      ],
-      "description": "Writing & Articles resource: BeingGuru.",
-      "notes": "Imported from user bookmark collection.",
+      "url": "https://plainenglish.io/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

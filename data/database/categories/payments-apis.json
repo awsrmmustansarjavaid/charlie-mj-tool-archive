@@ -1,38 +1,45 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "3a25cbc0-05d2-5ac6-90b5-14ced56b4d45",
+    "createdAt": 1791977019471,
     "displayId": "PAYMENTS-APIS-6B4D45",
+    "id": "3a25cbc0-05d2-5ac6-90b5-14ced56b4d45",
+    "kind": "category",
     "name": "Payments & APIs",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019471
   },
+  "parentCategory": null,
   "recordCount": 1,
   "tools": [
     {
-      "id": "cmj-0022",
-      "name": "NepaPay",
-      "url": "https://neapay.com/",
+      "addedAt": 1790955425800,
+      "aliases": [],
       "category": "Payments & APIs",
-      "type": "Developer",
+      "categoryId": "3a25cbc0-05d2-5ac6-90b5-14ced56b4d45",
+      "collections": [],
+      "description": "Payments & APIs resource: NepaPay.",
+      "displayId": "PAYMENTS-APIS-6B4D45-NEPAPAY-J-0022",
+      "id": "cmj-0022",
+      "lastModified": 1790955425800,
+      "name": "NepaPay",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "payments",
         "api",
         "iso8583"
       ],
-      "description": "Payments & APIs resource: NepaPay.",
-      "notes": "",
+      "type": "Developer",
+      "url": "https://neapay.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425800,
-      "lastModified": 1790955425800,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

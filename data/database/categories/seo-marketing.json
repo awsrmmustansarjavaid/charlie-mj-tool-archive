@@ -1,0 +1,59 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "38faaca6-bc27-4729-b02a-ca674a16666f",
+    "displayId": "SEO-MARKETING-16666F",
+    "name": "SEO & Marketing",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135197,
+    "updatedAt": 1791977135197
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "SEO & Marketing",
+      "categoryId": "38faaca6-bc27-4729-b02a-ca674a16666f",
+      "collections": [],
+      "description": "SEO Studio Tools: Collection or resource of search-engine optimization utilities for website analysis and digital marketing.",
+      "displayId": "SEO-MARKETING-7F4D25-SEO-STUDIO-TOOLS-3F141F",
+      "id": "dc7b349c-c0d1-4763-b0f0-5b0c053f141f",
+      "lastModified": 1791676800000,
+      "name": "SEO Studio Tools",
+      "priority": "normal",
+      "smartLabels": [
+        "seo",
+        "studio",
+        "marketing",
+        "collection",
+        "resource",
+        "search",
+        "engine",
+        "optimization",
+        "utilities",
+        "website",
+        "analysis",
+        "digital"
+      ],
+      "subcategory": "",
+      "tags": [
+        "seo",
+        "marketing",
+        "website",
+        "optimization"
+      ],
+      "type": "Website",
+      "url": "https://www.google.com/search?q=SEO+Studio+Tools",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

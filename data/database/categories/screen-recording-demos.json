@@ -1,57 +1,71 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "6937d28c-a257-5936-a135-ec06e52c6e67",
+    "createdAt": 1791977019471,
     "displayId": "SCREEN-RECORDING-DEMOS-2C6E67",
+    "id": "6937d28c-a257-5936-a135-ec06e52c6e67",
+    "kind": "category",
     "name": "Screen Recording & Demos",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019471
   },
+  "parentCategory": null,
   "recordCount": 2,
   "tools": [
     {
-      "id": "cmj-0039",
-      "name": "Recordly - GitHub",
-      "url": "https://github.com/webadderallorg/recordly",
+      "addedAt": 1790955425800,
+      "aliases": [],
       "category": "Screen Recording & Demos",
-      "type": "GitHub",
+      "categoryId": "6937d28c-a257-5936-a135-ec06e52c6e67",
+      "collections": [],
+      "description": "Screen Recording & Demos resource: Recordly.",
+      "displayId": "SCREEN-RECORDING-DEMOS-2C6E67-RECORDLY-J-0040",
+      "id": "cmj-0040",
+      "lastModified": 1790955425800,
+      "name": "Recordly",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "screen recording",
+        "demo"
+      ],
+      "type": "Website",
+      "url": "https://recordly.dev/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425800,
+      "aliases": [],
+      "category": "Screen Recording & Demos",
+      "categoryId": "6937d28c-a257-5936-a135-ec06e52c6e67",
+      "collections": [],
+      "description": "Screen Recording & Demos resource: Recordly - GitHub.",
+      "displayId": "SCREEN-RECORDING-DEMOS-2C6E67-RECORDLY-GITHUB-J-0039",
+      "id": "cmj-0039",
+      "lastModified": 1790955425800,
+      "name": "Recordly - GitHub",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "screen recording",
         "demo",
         "github"
       ],
-      "description": "Screen Recording & Demos resource: Recordly - GitHub.",
-      "notes": "",
+      "type": "GitHub",
+      "url": "https://github.com/webadderallorg/recordly",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425800,
-      "lastModified": 1790955425800,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0040",
-      "name": "Recordly",
-      "url": "https://recordly.dev/",
-      "category": "Screen Recording & Demos",
-      "type": "Website",
-      "tags": [
-        "screen recording",
-        "demo"
-      ],
-      "description": "Screen Recording & Demos resource: Recordly.",
-      "notes": "",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425800,
-      "lastModified": 1790955425800,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

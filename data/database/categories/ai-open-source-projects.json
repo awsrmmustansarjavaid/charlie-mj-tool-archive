@@ -1,0 +1,99 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "7ff5f1d7-cd10-4cb0-bfa2-aeb3cc2c5285",
+    "displayId": "AI-OPEN-SOURCE-PROJECTS-2C5285",
+    "name": "AI & Open Source Projects",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135292,
+    "updatedAt": 1791977135292
+  },
+  "parentCategory": null,
+  "recordCount": 2,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "AI & Open Source Projects",
+      "categoryId": "7ff5f1d7-cd10-4cb0-bfa2-aeb3cc2c5285",
+      "collections": [],
+      "description": "OpenGym: GitHub project reference saved for exploring an open-source tool or development environment.",
+      "displayId": "AI-OPEN-SOURCE-PROJECTS-B65054-OPENGYM-E811C1",
+      "id": "df41740d-0a5c-4c2f-88ee-327935e811c1",
+      "lastModified": 1791676800000,
+      "name": "OpenGym",
+      "priority": "normal",
+      "smartLabels": [
+        "opengym",
+        "open",
+        "source",
+        "projects",
+        "github",
+        "project",
+        "reference",
+        "saved",
+        "exploring",
+        "development",
+        "environment",
+        "gym"
+      ],
+      "subcategory": "",
+      "tags": [
+        "ai",
+        "open-source",
+        "gym",
+        "development"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=OpenGym&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "AI & Open Source Projects",
+      "categoryId": "7ff5f1d7-cd10-4cb0-bfa2-aeb3cc2c5285",
+      "collections": [],
+      "description": "Vicoa: GitHub project reference saved for exploring its open-source software and capabilities.",
+      "displayId": "AI-OPEN-SOURCE-PROJECTS-B65054-VICOA-2BB8C5",
+      "id": "d2165ed7-928d-4e91-859a-2a23c32bb8c5",
+      "lastModified": 1791676800000,
+      "name": "Vicoa",
+      "priority": "normal",
+      "smartLabels": [
+        "vicoa",
+        "open",
+        "source",
+        "projects",
+        "github",
+        "project",
+        "reference",
+        "saved",
+        "exploring",
+        "its",
+        "software",
+        "capabilities"
+      ],
+      "subcategory": "",
+      "tags": [
+        "ai",
+        "open-source",
+        "software"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=Vicoa&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

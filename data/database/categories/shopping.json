@@ -1,90 +1,118 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "0574ea2f-74c2-5803-ad79-a7f2bc3dc162",
+    "createdAt": 1791977019471,
     "displayId": "SHOPPING-3DC162",
+    "id": "0574ea2f-74c2-5803-ad79-a7f2bc3dc162",
+    "kind": "category",
     "name": "Shopping",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019471
   },
+  "parentCategory": null,
   "recordCount": 4,
   "tools": [
     {
-      "id": "cmj-0215",
-      "name": "Daraz",
-      "url": "https://www.daraz.pk/",
+      "addedAt": 1790955425802,
+      "aliases": [],
       "category": "Shopping",
-      "type": "Website",
+      "categoryId": "0574ea2f-74c2-5803-ad79-a7f2bc3dc162",
+      "collections": [],
+      "description": "Shopping resource: Daraz.",
+      "displayId": "SHOPPING-3DC162-DARAZ-J-0215",
+      "id": "cmj-0215",
+      "lastModified": 1790955425802,
+      "name": "Daraz",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "daraz"
       ],
-      "description": "Shopping resource: Daraz.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0223",
-      "name": "Trendyol",
-      "url": "https://www.trendyol.com/",
-      "category": "Shopping",
       "type": "Website",
-      "tags": [
-        "trendyol"
-      ],
-      "description": "Shopping resource: Trendyol.",
-      "notes": "Imported from user bookmark collection.",
+      "url": "https://www.daraz.pk/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
+      "source": "remote"
     },
     {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Shopping",
+      "categoryId": "0574ea2f-74c2-5803-ad79-a7f2bc3dc162",
+      "collections": [],
+      "description": "Shopping resource: Hepsiburada.",
+      "displayId": "SHOPPING-3DC162-HEPSIBURADA-J-0226",
       "id": "cmj-0226",
+      "lastModified": 1790955425802,
       "name": "Hepsiburada",
-      "url": "https://www.hepsiburada.com/",
-      "category": "Shopping",
-      "type": "Website",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "hepsiburada"
       ],
-      "description": "Shopping resource: Hepsiburada.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Website",
+      "url": "https://www.hepsiburada.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
+      "source": "remote"
     },
     {
-      "id": "cmj-0227",
-      "name": "Morhipo",
-      "url": "https://www.morhipo.com/",
+      "addedAt": 1790955425802,
+      "aliases": [],
       "category": "Shopping",
-      "type": "Website",
+      "categoryId": "0574ea2f-74c2-5803-ad79-a7f2bc3dc162",
+      "collections": [],
+      "description": "Shopping resource: Morhipo.",
+      "displayId": "SHOPPING-3DC162-MORHIPO-J-0227",
+      "id": "cmj-0227",
+      "lastModified": 1790955425802,
+      "name": "Morhipo",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "morhipo"
       ],
-      "description": "Shopping resource: Morhipo.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Website",
+      "url": "https://www.morhipo.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
+      "source": "remote"
+    },
+    {
       "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Shopping",
+      "categoryId": "0574ea2f-74c2-5803-ad79-a7f2bc3dc162",
+      "collections": [],
+      "description": "Shopping resource: Trendyol.",
+      "displayId": "SHOPPING-3DC162-TRENDYOL-J-0223",
+      "id": "cmj-0223",
       "lastModified": 1790955425802,
-      "source": "local"
+      "name": "Trendyol",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "trendyol"
+      ],
+      "type": "Website",
+      "url": "https://www.trendyol.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

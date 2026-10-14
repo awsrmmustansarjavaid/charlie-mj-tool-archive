@@ -1,0 +1,58 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "bcfe1ba8-90ac-43ac-aabd-79331c948822",
+    "displayId": "AI-PROMPT-ENGINEERING-948822",
+    "name": "AI & Prompt Engineering",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135173,
+    "updatedAt": 1791977135173
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "AI & Prompt Engineering",
+      "categoryId": "bcfe1ba8-90ac-43ac-aabd-79331c948822",
+      "collections": [],
+      "description": "Prompt Coaching: Resource for exploring prompt engineering techniques and improving interactions with AI systems.",
+      "displayId": "AI-PROMPT-ENGINEERING-EDD7ED-PROMPT-COACHING-E4465C",
+      "id": "196ed869-a0c5-4ea8-a7ff-6522bde4465c",
+      "lastModified": 1791676800000,
+      "name": "Prompt Coaching",
+      "priority": "normal",
+      "smartLabels": [
+        "prompt",
+        "coaching",
+        "engineering",
+        "resource",
+        "exploring",
+        "techniques",
+        "improving",
+        "interactions",
+        "systems",
+        "prompts",
+        "learning"
+      ],
+      "subcategory": "",
+      "tags": [
+        "ai",
+        "prompts",
+        "prompt-engineering",
+        "learning"
+      ],
+      "type": "Website",
+      "url": "https://www.google.com/search?q=PromptCoaching",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

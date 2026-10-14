@@ -1,0 +1,59 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "08d62392-1bf7-4826-87c9-65ffadb4e52b",
+    "displayId": "AI-DEVELOPMENT-AUTOMATION-B4E52B",
+    "name": "AI Development & Automation",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135447,
+    "updatedAt": 1791977135447
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "AI Development & Automation",
+      "categoryId": "08d62392-1bf7-4826-87c9-65ffadb4e52b",
+      "collections": [],
+      "description": "OpenHarness: Open-source project reference related to software tooling, automation or agent development.",
+      "displayId": "AI-DEVELOPMENT-AUTOMATION-3AA82C-OPENHARNESS-FF49CB",
+      "id": "9f562372-9432-4c7c-a260-aeffeaff49cb",
+      "lastModified": 1791676800000,
+      "name": "OpenHarness",
+      "priority": "normal",
+      "smartLabels": [
+        "openharness",
+        "development",
+        "automation",
+        "open",
+        "source",
+        "project",
+        "reference",
+        "related",
+        "software",
+        "tooling",
+        "agent",
+        "harness"
+      ],
+      "subcategory": "",
+      "tags": [
+        "ai",
+        "automation",
+        "harness",
+        "open-source"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=OpenHarness&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

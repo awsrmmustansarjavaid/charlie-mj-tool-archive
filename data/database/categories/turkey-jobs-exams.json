@@ -1,113 +1,148 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "bf11d2a9-cd91-5d69-a550-3df4ba655edc",
+    "createdAt": 1791977019471,
     "displayId": "TURKEY-JOBS-EXAMS-655EDC",
+    "id": "bf11d2a9-cd91-5d69-a550-3df4ba655edc",
+    "kind": "category",
     "name": "Turkey Jobs & Exams",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019471
   },
+  "parentCategory": null,
   "recordCount": 5,
   "tools": [
     {
-      "id": "cmj-0224",
-      "name": "ÖSYM",
-      "url": "https://www.osym.gov.tr/",
-      "category": "Turkey Jobs & Exams",
-      "type": "Learning",
-      "tags": [
-        "jobs",
-        "career"
-      ],
-      "description": "Turkey Jobs & Exams resource: ÖSYM.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
       "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0225",
-      "name": "İŞKUR e-Şube",
-      "url": "https://esube.iskur.gov.tr/",
+      "aliases": [],
       "category": "Turkey Jobs & Exams",
-      "type": "Learning",
-      "tags": [
-        "jobs",
-        "career"
-      ],
-      "description": "Turkey Jobs & Exams resource: İŞKUR e-Şube.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0228",
-      "name": "Kariyer.net",
-      "url": "https://www.kariyer.net/",
-      "category": "Turkey Jobs & Exams",
-      "type": "Learning",
-      "tags": [
-        "jobs",
-        "career"
-      ],
-      "description": "Turkey Jobs & Exams resource: Kariyer.net.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0229",
-      "name": "Yenibiriş",
-      "url": "https://www.yenibiris.com/",
-      "category": "Turkey Jobs & Exams",
-      "type": "Learning",
-      "tags": [
-        "jobs",
-        "career"
-      ],
-      "description": "Turkey Jobs & Exams resource: Yenibiriş.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0230",
-      "name": "Eleman.net",
-      "url": "https://www.eleman.net/",
-      "category": "Turkey Jobs & Exams",
-      "type": "Learning",
-      "tags": [
-        "jobs",
-        "career"
-      ],
+      "categoryId": "bf11d2a9-cd91-5d69-a550-3df4ba655edc",
+      "collections": [],
       "description": "Turkey Jobs & Exams resource: Eleman.net.",
-      "notes": "Imported from user bookmark collection.",
+      "displayId": "TURKEY-JOBS-EXAMS-655EDC-ELEMAN-NET-J-0230",
+      "id": "cmj-0230",
+      "lastModified": 1790955425802,
+      "name": "Eleman.net",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "type": "Learning",
+      "url": "https://www.eleman.net/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
+      "source": "remote"
+    },
+    {
       "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Turkey Jobs & Exams",
+      "categoryId": "bf11d2a9-cd91-5d69-a550-3df4ba655edc",
+      "collections": [],
+      "description": "Turkey Jobs & Exams resource: İŞKUR e-Şube.",
+      "displayId": "TURKEY-JOBS-EXAMS-655EDC-ISKUR-E-SUBE-J-0225",
+      "id": "cmj-0225",
       "lastModified": 1790955425802,
-      "source": "local"
+      "name": "İŞKUR e-Şube",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "type": "Learning",
+      "url": "https://esube.iskur.gov.tr/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Turkey Jobs & Exams",
+      "categoryId": "bf11d2a9-cd91-5d69-a550-3df4ba655edc",
+      "collections": [],
+      "description": "Turkey Jobs & Exams resource: Kariyer.net.",
+      "displayId": "TURKEY-JOBS-EXAMS-655EDC-KARIYER-NET-J-0228",
+      "id": "cmj-0228",
+      "lastModified": 1790955425802,
+      "name": "Kariyer.net",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "type": "Learning",
+      "url": "https://www.kariyer.net/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Turkey Jobs & Exams",
+      "categoryId": "bf11d2a9-cd91-5d69-a550-3df4ba655edc",
+      "collections": [],
+      "description": "Turkey Jobs & Exams resource: ÖSYM.",
+      "displayId": "TURKEY-JOBS-EXAMS-655EDC-OSYM-J-0224",
+      "id": "cmj-0224",
+      "lastModified": 1790955425802,
+      "name": "ÖSYM",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "type": "Learning",
+      "url": "https://www.osym.gov.tr/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Turkey Jobs & Exams",
+      "categoryId": "bf11d2a9-cd91-5d69-a550-3df4ba655edc",
+      "collections": [],
+      "description": "Turkey Jobs & Exams resource: Yenibiriş.",
+      "displayId": "TURKEY-JOBS-EXAMS-655EDC-YENIBIRIS-J-0229",
+      "id": "cmj-0229",
+      "lastModified": 1790955425802,
+      "name": "Yenibiriş",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "jobs",
+        "career"
+      ],
+      "type": "Learning",
+      "url": "https://www.yenibiris.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

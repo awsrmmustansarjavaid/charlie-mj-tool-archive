@@ -1,0 +1,103 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "22d92ac9-60a8-4aba-bdcc-e0e9f7a9a4ce",
+    "displayId": "VIDEO-MEDIA-TOOLS-A9A4CE",
+    "name": "Video & Media Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135576,
+    "updatedAt": 1791977135576
+  },
+  "parentCategory": null,
+  "recordCount": 2,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Video & Media Tools",
+      "categoryId": "22d92ac9-60a8-4aba-bdcc-e0e9f7a9a4ce",
+      "collections": [],
+      "description": "FreeVideo: GitHub project reference saved for exploring open-source video-related utilities and media tools.",
+      "displayId": "VIDEO-MEDIA-TOOLS-D481EB-FREEVIDEO-1B268A",
+      "id": "603e3425-7892-4c2a-8653-8f54a51b268a",
+      "lastModified": 1791676800000,
+      "name": "FreeVideo",
+      "priority": "normal",
+      "smartLabels": [
+        "freevideo",
+        "video",
+        "media",
+        "github",
+        "project",
+        "reference",
+        "saved",
+        "exploring",
+        "open",
+        "source",
+        "related",
+        "utilities",
+        "editing"
+      ],
+      "subcategory": "",
+      "tags": [
+        "video",
+        "media",
+        "open-source",
+        "editing"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=FreeVideo&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Video & Media Tools",
+      "categoryId": "22d92ac9-60a8-4aba-bdcc-e0e9f7a9a4ce",
+      "collections": [],
+      "description": "One-Take: Project reference saved for exploring video creation, media production or automated content workflows.",
+      "displayId": "VIDEO-MEDIA-TOOLS-D481EB-ONE-TAKE-B82883",
+      "id": "51a39cec-79af-40d0-87dd-982bcdb82883",
+      "lastModified": 1791676800000,
+      "name": "One-Take",
+      "priority": "normal",
+      "smartLabels": [
+        "one",
+        "take",
+        "video",
+        "media",
+        "project",
+        "reference",
+        "saved",
+        "exploring",
+        "creation",
+        "production",
+        "automated",
+        "content",
+        "workflows",
+        "automation"
+      ],
+      "subcategory": "",
+      "tags": [
+        "video",
+        "content-creation",
+        "automation",
+        "media"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=One-Take&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

@@ -1,57 +1,71 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "b66e0bec-a094-5015-9af6-6363af9efc94",
+    "createdAt": 1791977019470,
     "displayId": "DOWNLOADING-SITES-9EFC94",
+    "id": "b66e0bec-a094-5015-9af6-6363af9efc94",
+    "kind": "category",
     "name": "Downloading Sites",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 2,
   "tools": [
     {
-      "id": "cmj-0045",
-      "name": "Downloadly",
-      "url": "https://downloadlynet.ir/",
+      "addedAt": 1790955425800,
+      "aliases": [],
       "category": "Downloading Sites",
-      "type": "Utility",
+      "categoryId": "b66e0bec-a094-5015-9af6-6363af9efc94",
+      "collections": [],
+      "description": "Downloading Sites resource: Downloadly.",
+      "displayId": "DOWNLOADING-SITES-9EFC94-DOWNLOADLY-J-0045",
+      "id": "cmj-0045",
+      "lastModified": 1790955425800,
+      "name": "Downloadly",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "download",
         "media"
       ],
-      "description": "Downloading Sites resource: Downloadly.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Utility",
+      "url": "https://downloadlynet.ir/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425800,
-      "lastModified": 1790955425800,
-      "source": "local"
+      "source": "remote"
     },
     {
-      "id": "cmj-0310",
-      "name": "Downloadly",
-      "url": "https://downloadly.net/",
+      "addedAt": 1790955425803,
+      "aliases": [],
       "category": "Downloading Sites",
-      "type": "Utility",
+      "categoryId": "b66e0bec-a094-5015-9af6-6363af9efc94",
+      "collections": [],
+      "description": "Downloading Sites resource: Downloadly.",
+      "displayId": "DOWNLOADING-SITES-9EFC94-DOWNLOADLY-J-0310",
+      "id": "cmj-0310",
+      "lastModified": 1790955425803,
+      "name": "Downloadly",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "software",
         "downloads",
         "resources"
       ],
-      "description": "Downloading Sites resource: Downloadly.",
-      "notes": "",
+      "type": "Utility",
+      "url": "https://downloadly.net/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425803,
-      "lastModified": 1790955425803,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

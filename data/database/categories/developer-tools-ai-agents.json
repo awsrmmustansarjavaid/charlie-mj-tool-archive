@@ -1,0 +1,63 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "7b326c05-2176-4612-8bd0-7248c8e088a5",
+    "displayId": "DEVELOPER-TOOLS-AI-AGENTS-E088A5",
+    "name": "Developer Tools & AI Agents",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135533,
+    "updatedAt": 1791977135533
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Developer Tools & AI Agents",
+      "categoryId": "7b326c05-2176-4612-8bd0-7248c8e088a5",
+      "collections": [],
+      "description": "GitBot: GitHub project reference related to Git automation, repository management or AI-assisted development workflows.",
+      "displayId": "DEVELOPER-TOOLS-AI-AGENTS-390EF3-GITBOT-18CDCE",
+      "id": "ee4b5821-32fb-4b67-b174-f5768418cdce",
+      "lastModified": 1791676800000,
+      "name": "GitBot",
+      "priority": "normal",
+      "smartLabels": [
+        "gitbot",
+        "developer",
+        "agents",
+        "github",
+        "project",
+        "reference",
+        "related",
+        "git",
+        "automation",
+        "repository",
+        "management",
+        "assisted",
+        "development",
+        "workflows",
+        "bot"
+      ],
+      "subcategory": "",
+      "tags": [
+        "git",
+        "github",
+        "bot",
+        "automation",
+        "developer"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=GitBot&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

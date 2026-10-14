@@ -1,0 +1,60 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "5ff569a6-b398-4521-aaed-71e1696ff112",
+    "displayId": "CLOUD-COMPUTING-DEVOPS-6FF112",
+    "name": "Cloud Computing & DevOps",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135662,
+    "updatedAt": 1791977135662
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Cloud Computing & DevOps",
+      "categoryId": "5ff569a6-b398-4521-aaed-71e1696ff112",
+      "collections": [],
+      "description": "CloudFarm: GitHub project reference saved for exploring cloud-related infrastructure, development or automation tools.",
+      "displayId": "CLOUD-COMPUTING-DEVOPS-4FCC87-CLOUDFARM-0B199E",
+      "id": "454e35a3-1199-4aeb-958c-4a45270b199e",
+      "lastModified": 1791676800000,
+      "name": "CloudFarm",
+      "priority": "normal",
+      "smartLabels": [
+        "cloudfarm",
+        "cloud",
+        "computing",
+        "devops",
+        "github",
+        "project",
+        "reference",
+        "saved",
+        "exploring",
+        "related",
+        "infrastructure",
+        "development",
+        "automation"
+      ],
+      "subcategory": "",
+      "tags": [
+        "cloud",
+        "devops",
+        "infrastructure",
+        "automation"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=CloudFarm&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

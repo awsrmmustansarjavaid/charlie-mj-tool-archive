@@ -1,0 +1,63 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "b609a6c3-3745-4530-8bd9-6f54c0de4a07",
+    "displayId": "CYBERSECURITY-EDUCATION-DE4A07",
+    "name": "Cybersecurity & Education",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134342,
+    "updatedAt": 1791977134342
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Cybersecurity & Education",
+      "categoryId": "b609a6c3-3745-4530-8bd9-6f54c0de4a07",
+      "collections": [],
+      "description": "Interactive cybersecurity education resource explaining common web application vulnerabilities and security concepts.",
+      "displayId": "CYBERSECURITY-EDUCATION-27E82D-HACKSPLAINING-J-0077",
+      "id": "cmj-0077",
+      "lastModified": 1791721020000,
+      "name": "Hacksplaining",
+      "priority": "normal",
+      "smartLabels": [
+        "hacksplaining",
+        "cybersecurity",
+        "education",
+        "interactive",
+        "resource",
+        "explaining",
+        "common",
+        "web",
+        "application",
+        "vulnerabilities",
+        "security",
+        "concepts",
+        "learning",
+        "tutorials"
+      ],
+      "subcategory": "",
+      "tags": [
+        "cybersecurity",
+        "web-security",
+        "learning",
+        "tutorials",
+        "education",
+        "vulnerabilities"
+      ],
+      "type": "Website",
+      "url": "https://www.hacksplaining.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

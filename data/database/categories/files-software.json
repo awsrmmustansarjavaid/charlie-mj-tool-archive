@@ -1,57 +1,71 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "e28c41a6-6e12-5b47-a2d7-2ffd148d1987",
+    "createdAt": 1791977019470,
     "displayId": "FILES-SOFTWARE-8D1987",
+    "id": "e28c41a6-6e12-5b47-a2d7-2ffd148d1987",
+    "kind": "category",
     "name": "Files & Software",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 2,
   "tools": [
     {
-      "id": "cmj-0254",
-      "name": "Send Anywhere",
-      "url": "https://send-anywhere.com/",
+      "addedAt": 1790955425802,
+      "aliases": [],
       "category": "Files & Software",
-      "type": "Utility",
+      "categoryId": "e28c41a6-6e12-5b47-a2d7-2ffd148d1987",
+      "collections": [],
+      "description": "Files & Software resource: Send Anywhere.",
+      "displayId": "FILES-SOFTWARE-8D1987-SEND-ANYWHERE-J-0254",
+      "id": "cmj-0254",
+      "lastModified": 1790955425802,
+      "name": "Send Anywhere",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "send",
         "anywhere"
       ],
-      "description": "Files & Software resource: Send Anywhere.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Utility",
+      "url": "https://send-anywhere.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
+      "source": "remote"
     },
     {
-      "id": "cmj-0257",
-      "name": "The Library PK",
-      "url": "https://www.thelibrarypk.com/",
+      "addedAt": 1790955425802,
+      "aliases": [],
       "category": "Files & Software",
-      "type": "Utility",
+      "categoryId": "e28c41a6-6e12-5b47-a2d7-2ffd148d1987",
+      "collections": [],
+      "description": "Files & Software resource: The Library PK.",
+      "displayId": "FILES-SOFTWARE-8D1987-THE-LIBRARY-PK-J-0257",
+      "id": "cmj-0257",
+      "lastModified": 1790955425802,
+      "name": "The Library PK",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "the",
         "library",
         "pk"
       ],
-      "description": "Files & Software resource: The Library PK.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Utility",
+      "url": "https://www.thelibrarypk.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

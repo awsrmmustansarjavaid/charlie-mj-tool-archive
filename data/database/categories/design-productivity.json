@@ -1,0 +1,54 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "c4b66e54-4b8a-4b8f-b941-f319b450fe8c",
+    "displayId": "DESIGN-PRODUCTIVITY-50FE8C",
+    "name": "Design & Productivity",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134207,
+    "updatedAt": 1791977134207
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Design & Productivity",
+      "categoryId": "c4b66e54-4b8a-4b8f-b941-f319b450fe8c",
+      "collections": [],
+      "description": "Design and productivity resource: Blueprint.am. Explore its available online tools and services.",
+      "displayId": "DESIGN-PRODUCTIVITY-F47B94-BLUEPRINT-AM-J-0068",
+      "id": "cmj-0068",
+      "lastModified": 1791721020000,
+      "name": "Blueprint.am",
+      "priority": "normal",
+      "smartLabels": [
+        "blueprint",
+        "design",
+        "productivity",
+        "resource",
+        "explore",
+        "its",
+        "available",
+        "services"
+      ],
+      "subcategory": "",
+      "tags": [
+        "blueprint",
+        "design",
+        "productivity"
+      ],
+      "type": "Website",
+      "url": "https://blueprint.am/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

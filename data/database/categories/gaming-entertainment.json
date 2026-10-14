@@ -1,0 +1,102 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "b89803b8-0784-4c3e-8699-7b94575eeb3f",
+    "displayId": "GAMING-ENTERTAINMENT-5EEB3F",
+    "name": "Gaming & Entertainment",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134418,
+    "updatedAt": 1791977134418
+  },
+  "parentCategory": null,
+  "recordCount": 2,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Gaming & Entertainment",
+      "categoryId": "b89803b8-0784-4c3e-8699-7b94575eeb3f",
+      "collections": [],
+      "description": "Retro gaming website for exploring and playing classic video games through browser-based gaming experiences.",
+      "displayId": "GAMING-ENTERTAINMENT-2A4CA5-RETROGAMES-J-0083",
+      "id": "cmj-0083",
+      "lastModified": 1791721020000,
+      "name": "RetroGames",
+      "priority": "normal",
+      "smartLabels": [
+        "retrogames",
+        "gaming",
+        "entertainment",
+        "retro",
+        "website",
+        "exploring",
+        "playing",
+        "classic",
+        "video",
+        "games",
+        "through",
+        "browser",
+        "based",
+        "experiences",
+        "emulation"
+      ],
+      "subcategory": "",
+      "tags": [
+        "retro",
+        "gaming",
+        "classic-games",
+        "emulation"
+      ],
+      "type": "Website",
+      "url": "https://www.retrogames.cc/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Gaming & Entertainment",
+      "categoryId": "b89803b8-0784-4c3e-8699-7b94575eeb3f",
+      "collections": [],
+      "description": "RetroGames: Online retro gaming destination for exploring and playing classic video games.",
+      "displayId": "GAMING-ENTERTAINMENT-2A4CA5-RETROGAMES-2BCDE6",
+      "id": "65721707-3ab2-472c-8be6-81e7fe2bcde6",
+      "lastModified": 1791676800000,
+      "name": "RetroGames",
+      "priority": "normal",
+      "smartLabels": [
+        "retrogames",
+        "gaming",
+        "entertainment",
+        "retro",
+        "destination",
+        "exploring",
+        "playing",
+        "classic",
+        "video",
+        "games",
+        "classics"
+      ],
+      "subcategory": "",
+      "tags": [
+        "retro",
+        "games",
+        "gaming",
+        "classics"
+      ],
+      "type": "Website",
+      "url": "https://www.retrogames.cz/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

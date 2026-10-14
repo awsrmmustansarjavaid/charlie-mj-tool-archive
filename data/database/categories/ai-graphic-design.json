@@ -1,0 +1,63 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "db8208b7-f754-41c7-885e-7278001344ac",
+    "displayId": "AI-GRAPHIC-DESIGN-1344AC",
+    "name": "AI & Graphic Design",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134881,
+    "updatedAt": 1791977134881
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "AI & Graphic Design",
+      "categoryId": "db8208b7-f754-41c7-885e-7278001344ac",
+      "collections": [],
+      "description": "AI-powered design platform for generating, transforming and developing logo concepts and branding assets.",
+      "displayId": "AI-GRAPHIC-DESIGN-5167ED-LOGO-DIFFUSION-J-0099",
+      "id": "cmj-0099",
+      "lastModified": 1791721020000,
+      "name": "Logo Diffusion",
+      "priority": "normal",
+      "smartLabels": [
+        "logo",
+        "diffusion",
+        "graphic",
+        "design",
+        "powered",
+        "platform",
+        "generating",
+        "transforming",
+        "developing",
+        "concepts",
+        "branding",
+        "assets",
+        "image",
+        "generation"
+      ],
+      "subcategory": "",
+      "tags": [
+        "ai",
+        "logo",
+        "branding",
+        "graphic-design",
+        "image-generation",
+        "design"
+      ],
+      "type": "Website",
+      "url": "https://logodiffusion.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

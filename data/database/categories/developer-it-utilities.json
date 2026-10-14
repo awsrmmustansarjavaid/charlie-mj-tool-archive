@@ -1,0 +1,66 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "0bbd63f7-515f-48e4-b281-5d0e234ba737",
+    "displayId": "DEVELOPER-IT-UTILITIES-4BA737",
+    "name": "Developer & IT Utilities",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134808,
+    "updatedAt": 1791977134808
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Developer & IT Utilities",
+      "categoryId": "0bbd63f7-515f-48e4-b281-5d0e234ba737",
+      "collections": [],
+      "description": "Collection of useful developer and IT utilities, including encoders, converters, generators and technical helpers.",
+      "displayId": "DEVELOPER-IT-UTILITIES-1AF27F-IT-TOOLS-J-0096",
+      "id": "cmj-0096",
+      "lastModified": 1791721020000,
+      "name": "IT-Tools",
+      "priority": "normal",
+      "smartLabels": [
+        "developer",
+        "utilities",
+        "collection",
+        "useful",
+        "including",
+        "encoders",
+        "converters",
+        "generators",
+        "technical",
+        "helpers",
+        "encoding",
+        "open",
+        "source",
+        "json",
+        "conversion"
+      ],
+      "subcategory": "",
+      "tags": [
+        "developer",
+        "it",
+        "utilities",
+        "encoding",
+        "generators",
+        "open-source",
+        "json",
+        "conversion"
+      ],
+      "type": "Website",
+      "url": "https://it-tools.tech/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

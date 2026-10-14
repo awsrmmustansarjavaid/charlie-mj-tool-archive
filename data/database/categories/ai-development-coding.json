@@ -1,0 +1,61 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "1c83875b-b996-440e-8088-c21c6afa0207",
+    "displayId": "AI-DEVELOPMENT-CODING-FA0207",
+    "name": "AI Development & Coding",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135339,
+    "updatedAt": 1791977135339
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "AI Development & Coding",
+      "categoryId": "1c83875b-b996-440e-8088-c21c6afa0207",
+      "collections": [],
+      "description": "Claude Code Templates: Collection of reusable templates and configurations intended to support development workflows using Claude Code.",
+      "displayId": "AI-DEVELOPMENT-CODING-389B8C-CLAUDE-CODE-TEMPLATES-C33D29",
+      "id": "f9cf1e32-b5b8-46b6-8154-1ad8f8c33d29",
+      "lastModified": 1791676800000,
+      "name": "Claude Code Templates",
+      "priority": "normal",
+      "smartLabels": [
+        "claude",
+        "code",
+        "templates",
+        "development",
+        "coding",
+        "collection",
+        "reusable",
+        "configurations",
+        "intended",
+        "support",
+        "workflows",
+        "using",
+        "agents"
+      ],
+      "subcategory": "",
+      "tags": [
+        "claude",
+        "ai",
+        "coding",
+        "templates",
+        "agents"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=Claude+Code+Templates&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

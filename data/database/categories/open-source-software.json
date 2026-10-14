@@ -1,0 +1,94 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "48627d67-1d81-489d-bd95-e609d59b8ff8",
+    "displayId": "OPEN-SOURCE-SOFTWARE-9B8FF8",
+    "name": "Open Source Software",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135360,
+    "updatedAt": 1791977135360
+  },
+  "parentCategory": null,
+  "recordCount": 2,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Open Source Software",
+      "categoryId": "48627d67-1d81-489d-bd95-e609d59b8ff8",
+      "collections": [],
+      "description": "OpenFrame: Open-source project reference for exploring software frameworks and development tools.",
+      "displayId": "OPEN-SOURCE-SOFTWARE-56D40D-OPENFRAME-F83B74",
+      "id": "05062bdc-dd7b-4222-9bc9-81b340f83b74",
+      "lastModified": 1791676800000,
+      "name": "OpenFrame",
+      "priority": "normal",
+      "smartLabels": [
+        "openframe",
+        "open",
+        "source",
+        "software",
+        "project",
+        "reference",
+        "exploring",
+        "frameworks",
+        "development",
+        "framework"
+      ],
+      "subcategory": "",
+      "tags": [
+        "open-source",
+        "framework",
+        "development"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=OpenFrame&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Open Source Software",
+      "categoryId": "48627d67-1d81-489d-bd95-e609d59b8ff8",
+      "collections": [],
+      "description": "Oriveo Community Edition: Community software project saved for exploration and evaluation.",
+      "displayId": "OPEN-SOURCE-SOFTWARE-56D40D-ORIVEO-COMMUNITY-EDITION-508E61",
+      "id": "bbca3c1b-24b8-47ac-aa34-66082e508e61",
+      "lastModified": 1791676800000,
+      "name": "Oriveo Community Edition",
+      "priority": "normal",
+      "smartLabels": [
+        "oriveo",
+        "community",
+        "edition",
+        "open",
+        "source",
+        "software",
+        "project",
+        "saved",
+        "exploration",
+        "evaluation"
+      ],
+      "subcategory": "",
+      "tags": [
+        "open-source",
+        "community",
+        "software"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=Oriveo+Community+Edition&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

@@ -1,56 +1,70 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "5df6b380-839b-5e93-b35b-57c4e78619a7",
+    "createdAt": 1791977019470,
     "displayId": "INTERNET-CONNECTIVITY-8619A7",
+    "id": "5df6b380-839b-5e93-b35b-57c4e78619a7",
+    "kind": "category",
     "name": "Internet & Connectivity",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 2,
   "tools": [
     {
-      "id": "cmj-0023",
-      "name": "OnlineSIM",
-      "url": "https://onlinesim.io/",
+      "addedAt": 1790955425800,
+      "aliases": [],
       "category": "Internet & Connectivity",
-      "type": "Utility",
+      "categoryId": "5df6b380-839b-5e93-b35b-57c4e78619a7",
+      "collections": [],
+      "description": "Internet & Connectivity resource: OnlineSIM.",
+      "displayId": "INTERNET-CONNECTIVITY-8619A7-ONLINESIM-J-0023",
+      "id": "cmj-0023",
+      "lastModified": 1790955425800,
+      "name": "OnlineSIM",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "virtual sim",
         "sms"
       ],
-      "description": "Internet & Connectivity resource: OnlineSIM.",
-      "notes": "",
+      "type": "Utility",
+      "url": "https://onlinesim.io/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425800,
-      "lastModified": 1790955425800,
-      "source": "local"
+      "source": "remote"
     },
     {
-      "id": "cmj-0024",
-      "name": "WiFi Map",
-      "url": "https://www.wifimap.io/",
+      "addedAt": 1790955425800,
+      "aliases": [],
       "category": "Internet & Connectivity",
-      "type": "Utility",
+      "categoryId": "5df6b380-839b-5e93-b35b-57c4e78619a7",
+      "collections": [],
+      "description": "Internet & Connectivity resource: WiFi Map.",
+      "displayId": "INTERNET-CONNECTIVITY-8619A7-WIFI-MAP-J-0024",
+      "id": "cmj-0024",
+      "lastModified": 1790955425800,
+      "name": "WiFi Map",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "wifi",
         "connectivity"
       ],
-      "description": "Internet & Connectivity resource: WiFi Map.",
-      "notes": "",
+      "type": "Utility",
+      "url": "https://www.wifimap.io/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425800,
-      "lastModified": 1790955425800,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

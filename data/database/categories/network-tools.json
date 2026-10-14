@@ -1,56 +1,70 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "fc0fc09a-89e6-5821-9bbe-dbc16cd8cd56",
+    "createdAt": 1791977019470,
     "displayId": "NETWORK-TOOLS-D8CD56",
+    "id": "fc0fc09a-89e6-5821-9bbe-dbc16cd8cd56",
+    "kind": "category",
     "name": "Network Tools",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 2,
   "tools": [
     {
-      "id": "bf4ea42b-f9ad-4bf0-ae2c-87aa6fac852e",
-      "name": "speedtest",
-      "url": "https://www.speedtest.net/",
+      "addedAt": 1790924745870,
+      "aliases": [],
       "category": "Network Tools",
-      "type": "Website",
-      "tags": [
-        "speedtest"
-      ],
-      "description": "Network testing utility for measuring internet connection speed and performance.",
-      "notes": "",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790924715494,
-      "lastModified": 1790924715494,
-      "source": "local"
-    },
-    {
+      "categoryId": "fc0fc09a-89e6-5821-9bbe-dbc16cd8cd56",
+      "collections": [],
+      "description": "Simple internet speed testing service for checking download and connection performance.",
+      "displayId": "NETWORK-TOOLS-D8CD56-FAST-SPEED-TESTER-FBB532",
       "id": "53698db3-0dd0-42bc-928e-142d83fbb532",
+      "lastModified": 1790924745870,
       "name": "Fast Speed Tester",
-      "url": "https://fast.com/",
-      "category": "Network Tools",
-      "type": "Website",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "fast",
         "speed",
         "tester"
       ],
-      "description": "Simple internet speed testing service for checking download and connection performance.",
-      "notes": "",
+      "type": "Website",
+      "url": "https://fast.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790924745870,
-      "lastModified": 1790924745870,
-      "source": "local"
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790924715494,
+      "aliases": [],
+      "category": "Network Tools",
+      "categoryId": "fc0fc09a-89e6-5821-9bbe-dbc16cd8cd56",
+      "collections": [],
+      "description": "Network testing utility for measuring internet connection speed and performance.",
+      "displayId": "NETWORK-TOOLS-D8CD56-SPEEDTEST-AC852E",
+      "id": "bf4ea42b-f9ad-4bf0-ae2c-87aa6fac852e",
+      "lastModified": 1790924715494,
+      "name": "speedtest",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "speedtest"
+      ],
+      "type": "Website",
+      "url": "https://www.speedtest.net/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

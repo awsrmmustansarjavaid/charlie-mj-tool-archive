@@ -1,0 +1,61 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "6180eec0-1b1e-436f-a17c-d2be2ce24e15",
+    "displayId": "DEVELOPER-TOOLS-PRODUCTIVITY-E24E15",
+    "name": "Developer Tools & Productivity",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135631,
+    "updatedAt": 1791977135631
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Developer Tools & Productivity",
+      "categoryId": "6180eec0-1b1e-436f-a17c-d2be2ce24e15",
+      "collections": [],
+      "description": "Core Deck: GitHub project reference saved for exploring software tools and development utilities.",
+      "displayId": "DEVELOPER-TOOLS-PRODUCTIVITY-084997-CORE-DECK-BE1105",
+      "id": "70bfa832-6525-44c3-8529-e4ba51be1105",
+      "lastModified": 1791676800000,
+      "name": "Core Deck",
+      "priority": "normal",
+      "smartLabels": [
+        "core",
+        "deck",
+        "developer",
+        "productivity",
+        "github",
+        "project",
+        "reference",
+        "saved",
+        "exploring",
+        "software",
+        "development",
+        "utilities",
+        "open",
+        "source"
+      ],
+      "subcategory": "",
+      "tags": [
+        "developer",
+        "tools",
+        "productivity",
+        "open-source"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=Core+Deck&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

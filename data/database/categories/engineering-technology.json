@@ -1,0 +1,54 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "39b37e23-1c1e-4fb1-9257-73f93e24c0a0",
+    "displayId": "ENGINEERING-TECHNOLOGY-24C0A0",
+    "name": "Engineering & Technology",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135053,
+    "updatedAt": 1791977135053
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Engineering & Technology",
+      "categoryId": "39b37e23-1c1e-4fb1-9257-73f93e24c0a0",
+      "collections": [],
+      "description": "Enggroom: Engineering-related online resource for technical learning and exploration.",
+      "displayId": "ENGINEERING-TECHNOLOGY-86A92D-ENGGROOM-C1D1A7",
+      "id": "e81bf6ec-bf86-4ed3-b250-abcc53c1d1a7",
+      "lastModified": 1791676800000,
+      "name": "Enggroom",
+      "priority": "normal",
+      "smartLabels": [
+        "enggroom",
+        "engineering",
+        "technology",
+        "related",
+        "resource",
+        "technical",
+        "learning",
+        "exploration"
+      ],
+      "subcategory": "",
+      "tags": [
+        "engineering",
+        "technology",
+        "learning"
+      ],
+      "type": "Website",
+      "url": "https://www.google.com/search?q=Enggroom",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

@@ -1,57 +1,71 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "6aca472c-32df-50b1-8302-f39cd910a279",
+    "createdAt": 1791977019470,
     "displayId": "BOOKS-READING-10A279",
+    "id": "6aca472c-32df-50b1-8302-f39cd910a279",
+    "kind": "category",
     "name": "Books & Reading",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 2,
   "tools": [
     {
-      "id": "cmj-0150",
-      "name": "Project Gutenberg",
-      "url": "https://www.gutenberg.org/",
+      "addedAt": 1790955425801,
+      "aliases": [],
       "category": "Books & Reading",
-      "type": "Website",
+      "categoryId": "6aca472c-32df-50b1-8302-f39cd910a279",
+      "collections": [],
+      "description": "Books & Reading resource: Project Gutenberg.",
+      "displayId": "BOOKS-READING-10A279-PROJECT-GUTENBERG-J-0150",
+      "id": "cmj-0150",
+      "lastModified": 1790955425801,
+      "name": "Project Gutenberg",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "project",
         "gutenberg"
       ],
-      "description": "Books & Reading resource: Project Gutenberg.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Website",
+      "url": "https://www.gutenberg.org/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425801,
-      "lastModified": 1790955425801,
-      "source": "local"
+      "source": "remote"
     },
     {
-      "id": "cmj-0295",
-      "name": "Z-Library",
-      "url": "https://z-lib.org/",
+      "addedAt": 1790955425802,
+      "aliases": [],
       "category": "Books & Reading",
-      "type": "Reading",
+      "categoryId": "6aca472c-32df-50b1-8302-f39cd910a279",
+      "collections": [],
+      "description": "Books & Reading resource: Z-Library.",
+      "displayId": "BOOKS-READING-10A279-Z-LIBRARY-J-0295",
+      "id": "cmj-0295",
+      "lastModified": 1790955425802,
+      "name": "Z-Library",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "books",
         "library",
         "reading"
       ],
-      "description": "Books & Reading resource: Z-Library.",
-      "notes": "",
+      "type": "Reading",
+      "url": "https://z-lib.org/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

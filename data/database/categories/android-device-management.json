@@ -1,0 +1,66 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "5bc025d5-d3d0-4510-9b29-62b3ef5211f2",
+    "displayId": "ANDROID-DEVICE-MANAGEMENT-5211F2",
+    "name": "Android & Device Management",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134931,
+    "updatedAt": 1791977134931
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Android & Device Management",
+      "categoryId": "5bc025d5-d3d0-4510-9b29-62b3ef5211f2",
+      "collections": [],
+      "description": "Open-source application for displaying and controlling Android devices from a computer through USB or TCP/IP.",
+      "displayId": "ANDROID-DEVICE-MANAGEMENT-670024-SCRCPY-J-0101",
+      "id": "cmj-0101",
+      "lastModified": 1791721020000,
+      "name": "scrcpy",
+      "priority": "normal",
+      "smartLabels": [
+        "scrcpy",
+        "android",
+        "device",
+        "management",
+        "open",
+        "source",
+        "application",
+        "displaying",
+        "controlling",
+        "devices",
+        "computer",
+        "through",
+        "usb",
+        "tcp",
+        "screen",
+        "mirroring",
+        "adb",
+        "remote"
+      ],
+      "subcategory": "",
+      "tags": [
+        "android",
+        "screen-mirroring",
+        "adb",
+        "remote-control",
+        "open-source"
+      ],
+      "type": "GitHub",
+      "url": "https://github.com/Genymobile/scrcpy",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

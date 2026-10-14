@@ -1,0 +1,63 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "b8afd2bb-a1c1-496e-83b5-345e8af84b5d",
+    "displayId": "CREATIVE-TOOLS-GENERATORS-F84B5D",
+    "name": "Creative Tools & Generators",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135009,
+    "updatedAt": 1791977135009
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Creative Tools & Generators",
+      "categoryId": "b8afd2bb-a1c1-496e-83b5-345e8af84b5d",
+      "collections": [],
+      "description": "Oskar Stålberg: Creative work and procedural generation experiments, including interactive city-building and world-generation projects.",
+      "displayId": "CREATIVE-TOOLS-GENERATORS-EEE1AB-OSKAR-STALBERG-CITY-GENERATOR-AECBC6",
+      "id": "67be3422-6f09-4820-b838-a075a3aecbc6",
+      "lastModified": 1791676800000,
+      "name": "Oskar Stalberg City Generator",
+      "priority": "normal",
+      "smartLabels": [
+        "oskar",
+        "stalberg",
+        "city",
+        "generator",
+        "creative",
+        "generators",
+        "work",
+        "procedural",
+        "generation",
+        "experiments",
+        "including",
+        "interactive",
+        "building",
+        "world",
+        "projects",
+        "simulation"
+      ],
+      "subcategory": "",
+      "tags": [
+        "city-generator",
+        "procedural",
+        "creative",
+        "simulation"
+      ],
+      "type": "Website",
+      "url": "https://www.oskarstalberg.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

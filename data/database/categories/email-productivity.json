@@ -1,0 +1,54 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "ab39d73c-924b-4a7e-b7ba-242771cbb1b6",
+    "displayId": "EMAIL-PRODUCTIVITY-CBB1B6",
+    "name": "Email & Productivity",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135099,
+    "updatedAt": 1791977135099
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Email & Productivity",
+      "categoryId": "ab39d73c-924b-4a7e-b7ba-242771cbb1b6",
+      "collections": [],
+      "description": "Behind the Email: Email-related online resource for exploring email communication and workflows.",
+      "displayId": "EMAIL-PRODUCTIVITY-6D537F-BEHIND-THE-EMAIL-2FF268",
+      "id": "a158542b-dba0-4e6d-a327-93dccf2ff268",
+      "lastModified": 1791676800000,
+      "name": "Behind the Email",
+      "priority": "normal",
+      "smartLabels": [
+        "behind",
+        "email",
+        "productivity",
+        "related",
+        "resource",
+        "exploring",
+        "communication",
+        "workflows"
+      ],
+      "subcategory": "",
+      "tags": [
+        "email",
+        "productivity",
+        "communication"
+      ],
+      "type": "Website",
+      "url": "https://www.google.com/search?q=Behind+the+Email",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

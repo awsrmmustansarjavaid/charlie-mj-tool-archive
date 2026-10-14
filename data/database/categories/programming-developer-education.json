@@ -1,0 +1,67 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "6f8e4049-08ec-43fa-ac5b-3353c7c94d27",
+    "displayId": "PROGRAMMING-DEVELOPER-EDUCATION-C94D27",
+    "name": "Programming & Developer Education",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134906,
+    "updatedAt": 1791977134906
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Programming & Developer Education",
+      "categoryId": "6f8e4049-08ec-43fa-ac5b-3353c7c94d27",
+      "collections": [],
+      "description": "Interactive programming platform that teaches software engineering by building real-world tools and systems from scratch.",
+      "displayId": "PROGRAMMING-DEVELOPER-EDUCATION-25BF8A-CODECRAFTERS-J-0100",
+      "id": "cmj-0100",
+      "lastModified": 1791721020000,
+      "name": "CodeCrafters",
+      "priority": "normal",
+      "smartLabels": [
+        "codecrafters",
+        "programming",
+        "developer",
+        "education",
+        "interactive",
+        "platform",
+        "teaches",
+        "software",
+        "engineering",
+        "building",
+        "real",
+        "world",
+        "systems",
+        "scratch",
+        "coding",
+        "projects",
+        "learning",
+        "backend"
+      ],
+      "subcategory": "",
+      "tags": [
+        "programming",
+        "coding",
+        "developer",
+        "projects",
+        "learning",
+        "backend"
+      ],
+      "type": "Website",
+      "url": "https://codecrafters.io/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

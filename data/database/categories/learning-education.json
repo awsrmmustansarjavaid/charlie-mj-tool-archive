@@ -1,56 +1,70 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "d498fbb8-b280-5938-ad0c-503753a83af5",
+    "createdAt": 1791977019470,
     "displayId": "LEARNING-EDUCATION-A83AF5",
+    "id": "d498fbb8-b280-5938-ad0c-503753a83af5",
+    "kind": "category",
     "name": "Learning & Education",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 2,
   "tools": [
     {
-      "id": "cmj-0285",
-      "name": "FreeCourseWeb",
-      "url": "https://freecourseweb.com/tutorialsv4/",
+      "addedAt": 1790925770527,
+      "aliases": [],
       "category": "Learning & Education",
-      "type": "Website",
+      "categoryId": "d498fbb8-b280-5938-ad0c-503753a83af5",
+      "collections": [],
+      "description": "Imported Bookmarks resource: FreeCourseWeb.",
+      "displayId": "LEARNING-EDUCATION-A83AF5-FREECOURSEWEB-J-0285",
+      "id": "cmj-0285",
+      "lastModified": 1790925770527,
+      "name": "FreeCourseWeb",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "freecourseweb"
       ],
-      "description": "Imported Bookmarks resource: FreeCourseWeb.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Website",
+      "url": "https://freecourseweb.com/tutorialsv4/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790925770527,
-      "lastModified": 1790925770527,
-      "source": "local"
+      "source": "remote"
     },
     {
-      "id": "cmj-0286",
-      "name": "Udemy",
-      "url": "https://www.udemy.com/",
+      "addedAt": 1790955425802,
+      "aliases": [],
       "category": "Learning & Education",
-      "type": "Learning",
+      "categoryId": "d498fbb8-b280-5938-ad0c-503753a83af5",
+      "collections": [],
+      "description": "Online learning platform with courses for technology, business, design and more.",
+      "displayId": "LEARNING-EDUCATION-A83AF5-UDEMY-J-0286",
+      "id": "cmj-0286",
+      "lastModified": 1790955425802,
+      "name": "Udemy",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "courses",
         "learning",
         "skills"
       ],
-      "description": "Online learning platform with courses for technology, business, design and more.",
-      "notes": "",
+      "type": "Learning",
+      "url": "https://www.udemy.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

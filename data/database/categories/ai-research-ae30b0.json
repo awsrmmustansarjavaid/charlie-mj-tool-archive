@@ -1,0 +1,62 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "ae30b087-774d-4c53-93df-a45809cc4e66",
+    "displayId": "AI-RESEARCH-CC4E66",
+    "name": "AI & Research",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134266,
+    "updatedAt": 1791977134266
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "AI & Research",
+      "categoryId": "ae30b087-774d-4c53-93df-a45809cc4e66",
+      "collections": [],
+      "description": "AI research assistant for finding academic papers, extracting research information and supporting literature reviews.",
+      "displayId": "AI-RESEARCH-33546A-ELICIT-J-0073",
+      "id": "cmj-0073",
+      "lastModified": 1791721020000,
+      "name": "Elicit",
+      "priority": "normal",
+      "smartLabels": [
+        "elicit",
+        "research",
+        "assistant",
+        "finding",
+        "academic",
+        "papers",
+        "extracting",
+        "information",
+        "supporting",
+        "literature",
+        "reviews",
+        "review",
+        "learning"
+      ],
+      "subcategory": "",
+      "tags": [
+        "ai",
+        "research",
+        "academic",
+        "papers",
+        "literature-review",
+        "learning"
+      ],
+      "type": "Website",
+      "url": "https://elicit.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

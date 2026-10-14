@@ -1,0 +1,57 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "147f670a-354f-4a69-a592-25fc75547482",
+    "displayId": "PHOTO-EDITOR-TOOLS-547482",
+    "name": "Photo Editor Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134190,
+    "updatedAt": 1791977134190
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791526940104,
+      "aliases": [],
+      "category": "Photo Editor Tools",
+      "categoryId": "147f670a-354f-4a69-a592-25fc75547482",
+      "collections": [],
+      "description": "Photo Editor Tools resource: Resizer JPG. Useful for quick access from your personal tool archive.",
+      "displayId": "PHOTO-EDITOR-TOOLS-7866B0-RESIZER-JPG-42987F",
+      "id": "3303360e-b3c0-460e-a4aa-c6198342987f",
+      "lastModified": 1791526940104,
+      "name": "Resizer JPG",
+      "priority": "normal",
+      "smartLabels": [
+        "resizer",
+        "jpg",
+        "photo",
+        "editor",
+        "resource",
+        "useful",
+        "quick",
+        "access",
+        "personal",
+        "archive"
+      ],
+      "subcategory": "",
+      "tags": [
+        "resizer",
+        "jpg",
+        "photo",
+        "editor"
+      ],
+      "type": "Website",
+      "url": "https://resizebox.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

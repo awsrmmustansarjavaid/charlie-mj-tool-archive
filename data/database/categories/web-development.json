@@ -1,73 +1,94 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "49095b75-967f-53e2-8f72-50395a3bcc0f",
+    "createdAt": 1791977019471,
     "displayId": "WEB-DEVELOPMENT-3BCC0F",
+    "id": "49095b75-967f-53e2-8f72-50395a3bcc0f",
+    "kind": "category",
     "name": "Web Development",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019471
   },
+  "parentCategory": null,
   "recordCount": 3,
   "tools": [
     {
-      "id": "cmj-0274",
-      "name": "CSS-Tricks",
-      "url": "https://css-tricks.com/",
-      "category": "Web Development",
-      "type": "Developer",
-      "tags": [
-        "css-tricks"
-      ],
-      "description": "Web Development resource: CSS-Tricks.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
       "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0275",
-      "name": "Responsively",
-      "url": "https://responsively.app/download",
+      "aliases": [],
       "category": "Web Development",
-      "type": "Developer",
-      "tags": [
-        "responsively"
-      ],
-      "description": "Web Development resource: Responsively.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
+      "categoryId": "49095b75-967f-53e2-8f72-50395a3bcc0f",
+      "collections": [],
+      "description": "Web Development resource: Charles Proxy.",
+      "displayId": "WEB-DEVELOPMENT-3BCC0F-CHARLES-PROXY-J-0276",
       "id": "cmj-0276",
+      "lastModified": 1790955425802,
       "name": "Charles Proxy",
-      "url": "https://www.charlesproxy.com/",
-      "category": "Web Development",
-      "type": "Developer",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "charles",
         "proxy"
       ],
-      "description": "Web Development resource: Charles Proxy.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Developer",
+      "url": "https://www.charlesproxy.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
+      "source": "remote"
+    },
+    {
       "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Web Development",
+      "categoryId": "49095b75-967f-53e2-8f72-50395a3bcc0f",
+      "collections": [],
+      "description": "Web Development resource: CSS-Tricks.",
+      "displayId": "WEB-DEVELOPMENT-3BCC0F-CSS-TRICKS-J-0274",
+      "id": "cmj-0274",
       "lastModified": 1790955425802,
-      "source": "local"
+      "name": "CSS-Tricks",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "css-tricks"
+      ],
+      "type": "Developer",
+      "url": "https://css-tricks.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Web Development",
+      "categoryId": "49095b75-967f-53e2-8f72-50395a3bcc0f",
+      "collections": [],
+      "description": "Web Development resource: Responsively.",
+      "displayId": "WEB-DEVELOPMENT-3BCC0F-RESPONSIVELY-J-0275",
+      "id": "cmj-0275",
+      "lastModified": 1790955425802,
+      "name": "Responsively",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "responsively"
+      ],
+      "type": "Developer",
+      "url": "https://responsively.app/download",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

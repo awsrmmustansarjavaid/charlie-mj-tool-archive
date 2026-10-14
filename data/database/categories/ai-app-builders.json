@@ -1,37 +1,44 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "7f09ba25-1269-57cf-a2b9-f82bcf6d5a8b",
+    "createdAt": 1791977019470,
     "displayId": "AI-APP-BUILDERS-6D5A8B",
+    "id": "7f09ba25-1269-57cf-a2b9-f82bcf6d5a8b",
+    "kind": "category",
     "name": "AI App Builders",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 1,
   "tools": [
     {
-      "id": "cmj-0007",
-      "name": "Anything - AI app builder",
-      "url": "https://www.createanything.com/dashboard/team/71d0628f-6405-4dec-a31f-f3f5c1cb7f08",
+      "addedAt": 1790955425800,
+      "aliases": [],
       "category": "AI App Builders",
-      "type": "AI",
+      "categoryId": "7f09ba25-1269-57cf-a2b9-f82bcf6d5a8b",
+      "collections": [],
+      "description": "AI App Builders resource: Anything - AI app builder.",
+      "displayId": "AI-APP-BUILDERS-6D5A8B-ANYTHING-AI-APP-BUILDER-J-0007",
+      "id": "cmj-0007",
+      "lastModified": 1790955425800,
+      "name": "Anything - AI app builder",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "ai",
         "app builder"
       ],
-      "description": "AI App Builders resource: Anything - AI app builder.",
-      "notes": "",
+      "type": "AI",
+      "url": "https://www.createanything.com/dashboard/team/71d0628f-6405-4dec-a31f-f3f5c1cb7f08",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425800,
-      "lastModified": 1790955425800,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

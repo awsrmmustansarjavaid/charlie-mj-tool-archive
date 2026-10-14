@@ -1,0 +1,61 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "a6f5a85d-b55b-40ec-827e-8cc5dac85350",
+    "displayId": "MEDIA-ENTERTAINMENT-C85350",
+    "name": "Media & Entertainment",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134433,
+    "updatedAt": 1791977134433
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Media & Entertainment",
+      "categoryId": "a6f5a85d-b55b-40ec-827e-8cc5dac85350",
+      "collections": [],
+      "description": "Interactive television discovery website for exploring television channels from different countries.",
+      "displayId": "MEDIA-ENTERTAINMENT-42E985-TV-GARDEN-J-0084",
+      "id": "cmj-0084",
+      "lastModified": 1791721020000,
+      "name": "TV Garden",
+      "priority": "normal",
+      "smartLabels": [
+        "garden",
+        "media",
+        "entertainment",
+        "interactive",
+        "television",
+        "discovery",
+        "website",
+        "exploring",
+        "channels",
+        "different",
+        "countries",
+        "live",
+        "streaming"
+      ],
+      "subcategory": "",
+      "tags": [
+        "tv",
+        "live-tv",
+        "channels",
+        "entertainment",
+        "streaming"
+      ],
+      "type": "Website",
+      "url": "https://tv.garden/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

@@ -1,36 +1,43 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "4125cceb-35ce-59da-98f0-a39a4f91a6fc",
+    "createdAt": 1791977019470,
     "displayId": "COMMUNITIES-91A6FC",
+    "id": "4125cceb-35ce-59da-98f0-a39a4f91a6fc",
+    "kind": "category",
     "name": "Communities",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 1,
   "tools": [
     {
-      "id": "cmj-0244",
-      "name": "Reddit",
-      "url": "https://www.reddit.com/",
+      "addedAt": 1790955425802,
+      "aliases": [],
       "category": "Communities",
-      "type": "Website",
+      "categoryId": "4125cceb-35ce-59da-98f0-a39a4f91a6fc",
+      "collections": [],
+      "description": "Communities resource: Reddit.",
+      "displayId": "COMMUNITIES-91A6FC-REDDIT-J-0244",
+      "id": "cmj-0244",
+      "lastModified": 1790955425802,
+      "name": "Reddit",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "reddit"
       ],
-      "description": "Communities resource: Reddit.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Website",
+      "url": "https://www.reddit.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

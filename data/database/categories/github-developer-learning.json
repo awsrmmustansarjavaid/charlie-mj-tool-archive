@@ -1,37 +1,44 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "7507454c-7d43-5acf-9331-ccb2e5f16df5",
+    "createdAt": 1791977019470,
     "displayId": "GITHUB-DEVELOPER-LEARNING-F16DF5",
+    "id": "7507454c-7d43-5acf-9331-ccb2e5f16df5",
+    "kind": "category",
     "name": "GitHub & Developer Learning",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 1,
   "tools": [
     {
-      "id": "cmj-0117",
-      "name": "GitHub Docs",
-      "url": "https://docs.github.com/en",
+      "addedAt": 1790955425801,
+      "aliases": [],
       "category": "GitHub & Developer Learning",
-      "type": "GitHub",
+      "categoryId": "7507454c-7d43-5acf-9331-ccb2e5f16df5",
+      "collections": [],
+      "description": "GitHub & Developer Learning resource: GitHub Docs.",
+      "displayId": "GITHUB-DEVELOPER-LEARNING-F16DF5-GITHUB-DOCS-J-0117",
+      "id": "cmj-0117",
+      "lastModified": 1790955425801,
+      "name": "GitHub Docs",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "github",
         "docs"
       ],
-      "description": "GitHub & Developer Learning resource: GitHub Docs.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "GitHub",
+      "url": "https://docs.github.com/en",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425801,
-      "lastModified": 1790955425801,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

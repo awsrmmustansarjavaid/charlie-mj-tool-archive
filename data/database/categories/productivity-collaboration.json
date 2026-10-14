@@ -1,0 +1,61 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "dcd8694c-a27a-4083-8a63-68da99463bb8",
+    "displayId": "PRODUCTIVITY-COLLABORATION-463BB8",
+    "name": "Productivity & Collaboration",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135467,
+    "updatedAt": 1791977135467
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Productivity & Collaboration",
+      "categoryId": "dcd8694c-a27a-4083-8a63-68da99463bb8",
+      "collections": [],
+      "description": "Whiteboard: Open-source project reference for exploring digital whiteboard, visual collaboration or brainstorming functionality.",
+      "displayId": "PRODUCTIVITY-COLLABORATION-364EB2-WHITEBOARD-998124",
+      "id": "86ad1491-e303-491a-adfe-e0f4cc998124",
+      "lastModified": 1791676800000,
+      "name": "Whiteboard",
+      "priority": "normal",
+      "smartLabels": [
+        "whiteboard",
+        "productivity",
+        "collaboration",
+        "open",
+        "source",
+        "project",
+        "reference",
+        "exploring",
+        "digital",
+        "visual",
+        "brainstorming",
+        "functionality",
+        "visualization",
+        "planning"
+      ],
+      "subcategory": "",
+      "tags": [
+        "whiteboard",
+        "collaboration",
+        "visualization",
+        "planning"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=Whiteboard&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

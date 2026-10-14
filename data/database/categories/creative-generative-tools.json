@@ -1,0 +1,63 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "3f399f52-9c00-496c-b03c-c8aad118fef1",
+    "displayId": "CREATIVE-GENERATIVE-TOOLS-18FEF1",
+    "name": "Creative & Generative Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134854,
+    "updatedAt": 1791977134854
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Creative & Generative Tools",
+      "categoryId": "3f399f52-9c00-496c-b03c-c8aad118fef1",
+      "collections": [],
+      "description": "Interactive procedural city generator by Oskar Stålberg for creating and exploring generated city layouts.",
+      "displayId": "CREATIVE-GENERATIVE-TOOLS-44A5BE-OSKAR-STALBERG-CITY-GENERATOR-J-0098",
+      "id": "cmj-0098",
+      "lastModified": 1791721020000,
+      "name": "Oskar Stålberg City Generator",
+      "priority": "normal",
+      "smartLabels": [
+        "oskar",
+        "stalberg",
+        "city",
+        "generator",
+        "creative",
+        "generative",
+        "interactive",
+        "procedural",
+        "creating",
+        "exploring",
+        "generated",
+        "layouts",
+        "generation",
+        "design",
+        "simulation"
+      ],
+      "subcategory": "",
+      "tags": [
+        "city-generator",
+        "procedural-generation",
+        "design",
+        "creative",
+        "simulation"
+      ],
+      "type": "Website",
+      "url": "https://oskarstalberg.com/game/CityGenerator/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

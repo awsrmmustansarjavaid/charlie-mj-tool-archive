@@ -1,0 +1,66 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "f7f8fb0d-2c62-42c7-abeb-38b7de36128f",
+    "displayId": "CREATIVE-MEDIA-PRODUCTION-36128F",
+    "name": "Creative & Media Production",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134453,
+    "updatedAt": 1791977134453
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Creative & Media Production",
+      "categoryId": "f7f8fb0d-2c62-42c7-abeb-38b7de36128f",
+      "collections": [],
+      "description": "Creative media platform providing music, sound effects, stock footage and other resources for video creators.",
+      "displayId": "CREATIVE-MEDIA-PRODUCTION-8F448E-ARTLIST-J-0091",
+      "id": "cmj-0091",
+      "lastModified": 1791721020000,
+      "name": "Artlist",
+      "priority": "normal",
+      "smartLabels": [
+        "artlist",
+        "creative",
+        "media",
+        "production",
+        "platform",
+        "providing",
+        "music",
+        "sound",
+        "effects",
+        "stock",
+        "footage",
+        "other",
+        "resources",
+        "video",
+        "creators"
+      ],
+      "subcategory": "",
+      "tags": [
+        "music",
+        "sound-effects",
+        "stock-video",
+        "creative",
+        "video-production",
+        "video",
+        "stock-media",
+        "production"
+      ],
+      "type": "Website",
+      "url": "https://artlist.io/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

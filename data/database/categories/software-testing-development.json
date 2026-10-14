@@ -1,0 +1,58 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "5a157529-3ffa-43c9-adec-14899ce0b042",
+    "displayId": "SOFTWARE-TESTING-DEVELOPMENT-E0B042",
+    "name": "Software Testing & Development",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135511,
+    "updatedAt": 1791977135511
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Software Testing & Development",
+      "categoryId": "5a157529-3ffa-43c9-adec-14899ce0b042",
+      "collections": [],
+      "description": "E2E: GitHub project reference saved for exploring end-to-end development, testing or automation tools.",
+      "displayId": "SOFTWARE-TESTING-DEVELOPMENT-08147F-E2E-33B00C",
+      "id": "04f9510d-5019-4c8a-8ee3-3dd32d33b00c",
+      "lastModified": 1791676800000,
+      "name": "E2E",
+      "priority": "normal",
+      "smartLabels": [
+        "e2e",
+        "software",
+        "testing",
+        "development",
+        "github",
+        "project",
+        "reference",
+        "saved",
+        "exploring",
+        "end",
+        "automation"
+      ],
+      "subcategory": "",
+      "tags": [
+        "testing",
+        "automation",
+        "development",
+        "end-to-end"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=E2E&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

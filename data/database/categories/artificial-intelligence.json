@@ -1,0 +1,58 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "ffd09bd6-4b38-4399-9a9e-0d6dfbb07804",
+    "displayId": "ARTIFICIAL-INTELLIGENCE-B07804",
+    "name": "Artificial Intelligence",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135493,
+    "updatedAt": 1791977135493
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Artificial Intelligence",
+      "categoryId": "ffd09bd6-4b38-4399-9a9e-0d6dfbb07804",
+      "collections": [],
+      "description": "ClearAI: AI-related GitHub project reference saved for exploring open-source artificial intelligence software.",
+      "displayId": "ARTIFICIAL-INTELLIGENCE-E72925-CLEARAI-A9620E",
+      "id": "8b5b9faa-c81b-4fcd-acf2-465d4da9620e",
+      "lastModified": 1791676800000,
+      "name": "ClearAI",
+      "priority": "normal",
+      "smartLabels": [
+        "clearai",
+        "artificial",
+        "intelligence",
+        "related",
+        "github",
+        "project",
+        "reference",
+        "saved",
+        "exploring",
+        "open",
+        "source",
+        "software"
+      ],
+      "subcategory": "",
+      "tags": [
+        "ai",
+        "open-source",
+        "artificial-intelligence"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=ClearAI&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

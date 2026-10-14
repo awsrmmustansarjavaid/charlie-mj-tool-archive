@@ -1,0 +1,61 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "fd8b850a-0e0f-47fe-af20-891706045731",
+    "displayId": "COMMUNICATION-DEVELOPER-TOOLS-045731",
+    "name": "Communication & Developer Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135728,
+    "updatedAt": 1791977135728
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Communication & Developer Tools",
+      "categoryId": "fd8b850a-0e0f-47fe-af20-891706045731",
+      "collections": [],
+      "description": "AlterSend: GitHub project reference saved for exploring communication, sending or automation-related software.",
+      "displayId": "COMMUNICATION-DEVELOPER-TOOLS-6E57C8-ALTERSEND-A778CA",
+      "id": "1ed4310f-44f0-4078-b51b-603fa6a778ca",
+      "lastModified": 1791676800000,
+      "name": "AlterSend",
+      "priority": "normal",
+      "smartLabels": [
+        "altersend",
+        "communication",
+        "developer",
+        "github",
+        "project",
+        "reference",
+        "saved",
+        "exploring",
+        "sending",
+        "automation",
+        "related",
+        "software",
+        "open",
+        "source"
+      ],
+      "subcategory": "",
+      "tags": [
+        "communication",
+        "automation",
+        "open-source",
+        "software"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=AlterSend&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

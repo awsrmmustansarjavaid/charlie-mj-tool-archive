@@ -1,113 +1,148 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "9e299241-39a4-543d-ab40-1e703c3f15c2",
+    "createdAt": 1791977019470,
     "displayId": "MULTILINGUAL-TRANSLATION-3F15C2",
+    "id": "9e299241-39a4-543d-ab40-1e703c3f15c2",
+    "kind": "category",
     "name": "Multilingual / Translation",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 5,
   "tools": [
     {
-      "id": "cmj-0205",
-      "name": "Glossary",
-      "url": "https://www.glossary.com/",
-      "category": "Multilingual / Translation",
-      "type": "Website",
-      "tags": [
-        "dictionary",
-        "language"
-      ],
-      "description": "Multilingual / Translation resource: Glossary.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
       "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0206",
-      "name": "Glosbe",
-      "url": "https://glosbe.com/",
+      "aliases": [],
       "category": "Multilingual / Translation",
-      "type": "Website",
-      "tags": [
-        "dictionary",
-        "language"
-      ],
-      "description": "Multilingual / Translation resource: Glosbe.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0207",
-      "name": "Reverso",
-      "url": "https://www.reverso.net/",
-      "category": "Multilingual / Translation",
-      "type": "Website",
-      "tags": [
-        "dictionary",
-        "language"
-      ],
-      "description": "Multilingual / Translation resource: Reverso.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0208",
-      "name": "Babla",
-      "url": "https://www.babla.com/",
-      "category": "Multilingual / Translation",
-      "type": "Website",
-      "tags": [
-        "dictionary",
-        "language"
-      ],
+      "categoryId": "9e299241-39a4-543d-ab40-1e703c3f15c2",
+      "collections": [],
       "description": "Multilingual / Translation resource: Babla.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
+      "displayId": "MULTILINGUAL-TRANSLATION-3F15C2-BABLA-J-0208",
+      "id": "cmj-0208",
       "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0209",
-      "name": "Linguee",
-      "url": "https://www.linguee.com/",
-      "category": "Multilingual / Translation",
-      "type": "Website",
+      "name": "Babla",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "dictionary",
         "language"
       ],
-      "description": "Multilingual / Translation resource: Linguee.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Website",
+      "url": "https://www.babla.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
+      "source": "remote"
+    },
+    {
       "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Multilingual / Translation",
+      "categoryId": "9e299241-39a4-543d-ab40-1e703c3f15c2",
+      "collections": [],
+      "description": "Multilingual / Translation resource: Glosbe.",
+      "displayId": "MULTILINGUAL-TRANSLATION-3F15C2-GLOSBE-J-0206",
+      "id": "cmj-0206",
       "lastModified": 1790955425802,
-      "source": "local"
+      "name": "Glosbe",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "type": "Website",
+      "url": "https://glosbe.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Multilingual / Translation",
+      "categoryId": "9e299241-39a4-543d-ab40-1e703c3f15c2",
+      "collections": [],
+      "description": "Multilingual / Translation resource: Glossary.",
+      "displayId": "MULTILINGUAL-TRANSLATION-3F15C2-GLOSSARY-J-0205",
+      "id": "cmj-0205",
+      "lastModified": 1790955425802,
+      "name": "Glossary",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "type": "Website",
+      "url": "https://www.glossary.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Multilingual / Translation",
+      "categoryId": "9e299241-39a4-543d-ab40-1e703c3f15c2",
+      "collections": [],
+      "description": "Multilingual / Translation resource: Linguee.",
+      "displayId": "MULTILINGUAL-TRANSLATION-3F15C2-LINGUEE-J-0209",
+      "id": "cmj-0209",
+      "lastModified": 1790955425802,
+      "name": "Linguee",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "type": "Website",
+      "url": "https://www.linguee.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Multilingual / Translation",
+      "categoryId": "9e299241-39a4-543d-ab40-1e703c3f15c2",
+      "collections": [],
+      "description": "Multilingual / Translation resource: Reverso.",
+      "displayId": "MULTILINGUAL-TRANSLATION-3F15C2-REVERSO-J-0207",
+      "id": "cmj-0207",
+      "lastModified": 1790955425802,
+      "name": "Reverso",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "type": "Website",
+      "url": "https://www.reverso.net/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

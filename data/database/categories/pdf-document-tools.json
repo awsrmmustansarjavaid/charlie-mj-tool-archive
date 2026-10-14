@@ -1,0 +1,63 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "8d2440df-9a76-4fbd-94ce-e5155b7c5490",
+    "displayId": "PDF-DOCUMENT-TOOLS-7C5490",
+    "name": "PDF & Document Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134361,
+    "updatedAt": 1791977134361
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "PDF & Document Tools",
+      "categoryId": "8d2440df-9a76-4fbd-94ce-e5155b7c5490",
+      "collections": [],
+      "description": "Online PDF toolkit offering document conversion, editing, OCR and AI-powered document assistance.",
+      "displayId": "PDF-DOCUMENT-TOOLS-88C4DA-LIGHTPDF-J-0079",
+      "id": "cmj-0079",
+      "lastModified": 1791721020000,
+      "name": "LightPDF",
+      "priority": "normal",
+      "smartLabels": [
+        "lightpdf",
+        "pdf",
+        "document",
+        "toolkit",
+        "offering",
+        "conversion",
+        "editing",
+        "ocr",
+        "powered",
+        "assistance",
+        "converter",
+        "editor",
+        "documents"
+      ],
+      "subcategory": "",
+      "tags": [
+        "pdf",
+        "ai",
+        "document",
+        "converter",
+        "editor",
+        "ocr",
+        "documents"
+      ],
+      "type": "Website",
+      "url": "https://lightpdf.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

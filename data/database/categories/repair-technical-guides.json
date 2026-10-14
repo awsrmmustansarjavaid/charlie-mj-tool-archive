@@ -1,0 +1,66 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "b88a3de5-b90a-442e-b6b6-4ccd2405de9d",
+    "displayId": "REPAIR-TECHNICAL-GUIDES-05DE9D",
+    "name": "Repair & Technical Guides",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134379,
+    "updatedAt": 1791977134379
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Repair & Technical Guides",
+      "categoryId": "b88a3de5-b90a-442e-b6b6-4ccd2405de9d",
+      "collections": [],
+      "description": "Repair knowledge platform providing step-by-step repair guides, troubleshooting instructions and device disassembly information.",
+      "displayId": "REPAIR-TECHNICAL-GUIDES-F2355B-IFIXIT-J-0080",
+      "id": "cmj-0080",
+      "lastModified": 1791721020000,
+      "name": "iFixit",
+      "priority": "normal",
+      "smartLabels": [
+        "ifixit",
+        "repair",
+        "technical",
+        "guides",
+        "knowledge",
+        "platform",
+        "providing",
+        "step",
+        "troubleshooting",
+        "instructions",
+        "device",
+        "disassembly",
+        "information",
+        "electronics",
+        "hardware",
+        "tutorials",
+        "diy"
+      ],
+      "subcategory": "",
+      "tags": [
+        "repair",
+        "electronics",
+        "hardware",
+        "tutorials",
+        "diy",
+        "guides"
+      ],
+      "type": "Website",
+      "url": "https://www.ifixit.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

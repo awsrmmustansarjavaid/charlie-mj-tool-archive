@@ -1,38 +1,45 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "e00a2a39-a9a9-5ef6-97cb-4d50016eefaa",
+    "createdAt": 1791977019470,
     "displayId": "LOGISTICS-SHIPPING-6EEFAA",
+    "id": "e00a2a39-a9a9-5ef6-97cb-4d50016eefaa",
+    "kind": "category",
     "name": "Logistics & Shipping",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 1,
   "tools": [
     {
-      "id": "cmj-0291",
-      "name": "Parcel ABC",
-      "url": "https://www.parcelabc.com/",
+      "addedAt": 1790955425802,
+      "aliases": [],
       "category": "Logistics & Shipping",
-      "type": "Utility",
+      "categoryId": "e00a2a39-a9a9-5ef6-97cb-4d50016eefaa",
+      "collections": [],
+      "description": "Logistics & Shipping resource: Parcel ABC.",
+      "displayId": "LOGISTICS-SHIPPING-6EEFAA-PARCEL-ABC-J-0291",
+      "id": "cmj-0291",
+      "lastModified": 1790955425802,
+      "name": "Parcel ABC",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "parcel",
         "shipping",
         "delivery"
       ],
-      "description": "Logistics & Shipping resource: Parcel ABC.",
-      "notes": "",
+      "type": "Utility",
+      "url": "https://www.parcelabc.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

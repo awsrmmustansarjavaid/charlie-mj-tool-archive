@@ -1,0 +1,57 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "65fa8df4-d1a8-4438-9323-ffbc45bce813",
+    "displayId": "AUTOMOTIVE-UTILITIES-BCE813",
+    "name": "Automotive & Utilities",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135127,
+    "updatedAt": 1791977135127
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Automotive & Utilities",
+      "categoryId": "65fa8df4-d1a8-4438-9323-ffbc45bce813",
+      "collections": [],
+      "description": "Start My Car: Automotive-related online resource saved for vehicle information and practical car tools.",
+      "displayId": "AUTOMOTIVE-UTILITIES-69483D-START-MY-CAR-004BE1",
+      "id": "7c43aaed-a652-4bfa-9275-73c3c1004be1",
+      "lastModified": 1791676800000,
+      "name": "Start My Car",
+      "priority": "normal",
+      "smartLabels": [
+        "start",
+        "car",
+        "automotive",
+        "utilities",
+        "related",
+        "resource",
+        "saved",
+        "vehicle",
+        "information",
+        "practical"
+      ],
+      "subcategory": "",
+      "tags": [
+        "automotive",
+        "car",
+        "vehicle",
+        "utilities"
+      ],
+      "type": "Website",
+      "url": "https://www.google.com/search?q=Start+My+Car+website",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

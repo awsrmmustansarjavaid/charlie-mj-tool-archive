@@ -1,0 +1,59 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "71952939-f6e4-4cf1-a01b-bd0533889898",
+    "displayId": "DEVELOPER-TOOLS-AUTOMATION-889898",
+    "name": "Developer Tools & Automation",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135316,
+    "updatedAt": 1791977135316
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Developer Tools & Automation",
+      "categoryId": "71952939-f6e4-4cf1-a01b-bd0533889898",
+      "collections": [],
+      "description": "OmniGet: Open-source project reference saved for exploring software utilities and automation capabilities.",
+      "displayId": "DEVELOPER-TOOLS-AUTOMATION-4819E7-OMNIGET-165CBC",
+      "id": "ccb00b6d-a439-433e-9131-f5f78e165cbc",
+      "lastModified": 1791676800000,
+      "name": "OmniGet",
+      "priority": "normal",
+      "smartLabels": [
+        "omniget",
+        "developer",
+        "automation",
+        "open",
+        "source",
+        "project",
+        "reference",
+        "saved",
+        "exploring",
+        "software",
+        "utilities",
+        "capabilities"
+      ],
+      "subcategory": "",
+      "tags": [
+        "automation",
+        "developer",
+        "tools",
+        "open-source"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=OmniGet&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "a2af24db-566c-4ef8-8ed5-d0cc1df0321e",
+    "displayId": "AI-VIDEO-GENERATION-F0321E",
+    "name": "AI Video Generation",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135423,
+    "updatedAt": 1791977135423
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "AI Video Generation",
+      "categoryId": "a2af24db-566c-4ef8-8ed5-d0cc1df0321e",
+      "collections": [],
+      "description": "Awesome Seedance: Curated resource collection for discovering tools, examples and information related to Seedance AI video generation.",
+      "displayId": "AI-VIDEO-GENERATION-292B7C-AWESOME-SEEDANCE-F813DE",
+      "id": "138a9dfb-a08f-4f1c-b39b-2f5ca3f813de",
+      "lastModified": 1791676800000,
+      "name": "Awesome Seedance",
+      "priority": "normal",
+      "smartLabels": [
+        "awesome",
+        "seedance",
+        "video",
+        "generation",
+        "curated",
+        "resource",
+        "collection",
+        "discovering",
+        "examples",
+        "information",
+        "related",
+        "resources"
+      ],
+      "subcategory": "",
+      "tags": [
+        "ai",
+        "video-generation",
+        "seedance",
+        "resources"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=Awesome+Seedance&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

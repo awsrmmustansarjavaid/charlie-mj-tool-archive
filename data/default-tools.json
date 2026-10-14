@@ -4,7 +4,7 @@
   "format": "default-library-pointer",
   "tools": [],
   "libraryManifest": "database/database-manifest.json",
-  "categoryCount": 71,
-  "toolCount": 330,
-  "note": "The packaged default library lives in data/database/categories/*.json. This file is only a small compatibility pointer; it no longer holds the tools."
+  "categoryCount": 127,
+  "toolCount": 403,
+  "note": "The primary database is data/database/. This file is only a small pointer."
 }

@@ -1,0 +1,64 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "384f7471-2e01-492d-a534-6b3a886275d7",
+    "displayId": "ENGINEERING-AI-DESIGN-6275D7",
+    "name": "Engineering & AI Design",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134982,
+    "updatedAt": 1791977134982
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Engineering & AI Design",
+      "categoryId": "384f7471-2e01-492d-a534-6b3a886275d7",
+      "collections": [],
+      "description": "Collaborative electronics design platform for designing circuits and PCB projects with AI-assisted engineering workflows.",
+      "displayId": "ENGINEERING-AI-DESIGN-9D34A0-FLUX-AI-J-0134",
+      "id": "cmj-0134",
+      "lastModified": 1791721020000,
+      "name": "Flux AI",
+      "priority": "normal",
+      "smartLabels": [
+        "flux",
+        "engineering",
+        "design",
+        "collaborative",
+        "electronics",
+        "platform",
+        "designing",
+        "circuits",
+        "pcb",
+        "projects",
+        "assisted",
+        "workflows",
+        "circuit",
+        "hardware"
+      ],
+      "subcategory": "",
+      "tags": [
+        "ai",
+        "electronics",
+        "circuit-design",
+        "engineering",
+        "pcb",
+        "hardware",
+        "design"
+      ],
+      "type": "Website",
+      "url": "https://flux.ai/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

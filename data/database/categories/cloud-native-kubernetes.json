@@ -1,38 +1,45 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "4c42c01b-a5f8-5e10-aa6c-baec3bbf33c1",
+    "createdAt": 1791977019470,
     "displayId": "CLOUD-NATIVE-KUBERNETES-BF33C1",
+    "id": "4c42c01b-a5f8-5e10-aa6c-baec3bbf33c1",
+    "kind": "category",
     "name": "Cloud Native & Kubernetes",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 1,
   "tools": [
     {
-      "id": "cmj-0035",
-      "name": "KSUG.AI",
-      "url": "https://ksug.ai/",
+      "addedAt": 1790955425800,
+      "aliases": [],
       "category": "Cloud Native & Kubernetes",
-      "type": "Learning",
+      "categoryId": "4c42c01b-a5f8-5e10-aa6c-baec3bbf33c1",
+      "collections": [],
+      "description": "Cloud Native & Kubernetes resource: KSUG.AI.",
+      "displayId": "CLOUD-NATIVE-KUBERNETES-BF33C1-KSUG-AI-J-0035",
+      "id": "cmj-0035",
+      "lastModified": 1790955425800,
+      "name": "KSUG.AI",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "kubernetes",
         "cloud native",
         "ai"
       ],
-      "description": "Cloud Native & Kubernetes resource: KSUG.AI.",
-      "notes": "",
+      "type": "Learning",
+      "url": "https://ksug.ai/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425800,
-      "lastModified": 1790955425800,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

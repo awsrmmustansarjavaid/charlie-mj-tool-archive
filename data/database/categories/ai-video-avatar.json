@@ -1,38 +1,45 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "3b73ec5e-c478-57bd-ac72-cff1c19cc841",
+    "createdAt": 1791977019470,
     "displayId": "AI-VIDEO-AVATAR-9CC841",
+    "id": "3b73ec5e-c478-57bd-ac72-cff1c19cc841",
+    "kind": "category",
     "name": "AI Video & Avatar",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 1,
   "tools": [
     {
-      "id": "cmj-0019",
-      "name": "HeyGen",
-      "url": "https://app.heygen.com/home",
+      "addedAt": 1790955425800,
+      "aliases": [],
       "category": "AI Video & Avatar",
-      "type": "AI",
+      "categoryId": "3b73ec5e-c478-57bd-ac72-cff1c19cc841",
+      "collections": [],
+      "description": "AI Video & Avatar resource: HeyGen.",
+      "displayId": "AI-VIDEO-AVATAR-9CC841-HEYGEN-J-0019",
+      "id": "cmj-0019",
+      "lastModified": 1790955425800,
+      "name": "HeyGen",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "ai",
         "video",
         "avatar"
       ],
-      "description": "AI Video & Avatar resource: HeyGen.",
-      "notes": "",
+      "type": "AI",
+      "url": "https://app.heygen.com/home",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425800,
-      "lastModified": 1790955425800,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

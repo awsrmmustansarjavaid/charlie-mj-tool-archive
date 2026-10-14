@@ -1,0 +1,66 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "ea6eba32-4a58-4df8-a513-423453bbac28",
+    "displayId": "DOCUMENT-MANAGEMENT-PRODUCTIVITY-BBAC28",
+    "name": "Document Management & Productivity",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134767,
+    "updatedAt": 1791977134767
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Document Management & Productivity",
+      "categoryId": "ea6eba32-4a58-4df8-a513-423453bbac28",
+      "collections": [],
+      "description": "Document management platform for organizing, storing and managing personal or professional documents.",
+      "displayId": "DOCUMENT-MANAGEMENT-PRODUCTIVITY-BA7ECC-PAPRA-J-0092",
+      "id": "cmj-0092",
+      "lastModified": 1791721020000,
+      "name": "Papra",
+      "priority": "normal",
+      "smartLabels": [
+        "papra",
+        "document",
+        "management",
+        "productivity",
+        "platform",
+        "organizing",
+        "storing",
+        "managing",
+        "personal",
+        "professional",
+        "documents",
+        "organization",
+        "self",
+        "hosted",
+        "open",
+        "source",
+        "archive"
+      ],
+      "subcategory": "",
+      "tags": [
+        "documents",
+        "document-management",
+        "organization",
+        "self-hosted",
+        "open-source",
+        "archive"
+      ],
+      "type": "Website",
+      "url": "https://papra.app/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

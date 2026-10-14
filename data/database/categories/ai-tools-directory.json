@@ -1,0 +1,62 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "14b9fd69-0652-445c-a023-472d6f1c10c6",
+    "displayId": "AI-TOOLS-DIRECTORY-1C10C6",
+    "name": "AI Tools Directory",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134400,
+    "updatedAt": 1791977134400
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "AI Tools Directory",
+      "categoryId": "14b9fd69-0652-445c-a023-472d6f1c10c6",
+      "collections": [],
+      "description": "AI tools discovery directory for finding artificial intelligence applications across different categories and use cases.",
+      "displayId": "AI-TOOLS-DIRECTORY-21DB49-THERE-S-AN-AI-FOR-THAT-J-0081",
+      "id": "cmj-0081",
+      "lastModified": 1791721020000,
+      "name": "There's an AI for That",
+      "priority": "normal",
+      "smartLabels": [
+        "there",
+        "directory",
+        "discovery",
+        "finding",
+        "artificial",
+        "intelligence",
+        "applications",
+        "across",
+        "different",
+        "categories",
+        "use",
+        "cases",
+        "automation"
+      ],
+      "subcategory": "",
+      "tags": [
+        "ai",
+        "ai-tools",
+        "directory",
+        "discovery",
+        "automation",
+        "tools"
+      ],
+      "type": "Website",
+      "url": "https://theresanaiforthat.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

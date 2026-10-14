@@ -1,0 +1,62 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "a8b5cafa-d16f-4258-a81e-f4cd6f664647",
+    "displayId": "CYBERSECURITY-AI-AGENTS-664647",
+    "name": "Cybersecurity & AI Agents",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135693,
+    "updatedAt": 1791977135693
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Cybersecurity & AI Agents",
+      "categoryId": "a8b5cafa-d16f-4258-a81e-f4cd6f664647",
+      "collections": [],
+      "description": "Pwn Perspective Agent: Project reference saved for exploring AI-assisted cybersecurity, security analysis or penetration-testing workflows.",
+      "displayId": "CYBERSECURITY-AI-AGENTS-C9C6FF-PWN-PERSPECTIVE-AGENT-B16466",
+      "id": "47a8c2ec-90d2-47f3-bcf2-78ce0fb16466",
+      "lastModified": 1791676800000,
+      "name": "Pwn Perspective Agent",
+      "priority": "normal",
+      "smartLabels": [
+        "pwn",
+        "perspective",
+        "agent",
+        "cybersecurity",
+        "agents",
+        "project",
+        "reference",
+        "saved",
+        "exploring",
+        "assisted",
+        "security",
+        "analysis",
+        "penetration",
+        "testing",
+        "workflows"
+      ],
+      "subcategory": "",
+      "tags": [
+        "cybersecurity",
+        "ai-agent",
+        "penetration-testing",
+        "security"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=Pwn+Perspective+Agent&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

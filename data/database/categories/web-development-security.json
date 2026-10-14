@@ -1,0 +1,66 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "dd56a1bf-b63e-4594-8f57-b6b52fe3efd8",
+    "displayId": "WEB-DEVELOPMENT-SECURITY-E3EFD8",
+    "name": "Web Development & Security",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135031,
+    "updatedAt": 1791977135031
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Web Development & Security",
+      "categoryId": "dd56a1bf-b63e-4594-8f57-b6b52fe3efd8",
+      "collections": [],
+      "description": "Web Check: Open-source website analysis tool for inspecting DNS records, security configurations, certificates, headers and other technical website information.",
+      "displayId": "WEB-DEVELOPMENT-SECURITY-56CE9F-WEB-CHECK-D85CE1",
+      "id": "6103ed60-1e85-4886-84be-ea3920d85ce1",
+      "lastModified": 1791676800000,
+      "name": "Web Check",
+      "priority": "normal",
+      "smartLabels": [
+        "web",
+        "check",
+        "development",
+        "security",
+        "open",
+        "source",
+        "website",
+        "analysis",
+        "inspecting",
+        "dns",
+        "records",
+        "configurations",
+        "certificates",
+        "headers",
+        "other",
+        "technical",
+        "information",
+        "diagnostics"
+      ],
+      "subcategory": "",
+      "tags": [
+        "web",
+        "website-analysis",
+        "security",
+        "diagnostics",
+        "open-source"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/Lissy93/web-check",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

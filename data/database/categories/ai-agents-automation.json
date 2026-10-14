@@ -1,0 +1,60 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "ed4d554e-a0e6-46e8-8587-36554b90ce39",
+    "displayId": "AI-AGENTS-AUTOMATION-90CE39",
+    "name": "AI Agents & Automation",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977135380,
+    "updatedAt": 1791977135380
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "AI Agents & Automation",
+      "categoryId": "ed4d554e-a0e6-46e8-8587-36554b90ce39",
+      "collections": [],
+      "description": "AI Employees: Open-source project reference related to AI-powered agents and automated digital workflows.",
+      "displayId": "AI-AGENTS-AUTOMATION-24332B-AI-EMPLOYEES-08BF9E",
+      "id": "f6786661-46d3-4b67-9d26-d968c008bf9e",
+      "lastModified": 1791676800000,
+      "name": "AI Employees",
+      "priority": "normal",
+      "smartLabels": [
+        "employees",
+        "agents",
+        "automation",
+        "open",
+        "source",
+        "project",
+        "reference",
+        "related",
+        "powered",
+        "automated",
+        "digital",
+        "workflows"
+      ],
+      "subcategory": "",
+      "tags": [
+        "ai",
+        "agents",
+        "automation",
+        "employees",
+        "open-source"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=AI+Employees&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

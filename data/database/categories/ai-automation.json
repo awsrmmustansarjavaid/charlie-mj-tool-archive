@@ -1,38 +1,45 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "d23d78cf-11e4-5981-9385-8cbaae73cf14",
+    "createdAt": 1791977019470,
     "displayId": "AI-AUTOMATION-73CF14",
+    "id": "d23d78cf-11e4-5981-9385-8cbaae73cf14",
+    "kind": "category",
     "name": "AI & Automation",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 1,
   "tools": [
     {
-      "id": "cmj-0288",
-      "name": "ChatGPT",
-      "url": "https://chatgpt.com/",
+      "addedAt": 1790955425802,
+      "aliases": [],
       "category": "AI & Automation",
-      "type": "AI",
+      "categoryId": "d23d78cf-11e4-5981-9385-8cbaae73cf14",
+      "collections": [],
+      "description": "AI assistant for writing, research, coding, analysis and everyday tasks.",
+      "displayId": "AI-AUTOMATION-73CF14-CHATGPT-J-0288",
+      "id": "cmj-0288",
+      "lastModified": 1790955425802,
+      "name": "ChatGPT",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "ai",
         "chat",
         "assistant"
       ],
-      "description": "AI assistant for writing, research, coding, analysis and everyday tasks.",
-      "notes": "",
+      "type": "AI",
+      "url": "https://chatgpt.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

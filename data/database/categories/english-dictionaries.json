@@ -1,113 +1,148 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "c8ec7b32-f746-55f0-9541-7cfe08a5a9e4",
+    "createdAt": 1791977019470,
     "displayId": "ENGLISH-DICTIONARIES-A5A9E4",
+    "id": "c8ec7b32-f746-55f0-9541-7cfe08a5a9e4",
+    "kind": "category",
     "name": "English Dictionaries",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 5,
   "tools": [
     {
-      "id": "cmj-0196",
-      "name": "Cambridge Dictionary",
-      "url": "https://dictionary.cambridge.org/",
-      "category": "English Dictionaries",
-      "type": "Learning",
-      "tags": [
-        "dictionary",
-        "language"
-      ],
-      "description": "English Dictionaries resource: Cambridge Dictionary.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
       "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0197",
-      "name": "Oxford Learner's Dictionaries",
-      "url": "https://www.oxfordlearnersdictionaries.com/",
+      "aliases": [],
       "category": "English Dictionaries",
-      "type": "Learning",
-      "tags": [
-        "dictionary",
-        "language"
-      ],
-      "description": "English Dictionaries resource: Oxford Learner's Dictionaries.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0198",
-      "name": "Collins Dictionary",
-      "url": "https://www.collinsdictionary.com/",
-      "category": "English Dictionaries",
-      "type": "Learning",
-      "tags": [
-        "dictionary",
-        "language"
-      ],
-      "description": "English Dictionaries resource: Collins Dictionary.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0199",
-      "name": "WordReference",
-      "url": "https://www.wordreference.com/",
-      "category": "English Dictionaries",
-      "type": "Learning",
-      "tags": [
-        "dictionary",
-        "language"
-      ],
-      "description": "English Dictionaries resource: WordReference.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0200",
-      "name": "Britannica Dictionary",
-      "url": "https://www.britannica.com/dictionary",
-      "category": "English Dictionaries",
-      "type": "Learning",
-      "tags": [
-        "dictionary",
-        "language"
-      ],
+      "categoryId": "c8ec7b32-f746-55f0-9541-7cfe08a5a9e4",
+      "collections": [],
       "description": "English Dictionaries resource: Britannica Dictionary.",
-      "notes": "Imported from user bookmark collection.",
+      "displayId": "ENGLISH-DICTIONARIES-A5A9E4-BRITANNICA-DICTIONARY-J-0200",
+      "id": "cmj-0200",
+      "lastModified": 1790955425802,
+      "name": "Britannica Dictionary",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "type": "Learning",
+      "url": "https://www.britannica.com/dictionary",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
+      "source": "remote"
+    },
+    {
       "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "English Dictionaries",
+      "categoryId": "c8ec7b32-f746-55f0-9541-7cfe08a5a9e4",
+      "collections": [],
+      "description": "English Dictionaries resource: Cambridge Dictionary.",
+      "displayId": "ENGLISH-DICTIONARIES-A5A9E4-CAMBRIDGE-DICTIONARY-J-0196",
+      "id": "cmj-0196",
       "lastModified": 1790955425802,
-      "source": "local"
+      "name": "Cambridge Dictionary",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "type": "Learning",
+      "url": "https://dictionary.cambridge.org/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "English Dictionaries",
+      "categoryId": "c8ec7b32-f746-55f0-9541-7cfe08a5a9e4",
+      "collections": [],
+      "description": "English Dictionaries resource: Collins Dictionary.",
+      "displayId": "ENGLISH-DICTIONARIES-A5A9E4-COLLINS-DICTIONARY-J-0198",
+      "id": "cmj-0198",
+      "lastModified": 1790955425802,
+      "name": "Collins Dictionary",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "type": "Learning",
+      "url": "https://www.collinsdictionary.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "English Dictionaries",
+      "categoryId": "c8ec7b32-f746-55f0-9541-7cfe08a5a9e4",
+      "collections": [],
+      "description": "English Dictionaries resource: Oxford Learner's Dictionaries.",
+      "displayId": "ENGLISH-DICTIONARIES-A5A9E4-OXFORD-LEARNER-S-DICTIONARIES-J-0197",
+      "id": "cmj-0197",
+      "lastModified": 1790955425802,
+      "name": "Oxford Learner's Dictionaries",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "type": "Learning",
+      "url": "https://www.oxfordlearnersdictionaries.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "English Dictionaries",
+      "categoryId": "c8ec7b32-f746-55f0-9541-7cfe08a5a9e4",
+      "collections": [],
+      "description": "English Dictionaries resource: WordReference.",
+      "displayId": "ENGLISH-DICTIONARIES-A5A9E4-WORDREFERENCE-J-0199",
+      "id": "cmj-0199",
+      "lastModified": 1790955425802,
+      "name": "WordReference",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "dictionary",
+        "language"
+      ],
+      "type": "Learning",
+      "url": "https://www.wordreference.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

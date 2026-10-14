@@ -1,74 +1,95 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "5d07127a-2d00-5ac7-afcd-eb8b3747ade1",
+    "createdAt": 1791977019471,
     "displayId": "SOFTWARE-DOWNLOAD-47ADE1",
+    "id": "5d07127a-2d00-5ac7-afcd-eb8b3747ade1",
+    "kind": "category",
     "name": "Software Download",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019471
   },
+  "parentCategory": null,
   "recordCount": 3,
   "tools": [
     {
-      "id": "cmj-0268",
-      "name": "FileHippo",
-      "url": "https://filehippo.com/",
+      "addedAt": 1790923758077,
+      "aliases": [],
       "category": "Software Download",
-      "type": "Utility",
+      "categoryId": "5d07127a-2d00-5ac7-afcd-eb8b3747ade1",
+      "collections": [],
+      "description": "Software Download resource for Filecr, saved for quick access in the Charlie MJ Tool Archive.",
+      "displayId": "SOFTWARE-DOWNLOAD-47ADE1-FILECR-689B9D",
+      "id": "a2996217-b818-4cb3-a0e0-26a3fd689b9d",
+      "lastModified": 1790923758077,
+      "name": "Filecr",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "filecr"
+      ],
+      "type": "Website",
+      "url": "https://filecr.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790926039271,
+      "aliases": [],
+      "category": "Software Download",
+      "categoryId": "5d07127a-2d00-5ac7-afcd-eb8b3747ade1",
+      "collections": [],
+      "description": "Files & Software resource: FileHippo.",
+      "displayId": "SOFTWARE-DOWNLOAD-47ADE1-FILEHIPPO-J-0268",
+      "id": "cmj-0268",
+      "lastModified": 1790926039271,
+      "name": "FileHippo",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "filehippo"
       ],
-      "description": "Files & Software resource: FileHippo.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Utility",
+      "url": "https://filehippo.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790926039271,
-      "lastModified": 1790926039271,
-      "source": "local"
+      "source": "remote"
     },
     {
-      "id": "cmj-0269",
-      "name": "IGET INTO PC",
-      "url": "https://igetintopc.com/software-categories/",
+      "addedAt": 1790926048431,
+      "aliases": [],
       "category": "Software Download",
-      "type": "Utility",
+      "categoryId": "5d07127a-2d00-5ac7-afcd-eb8b3747ade1",
+      "collections": [],
+      "description": "Files & Software resource: IGET INTO PC.",
+      "displayId": "SOFTWARE-DOWNLOAD-47ADE1-IGET-INTO-PC-J-0269",
+      "id": "cmj-0269",
+      "lastModified": 1790926048431,
+      "name": "IGET INTO PC",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "iget",
         "into",
         "pc"
       ],
-      "description": "Files & Software resource: IGET INTO PC.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Utility",
+      "url": "https://igetintopc.com/software-categories/",
       "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790926048431,
-      "lastModified": 1790926048431,
-      "source": "local"
-    },
-    {
-      "id": "a2996217-b818-4cb3-a0e0-26a3fd689b9d",
-      "name": "Filecr",
-      "url": "https://filecr.com/",
-      "category": "Software Download",
-      "type": "Website",
-      "tags": [
-        "filecr"
-      ],
-      "description": "Software Download resource for Filecr, saved for quick access in the Charlie MJ Tool Archive.",
       "notes": "",
-      "favorite": false,
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790923758077,
-      "lastModified": 1790923758077,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

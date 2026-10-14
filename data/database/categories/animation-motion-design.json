@@ -1,0 +1,101 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "ad4f6aa0-7ef5-40d0-9d05-3b26afbeaafe",
+    "displayId": "ANIMATION-MOTION-DESIGN-BEAAFE",
+    "name": "Animation & Motion Design",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134833,
+    "updatedAt": 1791977134833
+  },
+  "parentCategory": null,
+  "recordCount": 2,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Animation & Motion Design",
+      "categoryId": "ad4f6aa0-7ef5-40d0-9d05-3b26afbeaafe",
+      "collections": [],
+      "description": "Online motion design tool for creating animated graphics, motion assets and video content.",
+      "displayId": "ANIMATION-MOTION-DESIGN-D4FFBB-JITTER-J-0097",
+      "id": "cmj-0097",
+      "lastModified": 1791721020000,
+      "name": "Jitter",
+      "priority": "normal",
+      "smartLabels": [
+        "jitter",
+        "animation",
+        "motion",
+        "design",
+        "creating",
+        "animated",
+        "graphics",
+        "assets",
+        "video",
+        "content",
+        "creative"
+      ],
+      "subcategory": "",
+      "tags": [
+        "animation",
+        "motion-design",
+        "video",
+        "design",
+        "creative"
+      ],
+      "type": "Website",
+      "url": "https://jitter.video/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1791676800000,
+      "aliases": [],
+      "category": "Animation & Motion Design",
+      "categoryId": "ad4f6aa0-7ef5-40d0-9d05-3b26afbeaafe",
+      "collections": [],
+      "description": "Null Motion: GitHub project reference saved for exploring motion graphics, animation or creative development tools.",
+      "displayId": "ANIMATION-MOTION-DESIGN-D4FFBB-NULL-MOTION-0AAC15",
+      "id": "50e756de-a6df-4261-b428-74179a0aac15",
+      "lastModified": 1791676800000,
+      "name": "Null Motion",
+      "priority": "normal",
+      "smartLabels": [
+        "null",
+        "motion",
+        "animation",
+        "design",
+        "github",
+        "project",
+        "reference",
+        "saved",
+        "exploring",
+        "graphics",
+        "creative",
+        "development",
+        "video"
+      ],
+      "subcategory": "",
+      "tags": [
+        "motion",
+        "animation",
+        "video",
+        "design"
+      ],
+      "type": "GitHub Repository",
+      "url": "https://github.com/search?q=Null+Motion&type=repositories",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

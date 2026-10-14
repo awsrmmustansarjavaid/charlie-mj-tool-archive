@@ -1,59 +1,73 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "491b3b71-a21e-5f99-841f-b78a6a803ae7",
+    "createdAt": 1791977019470,
     "displayId": "DEVELOPMENT-803AE7",
+    "id": "491b3b71-a21e-5f99-841f-b78a6a803ae7",
+    "kind": "category",
     "name": "Development",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 2,
   "tools": [
     {
-      "id": "cmj-0287",
-      "name": "GitHub",
-      "url": "https://github.com/",
+      "addedAt": 1790955425802,
+      "aliases": [],
       "category": "Development",
-      "type": "GitHub",
+      "categoryId": "491b3b71-a21e-5f99-841f-b78a6a803ae7",
+      "collections": [],
+      "description": "Platform for hosting, reviewing and collaborating on software projects.",
+      "displayId": "DEVELOPMENT-803AE7-GITHUB-J-0287",
+      "id": "cmj-0287",
+      "lastModified": 1790955425802,
+      "name": "GitHub",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "git",
         "code",
         "opensource",
         "development"
       ],
-      "description": "Platform for hosting, reviewing and collaborating on software projects.",
-      "notes": "",
+      "type": "GitHub",
+      "url": "https://github.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
+      "source": "remote"
     },
     {
-      "id": "cmj-0289",
-      "name": "Stack Overflow",
-      "url": "https://stackoverflow.com/",
+      "addedAt": 1790955425802,
+      "aliases": [],
       "category": "Development",
-      "type": "Developer",
+      "categoryId": "491b3b71-a21e-5f99-841f-b78a6a803ae7",
+      "collections": [],
+      "description": "Developer question-and-answer community for programming and software development.",
+      "displayId": "DEVELOPMENT-803AE7-STACK-OVERFLOW-J-0289",
+      "id": "cmj-0289",
+      "lastModified": 1790955425802,
+      "name": "Stack Overflow",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "programming",
         "questions",
         "community"
       ],
-      "description": "Developer question-and-answer community for programming and software development.",
-      "notes": "",
+      "type": "Developer",
+      "url": "https://stackoverflow.com/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

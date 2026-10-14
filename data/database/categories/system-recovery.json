@@ -1,76 +1,97 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "e71e278d-6ee0-52f1-93ea-23444832fa4c",
+    "createdAt": 1791977019471,
     "displayId": "SYSTEM-RECOVERY-32FA4C",
+    "id": "e71e278d-6ee0-52f1-93ea-23444832fa4c",
+    "kind": "category",
     "name": "System & Recovery",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019471
   },
+  "parentCategory": null,
   "recordCount": 3,
   "tools": [
     {
-      "id": "cmj-0001",
-      "name": "Hiren's BootCD PE",
-      "url": "https://www.hirensbootcd.org/",
+      "addedAt": 1790955425800,
+      "aliases": [],
       "category": "System & Recovery",
+      "categoryId": "e71e278d-6ee0-52f1-93ea-23444832fa4c",
+      "collections": [],
+      "description": "System & Recovery resource: Hiren's BootCD 15.2 - All in one Bootable CD.",
+      "displayId": "SYSTEM-RECOVERY-32FA4C-HIREN-S-BOOTCD-15-2-ALL-IN-ONE-BOOTABLE-CD-J-0003",
+      "id": "cmj-0003",
+      "lastModified": 1790955425800,
+      "name": "Hiren's BootCD 15.2 - All in one Bootable CD",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "boot",
+        "recovery"
+      ],
       "type": "Utility",
+      "url": "https://www.hiren.info/pages/bootcd",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425800,
+      "aliases": [],
+      "category": "System & Recovery",
+      "categoryId": "e71e278d-6ee0-52f1-93ea-23444832fa4c",
+      "collections": [],
+      "description": "System & Recovery resource: Hiren's BootCD 15.2 | Hiren's BootCD PE.",
+      "displayId": "SYSTEM-RECOVERY-32FA4C-HIREN-S-BOOTCD-15-2-HIREN-S-BOOTCD-PE-J-0002",
+      "id": "cmj-0002",
+      "lastModified": 1790955425800,
+      "name": "Hiren's BootCD 15.2 | Hiren's BootCD PE",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "boot",
+        "recovery"
+      ],
+      "type": "Utility",
+      "url": "https://www.hirensbootcd.org/hbcd-v152/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425800,
+      "aliases": [],
+      "category": "System & Recovery",
+      "categoryId": "e71e278d-6ee0-52f1-93ea-23444832fa4c",
+      "collections": [],
+      "description": "System & Recovery resource: Hiren's BootCD PE.",
+      "displayId": "SYSTEM-RECOVERY-32FA4C-HIREN-S-BOOTCD-PE-J-0001",
+      "id": "cmj-0001",
+      "lastModified": 1790955425800,
+      "name": "Hiren's BootCD PE",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "boot",
         "recovery",
         "windows"
       ],
-      "description": "System & Recovery resource: Hiren's BootCD PE.",
-      "notes": "",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425800,
-      "lastModified": 1790955425800,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0002",
-      "name": "Hiren's BootCD 15.2 | Hiren's BootCD PE",
-      "url": "https://www.hirensbootcd.org/hbcd-v152/",
-      "category": "System & Recovery",
       "type": "Utility",
-      "tags": [
-        "boot",
-        "recovery"
-      ],
-      "description": "System & Recovery resource: Hiren's BootCD 15.2 | Hiren's BootCD PE.",
-      "notes": "",
+      "url": "https://www.hirensbootcd.org/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425800,
-      "lastModified": 1790955425800,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0003",
-      "name": "Hiren's BootCD 15.2 - All in one Bootable CD",
-      "url": "https://www.hiren.info/pages/bootcd",
-      "category": "System & Recovery",
-      "type": "Utility",
-      "tags": [
-        "boot",
-        "recovery"
-      ],
-      "description": "System & Recovery resource: Hiren's BootCD 15.2 - All in one Bootable CD.",
-      "notes": "",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425800,
-      "lastModified": 1790955425800,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

@@ -1,0 +1,59 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "90a1b941-5406-4b7a-b142-fdc57341f2ab",
+    "displayId": "ENGINEERING-TECHNICAL-TOOLS-41F2AB",
+    "name": "Engineering & Technical Tools",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1791977134242,
+    "updatedAt": 1791977134242
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1791721020000,
+      "aliases": [],
+      "category": "Engineering & Technical Tools",
+      "categoryId": "90a1b941-5406-4b7a-b142-fdc57341f2ab",
+      "collections": [],
+      "description": "Engineering reference website providing technical data, formulas, calculations, tables and engineering resources.",
+      "displayId": "ENGINEERING-TECHNICAL-TOOLS-B7F53F-THE-ENGINEERING-TOOLBOX-J-0070",
+      "id": "cmj-0070",
+      "lastModified": 1791721020000,
+      "name": "The Engineering Toolbox",
+      "priority": "normal",
+      "smartLabels": [
+        "engineering",
+        "toolbox",
+        "technical",
+        "reference",
+        "website",
+        "providing",
+        "data",
+        "formulas",
+        "calculations",
+        "tables",
+        "resources",
+        "calculators"
+      ],
+      "subcategory": "",
+      "tags": [
+        "engineering",
+        "calculators",
+        "technical",
+        "reference"
+      ],
+      "type": "Website",
+      "url": "https://www.engineeringtoolbox.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

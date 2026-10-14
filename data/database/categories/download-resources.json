@@ -1,37 +1,44 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "4dbaa6e8-b2bd-56cb-809c-46c6c44323b7",
+    "createdAt": 1791977019470,
     "displayId": "DOWNLOAD-RESOURCES-4323B7",
+    "id": "4dbaa6e8-b2bd-56cb-809c-46c6c44323b7",
+    "kind": "category",
     "name": "Download & Resources",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019470
   },
+  "parentCategory": null,
   "recordCount": 1,
   "tools": [
     {
-      "id": "cmj-0233",
-      "name": "FMHY",
-      "url": "https://fmhy.net/",
+      "addedAt": 1790955425802,
+      "aliases": [],
       "category": "Download & Resources",
-      "type": "Utility",
+      "categoryId": "4dbaa6e8-b2bd-56cb-809c-46c6c44323b7",
+      "collections": [],
+      "description": "Download & Resources resource: FMHY.",
+      "displayId": "DOWNLOAD-RESOURCES-4323B7-FMHY-J-0233",
+      "id": "cmj-0233",
+      "lastModified": 1790955425802,
+      "name": "FMHY",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "download",
         "media"
       ],
-      "description": "Download & Resources resource: FMHY.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Utility",
+      "url": "https://fmhy.net/",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

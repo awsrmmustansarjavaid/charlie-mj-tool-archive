@@ -1,72 +1,93 @@
 {
-  "version": "6.0.1",
+  "version": "6.2.0",
   "app": "Charlie MJ Tool Archive",
-  "exportType": "category-collection",
+  "format": "category-collection",
   "category": {
-    "id": "776cd014-b1a4-58a0-9d39-01f7597786f9",
+    "createdAt": 1791977019471,
     "displayId": "PRODUCTIVITY-7786F9",
+    "id": "776cd014-b1a4-58a0-9d39-01f7597786f9",
+    "kind": "category",
     "name": "Productivity",
     "parentId": null,
-    "kind": "category",
-    "createdAt": 0,
-    "updatedAt": 0
+    "updatedAt": 1791977019471
   },
+  "parentCategory": null,
   "recordCount": 3,
   "tools": [
     {
-      "id": "cmj-0267",
-      "name": "Weekrise",
-      "url": "https://weekrise.com/",
-      "category": "Productivity",
-      "type": "Website",
-      "tags": [
-        "weekrise"
-      ],
-      "description": "Productivity resource: Weekrise.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
       "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
-      "id": "cmj-0281",
-      "name": "Pomotroid",
-      "url": "https://splode.github.io/pomotroid/",
+      "aliases": [],
       "category": "Productivity",
-      "type": "Website",
-      "tags": [
-        "pomotroid"
-      ],
-      "description": "Productivity resource: Pomotroid.",
-      "notes": "Imported from user bookmark collection.",
-      "favorite": false,
-      "usageCount": 0,
-      "lastUsed": 0,
-      "addedAt": 1790955425802,
-      "lastModified": 1790955425802,
-      "source": "local"
-    },
-    {
+      "categoryId": "776cd014-b1a4-58a0-9d39-01f7597786f9",
+      "collections": [],
+      "description": "Productivity resource: Pomotodo.",
+      "displayId": "PRODUCTIVITY-7786F9-POMOTODO-J-0282",
       "id": "cmj-0282",
+      "lastModified": 1790955425802,
       "name": "Pomotodo",
-      "url": "https://pomotodo.com/?utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier&utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier",
-      "category": "Productivity",
-      "type": "Website",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
       "tags": [
         "pomotodo"
       ],
-      "description": "Productivity resource: Pomotodo.",
-      "notes": "Imported from user bookmark collection.",
+      "type": "Website",
+      "url": "https://pomotodo.com/?utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier&utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier",
       "favorite": false,
+      "notes": "",
       "usageCount": 0,
       "lastUsed": 0,
+      "source": "remote"
+    },
+    {
       "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Productivity",
+      "categoryId": "776cd014-b1a4-58a0-9d39-01f7597786f9",
+      "collections": [],
+      "description": "Productivity resource: Pomotroid.",
+      "displayId": "PRODUCTIVITY-7786F9-POMOTROID-J-0281",
+      "id": "cmj-0281",
       "lastModified": 1790955425802,
-      "source": "local"
+      "name": "Pomotroid",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "pomotroid"
+      ],
+      "type": "Website",
+      "url": "https://splode.github.io/pomotroid/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1790955425802,
+      "aliases": [],
+      "category": "Productivity",
+      "categoryId": "776cd014-b1a4-58a0-9d39-01f7597786f9",
+      "collections": [],
+      "description": "Productivity resource: Weekrise.",
+      "displayId": "PRODUCTIVITY-7786F9-WEEKRISE-J-0267",
+      "id": "cmj-0267",
+      "lastModified": 1790955425802,
+      "name": "Weekrise",
+      "priority": "normal",
+      "smartLabels": [],
+      "subcategory": "",
+      "tags": [
+        "weekrise"
+      ],
+      "type": "Website",
+      "url": "https://weekrise.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
     }
-  ],
-  "source": "v5.0.0 default-tools.json"
+  ]
 }

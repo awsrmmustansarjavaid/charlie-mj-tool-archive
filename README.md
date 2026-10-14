@@ -1,21 +1,8 @@
-# ✨ Charlie MJ Tool Archive v6.2.0 — Advanced Edition
+# ✨ Charlie MJ Tool Archive v6.2.0
 
-A modern **Manifest V3 Chrome extension** for organizing a large personal collection of websites, online tools, learning resources, AI services, developer utilities, social-media tools, productivity resources, and other bookmarks.
+**Staging Queue + Verified Category Database Edition**
 
-**Charlie MJ Tool Archive v6.1.2** preserves the v5.0.0 Dual Library Architecture and adds a modular advanced resource-management layer with:
-
-* 🏠 **Local Default Library**
-* ☁️ **Remote GitHub Library**
-* 🔗 **Unified Library**
-* 🏷️ **Source-aware badges**
-* 🔄 **GitHub synchronization**
-* ⇄ **Local vs Remote comparison**
-* 🧠 **Smart Library management**
-* 🧹 **Duplicate protection and cleanup**
-* 💾 **Backup and export**
-* 🔐 **Local-first personal data**
-
-The extension is designed to remain useful both **offline** and when connected to the GitHub remote library.
+A **Manifest V3 Chrome extension** for organizing a large personal collection of websites, online tools, learning resources, AI services, developer utilities, social-media tools, productivity resources and other bookmarks. It is **local-first**: your library lives in your own Chrome profile, works offline, and can optionally be mirrored to real JSON files that travel with the extension folder.
 
 <p align="center">
   <img src="./assets/85d6b421-b702-43ab-aebc-1713e4747ca7.png" alt="Charlie MJ Tool Archive" width="600">
@@ -29,1150 +16,381 @@ The extension is designed to remain useful both **offline** and when connected t
   </a>
 </p>
 
+---
+
+## Contents
+
+1. [What's new in v6.2.0](#whats-new-in-v620)
+2. [Feature overview](#feature-overview)
+3. [Install / upgrade](#install--upgrade)
+4. [Database architecture](#database-architecture)
+5. [Staging queue and migration](#staging-queue-and-migration)
+6. [Where to find the controls](#where-to-find-the-controls)
+7. [Moving your library to another PC](#moving-your-library-to-another-pc)
+8. [Local, Remote and Unified libraries](#local-remote-and-unified-libraries)
+9. [Smart library features](#smart-library-features)
+10. [Backup, export and import](#backup-export-and-import)
+11. [Native Messaging helper (optional)](#native-messaging-helper-optional)
+12. [Project structure](#project-structure)
+13. [Permissions](#permissions)
+14. [Keyboard shortcuts and Omnibox](#keyboard-shortcuts-and-omnibox)
+15. [Known limitations](#known-limitations)
+16. [Documentation](#documentation)
+17. [Version history](#version-history)
+18. [License](#license)
 
 ---
 
-# 🚀 v6.0.1 Advanced Edition Highlights
+## What's new in v6.2.0
 
-Version 6.0.1 is a corrective additive database upgrade. The existing Local Default Library, Remote GitHub Library, Unified Library, tool editor, favorites, source badges, synchronization, legacy JSON import/export, CSV/HTML exports, bookmark import, diagnostics and existing settings remain in place.
+| Area | Change |
+| --- | --- |
+| **Staging queue** | Every manual add, JSON/bookmark import and right-click save is first written to a durable staging queue, then validated, de-duplicated, categorized, saved and **verified before the staging record is removed**. Failed records stay recoverable. |
+| **Verified writes** | Every file written to `user-data/` is read back (browser folder) or SHA-256 hashed (native helper) and compared. A save is only reported as verified when every file matches. |
+| **Category files by stable ID** | `user-data/database/categories/<categoryId>.json` (nested categories in `database/subcategories/`). Renaming a category never breaks its file. New categories get a file automatically; later tools join the same file. |
+| **Index + manifest** | `category-index.json` (ID, path, record count, size, SHA-256) and `database-manifest.json` (totals, default vs personal split, per-file hashes). |
+| **Packaged defaults split** | The 330 default tools now live only in `data/database/categories/*.json` (71 category files). `data/default-tools.json` is just a small pointer file. |
+| **Recovery loading** | If `profile-data.json` is missing or corrupt the library is rebuilt from the category files, then from `backups/latest-backup.json`. Sources are merged by URL (newest record wins) and conflicts are counted. |
+| **Database Manager upgrades** | Migration Manager, Transfer Readiness Check, Database Files table (records / size / integrity), Reconcile Databases, maintenance interval. |
+| **Settings integration** | *Settings → Database & Storage → Database & Portable Manager* embeds the complete manager. |
+| **Safety backups** | Automatic backup before a migration batch (`pre-migration-*`) and a safety copy before a first write could shrink an existing portable database (`pre-overwrite-*`). Newest 15 dated backups are kept. |
+| **GitHub sync** | Reads both the old flat `default-tools.json` and the new pointer + category-file format; an incomplete remote download is rejected instead of partially syncing. |
+| **Native helper 2.0** | Adds `hashFiles`, `listFiles` and `removeFile`. The previous helper still works. |
 
+Everything from earlier versions remains: dashboard, favorites, notes, categories, collections, Settings Center, omnibox, GitHub sync and the Local / Remote library separation.
+
+---
+
+## Feature overview
+
+* 🏠 **Local Library**, ☁️ **Remote GitHub Library** and 🔗 **Unified Library** with source badges
+* 🔄 GitHub synchronization with sync history and remote-deletion protection
+* ⇄ Local vs Remote comparison and ＋ *Create Local Copy*
 * 🗄️ **Central Database Manager** with independent category collections
-* 🌳 **Hierarchical categories** with nested subcategories and stable IDs
-* 🔎 **Smart search** across tool names, URLs, descriptions, categories, tags, aliases and generated labels
-* 🌐 **Chrome Omnibox search** using the `cmj` keyword (type `cmj`, then a space, then your query)
-* 📊 **URL similarity analysis** that distinguishes exact duplicates from similar-but-distinct paths
-* 📦 **Category JSON export/import** and complete database JSON backups
-* 🗜️ **ZIP directory backup and restore** for category JSON collections
-* 📚 **Smart Collections** with create, open and delete actions
-* ⌘ **Command Center** (Ctrl+Shift+P)
-* 🧾 **Tool metadata**: category IDs, subcategory IDs, display IDs, aliases and smart labels
-* 🕘 **Basic tool revision snapshots** retained in local storage (a dedicated revision-browser UI is a future enhancement)
-* 🧩 **Additive modular services** in `src/advanced.js` and `src/zip-manager.js`
-
-### v6.1.2 portable profile transfer
-
-This release checks `user-data/profile-data.json` before initializing/saving the local library. To use the requested copy-the-extension-folder workflow, first install the Native Messaging host on PC1 and set its data-folder path to the unpacked extension’s `user-data` directory. Run Test Native Helper / Sync Now and verify the profile contains all personal tools. Copy the complete extension folder (including `user-data/profile-data.json`) to PC2 and Load unpacked. The dashboard merges that profile before its first save. For ongoing writes on PC2, install the helper there and configure its path to the PC2 `user-data` directory. The helper is optional for normal extension use but required for automatic file writes. See `docs/BUNDLED-PROFILE-TRANSFER-V6.1.2.md`.
-
-### Install / upgrade
-
-1. Extract the ZIP to a new folder; do not overwrite your existing project folder.
-2. Open `chrome://extensions` and enable Developer mode.
-3. If upgrading an installed copy, export a v5 backup first.
-4. Select **Load unpacked** and choose the extracted `charlie-mj-tool-archive` folder (or use **Reload** if replacing the unpacked folder).
-5. Open the extension dashboard and allow the one-time v6 metadata initialization to finish.
-6. Test the local library, remote sync, import/export and Omnibox (`cmj` + Space).
-
-Chrome Omnibox integration is opt-in by its keyword activation: Chrome does not let extensions intercept every ordinary address-bar keystroke. The extension uses the supported `cmj` keyword provider.
-
-### Data and compatibility notes
-
-* `localLibrary` and `remoteLibrary` remain in `chrome.storage.local` for v5 compatibility and service-worker integrations. IndexedDB is the v6 local category database.
-* v6.0.1 stores category collections in IndexedDB and maintains the legacy localLibrary key as a compatibility mirror.
-* Category JSON files are portable import/export artifacts. Normal extension JavaScript cannot write into its installation directory; the optional Native Messaging helper can write to the user-authorized `user-data` directory.
-* ZIP backups contain one JSON collection per category plus index/config/manifest files.
-* URL comparison preserves meaningful path case and query parameters; it ignores fragments, leading `www.`, default ports and trailing slash differences.
-* Similarity percentages are advisory. Only exact canonical URL matches are blocked by the standard save/import flow; similar URLs remain reviewable and importable.
-
-### v6.0.1 documentation
-
-* `docs/V6.0.0-ADVANCED-FEATURES.md` (updated for v6.0.1)
-* `docs/DATABASE-FORMAT-V6.0.1.md`
-* `docs/CHANGELOG-V6.0.1.md`
-* `docs/CHARLIE-MJ-TOOL-ARCHIVE.md`
-* `docs/DATA-FORMAT.md`
-* `docs/V5.0.0-DUAL-LIBRARY.md` (historical v5 behavior plus v6 compatibility notes)
+* 🗂 **Staging & Migration Manager** and 🚚 **Transfer Readiness Check**
+* 🌳 Hierarchical categories and subcategories with stable IDs
+* 🔎 Smart search across names, URLs, descriptions, categories, tags, aliases and generated labels; `cmj` Chrome Omnibox keyword
+* 🧹 Exact-duplicate protection, URL similarity analysis and cleanup
+* 📚 Smart Collections and ⌘ Command Center (Ctrl+Shift+P)
+* 🧠 Smart tags, similar-tool detection, bulk actions, import preview
+* 🩺 Library Health and manual Website Health Checker
+* 💾 JSON / ZIP / CSV / detailed-HTML backup and export
+* 📁 Optional portable `user-data/` database for copying between PCs
+* ⚙️ Dedicated Settings Center, themes (System / Light / Dark) and grid density
+* 🖱️ Right-click "Save to Charlie MJ Tool Archive"
 
 ---
 
-# 🚀 v5.0.0 Highlights
+## Install / upgrade
 
-* 🏠 **Local Default Library** from `data/default-tools.json`
-* ☁️ **Remote GitHub Library** from the project's GitHub `data/default-tools.json`
-* 🔗 **Unified Library** that combines both sources
-* 🏷️ **Source badges**
+1. Extract the ZIP to a **new** folder (do not overwrite your existing project folder).
+2. Open `chrome://extensions` and enable **Developer mode**.
+3. If you are upgrading an installed copy, export a full JSON backup first (Settings → Backup).
+4. Choose **Load unpacked** and select the extracted `charlie-mj-tool-archive` folder (the one containing `manifest.json`). If you are replacing the folder of an already-loaded copy, click **Reload** instead.
+5. Open the extension dashboard and let the one-time initialization finish.
+6. Test: add a tool, import a small JSON, run a GitHub sync, try `cmj` + Space in the address bar.
 
-  * `🏠 LOCAL`
-  * `☁️ REMOTE`
-  * `🏠 LOCAL + ☁️ REMOTE`
-* 🔎 Source filtering
-
-  * All
-  * Local
-  * Remote
-  * Local + Remote
-* ⇄ **Library Comparison**
-* 🔄 **Sync History**
-* 🛡️ **Remote deletion protection**
-* ＋ **Create Local Copy** for remote-only tools
-* ⚙️ Configurable automatic GitHub synchronization
-* 🧹 URL normalization and duplicate protection
-* 🧠 Smart category autocomplete
-* 🗂️ Category Manager
-* 🏷️ Smart tag suggestions
-* 🔎 Similar-tool detection
-* 📥 Import Preview
-* ☑️ Bulk selection and actions
-* 🩺 Library Health diagnostics
-* 🌐 Manual Website Health Checker
-* 💾 JSON backup and restore
-* 📊 CSV export
-* 🌐 Detailed offline HTML export
-* 🐙 GitHub-ready `default-tools.json` export
-* ⭐ Favorites
-* 🕘 Recently Used
-* 📊 Usage statistics
-* 🌙 System / Light / Dark themes
-* 📐 Comfortable / Compact grid
-* 🖱️ Chrome context-menu saving
-* 🔐 Local-first personal data model
+> Your personal library is stored in the Chrome profile (`chrome.storage.local` + IndexedDB). Removing the extension from Chrome can delete that storage, so make a backup, or connect the portable folder, before uninstalling.
 
 ---
 
-# 🏠 + ☁️ Dual Library Architecture
-
-Charlie MJ Tool Archive v5.0.0 treats the Local and Remote default libraries as **two independent resources**.
+## Database architecture
 
 ```text
-                    CHARLIE MJ TOOL ARCHIVE
-                              │
-               ┌──────────────┴──────────────┐
-               │                             │
-        🏠 LOCAL LIBRARY              ☁️ REMOTE LIBRARY
-               │                             │
-               │                             │
- data/default-tools.json          GitHub/default-tools.json
-               │                             │
-               └──────────────┬──────────────┘
-                              ↓
-                     🔗 UNIFIED LIBRARY
-                              │
-                  ┌───────────┼───────────┐
-                  ↓           ↓           ↓
-               LOCAL       REMOTE     LOCAL + REMOTE
+ Add / Import / Right-click
+            │
+            ▼
+┌─────────────────────────────────────────────┐
+│ LAYER 1 · STAGING (temporary)               │
+│ chrome.storage.local  cmjStagingQueueV1     │
+│ mirrored to user-data/staging/              │
+│            pending-tools.json               │
+└──────────────┬──────────────────────────────┘
+   validate · normalize · de-duplicate · categorize
+               │  write → read back → verify
+               ▼
+┌─────────────────────────────────────────────┐
+│ LAYER 2 · PRIMARY CATEGORY DATABASE         │
+│ IndexedDB category collections              │
+│ + one JSON file per category                │
+│   • packaged defaults (read-only):          │
+│     data/database/categories/*.json         │
+│   • personal (written by the extension):    │
+│     user-data/database/categories/<id>.json │
+└──────────────┬──────────────────────────────┘
+               ▼
+┌─────────────────────────────────────────────┐
+│ LAYER 3 · PORTABLE PROFILE (user-data/)     │
+│ profile-data.json · category files · index  │
+│ manifest · collections · staging · backups  │
+└─────────────────────────────────────────────┘
 ```
 
-The two sources remain independent while the extension provides a unified view.
+**Three sources, kept distinguishable**
+
+| Source | Where it lives | Writable? |
+| --- | --- | --- |
+| Packaged defaults (330 tools / 71 categories) | `data/database/categories/*.json` | No — read-only package files |
+| Personal local tools | IndexedDB + Chrome Storage, mirrored to `user-data/` | Yes |
+| GitHub remote tools | cached remote library | Only through sync; never overwrites personal records |
+
+The manifest records `defaultToolCount` and `personalToolCount`; the library still displays everything together. GitHub updates never overwrite personal local data.
+
+### `user-data/` layout (written by the extension)
+
+```text
+user-data/
+├── profile-data.json                    full transferable profile
+├── database/
+│   ├── categories/<categoryId>.json     one file per top-level category
+│   ├── subcategories/<id>.json          one file per nested category
+│   ├── category-index.json              id → path, records, size, SHA-256
+│   ├── database-manifest.json           totals + per-file hashes
+│   ├── collections.json
+│   └── legacy-local-library.json        v5 compatibility copy
+├── staging/
+│   └── pending-tools.json               durable staging queue mirror
+└── backups/
+    ├── latest-backup.json
+    ├── profile-… / pre-migration-… / pre-overwrite-….json
+```
+
+Chrome extensions cannot silently modify their own installed files, so these files are written to the extension folder only after **you authorize that folder** (File System Access API) and/or through the optional native helper.
 
 ---
 
-# 🏠 Local Default Library
+## Staging queue and migration
 
-The extension package contains:
+When you click **Add** for one tool, or confirm a **JSON / bookmark import** for many, or use the **right-click** save:
 
-```text
-data/default-tools.json
-```
+1. **Stage** – the record is saved to the durable queue immediately (survives Chrome closing).
+2. **Validate** – a valid `http(s)` URL and a name are required (the name defaults to the site's host).
+3. **Normalize and de-duplicate** – exact canonical-URL duplicates are skipped.
+4. **Categorize** – the stable category ID is assigned; a new category (and its file) is created if needed.
+5. **Write** – IndexedDB and the category JSON file are updated; index, manifest and profile are refreshed.
+6. **Verify** – the data is read back and compared.
+7. **Remove from queue** – only after verification. Failed records remain in the queue and can be retried.
 
-The Local Default Library provides:
+Migration normally takes about a second; there is no waiting period. If the portable folder write cannot be verified (for example folder permission was revoked), the tool is still safe in IndexedDB and stays in the queue as *verifying* until a later retry succeeds.
 
-* An offline library
-* A packaged/default resource
-* A fallback when GitHub is unavailable
-* A starting point for the local extension library
-
-Local personal information such as favorites, notes, usage history, and local customizations is stored separately from the packaged default resource.
-
----
-
-# ☁️ Remote GitHub Library
-
-The extension can read the project's public GitHub:
-
-```text
-data/default-tools.json
-```
-
-The Remote Library acts as a shared/default resource that can be updated independently from the installed extension.
-
-The remote library is cached locally so the extension can continue working if GitHub is temporarily unavailable.
-
-No GitHub login is required to read a public default library.
+**Maintenance / reconciliation.** Besides migrating, the extension can compare Chrome Storage, IndexedDB and the portable JSON files and repair differences. Interval options: **15 minutes (default), 30 minutes, 1 hour, 6 hours, daily.** The timer runs while a dashboard tab is open; saves themselves happen immediately.
 
 ---
 
-# 🔗 Unified Library
+## Where to find the controls
 
-The Local and Remote libraries are combined into a single Unified Library.
-
-If a website exists only locally:
-
-```text
-🏠 LOCAL
-```
-
-If it exists only remotely:
-
-```text
-☁️ REMOTE
-```
-
-If the same website exists in both sources:
-
-```text
-🏠 LOCAL + ☁️ REMOTE
-```
-
-The same website is displayed as **one unified card**, rather than two duplicate cards.
+* **Dashboard → Database Manager**
+  * **Staging & Migration Manager** – pending / verifying / failed / migrated / duplicate counters, *Process Pending Now*, *Retry Failed*, *Discard Failed*, *Reconcile Databases*, maintenance interval, recent migration log.
+  * **Transfer Readiness & Database Files** – *Run Transfer Readiness Check*, per-category file table (records, size, integrity).
+  * **Portable Database** – choose the extension folder, native helper path / test, sync now, integrity check, restore.
+  * Category tree, collections, category JSON export/import, ZIP backup/restore.
+* **Settings → Database & Storage → Database & Portable Manager** – the complete manager embedded inside Settings, plus the *Automatically synchronize portable JSON files* and *Allow browser-folder fallback* switches and an *Open Database & Portable Manager* button for the full-page version.
 
 ---
 
-# 🏷️ Source Badges
+## Moving your library to another PC
 
-Every unified tool can display its source.
+Copying an extension folder does **not** copy Chrome's private storage. What travels is whatever the extension has written into `user-data/`.
 
-## Local Only
+**On PC1**
 
-```text
-🏠 LOCAL
-```
+1. Open *Database Manager → Portable Database → Select Extension Folder for Transfer* and choose the exact unpacked extension folder (the one containing `manifest.json`). Grant write permission.
+2. Click **Run Transfer Readiness Check**. It does a full verified rewrite and checks that:
+   * the staging queue is empty,
+   * every file was written and verified by read-back,
+   * `profile-data.json` and the category files both hold all tools,
+   * the category index and manifest match your categories and counts,
+   * there are no missing, corrupt or duplicate records.
+3. Only when it reports **"Ready to transfer"** (with your tool and category counts) copy the whole extension folder.
 
-The tool exists in the Local Default Library but not in the Remote Library.
+**On PC2**
 
-## Remote Only
+1. Chrome → `chrome://extensions` → Developer mode → **Load unpacked** → select the copied folder.
+2. Open the dashboard. It reads `user-data/` (profile → category files → latest backup), merges it with the packaged defaults by URL without creating duplicates, and re-queues anything still pending.
+3. To keep writing on PC2, select the PC2 extension folder in Database Manager (or install the native helper there).
 
-```text
-☁️ REMOTE
-```
+A safety net: the first write of a session never silently shrinks an existing portable database; a `pre-overwrite-*` backup is saved first.
 
-The tool exists in the Remote GitHub Library but not in the Local Library.
-
-## Local + Remote
-
-```text
-🏠 LOCAL + ☁️ REMOTE
-```
-
-The tool exists in both libraries.
-
-This source information is available throughout the extension, including tool cards, details, search/filter results, and library comparison.
+If the extension was removed from Chrome on PC1 before any backup or portable sync existed, the personal tools cannot be reconstructed from the package. Recover them from a JSON/ZIP backup or another browser profile.
 
 ---
 
-# 🔎 Source Filtering
-
-The Unified Library provides source filtering:
+## Local, Remote and Unified libraries
 
 ```text
-All
-Local
-Remote
-Local + Remote
+ data/database/categories/*.json        GitHub  data/default-tools.json
+ (packaged defaults, via manifest)        (remote library)
+                │                                   │
+                ▼                                   ▼
+          🏠 LOCAL LIBRARY                  ☁️ REMOTE LIBRARY (cached)
+                └──────────────┬──────────────────┘
+                               ▼
+                       🔗 UNIFIED LIBRARY
 ```
 
-This allows you to quickly answer questions such as:
+* **Badges:** `🏠 LOCAL`, `☁️ REMOTE`, `🏠 LOCAL + ☁️ REMOTE` (the same site is shown as one card).
+* **Filters:** All · Local · Remote · Local + Remote.
+* **Comparison:** Local only / Remote only / both / remote changes.
+* **Sync:** automatic at startup and on an interval (15 min, 30 min, 1 h, 6 h, daily, or off) or manually (*Settings → Sync from GitHub Now*). Recent activity is recorded in Sync History.
+* **Remote deletion protection:** removing a site from GitHub never deletes your local record.
+* **Create Local Copy:** turn a remote-only tool into your own customizable local record.
+* **Remote format:** the loader accepts the old flat `default-tools.json` (a `tools` array) or the v6.2.0 pointer file plus category files listed by `database-manifest.json`. A partial/incomplete remote download is rejected.
+* **Publishing:** *Settings → Prepare GitHub Update* exports a GitHub-ready `default-tools.json` without private notes, favorites or usage history. Note that this exports a flat file; the packaged defaults inside the extension use the category-file format.
 
-* Which tools are only in my local library?
-* Which tools came from GitHub?
-* Which tools exist in both libraries?
-* What resources were added remotely?
-
----
-
-# ⇄ Library Comparison
-
-The extension includes a **Library Comparison** feature for comparing Local and Remote resources.
-
-It can show:
-
-```text
-Local Only
-Remote Only
-Local + Remote
-Remote Changes
-```
-
-This provides a clear view of differences between the two default libraries before making publishing or synchronization decisions.
+Personal data (favorites, notes, usage history, local overrides) is kept separate and is not blindly overwritten by remote sync.
 
 ---
 
-# 🔄 GitHub Synchronization
+## Smart library features
 
-The extension supports automatic synchronization with the Remote GitHub Library.
-
-Synchronization can occur:
-
-* Automatically when the extension starts
-* Manually through **Settings → Sync from GitHub Now**
-* Periodically while Chrome is active
-* According to the configured synchronization interval
-
-Available synchronization intervals:
-
-```text
-15 minutes
-30 minutes
-1 hour
-6 hours
-Daily
-```
-
-Automatic synchronization can also be disabled.
+* **Smart Add Tool** – duplicate warning, URL normalization, category autocomplete with counts, smart tag suggestions, similar-tool warning, description and personal notes.
+* **Category Manager** – create, rename, merge, delete, reassign, view counts; hierarchical categories with stable IDs.
+* **Advanced search** – `category:`, `tag:`, `favorite:true`, `type:`, `used:recent`, combinable with source filters.
+* **Duplicate protection** – URL comparison keeps meaningful path case and query parameters, and ignores fragments, a leading `www.`, default ports and trailing slashes. Only exact canonical matches are blocked; similar URLs stay reviewable. Similarity percentages are advisory.
+* **Bulk actions** – move category, add tags, favorite, export, remove.
+* **Import preview** – new / existing / duplicate / similar / missing-category analysis for JSON and Chrome bookmark HTML.
+* **Library Health** – totals, categories, duplicates, missing descriptions, uncategorized, invalid URLs, never-used tools.
+* **Website Health Checker** – manual; a blocked or failed automated check does not always mean a site is down.
+* **Favorites, Recently Used, usage statistics.**
+* **Smart Collections** and **Command Center** (Ctrl+Shift+P).
+* **Tool revision snapshots** are retained in local storage (a dedicated revision browser is a future enhancement).
 
 ---
 
-# 🔄 Sync Behavior
+## Backup, export and import
 
-When a new website is added to the Remote GitHub Library, the extension can detect it during synchronization.
-
-For example:
-
-```text
-GitHub
-   ↓
-default-tools.json
-   ↓
-Remote Library
-   ↓
-GitHub Sync
-   ↓
-Unified Library
-```
-
-A remote-only website appears as:
-
-```text
-☁️ REMOTE
-```
-
-If the same normalized website already exists locally:
-
-```text
-🏠 LOCAL + ☁️ REMOTE
-```
-
-The extension does not create a second card for the same website.
+* Full JSON backup / restore, per-category JSON export/import, ZIP backup/restore (one JSON per category plus index/config/manifest).
+* CSV export and detailed offline HTML export (name, URL, category, type, description, tags, notes, favorite, dates, usage, source).
+* JSON import, Chrome bookmark import and import preview. **JSON and bookmark imports go through the staging queue.**
+* Restore bundled defaults (loaded from the packaged category files).
+* Portable folder backups under `user-data/backups/`.
 
 ---
 
-# 🕘 Sync History
+## Native Messaging helper (optional)
 
-The extension records recent synchronization activity.
+The browser-folder method needs no extra software. The helper adds file writing without Chrome's folder permission prompts, and is useful for advanced setups.
 
-Example:
-
-```text
-✓ + New
-↻ Updated
-− Removed remotely
-```
-
-Sync history helps you understand what happened during each GitHub synchronization.
+* Python script and Windows installer/build scripts are in `native-messaging/` (see its README).
+* Helper **2.0** supports `writeFile`, `readFile`, `hashFiles` (SHA-256 verification), `listFiles`, `removeFile` (limited to `database/`, `backups/` and `staging/`) and `inspect`.
+* Rebuild the Windows executable with `build-native-host.ps1` to get the new actions. An older helper still works; the extension falls back to reading files back for verification.
+* Install the helper on each PC and set its data path to that PC's extension `user-data` folder.
 
 ---
 
-# 🛡️ Remote Deletion Protection
-
-GitHub is treated as a shared/default source, while Local data is treated as personal.
-
-Therefore, if a website is removed from the Remote GitHub Library, the extension does **not automatically delete the local record**.
-
-Example:
-
-```text
-Remote
-Example Tool ❌
-
-Local
-Example Tool ✓
-```
-
-The local record can remain available.
-
-This prevents an accidental GitHub change from deleting personal information.
-
----
-
-# ＋ Create Local Copy
-
-A Remote-only tool can be converted into a personal Local record.
-
-Example:
-
-```text
-☁️ REMOTE
-Example Tool
-```
-
-Choose:
-
-```text
-Create Local Copy
-```
-
-The result becomes:
-
-```text
-🏠 LOCAL + ☁️ REMOTE
-```
-
-The local copy can then be customized without pretending that the GitHub source itself was modified.
-
----
-
-# 🧩 Local Personal Data
-
-Personal local information is kept separate from the default libraries.
-
-Examples include:
-
-* Favorites
-* Private notes
-* Usage history
-* Usage count
-* Last used date
-* Local customizations
-* Local overrides
-
-Remote synchronization should not blindly overwrite this personal information.
-
----
-
-# 🧹 Duplicate Protection
-
-The archive includes URL normalization and duplicate detection.
-
-The system compares websites using normalized URLs so common variations can be recognized as the same resource.
-
-For example:
-
-```text
-https://example.com
-https://example.com/
-https://example.com/?utm_source=test
-```
-
-can resolve to the same canonical website for duplicate comparison.
-
-Meaningful paths remain distinct:
-
-```text
-https://example.com/tools
-https://example.com/download
-```
-
-The goal is to prevent accidental duplicate entries while preserving genuinely different resources.
-
----
-
-# 🧹 Duplicate Cleanup
-
-Existing library data can be checked for duplicate records.
-
-The duplicate manager can identify possible duplicate websites and help clean the library.
-
-The system can distinguish:
-
-* Exact/canonical duplicates
-* Similar tools
-* Different resources on the same domain
-
-A similar website is **not automatically treated as a duplicate**.
-
----
-
-# 🧠 Smart Library Features
-
-## Smart Add Tool
-
-When adding a new website, the extension provides:
-
-* Duplicate URL warning
-* URL normalization
-* Existing category autocomplete
-* Category counts
-* Recently used categories
-* Create-new-category option
-* Smart tag suggestions
-* Similar-tool warning
-* Description field
-* Personal notes
-
-Example:
-
-```text
-Category
-[ Instagram... ]
-
-Suggestions:
-
-📱 Instagram Tools       18
-📱 Social Media Tools    12
-
-💡 Recommended:
-Instagram Tools
-```
-
----
-
-# 🗂️ Category Manager
-
-The Category Manager allows you to organize your library.
-
-Supported operations include:
-
-* Create category
-* Rename category
-* Merge categories
-* Delete category
-* Reassign tools
-* View category counts
-* Organize tools into better categories
-
-The category system is designed to prevent unrelated tools from being placed into overly broad categories.
-
----
-
-# 🏷️ Smart Tags
-
-The extension can suggest tags based on information such as:
-
-* Tool name
-* URL
-* Description
-* Category
-
-Example:
-
-```text
-Instagram
-Stories
-Downloader
-Social Media
-```
-
-Suggested tags can be accepted or ignored.
-
----
-
-# 🔎 Similar Tool Detection
-
-When adding a new website, the extension can warn about similar existing resources.
-
-Example:
-
-```text
-🔎 Similar tools already exist
-
-Instagram Story Viewer
-StorySaver
-Instagram Stories Downloader
-
-[View Similar Tools]
-[Continue Anyway]
-```
-
-Similar tools are not automatically considered duplicates.
-
----
-
-# 🔎 Advanced Search
-
-The archive supports normal search and structured search.
-
-Examples:
-
-```text
-instagram
-```
-
-```text
-category:Instagram
-```
-
-```text
-tag:download
-```
-
-```text
-favorite:true
-```
-
-```text
-type:Website
-```
-
-```text
-used:recent
-```
-
-Search can be combined with source filtering.
-
----
-
-# ☑️ Bulk Actions
-
-Multiple local records can be selected for bulk operations.
-
-Available actions include:
-
-* Move category
-* Add tags
-* Favorite
-* Export
-* Remove local records
-
-This makes large libraries easier to maintain.
-
----
-
-# 📥 Import Preview
-
-Before importing a large collection, the extension can analyze the data first.
-
-The preview can identify:
-
-* New tools
-* Existing tools
-* Possible duplicates
-* Missing categories
-* Similar tools
-
-This gives you an opportunity to review the import before committing changes.
-
-Supported imports include:
-
-* JSON
-* Chrome bookmarks HTML
-
----
-
-# 🩺 Library Health
-
-The Library Health section provides local diagnostics.
-
-It can identify:
-
-* Total local tools
-* Category count
-* Duplicate records
-* Missing descriptions
-* Uncategorized tools
-* Invalid URLs
-* Never-used tools
-
-Remote differences are handled separately through **Library Comparison**.
-
----
-
-# 🌐 Website Health Checker
-
-A manual website health checker can test saved websites.
-
-Possible results include:
-
-```text
-✓ Working
-⚠ Warning / Blocked
-✕ Failed
-```
-
-Some websites block automated requests.
-
-Therefore, a warning or failed automated check does not necessarily mean that the website is unavailable in a normal browser.
-
----
-
-# 💾 Backup & Restore
-
-The extension provides multiple backup and export options.
-
-Supported operations include:
-
-* JSON backup
-* JSON restore
-* CSV export
-* Detailed offline HTML export
-* Restore bundled defaults
-* JSON import
-* Chrome bookmark import
-* Import preview
-
-The detailed HTML export is designed to provide a readable offline archive of the tool collection.
-
----
-
-# 🌐 Detailed HTML Export
-
-The HTML export can include:
-
-* Tool name
-* URL
-* Category
-* Type
-* Description
-* Tags
-* Notes
-* Favorite status
-* Date added
-* Last modified
-* Last used
-* Usage count
-* Source information
-
-The resulting HTML archive can be stored locally or shared as a standalone reference.
-
----
-
-# 🐙 Publishing the Local Library to GitHub
-
-Local library changes can be prepared for GitHub publishing.
-
-Use:
-
-```text
-Settings
-   ↓
-Prepare GitHub Update
-```
-
-The extension creates a GitHub-ready:
-
-```text
-default-tools.json
-```
-
-without unnecessary personal runtime information such as:
-
-* Private notes
-* Favorites
-* Usage history
-* Runtime-only fields
-
-Recommended workflow:
-
-```text
-Local changes
-      ↓
-Prepare GitHub Update
-      ↓
-default-tools.json
-      ↓
-Review
-      ↓
-Commit / Push to GitHub
-      ↓
-Remote GitHub Library
-      ↓
-Other installations synchronize
-```
-
-This keeps the GitHub library suitable as a shared/default resource.
-
----
-
-# 🔐 Local-First Architecture
-
-The extension is designed around a Local-First model.
-
-```text
-Bundled Local Library
-        +
-Cached Remote Library
-        +
-Personal Local Data
-        ↓
-     Library Engine
-        ↓
-   Unified Dashboard
-```
-
-If GitHub is unavailable, the extension can continue using the locally available data and cached Remote Library.
-
-Your personal library does not depend entirely on an active GitHub connection.
-
----
-
-# 📊 Usage Statistics
-
-The extension can track local usage information such as:
-
-* Usage count
-* Last used date
-* Recently used tools
-
-This makes frequently used resources easier to find.
-
----
-
-# ⭐ Favorites
-
-Tools can be marked as favorites.
-
-Favorites can then be filtered independently from the complete library.
-
----
-
-# 🕘 Recently Used
-
-Recently opened websites can be found through the Recently Used section.
-
-This is useful for frequently accessed development, learning, AI, productivity, and other resources.
-
----
-
-# 🖱️ Chrome Context Menu
-
-The extension provides a Chrome context-menu action for saving websites.
-
-Example:
-
-```text
-Right Click
-    ↓
-Save to Charlie MJ Tool Archive
-```
-
-The website can then be added to the local archive.
-
----
-
-# 🌙 Themes
-
-Supported appearance modes:
-
-* System
-* Light
-* Dark
-
-The extension is designed around a modern dark/neon visual style while supporting different display preferences.
-
----
-
-# 📐 Grid Density
-
-The tool dashboard supports:
-
-* Comfortable
-* Compact
-
-This allows large libraries to be displayed efficiently.
-
----
-
-# 🎨 UI Design
-
-Charlie MJ Tool Archive uses a modern visual design based around:
-
-* Glassmorphism
-* Dark navy/blue backgrounds
-* Neon-style gradients
-* Rounded cards
-* Colorful category indicators
-* Modern dashboard layout
-* Responsive tool cards
-* Source badges
-* Clear navigation
-
-The goal is to make a large tool collection feel more like a modern application/library than a traditional bookmark manager.
-
----
-
-# 📁 Project Structure
+## Project structure
 
 ```text
 charlie-mj-tool-archive/
-│
-├── data/
-│   └── default-tools.json
-│
-├── docs/
-│   ├── CHARLIE-MJ-TOOL-ARCHIVE.md
-│   ├── DATA-FORMAT.md
-│   └── V5.0.0-DUAL-LIBRARY.md
-│
-├── icons/
-│   ├── icon16.png
-│   ├── icon32.png
-│   ├── icon48.png
-│   ├── icon128.png
-│   └── logo.svg
-│
-├── src/
-│   ├── background.js
-│   ├── dashboard.html
-│   ├── dashboard.js
-│   └── styles.css
-│
 ├── manifest.json
+├── VERSION
+├── data/
+│   ├── default-tools.json                 small pointer (no tools inside)
+│   └── database/
+│       ├── database-config.json
+│       ├── category-index.json
+│       ├── database-manifest.json
+│       ├── categories/*.json              71 packaged default category files (330 tools)
+│       └── subcategories/
+├── user-data/                             written by the extension; copy this with the folder
+│   ├── profile-data.json
+│   ├── database/  staging/  backups/
+├── src/
+│   ├── background.js                      sync, context menu, default-library loader
+│   ├── dashboard.html / dashboard.js      main UI, Database Manager, staging driver
+│   ├── staging-engine.js                  durable queue, migration, reconciliation
+│   ├── portable-sync.js                   verified portable writes, recovery, readiness
+│   ├── database-engine.js                 IndexedDB category collections
+│   ├── advanced.js                        categories, search, similarity, metadata
+│   ├── zip-manager.js                     ZIP backup / restore
+│   ├── settings.html / settings.js / settings.css   Settings Center
+│   └── styles.css
+├── native-messaging/                      optional helper (+ Windows scripts)
+├── scripts/build-default-manifest.py      rebuild index / manifest / pointer after editing defaults
+├── docs/
+├── icons/  assets/
 ├── LICENSE
 └── README.md
 ```
 
----
-
-# 🔐 Permissions
-
-The extension uses Chrome permissions for functionality such as:
+After editing any file in `data/database/categories/`, run:
 
 ```text
-storage
-bookmarks
-tabs
-contextMenus
-alarms
-```
-
-These support:
-
-* Local library storage
-* Chrome bookmark integration
-* Opening tools
-* Context-menu saving
-* Scheduled synchronization
-
-Host permissions are used for:
-
-* Public GitHub library access
-* Manual website health checking
-
-No GitHub login is required to read a public GitHub default library.
-
----
-
-# 🛠️ Install as an Unpacked Extension
-
-## 1. Download or clone the repository
-
-Download this repository and extract it locally.
-
-## 2. Open Chrome
-
-Visit:
-
-```text
-chrome://extensions/
-```
-
-## 3. Enable Developer Mode
-
-Turn on:
-
-```text
-Developer mode
-```
-
-## 4. Load the extension
-
-Select:
-
-```text
-Load unpacked
-```
-
-## 5. Select the project directory
-
-Choose the folder containing:
-
-```text
-manifest.json
-```
-
-## 6. Open Charlie MJ Tool Archive
-
-The extension should now appear in Chrome.
-
-After changing source files, use:
-
-```text
-Reload
-```
-
-on the extension card.
-
----
-
-# ⌨️ Keyboard Shortcuts
-
-Available shortcuts include:
-
-```text
-Ctrl + Shift + L
-```
-
-Open Charlie MJ Tool Archive.
-
-```text
-Ctrl + K
-```
-
-Focus the search field.
-
----
-
-# 🐙 GitHub Workflow
-
-The intended v5 workflow is:
-
-```text
-                  GitHub Repository
-                         │
-                         │
-              default-tools.json
-                         │
-                         ↓
-                ☁️ Remote Library
-                         │
-                         ↓
-                   Remote Cache
-                         │
-                         │
-🏠 Local Library ────────┤
-                         ↓
-                  🔗 Unified Library
-                         │
-             ┌───────────┼───────────┐
-             ↓           ↓           ↓
-          Search      Category     Favorites
-             │           │           │
-             └───────────┼───────────┘
-                         ↓
-                   Chrome Extension
-```
-
-For publishing:
-
-```text
-Chrome Extension
-       ↓
-Local Library
-       ↓
-Prepare GitHub Update
-       ↓
-default-tools.json
-       ↓
-GitHub
-       ↓
-Remote Library
-       ↓
-Other installations
-       ↓
-Automatic synchronization
+python scripts/build-default-manifest.py
 ```
 
 ---
 
-# 📚 Documentation
-
-Detailed documentation is available in the `docs` directory.
-
-### Main project documentation
+## Permissions
 
 ```text
-docs/CHARLIE-MJ-TOOL-ARCHIVE.md
+storage, bookmarks, tabs, contextMenus, alarms, nativeMessaging
 ```
 
-### Data format
-
-```text
-docs/DATA-FORMAT.md
-```
-
-### v5 Dual Library Architecture
-
-```text
-docs/V5.0.0-DUAL-LIBRARY.md
-```
-
-The v5 architecture document covers:
-
-* Local library
-* Remote library
-* Unified library
-* Source badges
-* Source filtering
-* URL normalization
-* Duplicate handling
-* GitHub synchronization
-* Sync history
-* Remote change detection
-* Remote deletion protection
-* Local copies
-* Library comparison
-* GitHub publishing
-* Remote caching
-* Local-first behavior
-* Backup/export
-* v5 feature architecture
+Host permissions (`https://raw.githubusercontent.com/*`, `http://*/*`, `https://*/*`) are used for reading the public GitHub library and the manual website health check. No GitHub login is required to read a public default library. Folder access is granted by you through Chrome's folder picker and can be revoked at any time.
 
 ---
 
-# 📦 Version
+## Keyboard shortcuts and Omnibox
 
-**Charlie MJ Tool Archive v5.0.0**
+| Shortcut | Action |
+| --- | --- |
+| `Ctrl + Shift + L` | Open Charlie MJ Tool Archive (customizable at `chrome://extensions/shortcuts`) |
+| `Ctrl + K` | Focus the search field |
+| `Ctrl + Shift + P` | Command Center |
+| `cmj` + Space | Search the archive from Chrome's address bar |
 
-### Dual Library + Unified Source-Aware Smart Archive
-
-```text
-🏠 Local
-     +
-☁️ Remote
-     ↓
-🔗 Unified
-     ↓
-🧠 Smart Library
-```
+Chrome does not allow extensions to intercept ordinary address-bar typing; the supported `cmj` keyword provider is used.
 
 ---
 
-# 📜 License
+## Known limitations
 
-This project is open source and distributed under the license included in:
-
-```text
-LICENSE
-```
+* The portable files are written only after you authorize the extension folder (or install the native helper). Chrome may ask you to re-approve folder access after a restart; until then new tools stay safely in the staging queue.
+* The maintenance/reconciliation timer runs only while a dashboard tab is open.
+* Chrome's own storage (`chrome.storage`, IndexedDB) is never copied with the folder; only what the extension wrote into `user-data/` travels.
+* Packaged files under `data/` are read-only at runtime.
+* There is currently no "migrate only after X minutes" delay and no manual-only migration mode; migration runs right after each add or import, and *Process Pending Now* handles anything left in the queue.
+* The planned *Available Tools* tab, extra Settings tabs (Staging Queue, Category File Database, Local & Remote Sync, Automation, Logs) and selective "move selected to local" controls are not part of v6.2.0.
 
 ---
 
-# 👨‍💻 Project
+## Documentation
 
-**Charlie MJ Tool Archive**
+| Document | Topic |
+| --- | --- |
+| `docs/CHANGELOG-V6.2.0.md` | What changed in v6.2.0 |
+| `docs/STAGING-AND-CATEGORY-DATABASE-V6.2.0.md` | Staging flow, layers, transfer procedure |
+| `docs/TRANSFER-AND-SETTINGS-HOTFIX-V6.1.3.md`, `docs/BUNDLED-PROFILE-TRANSFER-V6.1.2.md` | Earlier transfer notes |
+| `docs/PORTABLE-DATABASE-V6.1.0.md`, `docs/PORTABLE-DATABASE-V6.1.1.md` | Portable database history |
+| `docs/DATABASE-FORMAT-V6.md`, `docs/DATABASE-FORMAT-V6.0.1.md`, `docs/DATA-FORMAT.md` | Data formats |
+| `docs/SETTINGS-CENTER-V6.0.2.md` | Settings Center |
+| `docs/V6.0.0-ADVANCED-FEATURES.md`, `docs/V6.0.1-IMPLEMENTATION-STATUS.md` | v6 feature set |
+| `docs/V5.0.0-DUAL-LIBRARY.md` | Dual-library architecture (historical) |
+| `docs/CHARLIE-MJ-TOOL-ARCHIVE.md` | Main project documentation |
+| `native-messaging/README.md` | Native helper setup |
 
-A personal, local-first Chrome extension for building, organizing, discovering, maintaining, and sharing a large collection of useful online resources.
+---
 
-The project is designed to evolve from a simple bookmark archive into a **source-aware personal tool library and knowledge resource manager**.
+## Version history
 
+| Version | Highlights |
+| --- | --- |
+| **6.2.0** | Staging queue, verified category-file database, ID-named category files, index/manifest with hashes, packaged defaults split into category files, recovery loading, Transfer Readiness, Migration Manager, Reconcile, embedded manager in Settings, native helper 2.0 |
+| 6.1.3 | Portable transfer and settings fixes |
+| 6.1.2 | Settings renderer fix, Database & Storage tab, merge-before-write for portable profiles |
+| 6.1.0 / 6.1.1 | Hybrid portable database (browser folder + native helper) |
+| 6.0.2 | Dedicated Settings Center |
+| 6.0.1 | Independent category databases (IndexedDB), ZIP backup/restore |
+| 6.0.0 | Advanced edition: Database Manager, smart search, omnibox, collections |
+| 5.0.0 | Dual library: Local + Remote + Unified, GitHub sync, source badges |
 
-## Independent category databases (v6.0.1)
+---
 
-The live local database now uses IndexedDB (`CharlieMJToolArchiveDB`). Each category and subcategory is stored as an independent logical collection. Tool records are assigned to exactly one leaf collection; parent collections do not duplicate child records. The legacy `localLibrary` Chrome Storage value is maintained as a compatibility mirror for existing v5 features and background integrations.
+## License
 
-The packaged seed database is split into individual JSON collection files under `data/database/`: `database-config.json`, `categories-index.json`, `categories/<category>.json`, and `subcategories/<parent>/<subcategory>.json`. These files are portable seed/backup representations; they are not continuously writable files inside the installed extension. Chrome extensions cannot silently create or update arbitrary files in their installation directory. Use Database Manager to export one collection as JSON or all collections as a ZIP archive containing separate JSON files.
+This project is open source and distributed under the license in [`LICENSE`](LICENSE).
 
-Database Manager supports per-category JSON export/restore, multi-file JSON import, folder import, ZIP import/export, full JSON backup, and the legacy v5 library export. ZIP archives include the category index and one JSON file per category/subcategory.
+---
 
-
-## v6.0.2 — Dedicated Settings Center
-
-Version 6.0.2 adds a standalone, full-page Settings Center opened from the dashboard gear button. Settings are organized into independent navigation tabs: General, Database, Categories, Subcategories, Smart Search, Chrome Omnibox, Duplicate Detection, Import & Export, Collections, Tool Health, Usage Analytics, Keyboard Shortcuts, Privacy, and Advanced. The responsive two-column card grid includes independent module switches, editable preferences, save/discard/reset controls, and settings JSON import/export.
-
-Open the archive and select the gear icon in the top-right corner to open Settings in its own tab. Use **Save changes** to persist preferences in `chrome.storage.local`. Database Manager and Chrome shortcut management are available through contextual quick actions.
-
-The settings schema is additive and retains existing v6.0.1 settings. Controls that describe planned or independently configurable behavior are stored as preferences; a toggle is not represented as a completed runtime feature unless the corresponding module currently reads and enforces it. Core add/edit/delete, existing library storage, local/remote library separation, and database workflows remain available.
-
-## v6.1.0 — Hybrid Portable Database
-
-The existing Chrome Storage + IndexedDB architecture remains the primary application store. v6.1.0 adds an optional portable JSON persistence layer: authorize a normal local folder from Database Manager to automatically maintain separate category/subcategory JSON files, profile-data.json, indexes, manifests, collections, and dated backups. An optional Native Messaging companion host can write the same data to a configured folder. On the original PC, connect a portable folder while your personal tools are still present. Copy that separate data folder to the second PC, then choose it in Database Manager. v6.1.2 reads the existing profile and asks to merge it before writing, so a smaller fresh library cannot overwrite the larger portable copy.
-
-See [Hybrid Portable Database v6.1.2](docs/PORTABLE-DATABASE-V6.1.2.md) and [Native Messaging setup](native-messaging/README.md). Chrome extensions cannot modify their own installed package directory; the portable database must live in a separate folder.
-
-
-## v6.1.2 — Portable Restore & Settings Hotfix
-
-Fixes the Settings renderer crash (`path.split is not a function`) by rendering individual control definitions and validating setting paths. Adds a Database & Storage tab. Most importantly, connecting an existing portable folder now reads and offers to merge its profile before any write; Native Messaging supports chunked profile reads too. This prevents a clean PC with only bundled defaults from overwriting a larger portable library before restoration. Existing Chrome Storage, IndexedDB, packaged defaults, and library features remain in place.
-
-
-### Important cross-PC transfer procedure
-
-1. **Original PC:** Do not uninstall or remove the extension before exporting/synchronizing. Open Database Manager → Portable Database → Choose Portable Data Folder and select a separate folder (for example `Documents/Charlie-MJ-Portable-Data`). If it is empty, the extension creates `profile-data.json` with the complete current local library, categories, collections, and settings.
-2. Wait until the status reports a successful synchronization. Confirm `profile-data.json` contains the expected tool count.
-3. Copy the entire `Charlie-MJ-Portable-Data` folder to the second PC (USB, network share, or another file-transfer method). Copying only the extension folder does not include Chrome profile storage.
-4. **Second PC:** Load the extension, open Database Manager → Choose Portable Data Folder, and select the copied data folder. v6.1.2 detects the existing profile and asks to merge before syncing. Accept the merge to restore personal tools; do not select a new empty folder.
-5. If using Native Messaging, install the helper on each PC and configure its local data-folder path. Use Test Native Helper; it now reads and offers to merge an existing profile before writing.
-
-If the extension was already uninstalled on the original PC before any backup was created, Chrome may have removed that extension's local storage. The package cannot reconstruct those personal tools; recover them from an existing JSON/ZIP backup, another browser profile, or another PC where the old library still exists.
-
-
-## v6.2.0 — Staging queue + verified category database
-
-New and imported tools enter a durable **staging queue**, are validated and categorised, written to per-category JSON files (stable ID file names) and verified by read-back before leaving the queue. The 330 packaged defaults now live in `data/database/categories/*.json` (`data/default-tools.json` is only a pointer). Database Manager gains a **Migration Manager**, **Transfer Readiness Check**, **Database Files** table and **Reconcile Databases**. See `docs/CHANGELOG-V6.2.0.md` and `docs/STAGING-AND-CATEGORY-DATABASE-V6.2.0.md`.
+**Charlie MJ Tool Archive** — a personal, local-first Chrome extension for building, organizing, discovering, maintaining and sharing a large collection of useful online resources.

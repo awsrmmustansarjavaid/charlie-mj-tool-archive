@@ -1,0 +1,92 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "040ae099-a378-4669-95d2-2562d66364ac",
+    "displayId": "LIVE-TV-6364AC",
+    "name": "Live TV",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1792336317147,
+    "updatedAt": 1792336317147
+  },
+  "parentCategory": null,
+  "recordCount": 2,
+  "tools": [
+    {
+      "addedAt": 1792336365970,
+      "aliases": [],
+      "category": "Live TV",
+      "categoryId": "040ae099-a378-4669-95d2-2562d66364ac",
+      "collections": [],
+      "description": "Live TV resource: Pakistani TV Channels. Useful for quick access from your personal tool archive.",
+      "displayId": "LIVE-TV-6364AC-PAKISTANI-TV-CHANNELS-02076C",
+      "id": "9ad3ec3b-c752-4c8a-aeff-a3a54802076c",
+      "lastModified": 1792336365970,
+      "name": "Pakistani TV Channels",
+      "priority": "normal",
+      "smartLabels": [
+        "pakistani",
+        "channels",
+        "live",
+        "resource",
+        "useful",
+        "quick",
+        "access",
+        "personal",
+        "archive"
+      ],
+      "subcategory": "",
+      "tags": [
+        "pakistani",
+        "channels",
+        "live"
+      ],
+      "type": "Website",
+      "url": "https://freetv.studio/country/PK",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    },
+    {
+      "addedAt": 1792336317055,
+      "aliases": [],
+      "category": "Live TV",
+      "categoryId": "040ae099-a378-4669-95d2-2562d66364ac",
+      "collections": [],
+      "description": "Live TV resource: Turkish TV Channels. Useful for quick access from your personal tool archive.",
+      "displayId": "LIVE-TV-6364AC-TURKISH-TV-CHANNELS-E6EE56",
+      "id": "40064298-f060-4944-bf20-bf2db8e6ee56",
+      "lastModified": 1792337342381,
+      "name": "Turkish TV Channels",
+      "priority": "normal",
+      "smartLabels": [
+        "turkish",
+        "channels",
+        "live",
+        "resource",
+        "useful",
+        "quick",
+        "access",
+        "personal",
+        "archive"
+      ],
+      "subcategory": "",
+      "tags": [
+        "turkish",
+        "channels",
+        "live"
+      ],
+      "type": "Website",
+      "url": "https://freetv.studio/country/TR",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

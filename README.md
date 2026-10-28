@@ -11,7 +11,7 @@ A **Manifest V3 Chrome extension** for organizing a large personal collection of
 ## Download
 
 <p align="center">
-  <a href="/downloads/charlie-mj-tool-archive-v6_2_0-settings-manager (Updated).zip">
+  <a href="/downloads/charlie-mj-tool-archive-v6_2_1-smart-search.zip">
     <img src="https://img.shields.io/badge/⬇%20Download%20Chrome%20Extension-2ea44f?style=for-the-badge" alt="Download Chrome Extension">
   </a>
 </p>
@@ -62,10 +62,6 @@ Everything from earlier versions remains: dashboard, favorites, notes, categorie
 ---
 
 ## Feature overview
-
-<p align="center">
-  <img src="./assets/charlie-mj-tool-archive.png" alt="Charlie MJ Tool Archive" width="600">
-</p>
 
 * 🏠 **Local Library**, ☁️ **Remote GitHub Library** and 🔗 **Unified Library** with source badges
 * 🔄 GitHub synchronization with sync history and remote-deletion protection
@@ -399,3 +395,10 @@ This project is open source and distributed under the license in [`LICENSE`](LIC
 ---
 
 **Charlie MJ Tool Archive** — a personal, local-first Chrome extension for building, organizing, discovering, maintaining and sharing a large collection of useful online resources.
+
+
+## v6.2.1 — Smart search & fixes
+- **Dashboard search bar**: live suggestions (categories + tools) with highlighted matches, typo tolerance, keyboard navigation (↑ ↓ Enter Esc), Ctrl+K. Typing searches the whole library; clicking a category filters by it.
+- **Address-bar search**: type `cmj`, press Space/Tab, then start typing — categories and tools are suggested with highlighting. Pick a category to open it in the dashboard.
+- **Fixed**: `Cannot create item with duplicate id save-to-charlie-mj` (context-menu creation is now serialized and idempotent).
+- **Fixed**: inline `onerror`/`onclick` handlers blocked by the extension CSP (favicon fallback, empty-state button).

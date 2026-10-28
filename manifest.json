@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Charlie MJ Tool Archive",
-  "version": "6.2.0",
+  "version": "6.2.1",
   "description": "Local-first personal resource manager with a durable staging queue, category JSON database, verified portable transfer and GitHub library sync.",
   "permissions": [
     "alarms",
@@ -35,7 +35,7 @@
       "suggested_key": {
         "default": "Ctrl+Shift+L"
       },
-      "description": "Open Charlie MJ Tool Archive v6.2.0"
+      "description": "Open Charlie MJ Tool Archive v6.2.1"
     }
   },
   "host_permissions": [
@@ -46,5 +46,5 @@
   "omnibox": {
     "keyword": "cmj"
   },
-  "version_name": "6.2.0 \u2014 Staging Queue + Verified Category Database"
+  "version_name": "6.2.1 — Smart Search + Context-menu fix"
 }

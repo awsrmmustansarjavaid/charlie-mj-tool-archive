@@ -1,0 +1,56 @@
+{
+  "version": "6.2.0",
+  "app": "Charlie MJ Tool Archive",
+  "format": "category-collection",
+  "category": {
+    "id": "bf0bcbee-5faf-4e6e-98f0-e113d3725b01",
+    "displayId": "SOCIAL-MEDIA-FEEDS-725B01",
+    "name": "Social Media Feeds",
+    "parentId": null,
+    "kind": "category",
+    "createdAt": 1793106646248,
+    "updatedAt": 1793106646248
+  },
+  "parentCategory": null,
+  "recordCount": 1,
+  "tools": [
+    {
+      "addedAt": 1793106646168,
+      "aliases": [],
+      "category": "Social Media Feeds",
+      "categoryId": "bf0bcbee-5faf-4e6e-98f0-e113d3725b01",
+      "collections": [],
+      "description": "Social Media Feeds resource: feedspot. Useful for quick access from your personal tool archive.",
+      "displayId": "SOCIAL-MEDIA-FEEDS-725B01-FEEDSPOT-EDDEE9",
+      "id": "90180f09-9753-41e4-b0ff-b5b58beddee9",
+      "lastModified": 1793106646168,
+      "name": "feedspot",
+      "priority": "normal",
+      "smartLabels": [
+        "feedspot",
+        "social",
+        "media",
+        "feeds",
+        "resource",
+        "useful",
+        "quick",
+        "access",
+        "personal",
+        "archive"
+      ],
+      "subcategory": "",
+      "tags": [
+        "feedspot",
+        "social",
+        "media"
+      ],
+      "type": "Website",
+      "url": "https://www.feedspot.com/",
+      "favorite": false,
+      "notes": "",
+      "usageCount": 0,
+      "lastUsed": 0,
+      "source": "remote"
+    }
+  ]
+}

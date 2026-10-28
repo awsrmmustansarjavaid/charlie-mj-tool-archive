@@ -3,9 +3,9 @@
   "app": "Charlie MJ Tool Archive",
   "format": "default-library-manifest",
   "role": "primary-database",
-  "exportedAt": "2026-10-14T16:22:00.096Z",
-  "categoryCount": 156,
-  "toolCount": 502,
+  "exportedAt": "2026-10-28T05:48:45.090Z",
+  "categoryCount": 159,
+  "toolCount": 519,
   "categoryIndex": "database/category-index.json",
   "files": [
     {
@@ -27,6 +27,11 @@
       "path": "categories/urdu-dictionaries.json",
       "recordCount": 4,
       "sha256": "47afa6d473bfc4237ddca2c2feea2a9fabc58a9ca4ffcf5ebb53171f09570505"
+    },
+    {
+      "path": "categories/live-tv.json",
+      "recordCount": 2,
+      "sha256": "04d5e87b888ef7c1e64cde4eee8d5f528098ff46ee9d95ca7a4ad7b3f31921e4"
     },
     {
       "path": "categories/shopping.json",
@@ -246,7 +251,7 @@
     {
       "path": "subcategories/devops-tools/hands-on-labs.json",
       "recordCount": 7,
-      "sha256": "7dbf767d33c4aef6b7c88349fb54b120b2f1328196eab9b453d9fb52181bb58b"
+      "sha256": "4b1c3b5bf3bd09b59a33e31091d741e29388b50fee115a6519d582c4ef762d8b"
     },
     {
       "path": "categories/magazines.json",
@@ -584,6 +589,11 @@
       "sha256": "3743a417df80557862739c9557914febfb9600837f616f93576e70b91c18467a"
     },
     {
+      "path": "categories/social-media-feeds.json",
+      "recordCount": 1,
+      "sha256": "f0b87ed113ba8029ef2a5205b42698a33e414bb6e53a251c0549fc0a6d44d2dc"
+    },
+    {
       "path": "categories/turkey-jobs-exams.json",
       "recordCount": 5,
       "sha256": "6bfb7232743ea40e9e4b4c8a7c307b4a3342eade498d90eff0015eed2c860a19"
@@ -600,8 +610,8 @@
     },
     {
       "path": "categories/instagram-tools.json",
-      "recordCount": 7,
-      "sha256": "181ad8ac3772ee72a90792fc6b67a39a586f2fbc1dc1fbefeb7af317b402b5cc"
+      "recordCount": 17,
+      "sha256": "b6c5e24e5d9fd2acb32a36969a3825c50cf8608aab21374adbb8a31549d2020f"
     },
     {
       "path": "categories/charlie-mj-projects.json",
@@ -622,6 +632,11 @@
       "path": "subcategories/devops-tools/ci-cd.json",
       "recordCount": 0,
       "sha256": "25a7ed1d7680433acd2b65c5a33fe6e6efa6a49769e10066c0a01b8a29259291"
+    },
+    {
+      "path": "categories/turkish-social-media.json",
+      "recordCount": 4,
+      "sha256": "0f2d72b27bb1119fb989c2482fd03d7253282c06cfcce865d730ee838b6079f2"
     },
     {
       "path": "categories/design-resources.json",

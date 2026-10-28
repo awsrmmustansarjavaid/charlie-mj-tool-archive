@@ -1,3 +1,4 @@
+try { importScripts('search-core.js'); } catch (e) { console.warn('search-core unavailable', e); }
 const GITHUB_SYNC_ALARM = 'charlie-mj-github-sync';
 const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/awsrmmustansarjavaid/charlie-mj-tool-archive/main/data/default-tools.json';
 const GITHUB_DATA_BASE = GITHUB_RAW_URL.replace(/default-tools\.json$/, '');
@@ -109,12 +110,35 @@ async function syncGithub({manual=false}={}) {
     return {ok:false,error:String(e.message||e)};
   }
 }
-async function setup(){
-  await migrate();
-  const r=await chrome.storage.local.get('settings');
-  if(r.settings?.syncEnabled !== false) await syncGithub();
-  try { await chrome.alarms.create(GITHUB_SYNC_ALARM,{periodInMinutes:Math.max(15,Number(r.settings?.syncInterval||DEFAULT_INTERVAL))}); } catch {}
-  try { await chrome.contextMenus.removeAll(); chrome.contextMenus.create({id:'save-to-charlie-mj',title:'Save to Charlie MJ Tool Archive',contexts:['page','link']}); } catch {}
+// Context menu creation is serialized and idempotent. onInstalled and onStartup can
+// both fire (and setup() awaits network sync), which used to create the same menu id
+// twice -> "Cannot create item with duplicate id save-to-charlie-mj".
+const MENU_ID='save-to-charlie-mj';
+let menuChain=Promise.resolve();
+function ensureContextMenu(){
+  menuChain=menuChain.then(()=>new Promise(resolve=>{
+    try{
+      chrome.contextMenus.removeAll(()=>{
+        void chrome.runtime.lastError;
+        chrome.contextMenus.create({id:MENU_ID,title:'Save to Charlie MJ Tool Archive',contexts:['page','link']},()=>{void chrome.runtime.lastError;resolve()});
+      });
+    }catch(e){resolve()}
+  }));
+  return menuChain;
+}
+let setupRunning=null;
+function setup(){
+  if(setupRunning)return setupRunning;
+  setupRunning=(async()=>{
+    await ensureContextMenu();
+    try{
+      await migrate();
+      const r=await chrome.storage.local.get('settings');
+      if(r.settings?.syncEnabled !== false) await syncGithub();
+      try { await chrome.alarms.create(GITHUB_SYNC_ALARM,{periodInMinutes:Math.max(15,Number(r.settings?.syncInterval||DEFAULT_INTERVAL))}); } catch {}
+    }catch(e){console.warn('setup error',e)}
+  })().finally(()=>{setupRunning=null});
+  return setupRunning;
 }
 chrome.runtime.onInstalled.addListener(setup); chrome.runtime.onStartup.addListener(setup);
 chrome.alarms.onAlarm.addListener(a=>{if(a.name===GITHUB_SYNC_ALARM)chrome.storage.local.get('settings').then(s=>{if(s.settings?.syncEnabled!==false)syncGithub()})});
@@ -137,47 +161,58 @@ chrome.commands.onCommand.addListener(c=>{if(c==='open-dashboard')chrome.tabs.cr
 chrome.action.onClicked.addListener(()=>chrome.tabs.create({url:chrome.runtime.getURL('src/dashboard.html')}));
 
 
-// v6.0.1 additive Chrome Omnibox integration.
-// Chrome requires the user to activate this provider with the "cmj" keyword.
-function cmjOmniboxScore(tool, query) {
-  const q=String(query||'').trim().toLowerCase(); if(!q)return 0;
-  const name=String(tool.name||'').toLowerCase(),url=String(tool.url||'').toLowerCase();
-  const host=(()=>{try{return new URL(tool.url).hostname.toLowerCase()}catch{return ''}})();
-  const labels=[...(tool.tags||[]),...(tool.smartLabels||[]),...(tool.aliases||[])].join(' ').toLowerCase();
-  const category=String(tool.category||'').toLowerCase(),desc=String(tool.description||'').toLowerCase();
-  if(name===q)return 1000;if(name.startsWith(q))return 900;
-  if(host===q||host.startsWith(q))return 850;if(url===q)return 800;
-  if(labels.includes(q))return 750;if(category.includes(q))return 650;
-  if(name.includes(q))return 600;if(host.includes(q)||url.includes(q))return 500;
-  if(desc.includes(q))return 250;
-  const terms=q.split(/\s+/).filter(Boolean),hay=[name,host,url,labels,category,desc].join(' ');
-  const n=terms.filter(t=>hay.includes(t)).length;return n===terms.length?200+n*10:n*20;
+// v6.2.1 Chrome address-bar search. Type "cmj", press Space/Tab, then start typing:
+// categories and tools are suggested live with the matching text highlighted.
+let omniCache={at:0,tools:[]};
+async function omniTools(){
+  if(Date.now()-omniCache.at<4000&&omniCache.tools.length)return omniCache.tools;
+  const r=await chrome.storage.local.get(['localLibrary','remoteLibrary','settings']);
+  let all=[...(r.localLibrary||[]),...(r.remoteLibrary||[])];
+  if(!all.length){try{all=await bundled()}catch{}}
+  omniCache={at:Date.now(),tools:all,settings:r.settings||{}};
+  return all;
 }
+function omniEnabled(){const s=omniCache.settings||{};return !(s.moduleFlags?.omnibox===false||s.omnibox?.enabled===false)}
+const dashUrl=(qs)=>chrome.runtime.getURL('src/dashboard.html')+(qs?'?'+qs:'');
 if (chrome.omnibox) {
-  chrome.omnibox.setDefaultSuggestion({description:'Search your Charlie MJ Tool Archive for %s'});
+  try{chrome.omnibox.setDefaultSuggestion({description:'Search Charlie MJ Tool Archive for <match>%s</match> <dim>— tools &amp; categories</dim>'})}catch{}
   chrome.omnibox.onInputChanged.addListener(async (text, suggest) => {
     try {
-      const r=await chrome.storage.local.get(['localLibrary','remoteLibrary','settings']);
-      if(r.settings?.moduleFlags?.omnibox===false||r.settings?.omnibox?.enabled===false){suggest([]);return;}
-      const all=[...(r.localLibrary||[]),...(r.remoteLibrary||[])];
-      const seen=new Set();
-      const matches=all.map(t=>({tool:t,score:cmjOmniboxScore(t,text)}))
-        .filter(x=>x.score>0).sort((a,b)=>b.score-a.score)
-        .filter(x=>{const k=String(x.tool.url||'').toLowerCase();if(seen.has(k))return false;seen.add(k);return true}).slice(0,8);
-      suggest(matches.map(({tool})=>({
-        content:String(tool.url||''),
-        description:`${String(tool.name||'Tool').replace(/[<>]/g,'')} — ${String(tool.category||'Uncategorized').replace(/[<>]/g,'')} · ${String(tool.url||'').replace(/[<>]/g,'')}`
-      })));
+      const q=String(text||'').trim();
+      const tools=await omniTools();
+      if(!omniEnabled()||!q){suggest([]);return;}
+      const X=CMJSearch.escXml, M=(t)=>CMJSearch.markup(t,q,'<match>','</match>',X);
+      const out=[];
+      CMJSearch.searchCategories(tools,q,3).forEach(c=>out.push({
+        content:'cat:'+c.name,
+        description:'<dim>Category</dim> '+M(c.name)+' <dim>— '+c.count+' tool'+(c.count===1?'':'s')+'</dim>'
+      }));
+      const used=new Set(out.map(o=>o.content));
+      CMJSearch.searchTools(tools,q,8).forEach(({tool})=>{
+        const content=String(tool.url||'');
+        if(!content||used.has(content))return; used.add(content);
+        out.push({content,description:M(tool.name||'Tool')+' <dim>— '+M(tool.category||'Uncategorized')+'</dim> <url>'+X(CMJSearch.hostOf(tool.url)||tool.url)+'</url>'});
+      });
+      suggest(out.slice(0,9));
     } catch { suggest([]); }
   });
   chrome.omnibox.onInputEntered.addListener(async (text, disposition) => {
     const query=String(text||'').trim();
-    if(/^https?:\/\//i.test(query)){chrome.tabs.create({url:query,active:disposition!=='newBackgroundTab'});return;}
-    const r=await chrome.storage.local.get(['localLibrary','remoteLibrary','settings']);
-    if(r.settings?.moduleFlags?.omnibox===false||r.settings?.omnibox?.enabled===false){chrome.tabs.create({url:chrome.runtime.getURL('src/dashboard.html')+'?q='+encodeURIComponent(query)});return;}
-    const match=[...(r.localLibrary||[]),...(r.remoteLibrary||[])]
-      .map(t=>({t,s:cmjOmniboxScore(t,query)})).sort((a,b)=>b.s-a.s)[0];
-    if(match?.s>0&&match.t.url)chrome.tabs.create({url:match.t.url,active:disposition!=='newBackgroundTab'});
-    else chrome.tabs.create({url:chrome.runtime.getURL('src/dashboard.html')+'?q='+encodeURIComponent(query)});
+    const open=(url)=>{
+      if(disposition==='currentTab')chrome.tabs.update({url});
+      else chrome.tabs.create({url,active:disposition!=='newBackgroundTab'});
+    };
+    if(/^https?:\/\//i.test(query)){open(query);return;}
+    if(/^cat:/i.test(query)){open(dashUrl('category='+encodeURIComponent(query.slice(4))));return;}
+    try{
+      const tools=await omniTools();
+      if(omniEnabled()){
+        const top=CMJSearch.searchTools(tools,query,1)[0];
+        if(top&&top.tool.url&&top.score>=60){open(top.tool.url);return;}
+      }
+    }catch{}
+    open(dashUrl('q='+encodeURIComponent(query)));
   });
 }
+
+chrome.storage.onChanged.addListener((c,a)=>{if(a==='local'&&(c.localLibrary||c.remoteLibrary||c.settings))omniCache.at=0});

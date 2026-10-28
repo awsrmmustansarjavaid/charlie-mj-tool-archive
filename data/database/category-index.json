@@ -946,7 +946,7 @@
       "parentId": null,
       "updatedAt": 1791977019470,
       "path": "categories/instagram-tools.json",
-      "recordCount": 7
+      "recordCount": 17
     },
     {
       "createdAt": 1791977019470,
@@ -1024,6 +1024,17 @@
       "updatedAt": 1791994822008,
       "path": "subcategories/devops-tools/linux-and-system-administration.json",
       "recordCount": 5
+    },
+    {
+      "id": "040ae099-a378-4669-95d2-2562d66364ac",
+      "displayId": "LIVE-TV-6364AC",
+      "name": "Live TV",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 1792336317147,
+      "updatedAt": 1792336317147,
+      "path": "categories/live-tv.json",
+      "recordCount": 2
     },
     {
       "id": "1af9afa1-554c-4e56-8074-a35d9f2f15d1",
@@ -1477,6 +1488,17 @@
       "recordCount": 4
     },
     {
+      "id": "bf0bcbee-5faf-4e6e-98f0-e113d3725b01",
+      "displayId": "SOCIAL-MEDIA-FEEDS-725B01",
+      "name": "Social Media Feeds",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 1793106646248,
+      "updatedAt": 1793106646248,
+      "path": "categories/social-media-feeds.json",
+      "recordCount": 1
+    },
+    {
       "createdAt": 1791977019471,
       "displayId": "SOCIAL-MEDIA-TOOLS-430891",
       "id": "e12b7142-9ad3-5d56-94d3-b1dc91430891",
@@ -1607,6 +1629,17 @@
       "updatedAt": 1791977019471,
       "path": "categories/turkish-literature.json",
       "recordCount": 3
+    },
+    {
+      "id": "cbc6879d-0820-46d5-b86a-94085caa7161",
+      "displayId": "TURKISH-SOCIAL-MEDIA-AA7161",
+      "name": "Turkish Social Media",
+      "parentId": null,
+      "kind": "category",
+      "createdAt": 1793108035876,
+      "updatedAt": 1793108035876,
+      "path": "categories/turkish-social-media.json",
+      "recordCount": 4
     },
     {
       "createdAt": 1791977019471,

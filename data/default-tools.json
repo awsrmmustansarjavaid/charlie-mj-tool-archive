@@ -4,7 +4,7 @@
   "format": "default-library-pointer",
   "tools": [],
   "libraryManifest": "database/database-manifest.json",
-  "categoryCount": 156,
-  "toolCount": 502,
+  "categoryCount": 159,
+  "toolCount": 519,
   "note": "The primary database is data/database/. This file is only a small pointer."
 }
